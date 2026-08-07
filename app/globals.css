@@ -1,9 +1,6 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@custom-variant dark (&:where(.dark, .dark *));
 
 @theme inline {
   --color-background: var(--background);
@@ -12,15 +9,121 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root {
+  --background: #f7f8fa;
+  --foreground: #1a2430;
+  --surface: #ffffff;
+  --surface-elevated: #ffffff;
+  --line: rgba(15, 23, 42, 0.08);
+  --text-muted: #5b6773;
+  --accent: #0077b6;
+  --accent-soft: rgba(0, 119, 182, 0.12);
+  --star: #fbbf24;
+}
+
+.dark {
+  --background: #0a0f14;
+  --foreground: #e8eef5;
+  --surface: #0d141c;
+  --surface-elevated: #111b26;
+  --line: rgba(148, 190, 233, 0.09);
+  --text-muted: #8fa3b8;
+  --accent: #4cc3ff;
+  --accent-soft: rgba(76, 195, 255, 0.12);
+  --star: #fbbf24;
+}
+
+@theme {
+  --color-bg: var(--background);
+  --color-fg: var(--foreground);
+  --color-surface: var(--surface);
+  --color-surface-elevated: var(--surface-elevated);
+  --color-line: var(--line);
+  --color-muted: var(--text-muted);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-star: var(--star);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), system-ui, sans-serif;
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
+}
+
+/* Subtle ambient depth for hero only. Fixed, pointer-events-none. */
+.radar-bg {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: -1;
+  background:
+    radial-gradient(circle at 50% -10%, rgba(76, 195, 255, 0.07), transparent 45%),
+    radial-gradient(circle at 85% 20%, rgba(125, 211, 168, 0.04), transparent 40%),
+    radial-gradient(circle at 15% 60%, rgba(196, 167, 231, 0.04), transparent 40%);
+}
+
+/* Radar sweep: transform-only, gated by reduced motion. */
+@keyframes radar-sweep {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.radar-sweep {
+  transform-origin: center;
+  animation: radar-sweep 8s linear infinite;
+}
+
+/* Blip pulse for radar targets. */
+@keyframes blip-pulse {
+  0%,
+  100% {
+    opacity: 0.25;
+    transform: scale(0.9);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+}
+
+.blip-pulse {
+  animation: blip-pulse 2.6s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .radar-sweep,
+  .blip-pulse {
+    animation: none;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Focus ring for keyboard users, consistent across themes. */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+::selection {
+  background: var(--accent-soft);
 }
