@@ -1,0 +1,29 @@
+{
+  "slug": "tencentdb-agent-memory",
+  "name": "TencentDB Agent Memory",
+  "fullName": "TencentCloud/TencentDB-Agent-Memory",
+  "tagline": "Team-level memory hub for AI agents",
+  "description": "TencentDB Agent Memory is a team-level memory hub that turns conversations, documents, and code into four reusable memory assets: Chat Memory, Skill, LLM-Wiki, and CodeGraph. It was built from a practical question: how do you reduce repetitive work when using agents? If project context has already been explained, it should not need to be repeated in a new session. The project treats memory as more than just remembering conversations; any information that helps the next agent avoid reinventing the wheel should be saved, organized, and reused. Chat Memory distills raw conversations into layers, from raw records up to persona-level profiles, so agents keep user preferences and decisions across sessions. Skills capture proven workflows with versions, trigger boundaries, and validation rules, and can be shared with the team after review. Wiki converts product docs and runbooks into structured pages with a link graph, while CodeGraph indexes code symbols, files, and call relationships for impact analysis. Memory assets are decoupled from agent frameworks, so they can move across agents and be shared by the whole team. A human-controlled panel handles ownership, versions, visibility, and access control, with private, team, and ACL modes. Cold-start friendly, the hub imports existing codebases, documents, and conversation sessions so new teams start from accumulated experience instead of learning from scratch. In benchmarks, enabling the memory hub improved persona understanding by 59 percent over a baseline without it.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["ai-agent", "memory", "llm", "vector-search", "local-first"],
+  "highlights": [
+    "Four memory assets: Chat Memory, Skills, Wiki, and CodeGraph",
+    "Layered memory distillation from raw conversations to personas",
+    "Framework-agnostic assets shared across agents and teams",
+    "Private, team, and ACL-based access control with human review",
+    "Cold-start import of codebases, docs, and past sessions"
+  ],
+  "techStack": ["TypeScript", "Vector Search", "LLM"],
+  "links": {
+    "website": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+    "docs": "https://github.com/TencentCloud/TencentDB-Agent-Memory#installation"
+  },
+  "images": {
+    "logo": "/repos/tencentdb-agent-memory/logo.png",
+    "screenshot": "/repos/tencentdb-agent-memory/screenshot.jpg"
+  },
+  "related": ["n8n", "nocodb"],
+  "curatorNote": "Agent memory is one of the least settled problems in the LLM space, and this is the most complete open attempt at solving it for teams. The layered memory model and CodeGraph impact analysis are genuinely fresh ideas.",
+  "publishedAt": "2026-08-07"
+}

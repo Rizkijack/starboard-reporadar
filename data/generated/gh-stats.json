@@ -1,12 +1,12 @@
 {
   "coollabsio/coolify": {
-    "stars": 60209,
+    "stars": 60215,
     "forks": 5227,
-    "openIssues": 837,
+    "openIssues": 839,
     "language": "PHP",
     "license": "Apache-2.0",
     "createdAt": "2021-01-25T20:54:01Z",
-    "updatedAt": "2026-08-07T11:38:20Z",
+    "updatedAt": "2026-08-07T13:13:30Z",
     "topics": [
       "coolify",
       "databases",
@@ -33,13 +33,13 @@
     "archived": false
   },
   "documenso/documenso": {
-    "stars": 14290,
-    "forks": 3013,
-    "openIssues": 209,
+    "stars": 14292,
+    "forks": 3014,
+    "openIssues": 210,
     "language": "TypeScript",
     "license": "AGPL-3.0",
     "createdAt": "2023-03-12T16:28:56Z",
-    "updatedAt": "2026-08-07T10:57:25Z",
+    "updatedAt": "2026-08-07T13:08:19Z",
     "topics": [
       "digital-signature",
       "document-signing",
@@ -64,13 +64,13 @@
     "archived": false
   },
   "knadh/listmonk": {
-    "stars": 22658,
+    "stars": 22664,
     "forks": 2477,
     "openIssues": 105,
     "language": "Go",
     "license": "AGPL-3.0",
     "createdAt": "2019-06-26T05:08:39Z",
-    "updatedAt": "2026-08-07T11:27:22Z",
+    "updatedAt": "2026-08-07T14:02:14Z",
     "topics": [
       "campaign",
       "campaign-management",
@@ -90,13 +90,13 @@
     "archived": false
   },
   "nocodb/nocodb": {
-    "stars": 64440,
+    "stars": 64441,
     "forks": 4969,
     "openIssues": 695,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "createdAt": "2017-10-29T18:51:48Z",
-    "updatedAt": "2026-08-07T11:24:47Z",
+    "updatedAt": "2026-08-07T13:45:52Z",
     "topics": [
       "airtable",
       "airtable-alternative",
@@ -117,13 +117,13 @@
     "archived": false
   },
   "pocketbase/pocketbase": {
-    "stars": 60526,
-    "forks": 3628,
+    "stars": 60535,
+    "forks": 3629,
     "openIssues": 19,
     "language": "Go",
     "license": "MIT",
     "createdAt": "2022-07-05T06:06:21Z",
-    "updatedAt": "2026-08-07T11:10:06Z",
+    "updatedAt": "2026-08-07T13:07:10Z",
     "topics": [
       "authentication",
       "backend",
@@ -134,13 +134,13 @@
     "archived": false
   },
   "umami-software/umami": {
-    "stars": 38089,
-    "forks": 7720,
+    "stars": 38090,
+    "forks": 7719,
     "openIssues": 115,
     "language": "TypeScript",
     "license": "MIT",
     "createdAt": "2020-07-17T07:59:00Z",
-    "updatedAt": "2026-08-07T10:08:47Z",
+    "updatedAt": "2026-08-07T13:02:33Z",
     "topics": [
       "analytics",
       "audience-segmentation",
@@ -156,13 +156,13 @@
     "archived": false
   },
   "AppFlowy-IO/AppFlowy": {
-    "stars": 75042,
-    "forks": 5794,
-    "openIssues": 976,
+    "stars": 75050,
+    "forks": 5793,
+    "openIssues": 977,
     "language": "Dart",
     "license": "AGPL-3.0",
     "createdAt": "2021-06-16T12:56:48Z",
-    "updatedAt": "2026-08-07T11:32:43Z",
+    "updatedAt": "2026-08-07T14:25:53Z",
     "topics": [
       "blog",
       "confluence-alternative",
@@ -181,13 +181,13 @@
     "archived": false
   },
   "AppsmithOrg/appsmith": {
-    "stars": 40599,
+    "stars": 40600,
     "forks": 4709,
     "openIssues": 4465,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "createdAt": "2020-06-30T04:07:36Z",
-    "updatedAt": "2026-08-07T08:33:28Z",
+    "updatedAt": "2026-08-07T13:03:17Z",
     "topics": [
       "admin-dashboard",
       "admin-panels",
@@ -214,13 +214,13 @@
     "archived": false
   },
   "directus/directus": {
-    "stars": 37220,
+    "stars": 37221,
     "forks": 4891,
-    "openIssues": 400,
+    "openIssues": 401,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "createdAt": "2012-12-12T01:35:36Z",
-    "updatedAt": "2026-08-07T11:06:34Z",
+    "updatedAt": "2026-08-07T13:06:31Z",
     "topics": [
       "api",
       "app",
@@ -247,13 +247,13 @@
     "archived": false
   },
   "n8n-io/n8n": {
-    "stars": 199663,
-    "forks": 59978,
-    "openIssues": 1419,
+    "stars": 199681,
+    "forks": 59979,
+    "openIssues": 1405,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "createdAt": "2019-06-22T09:24:21Z",
-    "updatedAt": "2026-08-07T11:35:10Z",
+    "updatedAt": "2026-08-07T14:26:04Z",
     "topics": [
       "ai",
       "apis",
@@ -280,13 +280,13 @@
     "archived": false
   },
   "outline/outline": {
-    "stars": 40026,
+    "stars": 40029,
     "forks": 3471,
-    "openIssues": 68,
+    "openIssues": 71,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "createdAt": "2016-05-22T21:31:47Z",
-    "updatedAt": "2026-08-07T10:28:42Z",
+    "updatedAt": "2026-08-07T13:14:39Z",
     "topics": [
       "docker",
       "javascript",
@@ -300,13 +300,13 @@
     "archived": false
   },
   "paperless-ngx/paperless-ngx": {
-    "stars": 44051,
-    "forks": 2997,
-    "openIssues": 16,
+    "stars": 44057,
+    "forks": 2998,
+    "openIssues": 14,
     "language": "Python",
     "license": "GPL-3.0",
     "createdAt": "2022-02-12T21:56:52Z",
-    "updatedAt": "2026-08-07T11:25:33Z",
+    "updatedAt": "2026-08-07T14:10:08Z",
     "topics": [
       "angular",
       "archiving",
@@ -324,13 +324,13 @@
     "archived": false
   },
   "go-shiori/shiori": {
-    "stars": 11573,
+    "stars": 11575,
     "forks": 625,
     "openIssues": 113,
     "language": "Go",
     "license": "MIT",
     "createdAt": "2018-01-23T13:57:11Z",
-    "updatedAt": "2026-08-07T08:47:00Z",
+    "updatedAt": "2026-08-07T14:15:24Z",
     "topics": [
       "bookmark-manager",
       "command-line",
@@ -343,13 +343,13 @@
     "archived": false
   },
   "zitadel/zitadel": {
-    "stars": 14666,
+    "stars": 14667,
     "forks": 1215,
-    "openIssues": 1096,
+    "openIssues": 1101,
     "language": "Go",
     "license": "AGPL-3.0",
     "createdAt": "2020-03-16T13:51:31Z",
-    "updatedAt": "2026-08-07T11:25:25Z",
+    "updatedAt": "2026-08-07T13:06:48Z",
     "topics": [
       "2fa",
       "authentication",
@@ -370,6 +370,28 @@
       "user"
     ],
     "ownerAvatar": "https://avatars.githubusercontent.com/u/70011121?v=4",
+    "archived": false
+  },
+  "TencentCloud/TencentDB-Agent-Memory": {
+    "stars": 17281,
+    "forks": 1551,
+    "openIssues": 547,
+    "language": "TypeScript",
+    "license": "NOASSERTION",
+    "createdAt": "2026-04-07T06:34:26Z",
+    "updatedAt": "2026-08-07T14:26:27Z",
+    "topics": [
+      "agent",
+      "ai-agent",
+      "embedding",
+      "llm",
+      "local-first",
+      "long-term-memory",
+      "memory",
+      "openclaw-plugin",
+      "vector-search"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/20101770?v=4",
     "archived": false
   }
 }
