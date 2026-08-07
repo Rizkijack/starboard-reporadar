@@ -9,6 +9,7 @@ export {
   ArrowUp,
   ArrowUpRight,
   CheckCircle,
+  Download,
   Eye,
   EyeSlash,
   GithubLogo,
@@ -16,4 +17,6 @@ export {
   Moon,
   Star,
   Sun,
+  Trash,
+  Upload,
 } from "@phosphor-icons/react";
