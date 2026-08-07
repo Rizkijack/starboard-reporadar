@@ -24,11 +24,14 @@ export function formatDate(iso: string | null | undefined): string {
   });
 }
 
-export function timeAgo(iso: string | null | undefined): string {
+export function timeAgo(
+  iso: string | null | undefined,
+  now: number = Date.now()
+): string {
   if (!iso) return "-";
   const d = new Date(iso);
   if (Number.isNaN(d.getTime())) return "-";
-  const seconds = Math.floor((Date.now() - d.getTime()) / 1000);
+  const seconds = Math.floor((now - d.getTime()) / 1000);
   const intervals: Array<[number, string]> = [
     [31536000, "y"],
     [2592000, "mo"],
@@ -47,11 +50,15 @@ export function timeAgo(iso: string | null | undefined): string {
 /**
  * Stars per month of repo age. Rough signal of growth velocity.
  */
-export function momentum(stars: number | null | undefined, createdAt: string | null | undefined): number {
+export function momentum(
+  stars: number | null | undefined,
+  createdAt: string | null | undefined,
+  now: number = Date.now()
+): number {
   if (!stars || !createdAt) return 0;
   const created = new Date(createdAt);
   if (Number.isNaN(created.getTime())) return 0;
-  const months = Math.max((Date.now() - created.getTime()) / (1000 * 60 * 60 * 24 * 30.44), 0.1);
+  const months = Math.max((now - created.getTime()) / (1000 * 60 * 60 * 24 * 30.44), 0.1);
   return Math.round((stars / months) * 10) / 10;
 }
 

@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { ArrowDown, ArrowUp, MagnifyingGlass, Star } from "@/components/ui/icons";
 import { RepoLogo } from "@/components/repo/RepoCard";
@@ -23,6 +23,15 @@ export function RepoTable({ repos }: { repos: RepoWithStats[] }) {
   const [category, setCategory] = useState<string>("all");
   const [sortKey, setSortKey] = useState<SortKey>("stars");
   const [sortDir, setSortDir] = useState<"asc" | "desc">("desc");
+
+  // Date.now()-derived cells (Updated, Momentum) are frozen at null until
+  // mount so the SSR markup and the hydration render match exactly; the
+  // real values appear right after hydration.
+  const [now, setNow] = useState<number | null>(null);
+  useEffect(() => {
+    const raf = requestAnimationFrame(() => setNow(Date.now()));
+    return () => cancelAnimationFrame(raf);
+  }, []);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -226,13 +235,19 @@ export function RepoTable({ repos }: { repos: RepoWithStats[] }) {
                     </span>
                   </td>
                   <td className="px-4 py-3 text-right font-mono text-xs text-muted">
-                    {formatNumber(
-                      momentum(repo.stats?.stars, repo.stats?.createdAt)
-                    )}
+                    {now
+                      ? formatNumber(
+                          momentum(
+                            repo.stats?.stars,
+                            repo.stats?.createdAt,
+                            now
+                          )
+                        )
+                      : "-"}
                     <span className="sr-only"> stars per month</span>
                   </td>
                   <td className="px-4 py-3 text-right font-mono text-xs text-muted">
-                    {timeAgo(repo.stats?.updatedAt)}
+                    {now ? timeAgo(repo.stats?.updatedAt, now) : "-"}
                   </td>
                   <td className="px-4 py-3 text-right">
                     <WatchButton slug={repo.slug} compact />
@@ -275,7 +290,9 @@ export function RepoTable({ repos }: { repos: RepoWithStats[] }) {
                   <Star size={12} weight="fill" className="text-star" aria-hidden="true" />
                   {formatNumber(repo.stats?.stars)}
                 </span>
-                <span className="font-mono">{timeAgo(repo.stats?.updatedAt)}</span>
+                <span className="font-mono">
+                  {now ? timeAgo(repo.stats?.updatedAt, now) : "-"}
+                </span>
               </div>
             </li>
           );

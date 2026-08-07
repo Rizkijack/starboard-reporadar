@@ -27,6 +27,10 @@ const WatchlistContext = createContext<WatchlistContextValue | null>(null);
 const listeners = new Set<() => void>();
 let snapshot: string[] | null = null;
 
+// Stable reference for SSR: getServerSnapshot must return a cached value,
+// otherwise React 19 warns about an infinite loop.
+const EMPTY_SNAPSHOT: string[] = [];
+
 function readSnapshot(): string[] {
   if (snapshot) return snapshot;
   if (typeof window === "undefined") return [];
@@ -63,7 +67,11 @@ function persist(slugs: string[]) {
 }
 
 export function WatchlistProvider({ children }: { children: ReactNode }) {
-  const watchlist = useSyncExternalStore(subscribe, readSnapshot, () => []);
+  const watchlist = useSyncExternalStore(
+    subscribe,
+    readSnapshot,
+    () => EMPTY_SNAPSHOT
+  );
 
   const isWatched = useCallback(
     (slug: string) => watchlist.includes(slug),

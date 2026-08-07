@@ -1,24 +1,36 @@
 "use client";
 
 import { Moon, Sun } from "@/components/ui/icons";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { THEME_STORAGE_KEY } from "@/lib/constants";
 
-function getInitialTheme(): "light" | "dark" {
-  if (typeof window === "undefined") return "dark";
-  try {
-    const saved = localStorage.getItem(THEME_STORAGE_KEY);
-    if (saved === "light" || saved === "dark") return saved;
-    return window.matchMedia("(prefers-color-scheme: light)").matches
-      ? "light"
-      : "dark";
-  } catch {
-    return "dark";
-  }
-}
-
+/**
+ * Hydration-safe theme toggle. The initial state is always "dark" so the
+ * first client render matches the SSR markup; the saved theme / OS
+ * preference is applied only after mount.
+ */
 export function ThemeToggle() {
-  const [theme, setTheme] = useState<"light" | "dark">(getInitialTheme);
+  const [theme, setTheme] = useState<"light" | "dark">("dark");
+
+  useEffect(() => {
+    const raf = requestAnimationFrame(() => {
+      let next: "light" | "dark" = "dark";
+      try {
+        const saved = localStorage.getItem(THEME_STORAGE_KEY);
+        if (saved === "light" || saved === "dark") {
+          next = saved;
+        } else if (window.matchMedia("(prefers-color-scheme: light)").matches) {
+          next = "light";
+        }
+      } catch {
+        // Storage unavailable; keep dark.
+      }
+      setTheme(next);
+      document.documentElement.classList.remove("light", "dark");
+      document.documentElement.classList.add(next);
+    });
+    return () => cancelAnimationFrame(raf);
+  }, []);
 
   function toggle() {
     const next = theme === "dark" ? "light" : "dark";
