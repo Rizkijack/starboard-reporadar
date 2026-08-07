@@ -1,6 +1,6 @@
 "use client";
 
-import { Moon, Sun } from "@phosphor-icons/react";
+import { Moon, Sun } from "@/components/ui/icons";
 import { useState } from "react";
 import { THEME_STORAGE_KEY } from "@/lib/constants";
 

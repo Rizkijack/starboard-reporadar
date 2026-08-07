@@ -1,6 +1,6 @@
 "use client";
 
-import { Eye, EyeSlash } from "@phosphor-icons/react";
+import { Eye, EyeSlash } from "@/components/ui/icons";
 import { useWatchlist } from "@/components/watchlist/WatchlistProvider";
 
 interface WatchButtonProps {
