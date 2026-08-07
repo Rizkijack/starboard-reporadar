@@ -5,6 +5,7 @@ import { Footer } from "@/components/layout/Footer";
 import { THEME_SCRIPT } from "@/components/layout/ThemeScript";
 import { WatchlistProvider } from "@/components/watchlist/WatchlistProvider";
 import { SITE_NAME } from "@/lib/constants";
+import { getSiteConfig } from "@/lib/data";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -17,7 +18,11 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const siteConfig = getSiteConfig();
+const siteUrl = siteConfig?.url ?? "https://starboard-reporadar.vercel.app";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: {
     default: `${SITE_NAME} | Hidden gems, tracked like radar`,
     template: `%s | ${SITE_NAME}`,
