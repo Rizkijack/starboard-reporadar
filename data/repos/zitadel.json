@@ -1,0 +1,28 @@
+{
+  "slug": "zitadel",
+  "name": "Zitadel",
+  "fullName": "zitadel/zitadel",
+  "tagline": "Self-hosted identity and access management",
+  "description": "Zitadel is a complete identity and access management platform built on Go and CockroachDB. It covers OIDC, SAML, social logins, MFA, and a management API, positioning itself as a modern alternative to Auth0 or Keycloak that you can run yourself.",
+  "category": "backend",
+  "featured": false,
+  "tags": ["authentication", "oauth", "identity"],
+  "highlights": [
+    "OIDC, SAML, and social login out of the box",
+    "MFA, passkeys, and passwordless flows",
+    "Admin console with a full management API",
+    "Horizontally scalable with CockroachDB"
+  ],
+  "techStack": ["Go", "CockroachDB", "Angular"],
+  "links": {
+    "website": "https://zitadel.com",
+    "docs": "https://zitadel.com/docs"
+  },
+  "images": {
+    "logo": "/repos/zitadel/logo.png",
+    "screenshot": "/repos/zitadel/screenshot.png"
+  },
+  "related": ["pocketbase", "appsmith"],
+  "curatorNote": "Identity is the hardest part of any product, and Zitadel makes it a checkbox instead of a project. Self-hosting auth is finally realistic.",
+  "publishedAt": "2026-07-13"
+}

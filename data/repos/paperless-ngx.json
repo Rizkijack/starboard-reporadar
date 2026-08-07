@@ -1,0 +1,28 @@
+{
+  "slug": "paperless-ngx",
+  "name": "Paperless-ngx",
+  "fullName": "paperless-ngx/paperless-ngx",
+  "tagline": "Document management and OCR archive",
+  "description": "Paperless-ngx scans, indexes, and archives your paper documents with OCR, full-text search, and automatic tagging. It turns a pile of PDFs and scans into a searchable personal archive that you own. The successor to the popular Paperless project, actively maintained.",
+  "category": "self-hosting",
+  "featured": false,
+  "tags": ["documents", "ocr", "archive"],
+  "highlights": [
+    "Full-text search over OCR'd documents",
+    "Automatic tagging and date detection",
+    "Web UI plus a robust REST API",
+    "Docker-based, runs anywhere"
+  ],
+  "techStack": ["Python", "Django", "PostgreSQL"],
+  "links": {
+    "website": "https://docs.paperless-ngx.com",
+    "docs": "https://docs.paperless-ngx.com"
+  },
+  "images": {
+    "logo": "/repos/paperless-ngx/logo.png",
+    "screenshot": "/repos/paperless-ngx/screenshot.png"
+  },
+  "related": ["outline", "directus"],
+  "curatorNote": "Paperless-ngx solves the most boring problem in the world, completely. A personal archive you can actually search changes how you keep records.",
+  "publishedAt": "2026-07-12"
+}

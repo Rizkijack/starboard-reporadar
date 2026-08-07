@@ -1,0 +1,28 @@
+{
+  "slug": "appsmith",
+  "name": "Appsmith",
+  "fullName": "AppsmithOrg/appsmith",
+  "tagline": "Low-code platform to build internal tools",
+  "description": "Appsmith is a low-code platform for building internal dashboards, admin panels, and CRUD tools fast. It connects to databases and APIs, offers a drag-and-drop canvas, and lets you write JavaScript where the presets end. A practical shortcut for teams that need tools, not a framework.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["low-code", "internal-tools", "dashboard"],
+  "highlights": [
+    "Drag-and-drop UI builder with a JS editor",
+    "Connect any REST API, GraphQL, or database",
+    "Reusable widgets and pages with permissions",
+    "Self-hostable or use the cloud"
+  ],
+  "techStack": ["React", "TypeScript", "MongoDB"],
+  "links": {
+    "website": "https://appsmith.com",
+    "docs": "https://docs.appsmith.com"
+  },
+  "images": {
+    "logo": "/repos/appsmith/logo.png",
+    "screenshot": "/repos/appsmith/screenshot.png"
+  },
+  "related": ["directus", "n8n"],
+  "curatorNote": "Appsmith is what internal tools look like when you refuse to build the same CRUD app for the fourth time. The JS escape hatch keeps it honest.",
+  "publishedAt": "2026-07-11"
+}

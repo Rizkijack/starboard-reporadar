@@ -1,0 +1,28 @@
+{
+  "slug": "shiori",
+  "name": "Shiori",
+  "fullName": "go-shiori/shiori",
+  "tagline": "Simple self-hosted bookmark manager",
+  "description": "Shiori is a lightweight bookmark manager you can host yourself. It saves pages as readable archives, supports tagging and search, and keeps a local copy so your bookmarks survive link rot. A quiet, focused tool for people who collect links on purpose.",
+  "category": "productivity",
+  "featured": false,
+  "tags": ["bookmarks", "self-hosted", "archive"],
+  "highlights": [
+    "Archives pages locally, immune to link rot",
+    "Tagging, search, and import from browsers",
+    "Single Go binary, no heavy dependencies",
+    "Simple REST API for automation"
+  ],
+  "techStack": ["Go", "SQLite", "Svelte"],
+  "links": {
+    "website": "https://github.com/go-shiori/shiori",
+    "docs": "https://github.com/go-shiori/shiori"
+  },
+  "images": {
+    "logo": "/repos/shiori/logo.png",
+    "screenshot": "/repos/shiori/screenshot.png"
+  },
+  "related": ["paperless-ngx", "outline"],
+  "curatorNote": "Shiori does one thing and does it without fanfare: it keeps your links alive. In an era of disappearing content, that is quietly valuable.",
+  "publishedAt": "2026-07-14"
+}

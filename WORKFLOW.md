@@ -111,10 +111,10 @@
 
 > Diisi manual oleh agent yang sedang mengerjakan. Format: fase, progress, blocker.
 
-- **Fase aktif:** (kosong - belum dimulai, menunggu scaffold)
-- **Progress:** 0%
+- **Fase aktif:** 7 (Konten & Production Prep) - selesai, menunggu deploy
+- **Progress:** 100% (Fase 0-6 selesai, 14 repo, build SSG sukses)
 - **Blocker:** -
-- **Catatan:** -
+- **Catatan:** build final `npm run build` sukses (22 halaman SSG). Deploy ke Vercel menyusul; set `GITHUB_TOKEN` di env hosting untuk hindari rate-limit saat prebuild sync.
 
 ---
 

@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Starboard Reporadar
 
-## Getting Started
+A hand-curated radar of undervalued GitHub repositories with real potential. Browse, sort, filter, and watch the gems worth following. Zero database: all content lives in JSON files, and live metrics (stars, forks, language) are pulled from the GitHub API at build time.
 
-First, run the development server:
+## Tech stack
+
+- Next.js 16 (App Router) + TypeScript
+- Tailwind CSS v4
+- Motion (scroll reveals, reduced-motion aware)
+- Phosphor Icons
+- Geist Sans / Geist Mono via `next/font`
+
+## Getting started
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project layout
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+app/                Routes: home, /repos/[slug], /watchlist, /about, sitemap, robots
+components/         UI, layout, home, repo, watchlist components
+lib/                Types, data layer, formatting, constants
+data/repos/*.json   Curated repo content, one file per repo
+data/site.json      Site config and featured slugs
+data/generated/     GitHub stats cache (committed, refreshed on build)
+scripts/            GitHub sync script
+public/repos/{slug} Repo logo + screenshot images
+```
 
-## Learn More
+## Adding a new repo
 
-To learn more about Next.js, take a look at the following resources:
+1. Create `data/repos/<slug>.json` following the schema in `IMPLEMENTATION_PLAN.md` (name, fullName, tagline, description, category, highlights, techStack, links, images, related, curatorNote).
+2. Drop `logo.png` and `screenshot.png` into `public/repos/<slug>/`. If you do not have them yet, the site renders a gradient fallback with the repo initials.
+3. Add the slug to `site.json.featured` if you want it featured on the home bento grid.
+4. Run `npm run sync:gh` to fetch live metrics into `data/generated/gh-stats.json`.
+5. Verify with `npm run lint` and `npm run build`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Syncing GitHub metrics
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm run sync:gh
+```
 
-## Deploy on Vercel
+The script reads every `fullName` in `data/repos/`, calls the GitHub API, and writes `data/generated/gh-stats.json`. It is rate-limit friendly (500 ms delay, retries, keeps the cache on failure) and runs automatically before every `next build` via the `prebuild` hook. Without a token you get 60 requests/hour, which covers ~50 repos. For the 5000/hour limit:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+# .env.local (not committed)
+GITHUB_TOKEN=ghp_your_token
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Deploying
+
+The site is fully static after build (SSG via `generateStaticParams`), so any Node platform works. Recommended:
+
+1. Push to GitHub.
+2. Import the repo in Vercel.
+3. Build command `npm run build`.
+
+Set `GITHUB_TOKEN` in the hosting provider's environment variables to avoid rate limits during the prebuild sync.
+
+## Docs for contributors
+
+- `IMPLEMENTATION_PLAN.md` - technical blueprint: architecture, data schema, design system, verification checklist.
+- `WORKFLOW.md` - phase workflow, commit conventions, and definition of done per phase.

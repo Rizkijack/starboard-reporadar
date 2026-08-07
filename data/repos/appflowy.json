@@ -1,0 +1,28 @@
+{
+  "slug": "appflowy",
+  "name": "AppFlowy",
+  "fullName": "AppFlowy-IO/AppFlowy",
+  "tagline": "Open-source Notion alternative",
+  "description": "AppFlowy is an open-source workspace and note-taking app built on Flutter and Rust. It gives you the block-based editing and database views of Notion, but with local-first storage and full data ownership. A strong pick for privacy-minded teams and individuals.",
+  "category": "productivity",
+  "featured": false,
+  "tags": ["notes", "workspace", "local-first"],
+  "highlights": [
+    "Block editor with docs, boards, and calendars",
+    "Local-first storage with sync options",
+    "Rust core for fast performance",
+    "Plugins for custom workflows"
+  ],
+  "techStack": ["Flutter", "Rust", "Dart"],
+  "links": {
+    "website": "https://appflowy.io",
+    "docs": "https://docs.appflowy.io"
+  },
+  "images": {
+    "logo": "/repos/appflowy/logo.png",
+    "screenshot": "/repos/appflowy/screenshot.png"
+  },
+  "related": ["outline", "nocodb"],
+  "curatorNote": "AppFlowy is the local-first Notion alternative that keeps shipping. For anyone who wants their notes on their own disk, it is the most credible option.",
+  "publishedAt": "2026-07-15"
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "n8n",
+  "name": "n8n",
+  "fullName": "n8n-io/n8n",
+  "tagline": "Fair-code workflow automation platform",
+  "description": "n8n is a workflow automation tool with 400+ integrations that can be self-hosted. It combines visual node-based editing with code when you need it, making it a strong open alternative to Zapier for teams that want control over where their automation runs.",
+  "category": "productivity",
+  "featured": true,
+  "tags": ["automation", "workflows", "self-hosted"],
+  "highlights": [
+    "Visual node editor plus JavaScript and Python code nodes",
+    "Self-hostable with a single Docker container",
+    "400+ integrations, community-maintained",
+    "Webhooks, schedules, and queue modes built in"
+  ],
+  "techStack": ["TypeScript", "Vue", "PostgreSQL"],
+  "links": {
+    "website": "https://n8n.io",
+    "docs": "https://docs.n8n.io"
+  },
+  "images": {
+    "logo": "/repos/n8n/logo.png",
+    "screenshot": "/repos/n8n/screenshot.png"
+  },
+  "related": ["coolify", "nocodb"],
+  "curatorNote": "n8n quietly became the default answer to 'Zapier but ours'. The node editor is approachable, and the self-host story is the best in its class.",
+  "publishedAt": "2026-07-08"
+}

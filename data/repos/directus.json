@@ -1,0 +1,28 @@
+{
+  "slug": "directus",
+  "name": "Directus",
+  "fullName": "directus/directus",
+  "tagline": "Headless CMS and data platform",
+  "description": "Directus wraps any SQL database in a real-time REST and GraphQL API with an admin app on top. It is a headless CMS that never locks you in: your data stays in your database, and the platform is a layer, not a cage. Great for content teams and developers alike.",
+  "category": "backend",
+  "featured": false,
+  "tags": ["cms", "headless", "api"],
+  "highlights": [
+    "REST and GraphQL APIs generated from your schema",
+    "Admin app with roles, workflows, and translations",
+    "Works with existing SQL databases, no migration lock-in",
+    "Extensible with custom endpoints and hooks"
+  ],
+  "techStack": ["Vue", "Node.js", "PostgreSQL"],
+  "links": {
+    "website": "https://directus.io",
+    "docs": "https://docs.directus.io"
+  },
+  "images": {
+    "logo": "/repos/directus/logo.png",
+    "screenshot": "/repos/directus/screenshot.png"
+  },
+  "related": ["nocodb", "pocketbase"],
+  "curatorNote": "Directus treats your database as the source of truth, which is the right call. The API-first approach makes it a quiet powerhouse for product teams.",
+  "publishedAt": "2026-07-10"
+}

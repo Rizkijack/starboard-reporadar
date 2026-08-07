@@ -7,5 +7,5 @@
     "github": "https://github.com",
     "twitter": "https://x.com"
   },
-  "featured": ["listmonk", "umami", "nocodb", "coolify", "pocketbase"]
+  "featured": ["listmonk", "umami", "nocodb", "coolify", "n8n"]
 }

@@ -1,0 +1,28 @@
+{
+  "slug": "outline",
+  "name": "Outline",
+  "fullName": "outline/outline",
+  "tagline": "Fast team wiki and knowledge base",
+  "description": "Outline is a modern team wiki with a Slack-era feel: fast search, collaborative editing, and a clean editor. It is self-hostable, supports realtime collaboration, and stores everything in Postgres. A serious option for teams that outgrew Notion or Confluence and want data ownership.",
+  "category": "productivity",
+  "featured": false,
+  "tags": ["wiki", "knowledge-base", "collaboration"],
+  "highlights": [
+    "Realtime collaborative editing",
+    "Instant search across the whole workspace",
+    "Markdown import and rich editor",
+    "Self-hostable with Docker and Postgres"
+  ],
+  "techStack": ["React", "Node.js", "PostgreSQL"],
+  "links": {
+    "website": "https://getoutline.com",
+    "docs": "https://docs.getoutline.com"
+  },
+  "images": {
+    "logo": "/repos/outline/logo.png",
+    "screenshot": "/repos/outline/screenshot.png"
+  },
+  "related": ["documenso", "n8n"],
+  "curatorNote": "Outline is the wiki that feels like a product, not a chore. Fast search alone is worth the switch for teams drowning in scattered docs.",
+  "publishedAt": "2026-07-09"
+}
