@@ -156,13 +156,13 @@
     "archived": false
   },
   "AppFlowy-IO/AppFlowy": {
-    "stars": 75039,
+    "stars": 75040,
     "forks": 5794,
     "openIssues": 976,
     "language": "Dart",
     "license": "AGPL-3.0",
     "createdAt": "2021-06-16T12:56:48Z",
-    "updatedAt": "2026-08-07T07:19:22Z",
+    "updatedAt": "2026-08-07T07:26:36Z",
     "topics": [
       "blog",
       "confluence-alternative",
@@ -214,13 +214,13 @@
     "archived": false
   },
   "directus/directus": {
-    "stars": 37208,
+    "stars": 37209,
     "forks": 4891,
     "openIssues": 399,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "createdAt": "2012-12-12T01:35:36Z",
-    "updatedAt": "2026-08-07T07:13:55Z",
+    "updatedAt": "2026-08-07T07:23:04Z",
     "topics": [
       "api",
       "app",
@@ -247,13 +247,13 @@
     "archived": false
   },
   "n8n-io/n8n": {
-    "stars": 199652,
+    "stars": 199653,
     "forks": 59970,
-    "openIssues": 1423,
+    "openIssues": 1422,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "createdAt": "2019-06-22T09:24:21Z",
-    "updatedAt": "2026-08-07T07:07:21Z",
+    "updatedAt": "2026-08-07T07:30:01Z",
     "topics": [
       "ai",
       "apis",
