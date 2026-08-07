@@ -1,0 +1,28 @@
+{
+  "slug": "coolify",
+  "name": "Coolify",
+  "fullName": "coollabsio/coolify",
+  "tagline": "Open-source, self-hostable PaaS",
+  "description": "Coolify is a self-hostable platform-as-a-service for deploying apps, databases, and services on your own hardware. It supports Docker-based deployments, automatic SSL, and a web dashboard, giving you a Heroku or Vercel-like experience without the vendor lock-in. Ideal for developers who want full ownership of their infrastructure.",
+  "category": "self-hosting",
+  "featured": true,
+  "tags": ["paas", "docker", "deployment"],
+  "highlights": [
+    "Deploy apps, databases, and services with one click",
+    "Automatic SSL certificates via Let's Encrypt",
+    "Git-based and Docker-based deployment workflows",
+    "Teams and per-project permissions"
+  ],
+  "techStack": ["PHP", "Laravel", "Docker"],
+  "links": {
+    "website": "https://coolify.io",
+    "docs": "https://coolify.io/docs"
+  },
+  "images": {
+    "logo": "/repos/coolify/logo.png",
+    "screenshot": "/repos/coolify/screenshot.png"
+  },
+  "related": ["pocketbase", "nocodb"],
+  "curatorNote": "Coolify makes self-hosting feel like a managed service. If you have a spare VPS, this is the fastest route from zero to a personal cloud.",
+  "publishedAt": "2026-07-01"
+}

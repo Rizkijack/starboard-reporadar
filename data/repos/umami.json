@@ -1,0 +1,28 @@
+{
+  "slug": "umami",
+  "name": "Umami",
+  "fullName": "umami-software/umami",
+  "tagline": "Privacy-friendly, lightweight website analytics",
+  "description": "Umami is a simple, fast, privacy-respecting alternative to Google Analytics. It tracks page views, events, and visitor data with a small footprint, supports multiple websites, and can be self-hosted with just Node.js and a database. No cookies are required, which keeps it GDPR-friendly out of the box.",
+  "category": "data-ai",
+  "featured": true,
+  "tags": ["analytics", "self-hosted", "privacy"],
+  "highlights": [
+    "No cookies, GDPR-friendly by design",
+    "Runs on Node.js plus Postgres or MySQL",
+    "Multi-website support with role-based users",
+    "Events API for custom tracking"
+  ],
+  "techStack": ["Next.js", "PostgreSQL", "MySQL"],
+  "links": {
+    "website": "https://umami.is",
+    "docs": "https://umami.is/docs"
+  },
+  "images": {
+    "logo": "/repos/umami/logo.png",
+    "screenshot": "/repos/umami/screenshot.png"
+  },
+  "related": ["listmonk", "nocodb"],
+  "curatorNote": "Umami is the analytics layer that respects visitors. The dashboard is clean, the footprint is small, and it slots into any self-hosted stack without friction.",
+  "publishedAt": "2026-07-01"
+}

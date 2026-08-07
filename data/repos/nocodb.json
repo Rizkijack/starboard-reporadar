@@ -1,0 +1,28 @@
+{
+  "slug": "nocodb",
+  "name": "NocoDB",
+  "fullName": "nocodb/nocodb",
+  "tagline": "Open-source Airtable alternative",
+  "description": "NocoDB turns any SQL database into a smart spreadsheet. It offers a rich grid, kanban, and gallery views, plus forms, automations, and a REST or GraphQL API generated on the fly. A compelling bridge for teams that want Airtable-style tooling without surrendering their data.",
+  "category": "productivity",
+  "featured": true,
+  "tags": ["database", "airtable", "spreadsheet"],
+  "highlights": [
+    "Connect an existing SQL database or start fresh",
+    "Grid, kanban, calendar, and gallery views",
+    "Generated REST and GraphQL APIs per table",
+    "Forms and automations without code"
+  ],
+  "techStack": ["Node.js", "Vue", "SQLite"],
+  "links": {
+    "website": "https://nocodb.com",
+    "docs": "https://docs.nocodb.com"
+  },
+  "images": {
+    "logo": "/repos/nocodb/logo.png",
+    "screenshot": "/repos/nocodb/screenshot.png"
+  },
+  "related": ["umami", "listmonk"],
+  "curatorNote": "NocoDB does what many tools only promise: it keeps your data portable while giving you a polished interface. The generated API is a nice bonus for internal tooling.",
+  "publishedAt": "2026-07-01"
+}

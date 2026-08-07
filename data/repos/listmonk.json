@@ -1,0 +1,28 @@
+{
+  "slug": "listmonk",
+  "name": "Listmonk",
+  "fullName": "knadh/listmonk",
+  "tagline": "Self-hosted newsletter and mailing list manager",
+  "description": "Listmonk is a fast, self-hosted newsletter manager with a single binary and no external dependencies beyond a database. It ships with a built-in template editor, campaign scheduling, and batching for large subscriber lists. A strong pick for anyone who wants full control over their email outreach without paying per subscriber.",
+  "category": "communication",
+  "featured": true,
+  "tags": ["self-hosted", "newsletter", "go"],
+  "highlights": [
+    "Single binary deployment, zero runtime deps",
+    "Built-in template editor with a live preview",
+    "Bulk campaign queue backed by Postgres",
+    "Subscriber import, lists, and tagging built in"
+  ],
+  "techStack": ["Go", "PostgreSQL", "Vue"],
+  "links": {
+    "website": "https://listmonk.app",
+    "docs": "https://listmonk.app/docs"
+  },
+  "images": {
+    "logo": "/repos/listmonk/logo.png",
+    "screenshot": "/repos/listmonk/screenshot.png"
+  },
+  "related": ["umami", "nocodb"],
+  "curatorNote": "Mailchimp alternatives are everywhere, but Listmonk stays refreshingly simple. It is fast, boring in the good way, and the template editor makes it approachable for a solo founder.",
+  "publishedAt": "2026-07-01"
+}

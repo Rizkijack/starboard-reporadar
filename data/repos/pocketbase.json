@@ -1,0 +1,28 @@
+{
+  "slug": "pocketbase",
+  "name": "PocketBase",
+  "fullName": "pocketbase/pocketbase",
+  "tagline": "Open-source backend in a single file",
+  "description": "PocketBase is a single-file backend with a built-in admin UI, authentication, file storage, and a realtime API. You get an instant database-backed API with zero configuration, and it ships as one static executable. Perfect for prototypes, side projects, and small production apps that want to avoid backend boilerplate.",
+  "category": "backend",
+  "featured": true,
+  "tags": ["backend", "realtime", "single-binary"],
+  "highlights": [
+    "Single executable with embedded SQLite",
+    "Auth, file storage, and realtime subscriptions included",
+    "Admin UI generated from your collections",
+    "Extensible with custom Go hooks"
+  ],
+  "techStack": ["Go", "SQLite", "Svelte"],
+  "links": {
+    "website": "https://pocketbase.io",
+    "docs": "https://pocketbase.io/docs"
+  },
+  "images": {
+    "logo": "/repos/pocketbase/logo.png",
+    "screenshot": "/repos/pocketbase/screenshot.png"
+  },
+  "related": ["coolify", "nocodb"],
+  "curatorNote": "PocketBase removes the boring part of building a backend. For a solo developer, the time saved between idea and working API is remarkable.",
+  "publishedAt": "2026-07-01"
+}

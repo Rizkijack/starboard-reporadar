@@ -1,0 +1,11 @@
+{
+  "name": "Starboard Reporadar",
+  "tagline": "Curated hidden gems from GitHub, tracked like radar.",
+  "description": "A hand-curated list of undervalued GitHub repositories with real potential. Browse, sort, and watch the ones worth following.",
+  "url": "https://starboard-reporadar.vercel.app",
+  "social": {
+    "github": "https://github.com",
+    "twitter": "https://x.com"
+  },
+  "featured": ["listmonk", "umami", "nocodb", "coolify", "pocketbase"]
+}

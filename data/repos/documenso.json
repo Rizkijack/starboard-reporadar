@@ -1,0 +1,28 @@
+{
+  "slug": "documenso",
+  "name": "Documenso",
+  "fullName": "documenso/documenso",
+  "tagline": "Open-source digital signing infrastructure",
+  "description": "Documenso is an open, transparent digital signing platform. It provides a clean document signing workflow with roles, audit logs, and a public API, positioning itself as a credible open alternative to closed commercial signing tools. Self-hostable and built for teams that care about who holds the keys to their signatures.",
+  "category": "productivity",
+  "featured": false,
+  "tags": ["esignature", "documents", "self-hosted"],
+  "highlights": [
+    "Full signing workflow with roles and status",
+    "Audit logs for every document event",
+    "Public API and webhooks for integration",
+    "Self-hostable with Docker"
+  ],
+  "techStack": ["Next.js", "Prisma", "PostgreSQL"],
+  "links": {
+    "website": "https://documenso.com",
+    "docs": "https://documenso.com/docs"
+  },
+  "images": {
+    "logo": "/repos/documenso/logo.png",
+    "screenshot": "/repos/documenso/screenshot.png"
+  },
+  "related": ["nocodb", "pocketbase"],
+  "curatorNote": "Digital signing is an industry dominated by closed products. Documenso is one of the few open efforts with production polish and a clear path forward.",
+  "publishedAt": "2026-07-05"
+}
