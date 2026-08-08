@@ -1,0 +1,28 @@
+{
+  "slug": "harkinianpad",
+  "name": "HarkinianPad",
+  "fullName": "chrissotraidis/harkinianpad",
+  "tagline": "Ocarina of Time running natively on iOS and iPadOS",
+  "description": "HarkinianPad packages the full Ship of Harkinian source port as a native iOS and iPadOS app: Ocarina of Time rebuilt with Metal rendering, customizable touch controls, Files-based ROM setup, and support for keyboards, pointing devices, and iOS game controllers. It renders through Metal, imports a user-provided supported Ocarina of Time ROM through Files, and includes a landscape touch controller that can be hidden whenever a physical controller is connected. The repository contains the mobile integration and reproducible build scripts — the compile never reads your ROM, and the app never downloads or bundles game data; you bring your own legally acquired ROM after installation. It has been signed, installed, and played on a physical 12.9-inch iPad Pro, with the source-available integration code kept deliberately ROM-free and audited by package scripts.",
+  "category": "other-fun",
+  "featured": false,
+  "tags": ["ios", "ipados", "zelda", "source-port", "metal", "gaming"],
+  "highlights": [
+    "Native iOS/iPadOS port of Ocarina of Time via the Ship of Harkinian engine",
+    "Metal rendering with customizable touch controls, keyboard, and controller support",
+    "ROM-free reproducible builds — the compile never reads your ROM",
+    "Files-based setup: drop a legally acquired ROM into the app folder, no downloads",
+    "Played on physical iPad Pro hardware with save loading and in-place updates"
+  ],
+  "techStack": ["Shell", "C", "Metal", "Ship of Harkinian", "SDL"],
+  "links": {
+    "website": "https://github.com/chrissotraidis/harkinianpad",
+    "docs": "https://github.com/chrissotraidis/harkinianpad#readme"
+  },
+  "images": {
+    "screenshot": "/repos/harkinianpad/screenshot.png"
+  },
+  "related": [],
+  "curatorNote": "A brand-new native iOS port of a beloved classic that hit the weekly trending list almost immediately, yet sits at about 340 stars. The ROM-free reproducible build discipline is genuinely impressive for a community project.",
+  "publishedAt": "2026-08-08"
+}

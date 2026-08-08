@@ -1,0 +1,28 @@
+{
+  "slug": "desko",
+  "name": "Desko",
+  "fullName": "typewriter03/Desko",
+  "tagline": "Use your old smartphone as a desk widget for your PC",
+  "description": "Desko turns a spare phone into an always-on desk dashboard: a single lightweight Python process runs on your PC, collects things worth looking at, and pushes them over a WebSocket to one browser tab on the phone sitting on your desk stand. No app to install, no account, no cloud, no build tooling — you open a URL and it just runs. The display cycles through five scenes: an idle clock with weather and phone battery, a music scene with album art and time-synced karaoke lyrics, a stats scene with CPU/GPU load and sparklines, a dev scene with git status and live VS Code state, and a server-side Pomodoro timer. Everything degrades gracefully — no media playing, no LibreHardwareMonitor, and the widgets just hide. The frontend is vanilla HTML/CSS/JS with no build step, designed to run on old budget phones with under 1% idle CPU and a performance mode for weak GPUs.",
+  "category": "other-fun",
+  "featured": false,
+  "tags": ["desk-widget", "python", "websocket", "upcycling", "diy"],
+  "highlights": [
+    "Repurposes an old phone into a live desk-widget panel over WiFi",
+    "Five scenes: idle clock, music with synced karaoke lyrics, stats, git/dev, Pomodoro",
+    "Single Python process with WebSocket diffs — no app install, no cloud, no build step",
+    "Everything degrades gracefully: missing sources hide, nothing shows a dead dash",
+    "Performance mode and vanilla frontend tuned for old budget phones"
+  ],
+  "techStack": ["Python", "aiohttp", "vanilla JS", "WebSocket"],
+  "links": {
+    "website": "https://github.com/typewriter03/Desko",
+    "docs": "https://github.com/typewriter03/Desko#readme"
+  },
+  "images": {
+    "screenshot": "/repos/desko/screenshot.png"
+  },
+  "related": ["mirador"],
+  "curatorNote": "Polished e-waste reuse — repurposes an aging phone into a live desk-widget panel, 148 stars days after launch. The karaoke-lyrics music scene and the graceful-degradation discipline make it feel far more mature than its age.",
+  "publishedAt": "2026-08-08"
+}

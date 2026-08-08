@@ -1,0 +1,28 @@
+{
+  "slug": "audio-cassette-simulation",
+  "name": "Audio Cassette Simulation",
+  "fullName": "AARomanov1985/Audio-Cassette-Simulation",
+  "tagline": "Simulates cassette tape audio profiles using ffmpeg",
+  "description": "Audio Cassette Simulation recreates the sound of analog cassette tapes using ffmpeg, applying tape noise, wow and flutter pitch modulation, bandwidth limits, and equalizer adjustments to digital audio. It ships profiles for a collection of real tapes: the BASF LH Extra C90 with moderate hiss and mild flutter, the higher-grade Maxell UD C90 with lower hiss and a wider frequency range, vintage 1978 Sony CHF tapes with warm mid-range, the late-era TDK D90 with subtle analog character, and the Soviet MK-60 with heavy hiss and aggressive frequency cuts. Each cassette folder contains scripts to convert local audio files or record a live web stream into segment files, with output written to an out folder. It requires only bash and ffmpeg compiled with libmp3lame.",
+  "category": "other-fun",
+  "featured": false,
+  "tags": ["audio", "nostalgia", "ffmpeg", "cassette", "dsp"],
+  "highlights": [
+    "Faithful profiles for six real tapes, from BASF and Maxell to the Soviet MK-60",
+    "Applies tape noise, wow and flutter, bandwidth limits, and EQ adjustments",
+    "Convert local audio files or record live web streams into cassette-flavored output",
+    "Requires only bash and ffmpeg with libmp3lame",
+    "Delightful nostalgia-ware that models analog tape artifacts"
+  ],
+  "techStack": ["Shell", "ffmpeg"],
+  "links": {
+    "website": "https://github.com/AARomanov1985/Audio-Cassette-Simulation",
+    "docs": "https://github.com/AARomanov1985/Audio-Cassette-Simulation#readme"
+  },
+  "images": {
+    "screenshot": "/repos/audio-cassette-simulation/screenshot.png"
+  },
+  "related": [],
+  "curatorNote": "Delightful nostalgia-ware that models analog tape artifacts; it hit the HN front page with 173 points yet remains niche and small. The per-tape profiles are a lovely touch — every cassette really did sound different.",
+  "publishedAt": "2026-08-08"
+}

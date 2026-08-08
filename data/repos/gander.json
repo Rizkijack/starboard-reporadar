@@ -1,0 +1,29 @@
+{
+  "slug": "gander",
+  "name": "gander",
+  "fullName": "mokshablr/gander",
+  "tagline": "Offline, zero-permission Android viewer for any file",
+  "description": "gander is a tiny, open source, fully offline file viewer for Android that opens PDF, Word, Excel, PowerPoint, photos, videos, audio, Markdown, text, and code in one app — with zero permissions, no ads, no tracking, and no internet access at all. Every phone ships with a dozen half-viewers that bounce your documents to cloud services; gander is the opposite: one small 8 MB APK that renders everything on the device, and it cannot phone home because it does not even hold the INTERNET permission. It receives files through the Storage Access Framework and Open with intents, renders Office formats inside a locked-down WebView whose every request is intercepted by WebViewAssetLoader, and uses a tiled deep-zoom view for photos. Pinch zoom, recents with thumbnails, folder browsing through one-time grants, find-in-document, and a sandboxed WebView for everything vendored JS renders — all built with Kotlin and Material 3 for Android 8.0 and up.",
+  "category": "other-fun",
+  "featured": false,
+  "tags": ["android", "file-viewer", "offline-first", "privacy", "kotlin"],
+  "highlights": [
+    "One 8 MB APK opens PDF, Office documents, photos, video, audio, Markdown, and code",
+    "Zero permissions and no INTERNET permission at all — nothing to audit or trust",
+    "Office formats render offline in a locked-down WebView with intercepted requests",
+    "Tiled deep-zoom photo viewing, pinch zoom, recents with thumbnails",
+    "Material 3, dark mode, works on Android 8.0 and up"
+  ],
+  "techStack": ["Kotlin", "Jetpack Compose", "pdf.js", "SheetJS", "Media3 ExoPlayer"],
+  "links": {
+    "website": "https://github.com/mokshablr/gander",
+    "docs": "https://github.com/mokshablr/gander#readme"
+  },
+  "images": {
+    "logo": "/repos/gander/logo.png",
+    "screenshot": "/repos/gander/screenshot.png"
+  },
+  "related": ["peek"],
+  "curatorNote": "Solves a real Android privacy pain point — a capable viewer with no permissions at all, 210 HN points and under 600 stars. The zero-permission trick is architecturally honest: no INTERNET permission means there is literally nothing to phone home with.",
+  "publishedAt": "2026-08-08"
+}

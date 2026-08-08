@@ -1,0 +1,26 @@
+{
+  "slug": "kakehashi",
+  "name": "kakehashi",
+  "fullName": "wie-project/kakehashi",
+  "tagline": "Userspace macOS translation layer for Linux ARM64",
+  "description": "kakehashi is an experimental userspace translation layer that runs macOS ARM64 binaries on Linux aarch64 — loading Darwin Mach-O binaries, mapping a freestanding libSystem, and translating BSD syscalls without a JIT. Real guests already run: clang probes, 7-Zip's 7zz with multi-threaded compression, curl over HTTP and HTTPS, and even Apple's own git from the Command Line Tools. Guest code runs natively on the CPU; the tax is the syscall boundary, measured at roughly 1.24x native Linux 7zz wall time in a fair comparison. The project is CLI-first, installable via cargo install, and documented with honest performance numbers and a clean-room legal process. From a university research group, it is an ambitious systems project targeting cheap Linux ARM64 CI runners as an alternative to scarce macOS capacity.",
+  "category": "other-fun",
+  "featured": false,
+  "tags": ["macos", "linux", "translation-layer", "rust", "syscall"],
+  "highlights": [
+    "Runs Darwin Mach-O binaries on Linux aarch64 via a freestanding libSystem and BSD syscall translation",
+    "Verified guests include 7-Zip, curl, and Apple's git from the Command Line Tools",
+    "Guest code runs natively — measured at about 1.24x native Linux 7zz wall time",
+    "CLI-first with a bottle layout and cargo install, no JIT",
+    "Clean-room legal process; not derived from Darling"
+  ],
+  "techStack": ["Rust", "Mach-O", "BSD syscalls"],
+  "links": {
+    "website": "https://github.com/wie-project/kakehashi",
+    "docs": "https://github.com/wie-project/kakehashi#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "An ambitious systems project from a university research group — the pitch is serious (run Darwin CLI tools on cheap Linux ARM64 runners instead of paying macOS rates), and the honest performance table makes it credible. Niche enough to stay under 400 stars.",
+  "publishedAt": "2026-08-08"
+}

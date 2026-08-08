@@ -1,0 +1,28 @@
+{
+  "slug": "asm-hall-of-shame",
+  "name": "Assembly Hall of Shame",
+  "fullName": "xoreaxeaxeax/asm-hall-of-shame",
+  "tagline": "Racing to the bottom of CPU performance",
+  "description": "The Assembly Hall of Shame is a satirical but technically deep research effort that searches for the absolute floor of single-instruction CPU performance — the opposite of performance optimization. It documents a leaderboard of the slowest x86 instructions ever measured, from a humble nop at 1 cycle to the current champion, fxrstor64, which loads 512 bytes of FPU state from a high-latency MMIO region while a fleet of hammer cores starves the PCIe fabric — scoring 198,002,498,236 cycles and taking 62 seconds. The collection includes spec-violating unaligned loads used to break System Management Mode, strategies for saturating write-combining buffers, and MMIO deadspace hunting with companion tools. From the researcher behind MOVfuscator, it is a morbidly fascinating autopsy of absurd x86 code paths, with honest rules, reproducible measurements, and a roadmap for xrstor64 on AMX hardware.",
+  "category": "other-fun",
+  "featured": false,
+  "tags": ["assembly", "x86", "cpu", "performance", "research"],
+  "highlights": [
+    "Leaderboard of the slowest single instructions ever measured, from nop to fxrstor64",
+    "Champion scores 198 billion cycles by loading FPU state from MMIO while hammer cores starve the PCIe fabric",
+    "Spec-violating unaligned loads used to break System Management Mode",
+    "Companion tools: mmiotic for MMIO deadspace hunting and rakefield for high-latency CPUID leaves",
+    "Reproducible measurements with honest rules and normalized cycle counts"
+  ],
+  "techStack": ["C", "x86 assembly"],
+  "links": {
+    "website": "https://github.com/xoreaxeaxeax/asm-hall-of-shame",
+    "docs": "https://github.com/xoreaxeaxeax/asm-hall-of-shame#readme"
+  },
+  "images": {
+    "screenshot": "/repos/asm-hall-of-shame/screenshot.png"
+  },
+  "related": [],
+  "curatorNote": "Fresh drop from xoreaxeaxeax, the researcher behind MOVfuscator — satirical but technically deep, racing to the bottom of CPU performance. It is the rare repo that makes you laugh and learn something about PCIe fabric in the same breath.",
+  "publishedAt": "2026-08-08"
+}
