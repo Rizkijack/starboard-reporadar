@@ -1,0 +1,29 @@
+{
+  "slug": "minimax-h3",
+  "name": "MiniMax H3",
+  "fullName": "MiniMax-AI/MiniMax-H3",
+  "tagline": "Official open release of the omni-modal H3 video model",
+  "description": "MiniMax H3 is a general-purpose omni-modal generative system that understands multimodal context made of text, images, video, and audio and generates video with native stereo audio, at resolutions up to 2K and durations up to 15 seconds. This repository is the official open-source release: it publishes the H3-Base checkpoints (FL2VA for text/first/last-frame input and Ref2VA for up to 9 reference images, 3 video clips, or 3 audio clips), full deployment recipes for SGLang, vLLM, diffusers, and ComfyUI, and reproducible 768p generation scripts. H3-Base is a 33B-parameter dense single-stream transformer with 3D multimodal rotary position embeddings and separate visual and audio VAEs, with the Qwen3-VL-32B encoder providing text and visual encoding. The repository also bundles a nine-skill prompt-writing pack for H3, installable with a single npx command, covering text, keyframe, and full-reference prompting plus eight style-specific video generators.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["video-generation", "multimodal", "audio-video", "prompting", "diffusers"],
+  "highlights": [
+    "Generates video with native 32 kHz stereo audio at 24 FPS, 4-15 seconds, up to 2K via H3-Regenerate-2K",
+    "Two task checkpoints: FL2VA (zero/one/two images) and Ref2VA (up to 9 images, 3 videos, or 3 audio clips)",
+    "33B-parameter dense H3-Omni-Transformer with 3D MM-RoPE and modality-specific AdaLN",
+    "Deployment recipes for SGLang, vLLM, diffusers, and ComfyUI with reproducible 768p scripts",
+    "Nine bundled skills: h3-prompt-writing plus eight style-specific video generators"
+  ],
+  "techStack": ["Python", "PyTorch", "diffusers", "SGLang"],
+  "links": {
+    "website": "https://github.com/MiniMax-AI/MiniMax-H3",
+    "docs": "https://github.com/MiniMax-AI/MiniMax-H3#readme"
+  },
+  "images": {
+    "logo": "/repos/minimax-h3/logo.jpg",
+    "screenshot": "/repos/minimax-h3/screenshot.png"
+  },
+  "related": [],
+  "curatorNote": "H3 is one of the strongest open omni-modal video models, and MiniMax shipped it with genuinely useful agent tooling: a one-command skill pack plus complete local deployment recipes. The in-context 2K regeneration approach is a refreshing alternative to bolt-on super-resolution.",
+  "publishedAt": "2026-07-30"
+}
