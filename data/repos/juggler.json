@@ -1,0 +1,29 @@
+{
+  "slug": "juggler",
+  "name": "Juggler",
+  "fullName": "juggler-ai/juggler",
+  "tagline": "Hands-on GUI coding agent with editable session trees",
+  "description": "Juggler is an open-source GUI coding agent that gives users a visual workbench over everything the LLM does to their codebase. Sessions are stored as Yjs documents rather than chat transcripts, so any point can branch into sub-threads and the entire tree — including approval dialogs waiting on the user — survives quitting and relaunching. The Finder-style Miller-column interface exposes inspectable tool calls, item properties, and raw context, and context items, slash commands, and LLM loop strategies are all JavaScript extensions. It runs as a native desktop app or a headless server that browser clients on any machine can attach to, and it connects to Claude Code, OpenAI, Gemini, Ollama, OpenRouter, and more.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["ai-agent", "coding-assistant", "gui", "llm", "session-tree"],
+  "highlights": [
+    "Session as an editable Yjs tree: branch sub-threads, backtrack, compare, and edit",
+    "Persistent sessions that resume exactly, including agent approvals waiting on the user",
+    "Everything is a JavaScript extension: context items, slash commands, and LLM loop strategies",
+    "Miller-column interface for inspecting tool calls, item properties, and raw context",
+    "One session, many clients: native desktop app, browser tabs, and remote machines stay in sync"
+  ],
+  "techStack": ["Go", "JavaScript", "Wails", "Yjs"],
+  "links": {
+    "website": "https://github.com/juggler-ai/juggler",
+    "docs": "https://github.com/juggler-ai/juggler#readme"
+  },
+  "images": {
+    "logo": "/repos/juggler/logo.png",
+    "screenshot": "/repos/juggler/screenshot.webp"
+  },
+  "related": ["camofox-browser"],
+  "curatorNote": "From the creator of JUCE comes a coding agent that treats the conversation as an inspectable, editable document instead of a doom-scroll transcript. The extension-everything architecture and multi-client desktop/browser model make it a genuinely different take on agent UX.",
+  "publishedAt": "2026-06-19"
+}
