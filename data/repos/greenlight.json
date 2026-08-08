@@ -1,0 +1,29 @@
+{
+  "slug": "greenlight",
+  "name": "greenlight",
+  "fullName": "gadievron/greenlight",
+  "tagline": "Refusal-handling skill for vulnerability-research evals",
+  "description": "greenlight is a refusal-handling skill that lets AI agents autonomously handle model refusals in security-research-type evaluation harnesses. It was created for benchmarking where Claude Code's guardrails trigger exploitation-related refusals, and ships three skill variants: the validated v3 canonical, a richer v5 at a lower evidence bar, and a modular template for building custom skills. The repo includes a detailed validation dossier from paired Opus 4.7 runs, documenting day-level refusal-rate variance (up to 2.6x), prompt-content and placement ablations, retry-recovery mechanisms, and explicit caveats about target-specificity and underpowered sample sizes. It is MIT licensed and intended solely for authorized LLM safety and security research in controlled environments.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["ai-agent", "llm-safety", "red-teaming", "security-research", "skill"],
+  "highlights": [
+    "Three skill variants: v3 canonical (validated), v5 (richer, lower evidence bar), and a modular template",
+    "Paired validation on Opus 4.7: refusal rate 0.077 vs 0.286 adversarial baseline, pass rate 0.923 vs 0.429 (single-window snapshot)",
+    "Documents day-level refusal variance and a paired-comparison methodology with honest null results",
+    "Confirmed post-pivot finding: harmless-POC prompt wording cut refusal rate ~8x at p < 0.05 (N=15 paired)",
+    "Harness-ready: drops into ~/.claude/skills or any research harness via claude-agent-sdk"
+  ],
+  "techStack": ["Python", "Claude Code", "claude-agent-sdk"],
+  "links": {
+    "website": "https://github.com/gadievron/greenlight",
+    "docs": "https://github.com/gadievron/greenlight#readme"
+  },
+  "images": {
+    "logo": "/repos/greenlight/logo.jpg",
+    "screenshot": "/repos/greenlight/screenshot.png"
+  },
+  "related": [],
+  "curatorNote": "Refusal behavior is one of the least documented failure modes of agent eval harnesses, and this repo treats it with real rigor: paired direct comparisons, day-shape variance analysis, and explicit null results. It is rare to see a proof-of-concept publish the methodology lessons alongside the skill itself.",
+  "publishedAt": "2026-05-03"
+}
