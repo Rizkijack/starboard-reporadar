@@ -1,0 +1,29 @@
+{
+  "slug": "code-review-agent",
+  "name": "Code Review Agent",
+  "fullName": "sylwia-lask/code-review-agent",
+  "tagline": "Educational AI code-review agent, no frameworks",
+  "description": "Code Review Agent is an educational project that shows how to build an AI agent without any agent frameworks such as LangChain, CrewAI, or the OpenAI Agents SDK. Built with Node.js, TypeScript, and the Gemini API, it reviews uncommitted git changes: the agent reads git diff HEAD, decides whether it needs more context and reads additional files, then produces a structured code review with file and line references. The core is a roughly 80-line agent loop in which the LLM calls tools, receives results, and repeats until it has enough information, capped at 10 steps. It includes a 'Steve' reviewer persona, a provider abstraction for swapping LLM backends, and a vitest test suite that runs without API calls. MIT licensed.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["ai-agent", "code-review", "llm", "typescript", "education"],
+  "highlights": [
+    "Zero-framework agent loop: ~80 lines of core logic, no LangChain/CrewAI/OpenAI SDK",
+    "Reviews uncommitted changes via git diff HEAD with on-demand file reads for extra context",
+    "Structured review output with file and line references",
+    "Provider abstraction to swap Gemini for OpenAI, Anthropic, or Ollama",
+    "Vitest unit tests that run without any API calls"
+  ],
+  "techStack": ["TypeScript", "Node.js", "Gemini API"],
+  "links": {
+    "website": "https://github.com/sylwia-lask/code-review-agent",
+    "docs": "https://github.com/sylwia-lask/code-review-agent#readme"
+  },
+  "images": {
+    "logo": "/repos/code-review-agent/logo.jpg",
+    "screenshot": "/repos/code-review-agent/screenshot.png"
+  },
+  "related": ["linus-torvalds-skill"],
+  "curatorNote": "The best way to understand agent loops is to read one that fits in a single file. This repo strips the framework layer away and shows exactly what an LLM tool-calling loop is, making it a rare, readable reference for agent architecture.",
+  "publishedAt": "2026-07-21"
+}
