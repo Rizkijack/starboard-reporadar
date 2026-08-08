@@ -1,0 +1,29 @@
+{
+  "slug": "tinytot",
+  "name": "TinyToT",
+  "fullName": "guilt/TinyToT",
+  "tagline": "Tree-of-Thoughts inference with no model weights",
+  "description": "TinyToT is a local, privacy-first Tree-of-Thoughts inference server that answers questions, reasons, generates code, handles documents, and holds natural multi-turn conversations with no model weights, no GPU, and no network required. It separates fact storage from composition: facts live in plain markdown files retrieved by a five-head TF-IDF index with BM25 re-ranking that has zero learnable parameters, while open-ended generation is covered by template-based handlers and a compute engine for exact arithmetic, logic, and unit-conversion problems. The server is a fully Ollama-compatible and Hermes drop-in that exposes /v1/chat/completions, and it can clone itself into lightweight domain-specific variants with optional delta knowledge sets.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["local-ai", "inference", "tree-of-thoughts", "tf-idf", "llm", "privacy"],
+  "highlights": [
+    "Zero learnable parameters: five-head TF-IDF retrieval with BM25 re-ranking over markdown knowledge files",
+    "Benchmarked at 100% accuracy on routing, factual Q&A, held-out reasoning, and novel math tests",
+    "648 code templates across 7 languages plus multi-file project scaffolding for Flask, FastAPI, CLI, and data pipelines",
+    "Drop-in Ollama replacement and Hermes-compatible /v1/chat/completions backend",
+    "Self-replication via tinytot-clone into domain-specific variants with delta knowledge sets"
+  ],
+  "techStack": ["Python", "TF-IDF", "BM25", "Ollama-compatible API"],
+  "links": {
+    "website": "https://github.com/guilt/TinyToT",
+    "docs": "https://github.com/guilt/TinyToT#readme"
+  },
+  "images": {
+    "logo": "/repos/tinytot/logo.jpg",
+    "screenshot": "/repos/tinytot/screenshot.png"
+  },
+  "related": ["yap"],
+  "curatorNote": "TinyToT attacks the assumption that useful LLM behavior requires billions of parameters by separating fact storage from composition, and backs the claim with benchmarks instead of vibes. It is one of the strongest demonstrations that retrieval plus templating can cover a surprising amount of everyday reasoning.",
+  "publishedAt": "2026-07-10"
+}
