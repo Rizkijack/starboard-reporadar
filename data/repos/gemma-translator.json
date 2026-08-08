@@ -1,0 +1,29 @@
+{
+  "slug": "gemma-translator",
+  "name": "Gemma Translator",
+  "fullName": "google-gemma/gemma-translator",
+  "tagline": "Two-person voice translator, fully offline on-device",
+  "description": "Gemma Translator is an on-device, fully offline voice translator powered by Gemma 4 and LiteRT-LM, built with assistance from Google Antigravity. The two-lane kiosk interface lets two people face each other, each lane capturing speech, transcribing it with Moonshine STT, translating it with the local gemma4-e2b model, and speaking the result back through moonshine-voice TTS. The React frontend is styled for small handheld displays such as 480x320 Raspberry Pi screens, and a single deploy script turns a Raspberry Pi 5 into a permanent systemd kiosk appliance with 3D-printable case files included.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["offline-ai", "translation", "voice", "gemma", "raspberry-pi", "on-device"],
+  "highlights": [
+    "Two-lane kiosk for two people, each with its own language and push-to-talk recording",
+    "Fully on-device inference via LiteRT-LM with the gemma4-e2b model, no internet after setup",
+    "Moonshine speech-to-text and moonshine-voice text-to-speech around the translation loop",
+    "One-command Raspberry Pi 5 deployment as a permanent systemd kiosk (deploy-pi.sh)",
+    "Retro-terminal UI tuned for 480x320 displays with two keyboard modes"
+  ],
+  "techStack": ["JavaScript", "Python", "LiteRT-LM", "Gemma"],
+  "links": {
+    "website": "https://github.com/google-gemma/gemma-translator",
+    "docs": "https://github.com/google-gemma/gemma-translator#readme"
+  },
+  "images": {
+    "logo": "/repos/gemma-translator/logo.jpg",
+    "screenshot": "/repos/gemma-translator/screenshot.gif"
+  },
+  "related": ["tencentdb-agent-memory"],
+  "curatorNote": "Google Creative Lab's reference hardware demo for Gemma 4: a two-person translation kiosk that runs the entire pipeline — speech-to-text, translation, and text-to-speech — on a Raspberry Pi 5 with no cloud calls. It is a concrete template for edge LLM appliances.",
+  "publishedAt": "2026-08-03"
+}
