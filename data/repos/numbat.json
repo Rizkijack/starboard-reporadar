@@ -1,0 +1,27 @@
+{
+  "slug": "numbat",
+  "name": "numbat",
+  "fullName": "perplexityai/numbat",
+  "tagline": "Endpoint visibility into AI agent activity",
+  "description": "numbat gives you endpoint visibility into AI agent activity, with on-device detection, optional pre-action blocking, and forensic reconstruction. It observes supported desktop, CLI, IDE, and gateway agents through local hooks and plugins, normalizes live and at-rest activity into one event model, and evaluates it with a CEL rule engine that runs entirely locally.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["agent-security", "observability", "security", "cli", "go"],
+  "highlights": [
+    "Live monitoring via local hooks, plugins, and OTLP/HTTP log exporters",
+    "Endpoint-local detection with built-in CEL rules and custom YAML rules",
+    "Opt-in pre-action blocking for supported synchronous hooks",
+    "Forensic reconstruction from on-disk session artifacts",
+    "Single-binary distribution for macOS, Linux, and Windows"
+  ],
+  "techStack": ["Go", "CEL"],
+  "links": {
+    "docs": "https://github.com/perplexityai/numbat#readme"
+  },
+  "images": {
+    "screenshot": "/repos/numbat/screenshot.png"
+  },
+  "related": ["agenthound"],
+  "curatorNote": "Perplexity's young on-device agent-security monitor — under 800 stars despite the well-known parent org.",
+  "publishedAt": "2026-08-08"
+}

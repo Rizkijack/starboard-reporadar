@@ -1,0 +1,29 @@
+{
+  "slug": "openflowkit",
+  "name": "OpenFlowKit",
+  "fullName": "Vrun-design/openflowkit",
+  "tagline": "The open-source local-first AI diagramming studio",
+  "description": "OpenFlowKit is a free, open-source, local-first AI diagramming studio. You can create flows from templates, code, structured imports, or AI; refine them visually; keep everything local-first; and export cinematic MP4 walkthroughs. It can also be driven entirely from Claude, Cursor, or Windsurf through a first-party MCP server, with 1,600+ icons and full Mermaid support.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["diagramming", "mermaid", "local-first", "ai", "mcp", "code-to-diagram"],
+  "highlights": [
+    "Mermaid support with 1,600+ auto-assigned icons",
+    "AI generation from 10 providers, including local Ollama for offline diagramming",
+    "Cinematic MP4 export via WebCodecs, faster than realtime",
+    "Bidirectional diagram-as-code sync with a git-friendly DSL",
+    "First-party MCP server to drive everything from agent IDEs"
+  ],
+  "techStack": ["TypeScript", "React", "Vite", "Tailwind CSS"],
+  "links": {
+    "website": "https://openflowkit.com",
+    "docs": "https://docs.openflowkit.com"
+  },
+  "images": {
+    "logo": "/repos/openflowkit/logo.svg",
+    "screenshot": "/repos/openflowkit/screenshot.png"
+  },
+  "related": ["general-translation", "bb"],
+  "curatorNote": "Actively pushed through the window and still underrated — a compelling local-first alternative to paid diagramming tools.",
+  "publishedAt": "2026-08-08"
+}

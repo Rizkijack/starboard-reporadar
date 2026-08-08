@@ -1,0 +1,26 @@
+{
+  "slug": "pii-protection",
+  "name": "PII Protection",
+  "fullName": "cleaniquecoders/pii-protection",
+  "tagline": "Pure-PHP encryption and masking for sensitive data",
+  "description": "PII Protection is a pure-PHP library for field-level encryption at rest and masking of sensitive fields in audit and log payloads. With no framework and no global state, it ships plain classes with explicit inputs and outputs that drop into Laravel, Symfony, Slim, a CLI tool, a queue worker, or plain PHP unchanged.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["php", "security", "privacy", "pii", "encryption"],
+  "highlights": [
+    "AES-256-GCM field-level encryption at rest with key-rotation support",
+    "Nine masking strategies including tail, email, credit-card, IP, and name",
+    "Nested and JSON redaction plus #[Pii] property markers",
+    "Constructor-injected and framework-free"
+  ],
+  "techStack": ["PHP"],
+  "links": {
+    "docs": "https://github.com/cleaniquecoders/pii-protection#readme"
+  },
+  "images": {
+    "screenshot": "/repos/pii-protection/screenshot.png"
+  },
+  "related": [],
+  "curatorNote": "Framework-free PHP security library featured in a dev.to deep dive on scrubbing secrets from logs — maximum under-the-radar at 5 stars.",
+  "publishedAt": "2026-08-08"
+}

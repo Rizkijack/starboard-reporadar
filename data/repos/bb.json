@@ -1,0 +1,28 @@
+{
+  "slug": "bb",
+  "name": "bb",
+  "fullName": "get-bb/bb",
+  "tagline": "The agent IDE that builds itself",
+  "description": "bb is an agentic IDE that can orchestrate multiple coding agents and let them control bb itself. Every surface — the desktop app, web app, CLI, and HTTP API — is a first-class way to drive it, and work runs in threads you can follow live, steer at any point, or hand off to another agent. Because the project is self-hosting by design, the coding agent literally drives its own development.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["agent-ide", "orchestration", "cli", "ai", "ide"],
+  "highlights": [
+    "Orchestrates multiple coding agents together and lets them drive bb programmatically",
+    "First-class desktop app, web app, CLI, and HTTP API surfaces",
+    "Live, steerable work threads that can be handed off between agents",
+    "Self-hosting IDE where the coding agent builds itself"
+  ],
+  "techStack": ["TypeScript", "React", "Node.js", "Electron"],
+  "links": {
+    "website": "https://getbb.app",
+    "docs": "https://github.com/get-bb/bb#readme"
+  },
+  "images": {
+    "logo": "/repos/bb/logo.png",
+    "screenshot": "/repos/bb/screenshot.png"
+  },
+  "related": ["mindwalk", "openslides"],
+  "curatorNote": "A self-modifying IDE concept that gained real traction in the window — listed on GitTrend as underrated despite strong engagement.",
+  "publishedAt": "2026-08-08"
+}

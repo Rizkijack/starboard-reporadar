@@ -1,0 +1,29 @@
+{
+  "slug": "agenthound",
+  "name": "AgentHound",
+  "fullName": "adithyan-ak/agenthound",
+  "tagline": "Offensive security framework for AI agent infrastructure",
+  "description": "AgentHound is an open-source offensive security framework for AI agent infrastructure — the BloodHound for the agentic stack. It runs the full engagement: recon, fingerprinting, credential looting, model and system-prompt inventory, model inversion, tool and instruction poisoning, and config-implant persistence across MCP, A2A, model gateways, inference servers, vector stores, MLOps, and notebooks. It then merges every fact into one Neo4j graph and proves the attack paths that tie it together.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["security", "offensive-security", "ai-agents", "mcp", "red-team"],
+  "highlights": [
+    "Full-spectrum coverage of the modern agentic attack surface",
+    "Credential inventory across gateways and the service plane",
+    "Modelfile, system-prompt, and fine-tune inventory with a pure-Go GGUF parser",
+    "Active exploitation modules with dry-run-by-default and recovery paths",
+    "Graph-based attack-path analysis in Neo4j"
+  ],
+  "techStack": ["Go", "Neo4j"],
+  "links": {
+    "website": "https://agenthound.io",
+    "docs": "https://docs.agenthound.io"
+  },
+  "images": {
+    "logo": "/repos/agenthound/logo.png",
+    "screenshot": "/repos/agenthound/screenshot.png"
+  },
+  "related": ["numbat"],
+  "curatorNote": "Comprehensive security tooling for the emerging AI-agent attack surface at just 239 stars.",
+  "publishedAt": "2026-08-08"
+}

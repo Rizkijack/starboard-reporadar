@@ -1,0 +1,28 @@
+{
+  "slug": "openslides",
+  "name": "OpenSlides",
+  "fullName": "codewiththiha/OpenSlides",
+  "tagline": "Beautiful code presentations, fully offline",
+  "description": "OpenSlides is a free, open-source, offline desktop app that turns source code into polished, presentation-ready slides with smooth, step-by-step Magic Move transitions. It is a direct alternative to codeslides.app: create expressive code decks, keep your work on your own machine, and present without a subscription or internet connection.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["presentation", "code", "desktop", "tauri", "svelte"],
+  "highlights": [
+    "Magic Move transitions between code states",
+    "Line-by-line stepped highlights with per-step emphasis control",
+    "Light and dark presentation themes",
+    "Full screen, autoplay, keyboard navigation, and drag-and-drop slide stacks",
+    "Local-first with installers for macOS, Windows, and Linux"
+  ],
+  "techStack": ["Svelte", "TypeScript", "Rust", "Tauri"],
+  "links": {
+    "website": "https://open-slides-app.vercel.app",
+    "docs": "https://github.com/codewiththiha/OpenSlides#readme"
+  },
+  "images": {
+    "screenshot": "/repos/openslides/screenshot.png"
+  },
+  "related": ["bb", "openflowkit"],
+  "curatorNote": "A free, offline alternative to CodeSlides for animated code talks — 176 stars in under three weeks.",
+  "publishedAt": "2026-08-08"
+}

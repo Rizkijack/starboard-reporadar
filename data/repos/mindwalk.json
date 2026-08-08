@@ -1,0 +1,27 @@
+{
+  "slug": "mindwalk",
+  "name": "mindwalk",
+  "fullName": "cosmtrek/mindwalk",
+  "tagline": "Replays coding-agent sessions on a 3D map of your codebase",
+  "description": "mindwalk replays coding-agent sessions on a 3D map of your codebase. It draws the repository as a night map and plays the session back as light moving through it: where the agent searched, read, and edited, the map glows and everything else stays dark. One Go binary reads Claude Code, Codex, and pi session logs entirely locally, so while viewing, nothing is sent anywhere.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["agent-visualization", "3d", "developer-experience", "cli", "go"],
+  "highlights": [
+    "Replays agent sessions as light moving through a 3D map of the codebase",
+    "Reads Claude Code, Codex, and pi session logs with a single local Go binary",
+    "Tree and Terrain views with touch states, a playback deck, and subagent lenses",
+    "Optional local session evaluation via your own claude or codex CLI"
+  ],
+  "techStack": ["Go", "React", "Three.js"],
+  "links": {
+    "docs": "https://github.com/cosmtrek/mindwalk#readme"
+  },
+  "images": {
+    "logo": "/repos/mindwalk/logo.svg",
+    "screenshot": "/repos/mindwalk/screenshot.png"
+  },
+  "related": ["bb", "agenthound"],
+  "curatorNote": "From the author of the widely-used air live-reload tool — a genuinely new way to review agent work, launched the first day of the window.",
+  "publishedAt": "2026-08-08"
+}

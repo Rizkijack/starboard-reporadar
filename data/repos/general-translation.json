@@ -1,0 +1,28 @@
+{
+  "slug": "general-translation",
+  "name": "General Translation",
+  "fullName": "generaltranslation/gt",
+  "tagline": "Full-stack localization for every framework",
+  "description": "General Translation is a full-stack localization suite that translates entire React and Next.js components — not just strings — with a simple <T> wrapper. There is no refactoring into dictionaries: you write your content and let GT handle the rest, with a CLI tool for continuous localization and an AI agent (Locadex) for automating i18n across complex codebases.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["i18n", "localization", "l10n", "translation", "react", "nextjs"],
+  "highlights": [
+    "Translate whole components with a <T> wrapper instead of string dictionaries",
+    "First-class packages for React, Next.js, Sanity, and a pure-JavaScript i18n core",
+    "CLI for continuous localization plus build plugins for webpack, Vite, Rollup, and esbuild",
+    "Locadex AI agent and an MCP server to automate i18n in complex codebases"
+  ],
+  "techStack": ["TypeScript", "React", "Next.js"],
+  "links": {
+    "website": "https://generaltranslation.com",
+    "docs": "https://generaltranslation.com/docs"
+  },
+  "images": {
+    "logo": "/repos/general-translation/logo.svg",
+    "screenshot": "/repos/general-translation/screenshot.png"
+  },
+  "related": ["openflowkit"],
+  "curatorNote": "Stayed under 1.1k stars for over a year, then pushed onto the in-window trending list in July 2026.",
+  "publishedAt": "2026-08-08"
+}

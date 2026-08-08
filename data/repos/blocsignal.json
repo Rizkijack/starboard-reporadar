@@ -1,0 +1,27 @@
+{
+  "slug": "blocsignal",
+  "name": "BlocSignal",
+  "fullName": "RandalSchwartz/BlocSignal",
+  "tagline": "State management bridging BLoC and Signals",
+  "description": "BlocSignal is a state-management framework for Dart and Flutter that bridges the Business Logic Component (BLoC) pattern with Rody Davis's signals v7 primitives — with the rigor of BLoC and the flex and speed of Signals. The monorepo ships modular packages covering core reactive primitives, Flutter bindings, Riverpod interop, persistence, replay, OpenTelemetry, DevTools, testing, and linting.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["flutter", "dart", "state-management", "bloc", "signals"],
+  "highlights": [
+    "Synchronous state propagation that eliminates microtask-queue latency",
+    "Fine-grained reactivity built on signals v7 primitives",
+    "Bidirectional Riverpod interop and automatic state de-duplication",
+    "State hydration, undo/redo replay, OpenTelemetry tracing, and DevTools"
+  ],
+  "techStack": ["Dart", "Flutter"],
+  "links": {
+    "docs": "https://github.com/RandalSchwartz/BlocSignal#readme"
+  },
+  "images": {
+    "logo": "/repos/blocsignal/logo.png",
+    "screenshot": "/repos/blocsignal/screenshot.png"
+  },
+  "related": [],
+  "curatorNote": "Created in-window and the subject of two dev.to walkthroughs, yet still under 25 stars.",
+  "publishedAt": "2026-08-08"
+}
