@@ -1,0 +1,29 @@
+{
+  "slug": "chatdeck-shadcn-saas-landing-page-template",
+  "name": "ChatDeck",
+  "fullName": "ShadcnDeck/chatdeck-shadcn-saas-landing-page-template",
+  "tagline": "Free shadcn/ui SaaS landing page template for Next.js",
+  "description": "ChatDeck is a free, MIT-licensed shadcn/ui SaaS landing page template built with Next.js, Tailwind CSS, and TypeScript, designed for launching and validating products faster without starting from scratch. It includes a clean hero with social proof, sticky navigation with smooth scrolling, a dedicated video section, a features grid using Lucide icons, team cards, an auto-scrolling testimonial marquee, animated pricing with a monthly/yearly toggle, and an accordion FAQ. Every section is a self-contained component with no tangled dependencies, so content, colors, and sections can be edited independently. It runs on any platform that supports Next.js, has no paid tier, and requires no attribution.",
+  "category": "frontend",
+  "featured": false,
+  "tags": ["nextjs", "shadcn-ui", "tailwind", "saas-template", "landing-page"],
+  "highlights": [
+    "Free and MIT licensed — no paid tier, no restrictions, no attribution required",
+    "Conversion-focused sections: hero, social proof, features, pricing, FAQ, and more",
+    "Every section is an independently editable component with no tangled dependencies",
+    "Animated pricing toggle, auto-scrolling testimonial marquee, and dark mode",
+    "Deploys to Vercel, Netlify, Railway, or Render with no configuration"
+  ],
+  "techStack": ["Next.js", "TypeScript", "Tailwind CSS", "shadcn/ui", "Motion"],
+  "links": {
+    "website": "https://www.shadcndeck.com/templates/chatdeck-saas-landing-page",
+    "demo": "https://www.shadcndeck.com/preview/templates/chatdeck-saas-landing-page",
+    "docs": "https://github.com/ShadcnDeck/chatdeck-shadcn-saas-landing-page-template#readme"
+  },
+  "images": {
+    "screenshot": "/repos/chatdeck-shadcn-saas-landing-page-template/screenshot.png"
+  },
+  "related": [],
+  "curatorNote": "freeCodeCamp's 'How to Build an Open Source SaaS Landing Page Template with shadcn/ui' builds on this end-to-end. It is a clean, conversion-focused starting point for indie hackers and founders who want to validate an idea without spending a week on the landing page.",
+  "publishedAt": "2026-08-08"
+}

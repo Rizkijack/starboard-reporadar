@@ -1,0 +1,29 @@
+{
+  "slug": "peek",
+  "name": "peek",
+  "fullName": "RtiM0/peek",
+  "tagline": "Open social media links without distraction",
+  "description": "peek is a calm, native Android space for the links people share — paste a link, then read, watch, and browse the content without the noise of the source app. It resolves public Instagram posts, reels, and carousels with photos and videos, reads comments with reply loading, and opens media in an edge-to-edge viewer with video playback and carousel navigation. Resolved content is cached locally for a quicker return experience. Built with Kotlin and Jetpack Compose, peek separates link resolution from presentation: source-specific resolvers normalize content into shared domain models through a prioritized resolver chain, so adding a new source does not require changing the viewer UI. Instagram fetching logic is based on Kittygram, and the roadmap includes Reddit, X/Twitter, TikTok, and YouTube sources.",
+  "category": "frontend",
+  "featured": false,
+  "tags": ["android", "kotlin", "jetpack-compose", "instagram", "material3"],
+  "highlights": [
+    "Paste a link and view social content without login walls or app noise",
+    "Resolves public Instagram posts, reels, and carousels with photos and video",
+    "Edge-to-edge media viewer with video playback and carousel navigation",
+    "Local caching of resolved content for instant revisits",
+    "Resolver chain architecture makes adding new sources a drop-in change"
+  ],
+  "techStack": ["Kotlin", "Jetpack Compose", "Material 3"],
+  "links": {
+    "website": "https://github.com/RtiM0/peek",
+    "docs": "https://github.com/RtiM0/peek#readme"
+  },
+  "images": {
+    "logo": "/repos/peek/logo.png",
+    "screenshot": "/repos/peek/screenshot.png"
+  },
+  "related": [],
+  "curatorNote": "Fixes a real daily annoyance — Instagram and social links without the login wall — in a clean, native Android package. 56 stars two weeks in, with a thoughtful resolver-chain architecture that makes the roadmap credible.",
+  "publishedAt": "2026-08-08"
+}

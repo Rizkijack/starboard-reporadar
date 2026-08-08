@@ -1,0 +1,28 @@
+{
+  "slug": "cssgraphics",
+  "name": "cssGraphics",
+  "fullName": "layoutit/cssGraphics",
+  "tagline": "A DOM-ready 3D asset library powered by PolyCSS",
+  "description": "cssGraphics packages animated and interactive 3D models as real HTML and CSS, without a WebGL or canvas renderer, powered by the PolyCSS engine. It ships original generative scenes like 3D Pipes, an XScreenSaver-inspired scene using prepared connected tube meshes, plus faithful source-backed ports of classic screensavers: Flower Box with 1,200 stable retained triangle leaves, and Gears with prepared three-gear assemblies. The browser retains prepared DOM and does not build geometry, lighting, or camera state at runtime, keeping scenes stable and fast. Each adapter is self-contained with its own build and dev commands, and third-party models retain their original licenses with attribution listed in the catalog.",
+  "category": "frontend",
+  "featured": false,
+  "tags": ["css", "3d", "webgl-free", "polycss", "creative-coding"],
+  "highlights": [
+    "Real 3D scenes rendered as HTML and CSS — no WebGL or canvas",
+    "Original 3D Pipes scene plus faithful ports of Flower Box and Gears",
+    "Retained DOM with prepared geometry, lighting, and camera — nothing built at runtime",
+    "Self-contained adapters, each with its own build and dev commands",
+    "The library behind the viral 3D CSS Super Mario demo"
+  ],
+  "techStack": ["JavaScript", "CSS", "PolyCSS"],
+  "links": {
+    "website": "https://github.com/layoutit/cssGraphics",
+    "docs": "https://github.com/layoutit/cssGraphics#readme"
+  },
+  "images": {
+    "screenshot": "/repos/cssgraphics/screenshot.png"
+  },
+  "related": [],
+  "curatorNote": "The library behind the viral 3D CSS Super Mario demo — pure-CSS 3D assets for the DOM, brand new at 24 stars. It is a reminder that the browser's rendering engine is still an under-explored creative canvas.",
+  "publishedAt": "2026-08-08"
+}

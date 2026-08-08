@@ -1,0 +1,28 @@
+{
+  "slug": "backchannel",
+  "name": "Backchannel",
+  "fullName": "twalichiewicz/Backchannel",
+  "tagline": "HN, Bluesky, and Reddit discussions merged into one thread",
+  "description": "Backchannel is a userscript that blends Hacker News, Bluesky, and Reddit discussions into a single merged conversation on any article page. Every page you land on gets checked against the sources you have enabled, so you find out a discussion exists without going hunting for one. Quotes in the comments are matched back to the article and lit as annotations, and clicking a highlight filters the thread to the people discussing that passage. You can vote, reply, and even submit on supported sources using the session you already have, in a popup on news.ycombinator.com. It also blends all of your sources into a custom front page, and includes quality-of-life touches like indent guides, OP marking, and new-comment highlighting. There is no backend, no analytics, and no telemetry — one file with no build step, and a per-site off switch. Formerly known as HNewhere.",
+  "category": "frontend",
+  "featured": false,
+  "tags": ["userscript", "hacker-news", "reddit", "bluesky", "browser-extension"],
+  "highlights": [
+    "Merges HN, Bluesky, and Reddit threads into one sidebar conversation per article",
+    "Quotes in comments are annotated back onto the article text",
+    "Vote, reply, and submit with your existing session — the script never sees passwords",
+    "No backend, no analytics, no telemetry; one file with no build step",
+    "Custom blended front page across all of your enabled sources"
+  ],
+  "techStack": ["JavaScript", "userscript", "Tampermonkey"],
+  "links": {
+    "website": "https://github.com/twalichiewicz/Backchannel",
+    "docs": "https://github.com/twalichiewicz/Backchannel#readme"
+  },
+  "images": {
+    "screenshot": "/repos/backchannel/screenshot.png"
+  },
+  "related": [],
+  "curatorNote": "A clever browser-userscript mashup that puts HN, Bluesky, and Reddit in one view, featured on the trending list within a week of launch. The annotation layer — quotes matched back to the article — is the feature that makes it feel like a commentary track rather than a comment box.",
+  "publishedAt": "2026-08-08"
+}

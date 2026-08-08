@@ -1,0 +1,28 @@
+{
+  "slug": "kodama",
+  "name": "kodama",
+  "fullName": "orijitghosh/kodama",
+  "tagline": "Your GitHub history drawn as a bonsai",
+  "description": "kodama draws your GitHub history as a bonsai tree: commits grow foliage, merged PRs ripen into fruit, reviews hang lanterns, and streaks blossom. It is one image URL you drop in your profile README, and it redraws every day from your real numbers. Every element traces back to a signal — account age shapes the trunk, commits this week grow bright new shoots, stars received become fireflies on night themes, and your current streak blooms into blossom clusters. Rendering is deterministic, so the same history on the same day produces the same bytes. Everything is a URL parameter: themes, scales from full to an 88x31 button, species from classic bonsai to Japanese maple or cherry, and language-aware tinting. It reads only public data, caches nothing about you beyond a rendered history, and always returns a valid SVG even on failure.",
+  "category": "frontend",
+  "featured": false,
+  "tags": ["github-profile", "svg", "visualization", "bonsai", "typescript"],
+  "highlights": [
+    "One image URL in your README, redrawn daily from real GitHub numbers",
+    "Every tree element maps to a signal: PRs ripen into fruit, reviews hang lanterns",
+    "Deterministic pure-function SVG renderer tested against golden files",
+    "Six species, six themes, and scales from full banner to 88x31 button",
+    "Public data only — no account, no user database, always returns a valid SVG"
+  ],
+  "techStack": ["TypeScript", "SVG", "GitHub GraphQL API", "Vercel"],
+  "links": {
+    "website": "https://kodama-sigma.vercel.app",
+    "docs": "https://github.com/orijitghosh/kodama#readme"
+  },
+  "images": {
+    "screenshot": "/repos/kodama/screenshot.png"
+  },
+  "related": [],
+  "curatorNote": "A novel, charming, genuinely under-the-radar visualization at 31 stars two weeks in. The grammar — where every ornament maps to a real number you can trace back — is what elevates it from a gimmick to a small piece of art.",
+  "publishedAt": "2026-08-08"
+}
