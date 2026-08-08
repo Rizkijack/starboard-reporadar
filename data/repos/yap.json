@@ -1,0 +1,29 @@
+{
+  "slug": "yap",
+  "name": "Yap",
+  "fullName": "FrigadeHQ/yap",
+  "tagline": "On-device voice dictation for macOS",
+  "description": "Yap is a free, open-source voice dictation app for macOS that transcribes entirely on device using Apple's Speech framework. It lives in the menu bar, waits for a global shortcut, and pastes recognized text straight into whatever field you were typing in, with no account, no API key, and no audio leaving the machine. The app ships no model of its own: it is roughly three thousand lines of native Swift that lean on the on-device SpeechAnalyzer API Apple introduced in macOS 26, so it idles around 60 MB of memory and never touches the network. Transcripts are stored locally in SwiftData, where they can be searched, copied, and deleted later.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["dictation", "speech-to-text", "on-device", "privacy", "macos", "swift"],
+  "highlights": [
+    "On-device transcription via Apple's SpeechAnalyzer, zero network calls and no telemetry",
+    "Global shortcut (default Cmd-Shift-D) pastes text into the focused field of any app",
+    "Local transcript history in SwiftData with search, copy, and delete",
+    "Live waveform and partial transcript while speaking; double-Escape discards a dictation",
+    "Roughly 3,000 lines of native Swift in a 4 MB app with no browser engine"
+  ],
+  "techStack": ["Swift", "SwiftUI", "Apple Speech framework", "SwiftData"],
+  "links": {
+    "website": "https://github.com/FrigadeHQ/yap",
+    "docs": "https://github.com/FrigadeHQ/yap#readme"
+  },
+  "images": {
+    "logo": "/repos/yap/logo.png",
+    "screenshot": "/repos/yap/screenshot.jpg"
+  },
+  "related": ["tinytot"],
+  "curatorNote": "macOS 26's on-device speech APIs finally make a zero-model, zero-network dictation tool practical, and Yap is the cleanest reference implementation of that idea. It is a good reminder that the best local AI features are the ones you never notice running.",
+  "publishedAt": "2026-07-23"
+}
