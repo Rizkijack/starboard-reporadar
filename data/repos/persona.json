@@ -1,0 +1,29 @@
+{
+  "slug": "persona",
+  "name": "Persona",
+  "fullName": "xikhar/persona",
+  "tagline": "Realtime character presence for desktop voice experiences",
+  "description": "Persona is a cross-platform desktop application that gives voice conversations an expressive visual identity: a VRM character rendered in a borderless window that animates idle and speaking motion in sync with the audio of a chosen playback process. It captures voice output through PipeWire on Linux, WASAPI process-loopback on Windows, or a Core Audio process tap on macOS, and never captures the microphone, saves audio, or sends anything over the network. A local MCP server exposes the character's animation controls, so AI coding agents like Codex can play installed animations and show or hide the window. Models and clips are managed through a catalog with packaged defaults and user-level overrides, and Persona ships as AppImage/DEB, NSIS installer, and macOS DMG/ZIP.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["voice-ai", "desktop-app", "vrm", "mcp", "electron"],
+  "highlights": [
+    "Cross-platform desktop character for Linux, Windows, and macOS 14.2+",
+    "Process-scoped voice-output capture via PipeWire, WASAPI loopback, or Core Audio tap",
+    "VRM/VRMA character library with packaged idle and speaking animations and custom actions",
+    "Local MCP server lets agents like Codex trigger animations and window controls",
+    "Privacy-first: no microphone capture, no audio recording, no network audio"
+  ],
+  "techStack": ["JavaScript", "Electron", "VRM", "Node.js"],
+  "links": {
+    "website": "https://github.com/xikhar/persona",
+    "docs": "https://github.com/xikhar/persona#readme"
+  },
+  "images": {
+    "logo": "/repos/persona/logo.png",
+    "screenshot": "/repos/persona/screenshot.jpg"
+  },
+  "related": ["swiftlet", "optmem", "tencentdb-agent-memory"],
+  "curatorNote": "Voice AI has been all ears and no face; Persona is one of the few projects giving a local voice assistant a real visual presence without sending audio anywhere. The MCP integration is a smart, agent-native way to let coding tools drive the character.",
+  "publishedAt": "2026-07-28"
+}
