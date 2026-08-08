@@ -1,0 +1,29 @@
+{
+  "slug": "apps-sdk-ui",
+  "name": "Apps SDK UI",
+  "fullName": "openai/apps-sdk-ui",
+  "tagline": "OpenAI's design system for ChatGPT apps",
+  "description": "Apps SDK UI is OpenAI's lightweight, accessible design system for building high-quality ChatGPT apps with the OpenAI Apps SDK. It provides Tailwind-integrated design tokens for colors, typography, spacing, sizing, shadows, and surfaces, plus a curated React component library built on Radix primitives with consistent styling. Utilities cover dark mode, responsive layouts, and ChatGPT-optimized behaviors, and setup is deliberately minimal: import the styles, wrap the app in a provider, and start building. The package requires React 18 or 19 and Tailwind 4.",
+  "category": "frontend",
+  "featured": false,
+  "tags": ["design-system", "react", "tailwind", "chatgpt-apps", "ui-components", "accessible"],
+  "highlights": [
+    "Design tokens for colors, typography, spacing, sizing, shadows, and surfaces",
+    "Tailwind 4 integration pre-configured with the design tokens",
+    "Accessible components built on Radix primitives with consistent styling",
+    "Utilities for dark mode, responsive layouts, and ChatGPT-optimized behaviors",
+    "Minimal boilerplate: import styles, wrap with a provider, start building"
+  ],
+  "techStack": ["TypeScript", "React", "Tailwind CSS", "Radix UI"],
+  "links": {
+    "website": "https://github.com/openai/apps-sdk-ui",
+    "docs": "https://github.com/openai/apps-sdk-ui#readme"
+  },
+  "images": {
+    "logo": "/repos/apps-sdk-ui/logo.svg",
+    "screenshot": "/repos/apps-sdk-ui/screenshot.png"
+  },
+  "related": [],
+  "curatorNote": "As apps inside ChatGPT become a real distribution channel, OpenAI's own component library is the canonical baseline for interfaces that feel native there. Its design tokens and accessibility choices will likely set the visual standard for the whole Apps SDK ecosystem.",
+  "publishedAt": "2025-10-31"
+}
