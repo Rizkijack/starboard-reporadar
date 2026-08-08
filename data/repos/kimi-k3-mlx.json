@@ -1,0 +1,29 @@
+{
+  "slug": "kimi-k3-mlx",
+  "name": "Kimi K3 MLX",
+  "fullName": "PipeNetwork/kimi-k3-mlx",
+  "tagline": "Kimi-K3 MoE port for Apple Silicon MLX",
+  "description": "kimi-k3-mlx is an MLX port of Moonshot's Kimi-K3, a 2.78T-total / 104B-active native-multimodal MoE with a 1M-token context. The repo ships a stock mlx-lm-compatible model definition for the text tower, a vision tower with projector, and an mlx-vlm wrapper, plus a streaming converter that handles the 5.6 TB bf16 source one layer at a time. The mxfp4 tier is a bit-exact passthrough of Moonshot's MXFP4 expert weights, and REAP expert pruning with streaming calibration produces domain-targeted builds that run at interactive speeds on 512 GB Apple Silicon machines.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["mlx", "apple-silicon", "kimi", "moe", "quantization", "llm"],
+  "highlights": [
+    "Bit-exact MXFP4 passthrough tier at 1.56 TB, verified to zero error end to end",
+    "Streaming converter for the 5.6 TB bf16 source, walking one layer at a time",
+    "REAP expert pruning with streaming calibration and per-language expert-overlap analysis",
+    "Vision tower verified against Moonshot's torch reference at full K3 dimensions (1.5e-6 relative error)",
+    "Published pruned builds decode at ~5.5 tok/s on a 512 GB M3 Ultra"
+  ],
+  "techStack": ["Python", "MLX", "mlx-lm", "Kimi-K3"],
+  "links": {
+    "website": "https://github.com/PipeNetwork/kimi-k3-mlx",
+    "docs": "https://github.com/PipeNetwork/kimi-k3-mlx#readme"
+  },
+  "images": {
+    "logo": "/repos/kimi-k3-mlx/logo.png",
+    "screenshot": "/repos/kimi-k3-mlx/screenshot.png"
+  },
+  "related": ["tencentdb-agent-memory"],
+  "curatorNote": "A serious engineering effort to make Moonshot's 2.78T-parameter Kimi-K3 run on Apple Silicon. The bit-exact MXFP4 passthrough, streaming converter, and measured REAP pruning analysis set the template for porting frontier-scale MoEs to consumer hardware.",
+  "publishedAt": "2026-07-27"
+}
