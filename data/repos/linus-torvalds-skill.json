@@ -1,0 +1,29 @@
+{
+  "slug": "linus-torvalds-skill",
+  "name": "Linus Torvalds Skill",
+  "fullName": "Mte90/linus-torvalds-skill",
+  "tagline": "Code-review skill distilled from 38k LKML emails",
+  "description": "Linus Torvalds Skill distills Linus Torvalds' code-review methodology from his Linux kernel mailing list emails into a reusable, language-agnostic skill for AI agents. It is built from 38,293 real review moves extracted from 19,802 of his emails spanning 2003 to 2026. The repo ships skill files (the rules: triggers, precedence, definitions) in per-model variants generated with gpt-oss-120b, glm5.2, and mistral-small-4-119b, plus separate 'soul' files that replicate his persona and tone. The extraction pipeline is fully documented and reproducible, and the skill was validated with three independent model reviews of antirez/smallchat that converged on the same core defects. Everything is released to the public domain under CC0 1.0.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["code-review", "llm-skill", "ai-agent", "linux-kernel", "open-source"],
+  "highlights": [
+    "38,293 review moves distilled from 19,802 of Torvalds' LKML emails (2003–2026)",
+    "Language-agnostic SKILL.md variants for gpt-oss-120b, glm5.2, and mistral-small-4-119b",
+    "Separate soul/persona files that replicate Torvalds' actual review voice",
+    "Reproducible pipeline (classify, extract, cluster, distill) with a 6,379-ID skip list to save API calls",
+    "Validated with three model reviews of antirez/smallchat converging on identical core defects"
+  ],
+  "techStack": ["Python", "LLM", "regolo.ai"],
+  "links": {
+    "website": "https://github.com/Mte90/linus-torvalds-skill",
+    "docs": "https://github.com/Mte90/linus-torvalds-skill#readme"
+  },
+  "images": {
+    "logo": "/repos/linus-torvalds-skill/logo.jpg",
+    "screenshot": "/repos/linus-torvalds-skill/screenshot.png"
+  },
+  "related": ["code-review-agent", "camofox-browser"],
+  "curatorNote": "Most agent skills are generic prompt templates; this one is distilled from 19,802 real Linux kernel review emails through a documented, reproducible pipeline with multi-model validation. As CC0 public domain, it is a free, auditable baseline for code-review agent behavior.",
+  "publishedAt": "2026-08-04"
+}
