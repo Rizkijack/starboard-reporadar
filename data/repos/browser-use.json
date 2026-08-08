@@ -1,0 +1,29 @@
+{
+  "slug": "browser-use",
+  "name": "Browser Use",
+  "fullName": "browser-use/browser-use",
+  "tagline": "Make websites accessible for AI agents — automate any browser task with LLMs",
+  "description": "Browser Use lets an AI agent control a web browser the same way a human does — it opens pages, clicks buttons, types text, fills forms, and extracts data. You describe the task in natural language and the agent completes it end to end. The library wraps a headless or headed Chromium session behind a clean Python API: you pick your LLM (OpenAI, Anthropic, Google, or the project's own optimised model), instantiate an Agent with a task string, and call agent.run(). Under the hood the agent observes the page through an accessibility-tree snapshot, decides an action, executes it via CDP, and loops until the task is done. Real-world use-cases include filling job applications from a resume, extracting structured follower data to CSV, QA-testing a local website for bugs and visual inconsistencies, and any repetitive browser workflow you would otherwise script with Selenium or Playwright. The project ships both an open-source Python library you run locally and a fully-hosted cloud agent with stealth browsing, proxy rotation, captcha solving, and 1000+ integrations. It is the number-one agent on the Odysseys benchmark with 87.4 percent average across 200 long-horizon web tasks, ahead of computer-use agents from OpenAI, Anthropic, Google, and Microsoft. The CLI lets coding agents like Claude Code and Codex install a skill and drive the browser directly. With 108 000+ GitHub stars and an MIT licence, it is the most popular open-source browser-automation agent available.",
+  "category": "data-ai",
+  "featured": true,
+  "tags": ["browser-automation", "ai-agent", "llm", "web-scraping", "python", "playwright"],
+  "highlights": [
+    "Natural-language browser automation — describe the task and the agent clicks, types, and navigates for you",
+    "#1 on the Odysseys benchmark (87.4%) across 200 long-horizon web tasks",
+    "Works with any LLM: OpenAI, Anthropic, Google, or Browser Use's own optimised model",
+    "Open-source Python library plus a fully-hosted cloud agent with stealth, proxies, and captcha solving",
+    "CLI skill lets coding agents (Claude Code, Codex, Cursor) drive a browser directly"
+  ],
+  "techStack": ["Python", "Playwright", "CDP", "asyncio", "Pydantic"],
+  "links": {
+    "website": "https://browser-use.com",
+    "docs": "https://docs.browser-use.com"
+  },
+  "images": {
+    "logo": "/repos/browser-use/logo.png",
+    "screenshot": "/repos/browser-use/screenshot.png"
+  },
+  "related": ["camofox-browser"],
+  "curatorNote": "The runaway success of AI browser agents — 108K stars and MIT-licensed. Browser Use proved that giving an LLM an accessibility-tree view of a web page and a simple action loop is enough to automate nearly any browser task. The benchmark results are not just marketing: it tops the independent Odysseys leaderboard ahead of every major lab's computer-use offering.",
+  "publishedAt": "2026-08-09"
+}
