@@ -1,0 +1,29 @@
+{
+  "slug": "camofox-browser",
+  "name": "Camofox Browser",
+  "fullName": "jo-inc/camofox-browser",
+  "tagline": "Stealth headless browser for AI agents",
+  "description": "Camofox Browser is a stealth headless browser server built for AI agents that need to browse the real web without getting blocked. It wraps Camoufox, a Firefox fork that patches fingerprinting surfaces at the C++ level, so navigator properties, WebGL renderers, AudioContext, screen geometry, and WebRTC are all spoofed before JavaScript ever sees them. There are no shims, wrappers, or tells left for bot-detection systems to find. The project exposes this engine as a REST API designed for agents rather than humans: accessibility snapshots instead of bloated HTML, stable element references for reliable interaction, and search macros for common sites. Snapshots are roughly 90 percent smaller than raw HTML, which keeps token usage low when an agent reads a page. Element references let the agent click, type, and scroll through pages without brittle CSS selectors. Sessions are isolated by user, with separate cookies and storage per identity, and Netscape-format cookie files can be imported for authenticated browsing. The server runs on anything, from a Raspberry Pi to a five-dollar VPS, because it launches the browser lazily and shuts it down when idle, holding memory around 40 megabytes. It ships with OpenClaw plugin support that exposes ten tools, from creating tabs to importing cookies, and a Docker image for one-command deployment. Additional features include proxy routing with automatic locale and timezone, YouTube transcript extraction, snapshot screenshots, DOM image extraction, and VNC-based interactive login for sites that require manual authentication. The project is MIT licensed and maintained by the team behind jo, a personal AI agent.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["browser-automation", "anti-detection", "web-scraping", "ai-agent", "headless-browser"],
+  "highlights": [
+    "C++-level fingerprint spoofing via Camoufox engine, no JS shims",
+    "Stable element refs (e1, e2) for reliable interaction on complex sites",
+    "Accessibility snapshots ~90% smaller than raw HTML",
+    "Per-user session isolation with Netscape cookie import",
+    "Idle memory ~40MB, runs on a Raspberry Pi or $5 VPS"
+  ],
+  "techStack": ["JavaScript", "Camoufox", "Node.js"],
+  "links": {
+    "website": "https://github.com/jo-inc/camofox-browser",
+    "docs": "https://github.com/jo-inc/camofox-browser#readme"
+  },
+  "images": {
+    "logo": "/repos/camofox-browser/logo.png",
+    "screenshot": "/repos/camofox-browser/screenshot.png"
+  },
+  "related": ["n8n", "coolify"],
+  "curatorNote": "Every scraping stack hits a wall where headless Chrome gets fingerprinted and stealth plugins become the fingerprint. Fixing it at the C++ level in a Firefox fork is the only approach that survives contact with Cloudflare, and this is the cleanest agent-native wrapper around it.",
+  "publishedAt": "2026-08-08"
+}
