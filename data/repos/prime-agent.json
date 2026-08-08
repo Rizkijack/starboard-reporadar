@@ -1,0 +1,25 @@
+{
+  "slug": "prime-agent",
+  "name": "Prime Agent",
+  "fullName": "PrimeIntellect-ai/prime-agent",
+  "tagline": "A self-improving RLM agent for coding workflows and long-running autonomous tasks",
+  "description": "Prime Agent is an open-source coding and research agent built for general-purpose and long-running work. It is designed around two core abstractions: a Recursive Language Model (RLM) that treats context as variables (prompt-as-a-variable) and tools such as recursive subagents as function calls inside a persistent REPL, and a Continual Harness that stores durable state — supplemental prompts, memories, skill descriptions, and reusable subagent specifications — as lightweight, evidence-backed updates that the agent can refine over time. The agent ships with a terminal UI, daemon-backed continuity for detached sessions, direct agent-to-agent messaging, persistent goals, and a bounded autonomous mode with configurable turn, token, and time budgets plus optional quality gates. It is published under the MIT License.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["ai", "coding-agent", "autonomous", "llm", "rlm", "research"],
+  "highlights": [
+    "Recursive Language Model with prompt-as-a-variable and programmatic subagent calling",
+    "Continual Harness persists memories, skills, and subagent specs as durable state",
+    "Daemon-backed continuity keeps sessions, IPython state, and subagents alive after detach",
+    "Direct agent-to-agent messaging and persistent /goal tracking across turns",
+    "Bounded autonomous mode with turn, token, and time budgets plus user-defined quality gates"
+  ],
+  "techStack": ["TypeScript", "Python"],
+  "links": {
+    "docs": "https://github.com/PrimeIntellect-ai/prime-agent#readme"
+  },
+  "images": {},
+  "related": ["code-review-agent", "agenthound"],
+  "curatorNote": "Prime Intellect's open, self-improving coding agent — a serious RLM take on long-running autonomous work, currently at roughly 8.2k stars.",
+  "publishedAt": "2026-08-08"
+}

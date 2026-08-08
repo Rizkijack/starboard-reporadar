@@ -1313,5 +1313,27 @@
     "topics": [],
     "ownerAvatar": "https://avatars.githubusercontent.com/u/149319214?v=4",
     "archived": false
+  },
+  "PrimeIntellect-ai/prime-agent": {
+    "stars": 8181,
+    "forks": 695,
+    "openIssues": 146,
+    "language": "TypeScript",
+    "license": "MIT",
+    "createdAt": "2026-05-08T01:42:41.000Z",
+    "updatedAt": "2026-08-07T23:23:00Z",
+    "topics": [
+      "ai",
+      "agent",
+      "coding-agent",
+      "rlm",
+      "llm",
+      "autonomous",
+      "research",
+      "python",
+      "typescript"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/148051844?v=4",
+    "archived": false
   }
 }
