@@ -1,0 +1,26 @@
+{
+  "slug": "ai-crawler-user-agents",
+  "name": "AI Crawler User Agents",
+  "fullName": "osamamumtaz01/ai-crawler-user-agents",
+  "tagline": "Open dataset of every known AI crawler user agent, as JSON and CSV",
+  "description": "AI Crawler User Agents is an open, machine-readable dataset of known AI crawler and agent user-agent strings — GPTBot, ClaudeBot, PerplexityBot, Google-Extended, Bytespider, and 23 more. For each bot it records the operator, what the crawler is actually for, and whether it honors robots.txt in practice. The data is published as both JSON and CSV under CC BY 4.0, so it can be used commercially with attribution. Each entry carries a userAgent token, a slug, the operator company, a purpose (training, search, or both), a compliance rating (yes, partial, no, or unknown) with a sourced note, and documentation links. The README includes ready-to-run snippets for generating robots.txt blocks and for detecting AI crawlers in server logs or middleware.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["dataset", "ai", "web-crawler", "robots-txt", "open-data", "seo"],
+  "highlights": [
+    "JSON and CSV dataset of 28+ AI crawler user agents, CC BY 4.0",
+    "Per-bot operator, purpose, and a sourced robots.txt compliance rating",
+    "Ready-to-use snippets to generate robots.txt blocks and detect crawlers in logs",
+    "Reviewed monthly with a lastVerified timestamp in the JSON",
+    "Backed by per-bot pages and an AI crawler access checker"
+  ],
+  "techStack": ["JSON", "CSV"],
+  "links": {
+    "website": "https://geoprompttracker.com/bots",
+    "docs": "https://github.com/osamamumtaz01/ai-crawler-user-agents#readme"
+  },
+  "images": {},
+  "related": ["numbat", "agenthound", "camofox-browser"],
+  "curatorNote": "Most robots.txt files block Googlebot and nothing else, yet AI companies run separate crawlers for training versus search. This tidy open dataset makes every known bot and its compliance behavior machine-readable, and it was published in-window with essentially zero visibility — exactly the kind of useful reference worth surfacing early.",
+  "publishedAt": "2026-08-08"
+}

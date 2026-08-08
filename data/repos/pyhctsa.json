@@ -1,0 +1,26 @@
+{
+  "slug": "pyhctsa",
+  "name": "pyhctsa",
+  "fullName": "DynamicsAndNeuralSystems/pyhctsa",
+  "tagline": "The most comprehensive time-series feature extraction toolkit in Python",
+  "description": "pyhctsa is a Python port of MATLAB's hctsa for highly comparative time-series analysis. It gives researchers and data scientists access to thousands of candidate features that can be computed from almost any time series, letting you move past hand-picked summary statistics and instead extract a broad, comparable signature from your data. A FeatureCalculator object initializes the full feature set or a custom YAML-defined subset, and its extract() method turns a collection of unequal-length series into a single N x F pandas dataframe where F is the number of extracted features. The workload is computationally intensive, so pyhctsa ships a LocalDistributor that spreads feature extraction across multiple CPU cores. Individual operations can also be called directly from their modules, and the package includes tutorials to get started quickly.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["time-series", "feature-extraction", "python", "machine-learning", "data-science"],
+  "highlights": [
+    "Thousands of time-series features ported from MATLAB's hctsa",
+    "FeatureCalculator supports the full feature set or custom YAML-defined subsets",
+    "Extracts an N x F feature matrix from series of unequal length",
+    "LocalDistributor parallelizes feature extraction across multiple CPU cores",
+    "Includes step-by-step tutorials and example workflows"
+  ],
+  "techStack": ["Python", "NumPy", "Pandas"],
+  "links": {
+    "website": "https://dynamicsandneuralsystems.github.io/pyhctsa",
+    "docs": "https://dynamicsandneuralsystems.github.io/pyhctsa"
+  },
+  "images": {},
+  "related": ["optmem", "tencentdb-agent-memory", "tinytot"],
+  "curatorNote": "hctsa is a standard tool in dynamical-systems research, but until pyhctsa its depth was locked inside MATLAB. Bringing thousands of comparable time-series features to open-source Python is a real contribution, and it is remarkable that the port sits at only ~120 stars — a TLDR Tech data/ML pick that deserves a wider audience.",
+  "publishedAt": "2026-08-08"
+}

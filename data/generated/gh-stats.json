@@ -1159,5 +1159,47 @@
     ],
     "ownerAvatar": "https://avatars.githubusercontent.com/u/79234094?v=4",
     "archived": false
+  },
+  "DynamicsAndNeuralSystems/pyhctsa": {
+    "stars": 120,
+    "forks": 10,
+    "openIssues": 2,
+    "language": "Python",
+    "license": "GPL-3.0",
+    "createdAt": "2025-06-27T02:55:23.000Z",
+    "updatedAt": "2026-08-05T20:37:46Z",
+    "topics": [
+      "feature-extraction",
+      "highly-comparative",
+      "open-source",
+      "python",
+      "time-series",
+      "time-series-analysis"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/66457373?v=4",
+    "archived": false
+  },
+  "osamamumtaz01/ai-crawler-user-agents": {
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 0,
+    "language": "JSON",
+    "license": "CC-BY-4.0",
+    "createdAt": "2026-08-07T18:05:36.000Z",
+    "updatedAt": "2026-08-07T18:06:15Z",
+    "topics": [
+      "ai",
+      "claudebot",
+      "dataset",
+      "generative-engine-optimization",
+      "gptbot",
+      "llm",
+      "open-data",
+      "robots-txt",
+      "seo",
+      "web-crawler"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/28570793?v=4",
+    "archived": false
   }
 }
