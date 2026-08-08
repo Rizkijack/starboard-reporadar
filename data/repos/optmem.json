@@ -1,0 +1,29 @@
+{
+  "slug": "optmem",
+  "name": "OptMem",
+  "fullName": "VictorTaelin/OptMem",
+  "tagline": "Permanent memory for AI agents",
+  "description": "OptMem is a permanent memory system for AI agents: a 426-token prompt plus a single-file Python script, plug and play. The installer prints a Memory block that you paste at the top of your agent's AGENTS.md or CLAUDE.md, and a memo command-line tool manages everything else from there. Memories are stored append-only in a log, with a rebuildable binary-tree of one-line summaries used for navigation and compression, so nothing is ever edited or deleted and position is identity. The tool has no dependencies and never runs in the background: wake prints the memory at session start, note records a one-line memory, nap answers merges that came due, and recall searches every memory word for word.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["ai-agent", "memory", "llm", "prompt-engineering", "local-first"],
+  "highlights": [
+    "426-token prompt plus one-file Python script, installed with a single curl command",
+    "Append-only memory log with a rebuildable binary-tree of summaries",
+    "Fixed-width records make position identity, so lookups are single seeks",
+    "Six commands: wake, note, nap, recall, zoom, forget — nothing runs in the background",
+    "Zero dependencies; memory store relocatable via $MEMORY_DIR"
+  ],
+  "techStack": ["Python", "Shell"],
+  "links": {
+    "website": "https://github.com/VictorTaelin/OptMem",
+    "docs": "https://github.com/VictorTaelin/OptMem#readme"
+  },
+  "images": {
+    "logo": "/repos/optmem/logo.png",
+    "screenshot": "/repos/optmem/screenshot.gif"
+  },
+  "related": ["tencentdb-agent-memory", "persona", "swiftlet"],
+  "curatorNote": "Most agent-memory projects are databases that need infrastructure; OptMem collapses the whole idea to a prompt and a script you can paste into any agent config. The fixed-width record design and rebuildable summary tree are an unusually elegant answer to the context-compaction problem.",
+  "publishedAt": "2026-07-25"
+}
