@@ -1,0 +1,29 @@
+{
+  "slug": "swiftlet",
+  "name": "Swiftlet",
+  "fullName": "leonickson1/Swiftlet",
+  "tagline": "Streaming MoE runtime for 35B/80B Qwen models on Apple devices",
+  "description": "Swiftlet is a Swift and Metal runtime for the Qwen3-Next and Qwen3.5/3.6 Mixture-of-Experts model family that keeps only the small dense core resident in memory and streams routed expert weights from storage on demand. That lets 35B and 80B models run in low RAM on ordinary Apple devices, including iPhones, with a 4-bit 35B container reaching 2.6 GB peak RAM at 7 to 11 tok/s on an M5 Mac. Expert weights are repacked into fixed-stride blobs in a .qpack container so each fetch is a single pread, hot experts are cached with LFU plus recency eviction, and the whole forward pass runs on Metal with runtime-compiled shaders. Every layer of the forward pass is validated against mlx-lm reference implementations, and the runtime ships as a Swift package, CLI, OpenAI-compatible server, and the iOS app Priv AI.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["local-llm", "mixture-of-experts", "on-device-ai", "qwen", "swift", "metal"],
+  "highlights": [
+    "Runs Qwen3.6-35B-A3B (18 GB disk, 2.6 GB RAM) and Qwen3-Next-80B-A3B (42 GB disk, 4.3 GB RAM) at 4-bit",
+    "Streams routed experts from storage with one pread per fetch from fixed-stride .qpack blobs, no mmap",
+    "Bounded expert cache with LFU plus recency eviction, 43-70% hit rates at full throughput",
+    "Metal forward pass with runtime-compiled shaders, no toolchain needed at build time, works on iOS",
+    "Validated layer-by-layer against mlx-lm references with f32 and int4 fixtures"
+  ],
+  "techStack": ["Swift", "Metal", "Qwen MoE"],
+  "links": {
+    "website": "https://github.com/leonickson1/Swiftlet",
+    "docs": "https://github.com/leonickson1/Swiftlet#readme"
+  },
+  "images": {
+    "logo": "/repos/swiftlet/logo.png",
+    "screenshot": "/repos/swiftlet/screenshot.png"
+  },
+  "related": ["tencentdb-agent-memory"],
+  "curatorNote": "Most local-LLM runtimes assume the weights fit in RAM; Swiftlet attacks that assumption directly by streaming MoE experts from storage, making 80B-class models practical on a MacBook or even an iPhone. The per-layer validation against mlx-lm is exactly the rigor that makes a from-scratch runtime trustworthy.",
+  "publishedAt": "2026-08-03"
+}
