@@ -1,0 +1,29 @@
+{
+  "slug": "emeraldian",
+  "name": "emeraldian",
+  "fullName": "iamrohithrnair/emeraldian",
+  "tagline": "A terminal UI for your Obsidian vault",
+  "description": "emeraldian is a terminal UI for Obsidian vaults, bringing the three-pane layout, live-preview Markdown, backlinks, and a force-directed graph to the keyboard you already have your hands on. It reads the same plain folder of Markdown files Obsidian does — no import step, no database, no lock-in — and you can leave Obsidian open on that folder the whole time. The editor handles wikilinks, tags, tasks, callouts, tables, and syntax-highlighted code; pictures render as real pixels in Kitty, Ghostty, WezTerm, and iTerm2, and as half-block mosaics everywhere else. An Excalidraw viewer draws .excalidraw.md notes as vectors on a braille canvas, 18 themes are bundled, and an integrated AI assistant operates on the vault through the same commands you use, with every tool call shown in the transcript. It makes no network connections unless you use the assistant.",
+  "category": "cli-terminal",
+  "featured": false,
+  "tags": ["obsidian", "tui", "rust", "markdown", "notes"],
+  "highlights": [
+    "Full Obsidian vault access in the terminal: three panes, live preview, backlinks, graph",
+    "Reads the vault's plain Markdown folder directly — no import, no database, no lock-in",
+    "Renders images, Excalidraw drawings, and a force-directed graph in the terminal",
+    "Integrated assistant operates on notes through the same commands you use",
+    "No network connections unless you use the assistant — no telemetry, no update check"
+  ],
+  "techStack": ["Rust", "ratatui", "Obsidian vault format"],
+  "links": {
+    "website": "https://emeraldian-tui.github.io",
+    "docs": "https://github.com/iamrohithrnair/emeraldian#readme"
+  },
+  "images": {
+    "logo": "/repos/emeraldian/logo.png",
+    "screenshot": "/repos/emeraldian/screenshot.png"
+  },
+  "related": ["mirador"],
+  "curatorNote": "One of the few serious Obsidian TUIs — full vault access with a graph view in the terminal, 144 stars in under two weeks. The AI assistant that works through the same commands you use is a nice reminder of what a well-scoped local agent integration looks like.",
+  "publishedAt": "2026-08-08"
+}

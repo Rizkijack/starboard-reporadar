@@ -1,0 +1,28 @@
+{
+  "slug": "leaves",
+  "name": "leaves",
+  "fullName": "patonw/leaves",
+  "tagline": "Text-mode disk usage treemap visualizer",
+  "description": "leaves is a text-mode disk usage visualization utility inspired by WinDirStat and QDirStat, showing files and directories in a hierarchy of nested rectangles whose area is proportional to size. It works over remote shell connections where graphical desktops are unavailable, scanning the current directory by default and honoring .gitignore and .ignore rules with fine-grained flags to include hidden, ignored, or excluded files. Files are colored by extension with a warm palette and directories by name with a cooler viridis scheme, so debug vs. release or .lock files across a tree stand out at a glance. A collapsible explorer tree, mouse support, focus view, and x-ray mode that groups by file type round out the interface, and directories below a configurable depth are summarized to keep millions of files tractable.",
+  "category": "cli-terminal",
+  "featured": false,
+  "tags": ["disk-usage", "tui", "rust", "treemap", "filesystem"],
+  "highlights": [
+    "Treemap of nested rectangles with area proportional to disk usage",
+    "Works over SSH when no graphical environment is available",
+    "Honors .gitignore and .ignore rules, with overrides for hidden or ignored files",
+    "Files colored by extension, directories by name — spot lock files and build dirs instantly",
+    "X-ray mode groups by file type, and deep trees collapse into summary nodes"
+  ],
+  "techStack": ["Rust", "ratatui"],
+  "links": {
+    "website": "https://github.com/patonw/leaves",
+    "docs": "https://github.com/patonw/leaves#readme"
+  },
+  "images": {
+    "screenshot": "/repos/leaves/screenshot.png"
+  },
+  "related": ["mirador"],
+  "curatorNote": "A polished single-purpose terminal utility filling a real gap in disk-usage tooling. It got 93 HN points and stayed small, which is exactly the kind of underrated gem this catalog is for.",
+  "publishedAt": "2026-08-08"
+}

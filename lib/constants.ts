@@ -8,6 +8,12 @@ export const CATEGORIES: Category[] = [
     accent: "#4CC3FF",
   },
   {
+    id: "cli-terminal",
+    label: "CLI / Terminal",
+    description: "Command-line tools, TUIs, and terminal-first utilities.",
+    accent: "#5FD4A0",
+  },
+  {
     id: "self-hosting",
     label: "Self-Hosting",
     description: "Software you can run on your own hardware.",
@@ -48,6 +54,12 @@ export const CATEGORIES: Category[] = [
     label: "Frontend",
     description: "Frameworks, components, and browser tooling.",
     accent: "#A8D8A8",
+  },
+  {
+    id: "other-fun",
+    label: "Other / Fun",
+    description: "Curiosities, experiments, and delightful side projects.",
+    accent: "#F0B4E0",
   },
 ];
 

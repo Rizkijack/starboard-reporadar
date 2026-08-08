@@ -1,0 +1,28 @@
+{
+  "slug": "undo",
+  "name": "undo",
+  "fullName": "edaywalid/undo",
+  "tagline": "Undo what the last shell command did to the filesystem",
+  "description": "undo is the safety net the shell never had: it reverts exactly what the last command did to your filesystem, on any filesystem, without root. There is no snapshotting and no daemon — a shell hook arms a small LD_PRELOAD library around every command, which journals destructive libc calls and saves affected files into a per-command session before they happen. Deletions are preserved by hardlink, so rm -rf on gigabytes copies no data, and replaying the journal in reverse relinks deleted files, moves renames back, and swaps truncated files with their backups. It catches the classic mistakes: rm -rf, mv over a file you needed, > truncation, accidental chmod -R, and script-created files. undo redo re-applies a reverted session, a session store keeps the last 30 commands within a 1 GiB budget, and everything is plain files you can inspect. It works for zsh, bash, and fish, and supports undo run for arming a single command without a hook.",
+  "category": "cli-terminal",
+  "featured": false,
+  "tags": ["cli", "filesystem", "safety", "ld-preload", "shell"],
+  "highlights": [
+    "Reverts exactly what one command touched — command-granular, not time-granular",
+    "LD_PRELOAD shim journals destructive syscalls, no daemon and no setup habits",
+    "Hardlink backups make rm -rf on gigabytes instant and nearly free",
+    "undo redo re-applies, with interactive cherry-picking and diff inspection",
+    "Works three processes deep inside build tools where aliases cannot reach"
+  ],
+  "techStack": ["Go", "C", "LD_PRELOAD"],
+  "links": {
+    "website": "https://undo.edaywalid.com",
+    "docs": "https://github.com/edaywalid/undo#readme"
+  },
+  "images": {
+    "screenshot": "/repos/undo/screenshot.png"
+  },
+  "related": ["deja"],
+  "curatorNote": "The undo the shell never had: it journals destructive syscalls and hardlinks backups so you can undo rm -rf, mv clobbers, and > truncation. 366 stars in two weeks says the pain was real — this is the kind of tool you install once and forget until the day it saves you.",
+  "publishedAt": "2026-08-08"
+}

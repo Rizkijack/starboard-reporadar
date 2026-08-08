@@ -1,0 +1,28 @@
+{
+  "slug": "deja",
+  "name": "deja",
+  "fullName": "Giammarco-Ferranti/deja",
+  "tagline": "Predictive inline shell autosuggestions for zsh",
+  "description": "deja is a smarter replacement for zsh-autosuggestions that predicts the command you actually want to run — as inline ghost text after every keystroke, with zero latency. Instead of only surfacing commands that start with what you typed, it combines fuzzy matching, directory awareness, and command-sequence prediction, so it knows you usually run make test after make build and that commands from your current project rank higher. A lightweight Go daemon serves every terminal window over a Unix socket with sub-millisecond responses, and all data stays in a local SQLite database. Ghost text renders through zsh's region_highlight, an alternatives picker cycles ranked candidates with Tab, and three fuzzy presets tune how strictly typed letters must cluster. Privacy is a first-class concern: deja honors HIST_IGNORE_SPACE and HISTORY_IGNORE, so secret-laden commands are never recorded.",
+  "category": "cli-terminal",
+  "featured": false,
+  "tags": ["zsh", "autosuggestions", "shell", "go", "cli"],
+  "highlights": [
+    "Predicts next commands with fuzzy matching, directory affinity, and sequence scoring",
+    "Go daemon serves all terminals over a Unix socket, sub-millisecond per keystroke",
+    "Ghost text inline via zsh region_highlight, with Tab alternatives picker",
+    "Frecency scoring blends frequency and recency with a one-week exponential decay",
+    "Local-only SQLite storage that honors zsh history ignore rules for privacy"
+  ],
+  "techStack": ["Go", "zsh", "SQLite"],
+  "links": {
+    "website": "https://github.com/Giammarco-Ferranti/deja",
+    "docs": "https://github.com/Giammarco-Ferranti/deja#readme"
+  },
+  "images": {
+    "screenshot": "/repos/deja/screenshot.png"
+  },
+  "related": ["undo"],
+  "curatorNote": "Most autosuggestions complete what you started typing; deja predicts what you would type next, and it weighs where you are and what you just ran. A genuinely thoughtful take on the zsh-autosuggestions formula, surfaced on r/commandline while still small.",
+  "publishedAt": "2026-08-08"
+}

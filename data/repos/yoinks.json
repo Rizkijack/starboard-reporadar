@@ -1,0 +1,29 @@
+{
+  "slug": "yoinks",
+  "name": "yoinks",
+  "fullName": "pablostanley/yoinks",
+  "tagline": "Grab any video from your terminal, no shady ads",
+  "description": "yoinks is a terminal video downloader that fetches videos from YouTube, X/Twitter, Instagram, Threads, TikTok, and 1,800+ other sites without popups, fake download buttons, or sketchy redirects. Paste a URL, pick a resolution or audio-only MP3, and it is done. The full-screen interface is built with Ink, React for the terminal: format picker with estimated file sizes, mouse support, and an auto theme that follows your terminal's light or dark palette. It is powered by yt-dlp, which is fetched automatically on first run with no Python required, and ffmpeg is found on PATH or bundled as a fallback. Files land in your Downloads folder and the path is printed when finished.",
+  "category": "cli-terminal",
+  "featured": false,
+  "tags": ["video-downloader", "cli", "yt-dlp", "terminal-ui", "media"],
+  "highlights": [
+    "Downloads from YouTube, TikTok, Instagram, X, and 1,800+ other sites",
+    "No popups, no fake download buttons, no wrapper-site redirects",
+    "Full-screen Ink interface with resolution picker, MP3 mode, and mouse support",
+    "Bundles yt-dlp on first run — no Python required, ffmpeg fallback included",
+    "Theme follows your terminal automatically, with light and dark overrides"
+  ],
+  "techStack": ["TypeScript", "Node.js", "Ink", "yt-dlp"],
+  "links": {
+    "website": "https://github.com/pablostanley/yoinks",
+    "docs": "https://github.com/pablostanley/yoinks#readme"
+  },
+  "images": {
+    "logo": "/repos/yoinks/logo.png",
+    "screenshot": "/repos/yoinks/screenshot.png"
+  },
+  "related": ["brightdata-cli"],
+  "curatorNote": "A no-frills terminal video downloader that rode the wave of terminal-first tooling, past 1.2k stars mid-window. It is a rare downloader that is genuinely pleasant to use — full-screen, theme-aware, and zero ads.",
+  "publishedAt": "2026-08-08"
+}

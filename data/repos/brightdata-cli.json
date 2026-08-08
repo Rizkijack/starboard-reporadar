@@ -1,0 +1,28 @@
+{
+  "slug": "brightdata-cli",
+  "name": "Bright Data CLI",
+  "fullName": "brightdata/cli",
+  "tagline": "Scrape, search, and extract structured web data from the terminal",
+  "description": "The official Bright Data CLI lets you scrape, search, and extract structured web data directly from your terminal. It installs the brightdata command with bdata as a shorthand alias and exposes the full Bright Data API surface: scraping any URL while bypassing CAPTCHAs and anti-bot protections, Google/Bing/Yandex search with structured JSON output, AI-powered web discovery, natural-language scraper creation with AI self-healing, structured data pipelines from 40+ platforms, and a controllable real browser session. Output modes are human-readable tables, JSON, or files, and everything is pipe-friendly, so results chain naturally into jq or other tools. A free tier gives every new account 5,000 recurring monthly credits, and an interactive setup wizard handles authentication. The CLI can also install Bright Data AI agent skills and its MCP server into Claude Code, Cursor, or Codex.",
+  "category": "cli-terminal",
+  "featured": false,
+  "tags": ["web-scraping", "cli", "search", "data-extraction", "browser-automation"],
+  "highlights": [
+    "Full Bright Data API surface in one CLI: scrape, search, discover, pipelines, browser",
+    "Bypasses CAPTCHAs, JS rendering, and anti-bot protections automatically",
+    "AI-powered scraper creation, self-healing, and approval-gated fixes",
+    "Structured data from 40+ platforms including Amazon, LinkedIn, TikTok, and Google Maps",
+    "Pipe-friendly JSON output and free 5,000-credit monthly tier for new accounts"
+  ],
+  "techStack": ["TypeScript", "Node.js", "Bright Data API"],
+  "links": {
+    "website": "https://brightdata.com",
+    "docs": "https://github.com/brightdata/cli#readme"
+  },
+  "images": {
+    "screenshot": "/repos/brightdata-cli/screenshot.png"
+  },
+  "related": ["camofox-browser", "yoinks"],
+  "curatorNote": "An official CLI from a well-known data platform, still under 2,300 stars despite strong engagement. It collapses an entire scraping product into a handful of terminal commands, and the MCP integration makes it directly useful to coding agents.",
+  "publishedAt": "2026-08-08"
+}

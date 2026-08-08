@@ -1,0 +1,28 @@
+{
+  "slug": "cosmo",
+  "name": "cosmo",
+  "fullName": "mujib77/cosmo",
+  "tagline": "A PostgreSQL flight deck for your terminal",
+  "description": "cosmo is a terminal user interface that provides real-time visibility into PostgreSQL database health, query performance, lock contention, and WAL/MVCC internals — a flight deck for your database without leaving the shell. It connects directly to your Postgres database and gives a live view of everything: active queries, WAL throughput, connection health, lock contention, cache efficiency, and table bloat, all updating in real time. No browser, no external service, no configuration beyond a database URL. It queries Postgres system views directly — pg_stat_activity, pg_stat_database, pg_stat_checkpointer, and pg_locks — and calculates WAL rate by tracking the change in WAL LSN between refreshes. A four-panel layout covers database vitals, workload, WAL and MVCC, and locks and waits, with a compact single-panel mode, keyboard navigation, and an animated mission-control boot sequence. Built in Go with Bubbletea, Lipgloss, and pgx.",
+  "category": "cli-terminal",
+  "featured": false,
+  "tags": ["postgresql", "tui", "go", "database", "monitoring"],
+  "highlights": [
+    "Live database vitals, workload, WAL, MVCC, cache, connections, and lock contention",
+    "Connects with just a database URL — no browser, no external service",
+    "Queries Postgres system views directly, with WAL rate computed from LSN deltas",
+    "Four-panel flight deck plus compact single-panel layout and keyboard navigation",
+    "Real-time view of active queries with duration, and lock waits with wait events"
+  ],
+  "techStack": ["Go", "Bubbletea", "Lipgloss", "pgx"],
+  "links": {
+    "website": "https://github.com/mujib77/cosmo",
+    "docs": "https://github.com/mujib77/cosmo#readme"
+  },
+  "images": {
+    "screenshot": "/repos/cosmo/screenshot.png"
+  },
+  "related": ["mirador"],
+  "curatorNote": "A lightweight real-time Postgres monitor from the terminal — low-friction alternative to heavy GUI monitors, surfaced on r/commandline at just 53 stars. For anyone who lives in a terminal and runs Postgres, this is the kind of tool that makes you look at your database differently.",
+  "publishedAt": "2026-08-08"
+}

@@ -1,12 +1,14 @@
 export type CategoryId =
   | "developer-tools"
+  | "cli-terminal"
   | "self-hosting"
   | "data-ai"
   | "productivity"
   | "communication"
   | "design"
   | "backend"
-  | "frontend";
+  | "frontend"
+  | "other-fun";
 
 export interface Category {
   id: CategoryId;

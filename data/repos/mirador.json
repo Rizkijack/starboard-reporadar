@@ -1,0 +1,28 @@
+{
+  "slug": "mirador",
+  "name": "mirador",
+  "fullName": "jchultarsky/mirador",
+  "tagline": "An opinionated personal dashboard for your terminal",
+  "description": "mirador is an opinionated personal dashboard for your terminal — world clocks, a calendar, weather, a real task list, notes, a market watchlist, live CPU and network charts, and more, laid out how you want them. It is built for one job: to sit in a terminal tab you leave open all day and glance at, so nothing blinks, nothing shimmers, and unfocused panels dim so exactly one thing is at full brightness. Thirteen panels include a full task manager with due dates and priorities, notes in a master-detail layout, an agenda read from a local .ics file, RSS headlines, a pomodoro timer, and a calculator with an adding-machine tape. Your data stays in plain TOML files you own — no database, no sync service, no account, and nothing phones home except the weather and market panels, which use free key-less endpoints. Layout is rearranged with m, themes preview with t, and every color is configurable.",
+  "category": "cli-terminal",
+  "featured": false,
+  "tags": ["tui", "dashboard", "ratatui", "rust", "productivity"],
+  "highlights": [
+    "Thirteen glanceable panels: clocks, calendar, weather, tasks, notes, markets, news, and more",
+    "Built to sit in a tab all day — nothing blinks, nothing nags, unfocused panels dim",
+    "Real task list with due dates, priorities, tags, and full editing",
+    "Plain TOML data files you can hand-edit, git, or delete — no account, no telemetry",
+    "Layout, themes, and colors fully configurable and rearranged from the keyboard"
+  ],
+  "techStack": ["Rust", "ratatui", "crossterm"],
+  "links": {
+    "website": "https://crates.io/crates/mirador",
+    "docs": "https://github.com/jchultarsky/mirador#readme"
+  },
+  "images": {
+    "screenshot": "/repos/mirador/screenshot.png"
+  },
+  "related": ["leaves", "emeraldian"],
+  "curatorNote": "Most terminal dashboards are built to be watched; mirador is built to be glanced at. The product discipline — a status bar that names one thing and never counts, panels that dim instead of blink — makes it a genuinely thoughtful take on the genre, created July 25 and still under 300 stars.",
+  "publishedAt": "2026-08-08"
+}
