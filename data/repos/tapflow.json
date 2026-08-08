@@ -1,0 +1,29 @@
+{
+  "slug": "tapflow",
+  "name": "tapflow",
+  "fullName": "jo-duchan/tapflow",
+  "tagline": "Self-hosted iOS and Android simulator streaming for the whole team",
+  "description": "tapflow is a self-hosted alternative to Appetize and BrowserStack for mobile QA teams. It runs iOS simulators and Android emulators in any browser, with no toolchain setup, no device pool, and no cloud uploads — your builds, streams, and recordings stay on infrastructure you control. Setup is two lines, there is no WebDriverAgent dependency, and streams are delivered over H.264 with a zero-buffer decoder. A single Mac can run everything with tapflow start; for a team, a relay runs on a separate Linux server or dedicated Mac and each Mac agent points at it. The relay persists account and team data in SQLite, authenticates off-host connections by default, and supports Personal Access Tokens with scopes plus team roles. It also ships an MCP server for AI coding agents and a full CLI for starting relays, booting devices, and diagnosing prerequisites.",
+  "category": "self-hosting",
+  "featured": false,
+  "tags": ["mobile-qa", "simulator", "emulator", "ios", "android", "self-hosted", "testing"],
+  "highlights": [
+    "Run iOS simulators and Android emulators in any browser — no toolchain setup or device pool needed",
+    "Self-hosted and free (MIT), with builds, streams, and recordings on your own infrastructure",
+    "Two-line setup and no WebDriverAgent dependency",
+    "H.264 streaming with a zero-buffer decoder for low latency",
+    "Multi-agent relay with token scopes, team roles, and an MCP server for AI agents"
+  ],
+  "techStack": ["TypeScript", "Node.js", "H.264"],
+  "links": {
+    "website": "https://www.tapflow.dev",
+    "docs": "https://www.tapflow.dev"
+  },
+  "images": {
+    "logo": "/repos/tapflow/logo.svg",
+    "screenshot": "/repos/tapflow/screenshot.png"
+  },
+  "related": ["portabase", "coolify", "sencho"],
+  "curatorNote": "tapflow is a genuinely useful self-hosted answer to paid cloud simulator farms — a real gap for mobile QA teams that want to keep their builds off third-party servers. It was featured in a dev.to post in-window and still sits at only ~347 stars.",
+  "publishedAt": "2026-08-08"
+}

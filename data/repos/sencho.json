@@ -1,0 +1,29 @@
+{
+  "slug": "sencho",
+  "name": "Sencho",
+  "fullName": "Studio-Saelix/sencho",
+  "tagline": "Self-hosted Docker Compose management for one machine or a fleet",
+  "description": "Sencho is a self-hosted Docker Compose management platform designed for a compose-first workflow, whether you run a single machine or a fleet. A single container mounts the Docker socket and a compose directory, then gives you a web UI to inspect, deploy, and manage stacks. For multi-host setups, you install Sencho on each node and add it from the primary dashboard with a long-lived API token; the primary proxies authenticated HTTP and WebSocket traffic to remote instances, so remote nodes never expose their Docker socket on the network and need no separate agent or SSH. Nodes behind NAT can opt into a Pilot Agent for outbound-only connectivity. Sencho ships with built-in RBAC across five roles, emits no telemetry, and makes no outbound calls, so stack metadata and user activity never leave your instance.",
+  "category": "self-hosting",
+  "featured": false,
+  "tags": ["docker-compose", "docker", "self-hosted", "devops", "orchestration"],
+  "highlights": [
+    "Web UI for managing Docker Compose stacks on one machine or across a fleet",
+    "Multi-node dashboard with token-based auth and proxied traffic — no SSH, no exposed Docker sockets",
+    "Pilot Agent for outbound-only connectivity on nodes behind NAT",
+    "Built-in RBAC with five roles and scoped assignments",
+    "No telemetry, no analytics, no outbound calls to vendor-controlled endpoints"
+  ],
+  "techStack": ["TypeScript", "Docker", "Node.js"],
+  "links": {
+    "website": "https://sencho.io",
+    "docs": "https://docs.sencho.io"
+  },
+  "images": {
+    "logo": "/repos/sencho/logo.svg",
+    "screenshot": "/repos/sencho/screenshot.png"
+  },
+  "related": ["coolify", "portabase", "pocketbase"],
+  "curatorNote": "Most compose managers assume a single box. Sencho takes compose-first seriously across multiple hosts while keeping the security model simple: no SSH, no network-exposed Docker sockets, just token-authenticated proxying. It was called out in VirtualizationHowto's July 2026 roundup at only ~420 stars.",
+  "publishedAt": "2026-08-08"
+}

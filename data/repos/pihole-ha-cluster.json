@@ -1,0 +1,26 @@
+{
+  "slug": "pihole-ha-cluster",
+  "name": "Pi-hole HA Cluster",
+  "fullName": "RamSet/pihole-ha-cluster",
+  "tagline": "Pi-hole DHCP high-availability cluster with automatic failover",
+  "description": "Pi-hole HA Cluster turns a single Pi-hole into a high-availability DHCP cluster with automatic failover, a virtual IP, and configuration synchronization. A web UI and CLI let you add and remove nodes, set a manual master override, and watch each node's role — PRIMARY or STANDBY. When the active node dies or is removed, the cluster elects a new primary, claims the shared virtual IP, and takes over DHCP duty so clients keep getting addresses. The system also syncs Pi-hole configuration across nodes and periodically pulls down-to-date IEEE and OUI vendor databases for device identification. A node with no peers deliberately never runs failover logic, and a removed node steps down rather than competing, so the cluster cannot split and start a second DHCP server on the network.",
+  "category": "self-hosting",
+  "featured": false,
+  "tags": ["pi-hole", "docker", "high-availability", "dhcp", "home-lab", "failover"],
+  "highlights": [
+    "Automatic failover with shared virtual IP and config sync across nodes",
+    "Web UI and CLI for cluster membership, master override, and role monitoring",
+    "DHCP continuity — a STANDBY node takes over if the PRIMARY stops serving",
+    "Periodic IEEE and OUI vendor database updates for device identification",
+    "Split-brain-safe: standalone and removed nodes never seize the VIP or run a second DHCP server"
+  ],
+  "techStack": ["Shell", "Docker", "Bash"],
+  "links": {
+    "website": "https://github.com/RamSet/pihole-ha-cluster",
+    "docs": "https://github.com/RamSet/pihole-ha-cluster#readme"
+  },
+  "images": {},
+  "related": ["sencho", "portabase", "coolify"],
+  "curatorNote": "This fills a real home-lab gap: Pi-hole is famously single-node, and this project adds high-availability failover, a virtual IP, and config sync with just 66 stars. It is precisely the kind of niche infrastructure tool this catalog exists to surface.",
+  "publishedAt": "2026-08-08"
+}

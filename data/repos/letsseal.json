@@ -1,0 +1,28 @@
+{
+  "slug": "letsseal",
+  "name": "Let's Seal",
+  "fullName": "letsseal/letsseal",
+  "tagline": "The open standard for proving any file is real and unaltered",
+  "description": "Let's Seal is an open standard and self-hosted toolkit for proving that a file is real, unaltered, and sealed by a known certificate at a certifiable point in time. Built around the SEAL standard — Sealed Evidence Anchored to a Ledger — it is the self-hosted, open alternative to paid document-signing products. One sealed artifact has a single way to be checked and is verifiable by anyone with any conforming tool. The repository contains a certificate authority, a FastAPI signing service, a Next.js web app, a sealbot command-line tool (Node and Rust), Python and TypeScript SDKs, and a GitHub Action for sealing artifacts in CI. The hosted service at letsseal.org runs the identical code, and the standard can be self-hosted under your own certificate authority or with a commercial AATL or eIDAS certificate.",
+  "category": "self-hosting",
+  "featured": false,
+  "tags": ["digital-signature", "open-standard", "c2pa", "cades", "self-hosted", "supply-chain"],
+  "highlights": [
+    "Open SEAL standard: one sealed artifact, one way to verify it, verifiable by anyone forever",
+    "Sealing APIs for PDF (PAdES), images/video/audio (C2PA), XML (XML-DSig), email (S/MIME), assets, and any file by digest",
+    "Full self-hosted stack: certificate authority, signing service, web app, CLI (Node + Rust), and SDKs",
+    "Bitcoin anchoring for time-proof of existence",
+    "GitHub Action to seal artifacts directly in CI pipelines"
+  ],
+  "techStack": ["Python", "TypeScript", "Next.js", "FastAPI"],
+  "links": {
+    "website": "https://letsseal.org",
+    "docs": "https://spec.letsseal.org"
+  },
+  "images": {
+    "logo": "/repos/letsseal/logo.svg"
+  },
+  "related": ["documenso", "zitadel", "sencho"],
+  "curatorNote": "Let's Seal frames itself as 'Let's Encrypt for document signing' — it wants to make proving a file is authentic a public good rather than a paid service. It earned 94 HN points in-window yet remains tiny, and the self-hosted, open-standard angle is a genuinely novel niche.",
+  "publishedAt": "2026-08-08"
+}

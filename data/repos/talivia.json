@@ -1,0 +1,28 @@
+{
+  "slug": "talivia",
+  "name": "Talivia",
+  "fullName": "talivia-group/talivia",
+  "tagline": "Open-source, self-hosted revenue-first analytics for founders",
+  "description": "Talivia is a self-hosted analytics platform that puts revenue at the center instead of vanity metrics. Its open-source edition combines web analytics, session replay, revenue attribution, and customer revenue integrations into a single dashboard. You install a tracking snippet on your site, then connect payment providers such as Stripe, LemonSqueezy, Polar, Dodo, and Yolfi to tie visits directly to subscription lifecycle, refunds, disputes, and first- or last-touch attribution. It runs on PostgreSQL with a Prisma-backed Next.js app, ships as a single Docker Compose stack, and requires just two settings — a database URL and an app secret. A companion open-source Agent Kit adds an MCP server so AI coding agents can install tracking, verify events, and connect visits to payments.",
+  "category": "self-hosting",
+  "featured": false,
+  "tags": ["analytics", "web-analytics", "session-replay", "revenue", "self-hosted", "postgresql"],
+  "highlights": [
+    "Revenue-first analytics: web analytics, session replay, and payment attribution in one stack",
+    "Integrates Stripe, LemonSqueezy, Polar, Dodo, and Yolfi with full subscription lifecycle tracking",
+    "Self-hosted with a single Docker Compose stack and PostgreSQL",
+    "First- and last-touch attribution tied to real payment events",
+    "Optional open-source Agent Kit with an MCP server for AI coding agents"
+  ],
+  "techStack": ["TypeScript", "Next.js", "Prisma", "PostgreSQL"],
+  "links": {
+    "website": "https://talivia.com",
+    "docs": "https://www.talivia.dev"
+  },
+  "images": {
+    "screenshot": "/repos/talivia/screenshot.png"
+  },
+  "related": ["umami", "directus", "zitadel"],
+  "curatorNote": "Launched in-window and already past 1.2k stars, Talivia is unusual because it frames analytics around revenue rather than page views. As a self-hostable alternative to hosted product-analytics tools, it is a strong candidate for founders who want their data and their attribution on their own hardware.",
+  "publishedAt": "2026-08-08"
+}

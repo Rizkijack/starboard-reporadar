@@ -1,0 +1,29 @@
+{
+  "slug": "portabase",
+  "name": "Portabase",
+  "fullName": "Portabase/portabase",
+  "tagline": "Database backup and restore for 10+ engines, self-hosted",
+  "description": "Portabase is a self-hosted backup and restore tool covering a wide range of database engines: PostgreSQL, MySQL, MariaDB, MongoDB, SQLite, Redis, Valkey, Firebird, MSSQL and Docker volumes. It centralizes backup scheduling, retention, and one-click restore from a web dashboard, and it can integrate with Portabase agents to manage operations securely. With five installation paths — an automated CLI, Docker, Docker Compose, Unraid Community Apps, and Kubernetes via Helm — it is designed to drop into an existing infrastructure without rewriting how you already run your databases. Because many database systems are unsupported for restore by default, Portabase fills a real operational gap for self-hosters who need reliable, repeatable snapshots of heterogeneous data stores.",
+  "category": "self-hosting",
+  "featured": false,
+  "tags": ["database", "backup", "restore", "docker", "self-hosted", "devops"],
+  "highlights": [
+    "Backup and restore for PostgreSQL, MySQL, MariaDB, MongoDB, SQLite, Redis, Valkey, Firebird, MSSQL and Docker volumes",
+    "Web dashboard for scheduling, retention, and one-click restore",
+    "Five install paths: CLI, Docker, Docker Compose, Unraid, and Helm",
+    "Optional Portabase agents for secure, managed operations",
+    "Apache-2.0 licensed, built on Next.js and Drizzle"
+  ],
+  "techStack": ["TypeScript", "Next.js", "Docker"],
+  "links": {
+    "website": "https://portabase.io",
+    "docs": "https://portabase.io/docs"
+  },
+  "images": {
+    "logo": "/repos/portabase/logo.png",
+    "screenshot": "/repos/portabase/screenshot.png"
+  },
+  "related": ["coolify", "nocodb", "directus"],
+  "curatorNote": "Portabase quietly solves one of the least glamorous problems in self-hosting: trustworthy backups across many different database engines. It was spotlighted in VirtualizationHowto's July 2026 roundup and still sits under 2k stars, which is remarkable for a tool this broadly useful.",
+  "publishedAt": "2026-08-08"
+}
