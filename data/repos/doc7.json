@@ -1,0 +1,28 @@
+{
+  "slug": "doc7",
+  "name": "doc7",
+  "fullName": "magicrew/doc7",
+  "tagline": "Turn any document into AI-ready Markdown with visual understanding",
+  "description": "doc7 turns PDFs, Office files, scans, screenshots, charts, formulas, and diagrams into AI-ready Markdown through your own OpenAI-compatible multimodal model — no required OCR stack and no document-processing service lock-in. Instead of stopping at character extraction, doc7 reads the whole page with a vision-language model, so tables, formulas, charts, diagram relationships, and UI state all survive as searchable Markdown. In an open benchmark on raster-only pages it recovered 15/15 checked visual facts with a local qwen3.5-9b model, versus 9/15 for MarkItDown with OCR and 3/15 for Docling. The single Go binary provides an interactive CLI, batch and resume processing, an MCP server with a typed convert tool, an async HTTP service, and a Go SDK, with model choice left to you — including private or local deployments for near-zero marginal cost.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["document-ai", "pdf-to-markdown", "ocr", "rag", "vision-language-model", "go"],
+  "highlights": [
+    "One pipeline converts PDF, Office, scans, charts, formulas, and diagrams into AI-ready Markdown",
+    "Full-page visual understanding through your own OpenAI-compatible multimodal model, local or remote",
+    "Open benchmark: 15/15 visual facts recovered vs 9/15 for MarkItDown+OCR and 3/15 for Docling",
+    "Single binary ships CLI, batch resume, MCP server, async HTTP service, and Go SDK",
+    "No per-page fees and no required OCR stack — bring any model, including quantized local ones"
+  ],
+  "techStack": ["Go", "Vision-Language Models", "MCP"],
+  "links": {
+    "website": "https://github.com/magicrew/doc7",
+    "docs": "https://github.com/magicrew/doc7#readme"
+  },
+  "images": {
+    "screenshot": "/repos/doc7/screenshot.png"
+  },
+  "related": ["optmem", "tencentdb-agent-memory"],
+  "curatorNote": "The rare document tool that leads with a reproducible benchmark — 15/15 on raster-only pages beats the incumbent pipelines, and the bring-your-own-model posture keeps it private and cheap. 831 stars and climbing fast.",
+  "publishedAt": "2026-08-09"
+}

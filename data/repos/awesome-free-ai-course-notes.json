@@ -1,0 +1,25 @@
+{
+  "slug": "awesome-free-ai-course-notes",
+  "name": "awesome-free-ai-course-notes",
+  "fullName": "MarcosSete/awesome-free-ai-course-notes",
+  "tagline": "Free ML and AI lecture notes from the world's leading universities",
+  "description": "awesome-free-ai-course-notes is a curated collection of machine learning and AI lecture notes from leading universities around the world, giving self-learners access to the same materials used by students at top institutions such as MIT and Stanford. It aggregates freely accessible course notes, lecture material, and study resources in one place, so you can learn from the best educational content available without paying tuition. The repository is organized as a reference list of high-quality links and resources for self-paced study in machine learning and artificial intelligence.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["machine-learning", "education", "lecture-notes", "ai", "resources"],
+  "highlights": [
+    "Curated ML and AI lecture notes from leading universities including MIT and Stanford",
+    "Free, self-paced access to the same materials used by top students",
+    "Aggregates courses, notes, and study resources in one place",
+    "Great starting point for self-directed machine learning study"
+  ],
+  "techStack": ["Markdown"],
+  "links": {
+    "website": "https://github.com/MarcosSete/awesome-free-ai-course-notes",
+    "docs": "https://github.com/MarcosSete/awesome-free-ai-course-notes#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "A beautifully simple idea that clearly struck a chord — university-grade AI lecture notes, free and aggregated, at 565 stars and 48 forks in under a week. One of the fastest-growing education repos of the moment.",
+  "publishedAt": "2026-08-09"
+}

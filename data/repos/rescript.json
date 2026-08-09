@@ -1,0 +1,29 @@
+{
+  "slug": "rescript",
+  "name": "rescript",
+  "fullName": "wassgha/rescript",
+  "tagline": "Transcript-based video and audio editor that lives in the browser",
+  "description": "rescript is an open-source, transcript-based media editor: drop in a video or audio file and it is transcribed locally with per-word timestamps and speaker labels, then you edit the media by editing the text. Delete words in the transcript and the corresponding clip is cut; remove fillers like um and uh or silences of 0.3s or more in one click; and export the final cut as video (MP4/WebM, 720p–4K), audio, transcript, or subtitles — without your file ever leaving your device. Transcription runs with Whisper via transformers.js in a Web Worker with WebGPU and WASM fallback, speaker labels come from pyannote, and export is frame-accurate via ffmpeg.wasm. It works fully in the browser at app.getrescript.com or as a signed Electron desktop app for macOS, Windows, and Linux, and also accepts imported SRT/VTT/JSON transcripts.",
+  "category": "frontend",
+  "featured": false,
+  "tags": ["video-editing", "transcription", "media", "offline", "webassembly"],
+  "highlights": [
+    "Edit video and audio by editing the transcript — delete words and the cut follows",
+    "Fully on-device: Whisper transcription, pyannote diarization, ffmpeg.wasm export, no uploads",
+    "One-click filler and silence removal, plus split, trim, and word-level timing fixes",
+    "Exports MP4/WebM (720p–4K), M4A/MP3/WAV, and SRT/VTT/JSON subtitles",
+    "Browser app plus signed Electron desktop builds for macOS, Windows, and Linux"
+  ],
+  "techStack": ["TypeScript", "Next.js", "transformers.js", "ffmpeg.wasm", "Electron"],
+  "links": {
+    "website": "https://getrescript.com",
+    "docs": "https://github.com/wassgha/rescript#readme"
+  },
+  "images": {
+    "logo": "/repos/rescript/logo.png",
+    "screenshot": "/repos/rescript/screenshot.png"
+  },
+  "related": [],
+  "curatorNote": "Transcript-first editing done right — private by design, genuinely useful one-click cuts, and a polished web app with 714 stars in under two weeks. The polyform license keeps it noncommercial, but the tech is open and impressive.",
+  "publishedAt": "2026-08-09"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "claude-red",
+  "name": "claude-red",
+  "fullName": "0xwilliamortiz/claude-red",
+  "tagline": "Curated offensive security skills for the Claude skills system",
+  "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system — and usable with other agents such as Codex. Each skill is a structured SKILL.md file that primes the agent with expert-level methodology for a specific attack surface, from SQLi to shellcode, EDR evasion to exploit development. The repository includes a skills manifest, conversion tooling, an installer, and a mind map, making it a turnkey way to add red-teaming methodology to agent workflows. It is positioned as an educational and authorized-testing resource for security practitioners.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["security", "red-teaming", "claude-code", "skills", "offensive-security"],
+  "highlights": [
+    "Curated SKILL.md-based offensive security skills for Claude and compatible agents",
+    "Covers SQLi, shellcode, EDR evasion, exploit development, and more",
+    "Manifest, conversion scripts, and one-command installer included",
+    "Structured methodology primes agents with expert-level guidance per attack surface"
+  ],
+  "techStack": ["JavaScript", "Markdown", "SKILL.md"],
+  "links": {
+    "website": "https://github.com/0xwilliamortiz/claude-red",
+    "docs": "https://github.com/0xwilliamortiz/claude-red#readme"
+  },
+  "images": {
+    "logo": "/repos/claude-red/logo.png"
+  },
+  "related": ["linus-torvalds-skill"],
+  "curatorNote": "An agentic take on red-teaming playbooks: skills packaged for the Claude skills system that hit 682 stars and 86 forks in four days. For authorized testing and education only.",
+  "publishedAt": "2026-08-09"
+}

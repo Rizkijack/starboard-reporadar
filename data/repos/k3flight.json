@@ -1,0 +1,29 @@
+{
+  "slug": "k3flight",
+  "name": "K3 Flight",
+  "fullName": "onetoken-oss/K3Flight",
+  "tagline": "Run the Kimi K3 2.8T model locally on CPU with ~55GB RAM",
+  "description": "K3 Flight is a single-file Linux inference server that runs Kimi K3 — a 2.8-trillion-parameter Mixture-of-Experts model — locally on CPU with a measured runtime memory of about 55GB, powered by cPilot Runtime. The complete 929GB checkpoint stays on storage; the runtime stages weights and execution state into a much smaller live working set because each token only activates 16 of 896 experts. It is not compression and not a smaller model — the full Q2_K checkpoint executes without keeping 929GB resident. The preview targets Linux x86-64 with 64GB+ RAM and a fast NVMe SSD, exposes an OpenAI-compatible API plus a web UI, and deliberately does not claim datacenter latency: prefill is roughly 1 token/s and decode around 0.8 token/s on the reference run. The project publishes honest numbers and invites reproducible community runs.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["local-llm", "inference", "kimi-k3", "cpu-only", "moe", "low-memory"],
+  "highlights": [
+    "Runs the complete 2.8T-parameter Kimi K3 Q2_K checkpoint on CPU with ~55GB measured runtime RAM",
+    "cPilot Runtime stages weights from storage — no need for 929GB resident, no compression trick",
+    "Single-file Linux inference server with OpenAI-compatible API and web UI",
+    "Targets 64GB+ RAM and NVMe storage on Linux x86-64, no GPU required",
+    "Honest benchmark posture: ~1 token/s prefill, ~0.8 token/s decode, invites community hardware reports"
+  ],
+  "techStack": ["HTML", "C++", "Python", "cPilot Runtime"],
+  "links": {
+    "website": "https://onetoken-oss.github.io/K3Flight/",
+    "docs": "https://github.com/onetoken-oss/K3Flight#readme"
+  },
+  "images": {
+    "logo": "/repos/k3flight/logo.png",
+    "screenshot": "/repos/k3flight/screenshot.png"
+  },
+  "related": ["kimi-k3-mlx"],
+  "curatorNote": "The most audacious local-LLM claim of the week — running a 2.8T model in 55GB of RAM is a systems problem, not a memory problem, and cPilot treats it that way. 899 stars in days, with refreshingly honest throughput numbers.",
+  "publishedAt": "2026-08-09"
+}
