@@ -1,0 +1,28 @@
+{
+  "slug": "human-review",
+  "name": "human-review",
+  "fullName": "petergyang/human-review",
+  "tagline": "Visual HTML/Markdown review with Google-Docs-style comments for AI agents",
+  "description": "human-review is a visual skill that lets you edit HTML and Markdown files directly, leave comments like a Google Doc, and send all your feedback to your AI agent at once. Instead of typing long instructions like 'in the third paragraph, change X to Y, cut the third card, and rewrite the CTA', you open the file in the browser, make direct edits, anchor comments to exact text or elements, rearrange blocks, resize and move images, paste new images from the clipboard, and click Send — your agent receives everything in one batch, updates the source, and refreshes the page for another review round. It works inside ChatGPT, Claude Code, Codex, and other AI harnesses via a globally installed skill, runs entirely on your computer with no account, cloud service, or API key, and can also review pages running on localhost.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["ai-agents", "human-in-the-loop", "code-review", "claude-code", "markdown"],
+  "highlights": [
+    "Edit HTML and Markdown visually with Google-Docs-style anchored comments",
+    "Send every edit and comment to your AI agent in one batch — no long chat instructions",
+    "Rearrange blocks, resize and move images, paste from clipboard, comment on any element",
+    "Works in ChatGPT, Claude Code, Codex, and other harnesses via a global skill",
+    "Runs fully locally — no account, cloud service, database, or API key"
+  ],
+  "techStack": ["JavaScript", "Node.js", "SKILL.md"],
+  "links": {
+    "website": "https://github.com/petergyang/human-review",
+    "docs": "https://github.com/petergyang/human-review#readme"
+  },
+  "images": {
+    "screenshot": "/repos/human-review/screenshot.png"
+  },
+  "related": ["code-review-agent"],
+  "curatorNote": "Fixes a real pain point in agent workflows — reviewing AI output in chat is miserable, and this makes it a visual Google-Docs-style loop instead. 632 stars in under two weeks, MIT licensed, and it just works.",
+  "publishedAt": "2026-08-09"
+}

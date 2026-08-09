@@ -1,0 +1,25 @@
+{
+  "slug": "awesome-growth-hacking-skills",
+  "name": "awesome-growth-hacking-skills",
+  "fullName": "mikiarlo3/awesome-growth-hacking-skills",
+  "tagline": "Curated agentic growth hacking skills for Claude, ChatGPT, and Manus",
+  "description": "awesome-growth-hacking-skills is a curated collection of agentic growth hacking skills designed for AI coding agents such as Claude Code, ChatGPT Agent, and Manus AI, published by enso.bot. It automates market analysis, SEO, and product growth experiments by packaging repeatable skill playbooks that agents can run directly. The repository follows the awesome-list format with a maintained link-check file and contributing guidelines, making it a practical starting point for teams who want their coding agents to take on growth work — research, positioning, experiments — rather than just writing code.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["ai-agents", "growth-hacking", "seo", "skills", "automation"],
+  "highlights": [
+    "Curated agentic growth hacking skills for Claude Code, ChatGPT Agent, and Manus AI",
+    "Covers market analysis, SEO, and product growth experimentation",
+    "Awesome-list format with link checks and contribution guidelines",
+    "Low-code automation: agents run the playbooks directly"
+  ],
+  "techStack": ["Shell", "Markdown"],
+  "links": {
+    "website": "https://github.com/mikiarlo3/awesome-growth-hacking-skills",
+    "docs": "https://github.com/mikiarlo3/awesome-growth-hacking-skills#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "A new spin on the awesome-list genre: growth-hacking skills your coding agents can actually run. 779 stars in five days proves the demand for agent-ready growth playbooks.",
+  "publishedAt": "2026-08-09"
+}

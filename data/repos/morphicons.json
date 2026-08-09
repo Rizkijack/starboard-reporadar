@@ -1,0 +1,28 @@
+{
+  "slug": "morphicons",
+  "name": "morphicons",
+  "fullName": "guillermolg00/morphicons",
+  "tagline": "Universal morphing for stroke-based icons with spring physics",
+  "description": "morphicons lets any icon morph into any other — universal morphing for stroke-based icons (Lucide, Tabler, Heroicons, Iconoir, or your own paths) with spring physics and zero runtime dependencies at roughly 7 KB gzip. Rotations are never declared by hand; they emerge from the math (2D Procrustes alignment plus polar interpolation), so arrow-right to arrow-down turns 90 degrees on its own. The library ships bindings for React, Vue, Svelte, React Native, a vanilla DOM driver, and a pure core with format adapters for SVG markup and CSS-mask and canvas targets. It consumes icon data rather than components, exposes uncontrolled, controlled, and imperative morph modes with truly interruptible springs, honors reduced-motion policies, and is measured at sub-millisecond planning with zero numeric allocation per frame. A live playground at morphicons.com demonstrates 38 icons across Lucide, Feather, and Tabler.",
+  "category": "frontend",
+  "featured": false,
+  "tags": ["icons", "animation", "svg", "react", "typescript", "spring-physics"],
+  "highlights": [
+    "Universal morphing for stroke-based icons with spring physics and zero runtime dependencies (~7 KB gzip)",
+    "Rotations emerge from 2D Procrustes + polar interpolation — no hand-declared rotation groups",
+    "React, Vue, Svelte, React Native bindings plus vanilla DOM driver and pure core",
+    "Truly interruptible springs with velocity preservation and reduced-motion policies",
+    "Sub-millisecond planning and zero numeric allocation per frame"
+  ],
+  "techStack": ["TypeScript", "React", "Vue", "Svelte", "SVG"],
+  "links": {
+    "website": "https://www.morphicons.com",
+    "docs": "https://github.com/guillermolg00/morphicons#readme"
+  },
+  "images": {
+    "logo": "/repos/morphicons/logo.png"
+  },
+  "related": [],
+  "curatorNote": "A mathematically sophisticated icon library that solves the icon-morph problem in closed form — no per-pair configuration, just spring physics and Procrustes alignment. 900 stars in its first week, and the playground makes it instantly fun to try.",
+  "publishedAt": "2026-08-09"
+}

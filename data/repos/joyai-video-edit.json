@@ -1,0 +1,27 @@
+{
+  "slug": "joyai-video-edit",
+  "name": "JoyAI-Video-Edit",
+  "fullName": "jd-opensource/JoyAI-Video-Edit",
+  "tagline": "Real-time open-ended video editing with autoregressive diffusion",
+  "description": "JoyAI-Video-Edit is the official open-source repository for a real-time, open-ended video editing system built on autoregressive diffusion models, released under the JD Open Source umbrella. The project presents a model that can edit videos in a real-time, instruction-following manner rather than being limited to fixed, predefined editing tasks, with Python tooling and deployment assets for reproducing and running the approach. It targets computer-vision researchers and developers interested in generative video editing and comes with deployment documentation and an operations package for running the model in practice.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["video-editing", "generative-ai", "diffusion", "computer-vision", "python"],
+  "highlights": [
+    "Real-time, open-ended video editing driven by autoregressive diffusion",
+    "Official repository from JD Open Source with deployment docs and scripts",
+    "Python codebase plus deploy and ops tooling for practical reproduction",
+    "Instruction-following editing rather than fixed predefined tasks"
+  ],
+  "techStack": ["Python", "PyTorch", "Autoregressive Diffusion"],
+  "links": {
+    "website": "https://github.com/jd-opensource/JoyAI-Video-Edit",
+    "docs": "https://github.com/jd-opensource/JoyAI-Video-Edit#readme"
+  },
+  "images": {
+    "screenshot": "/repos/joyai-video-edit/screenshot.png"
+  },
+  "related": [],
+  "curatorNote": "A polished research release from JD's open-source arm — real-time open-ended video editing at 552 stars in under a week shows the appetite for generative video tools beyond the big labs.",
+  "publishedAt": "2026-08-09"
+}
