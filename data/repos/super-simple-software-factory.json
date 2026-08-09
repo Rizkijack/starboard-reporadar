@@ -1,0 +1,28 @@
+{
+  "slug": "super-simple-software-factory",
+  "name": "Super Simple Software Factory",
+  "fullName": "disler/super-simple-software-factory",
+  "tagline": "Repeatable agents-plus-code workflows packaged as one skill, stamped into any repo",
+  "description": "Super Simple Software Factory moves the control plane out of the prompt and into deterministic Python, turning a software factory into something you can repeat. An ADW (AI Developer Workflow) script owns sequencing, retries, and acceptance, while coding agents act as bounded nodes inside named phases. Typed JSON envelopes carry context across the seams, and every event streams into a SQLite trace database in real time while the UI polls it. The guiding principle is 'agent proposes, code disposes': at the high end you build a system of agents plus code that runs without you and does the job about as well as you would. This branch ships the skill itself that you install, while the example branch demonstrates a factory already stamped into a repo with a demo app planned, built, tested, reviewed, and documented, complete with real trace data from actual runs.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["ai-agent", "workflow", "agents-plus-code", "deterministic", "python", "sqlite"],
+  "highlights": [
+    "Deterministic Python owns the orchestration graph; coding agents are bounded nodes inside it",
+    "ADW scripts handle sequencing, retries, and acceptance so results are repeatable",
+    "Typed JSON envelopes carry context across agent seams with type safety",
+    "Every event streams into SQLite in real time, giving full run visibility via a polling UI",
+    "Ships as an installable skill; the example branch shows a fully stamped factory with real traces"
+  ],
+  "techStack": ["Python", "SQLite", "AI Agents"],
+  "links": {
+    "website": "https://github.com/disler/super-simple-software-factory",
+    "docs": "https://github.com/disler/super-simple-software-factory#readme"
+  },
+  "images": {
+    "screenshot": "/repos/super-simple-software-factory/screenshot.png"
+  },
+  "related": ["code-review-agent", "agenthound"],
+  "curatorNote": "The most compelling framing of the 'agents plus code' debate I have seen: stop expecting the prompt to control everything and let deterministic Python own the graph. The swimlane and factory-spine diagrams make the reliability story instantly clear, and shipping real trace data on the example branch is a strong credibility signal.",
+  "publishedAt": "2026-08-02"
+}

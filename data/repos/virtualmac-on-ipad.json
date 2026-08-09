@@ -1,0 +1,28 @@
+{
+  "slug": "virtualmac-on-ipad",
+  "name": "Virtual Mac on iPad",
+  "fullName": "nfzerox/VirtualMacOniPad",
+  "tagline": "Run full macOS on an M1/M2 iPad — unlock Xcode and Terminal on-device",
+  "description": "Virtual Mac on iPad is a community project that lets the iPad finally break free from iPadOS, booting a real macOS environment directly on device. It turns an iPad Pro (M1, M2) or iPad Air (M1) running iPadOS 16 up to 16.3.1 into a portable Mac, enabling pro applications such as Xcode and Terminal to run natively. The project is built on a jailbreak (Dopamine via TrollStore) and a Sileo repository that installs the Virtual Mac app, which then boots macOS 12 Monterey through macOS 27 Golden Gate with Ventura through Sequoia as the recommended stable range. It is explicitly not affiliated with Apple, Dopamine, UTM, or VirtualBuddy, and welcomes community contributions. The journey this represents — the long-held dream of running macOS on a tablet — has been years in the making, and this project delivers it as a practical, installable solution.",
+  "category": "other-fun",
+  "featured": false,
+  "tags": ["ipad", "macos", "jailbreak", "virtualization", "apple-silicon", "system-hacking"],
+  "highlights": [
+    "Boots a real macOS environment natively on iPad Pro (M1/M2) or iPad Air (M1) running iPadOS 16 to 16.3.1",
+    "Runs pro apps like Xcode and Terminal directly on the tablet, escaping iPadOS restrictions",
+    "Supports macOS 12 Monterey through 27 Golden Gate, with Ventura through Sequoia as the recommended stable range",
+    "Installed via a jailbreak (Dopamine) and a community Sileo repository with an in-app setup wizard",
+    "Actively maintained community project with detailed troubleshooting and FAQ documentation"
+  ],
+  "techStack": ["Objective-C", "C", "Dopamine", "TrollStore", "Sileo"],
+  "links": {
+    "website": "https://github.com/nfzerox/VirtualMacOniPad",
+    "docs": "https://github.com/nfzerox/VirtualMacOniPad#readme"
+  },
+  "images": {
+    "screenshot": "/repos/virtualmac-on-ipad/screenshot.png"
+  },
+  "related": [],
+  "curatorNote": "The realization of a decade-old dream: true macOS on an iPad. Beyond the novelty, it is a genuinely useful hacking project that turns a tablet into a real development machine, and the documentation quality for a jailbreak-driven project is unusually high. Best on a 1TB/2TB iPad Pro with 16GB of RAM.",
+  "publishedAt": "2026-08-03"
+}

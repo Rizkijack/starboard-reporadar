@@ -1,0 +1,26 @@
+{
+  "slug": "hermesoffice",
+  "name": "HermesOffice",
+  "fullName": "criptogus/HermesOffice",
+  "tagline": "An AI-native office suite for macOS and Windows built around AI editing as a first-class workflow",
+  "description": "HermesOffice is an AI-native office suite for macOS and Windows that bundles a word processor, spreadsheet, presentations, and PDF into five Electron apps sharing one engine layer. Unlike office tools where AI is a bolted-on chat box, HermesOffice treats AI editing as a first-class, integrated workflow. It is a fork of GenOffice directly integrated with the Hermes AI agent to automate the creation of documents, spreadsheets, and presentations. The suite ships installers for macOS (Apple Silicon), Windows x64, and Linux (Debian/Ubuntu and AppImage), and its overlapping engine layer means the features you learn in one app apply across the others. The project is positioned as a full-featured, open-source AI office, with a demo video available and a clear focus on making AI-assisted productivity the default.",
+  "category": "productivity",
+  "featured": false,
+  "tags": ["office-suite", "ai-native", "electron", "productivity", "macos", "windows"],
+  "highlights": [
+    "AI editing is a first-class workflow rather than a bolted-on chat box",
+    "Five Electron apps (word processor, spreadsheet, presentations, PDF) sharing one engine layer",
+    "Fork of GenOffice with direct integration of the Hermes AI agent for creation automation",
+    "Cross-platform installers for macOS, Windows, and Linux (Debian/Ubuntu and AppImage)",
+    "One shared engine means features learned in one app apply across the whole suite"
+  ],
+  "techStack": ["TypeScript", "Electron", "GenOffice"],
+  "links": {
+    "website": "https://github.com/criptogus/HermesOffice",
+    "docs": "https://github.com/criptogus/HermesOffice#readme"
+  },
+  "images": {},
+  "related": ["documenso", "outline"],
+  "curatorNote": "An ambitious bet that the office suite of the future is AI-native from the ground up. The shared-engine architecture across word, spreadsheet, slides, and PDF is a smart way to make AI edits consistent everywhere, and being a fork of GenOffice with a live demo gives it a much more polished starting point than most from-scratch efforts.",
+  "publishedAt": "2026-08-04"
+}

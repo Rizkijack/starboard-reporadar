@@ -1,0 +1,29 @@
+{
+  "slug": "vphone-ws",
+  "name": "vPhone Workstation",
+  "fullName": "zqxwce/vphone-ws",
+  "tagline": "A native macOS app for managing virtual iPhones — browse, create, and boot iOS research VMs",
+  "description": "vPhone Workstation is a native macOS app for managing virtual iPhones, letting you browse, create, and boot iOS research virtual machines from a single window. It is a SwiftUI front-end for vphone-cli, the command-line tool that boots virtual iPhones on Apple's Virtualization.framework using PCC research VMs. The app provides a VM library with live running/stopped state, iOS and cloudOS build info, and search; a detail overview showing build, variant, CPU, memory, disk, network, device, and UDID at a glance; and full lifecycle controls to start, stop, and bring the running iPhone window to the front. It also supports clone, rename, export to .tar.xz, and delete, plus a create wizard that walks through name, variant (Less, Regular, Developer, Jailbreak, Experimental), firmware pairing, and resources with live step-by-step progress streamed from vphone-cli. Host readiness checks ensure vphone-cli is present and the environment is suitable for running research VMs.",
+  "category": "other-fun",
+  "featured": false,
+  "tags": ["ios", "virtualization", "macos", "security-research", "swiftui", "vm"],
+  "highlights": [
+    "Manage and boot iOS research VMs from a single native macOS window",
+    "SwiftUI front-end for vphone-cli built on Apple's Virtualization.framework with PCC research VMs",
+    "VM library with live state, search, and a detail overview of build, variant, CPU, memory, disk, and UDID",
+    "Full lifecycle controls including start, stop, clone, rename, export (.tar.xz), and delete",
+    "Create wizard with variant selection, firmware pairing, and live streamed progress from vphone-cli"
+  ],
+  "techStack": ["Swift", "SwiftUI", "Virtualization.framework", "vphone-cli"],
+  "links": {
+    "website": "https://github.com/zqxwce/vphone-ws",
+    "docs": "https://github.com/zqxwce/vphone-ws#readme"
+  },
+  "images": {
+    "logo": "/repos/vphone-ws/logo.png",
+    "screenshot": "/repos/vphone-ws/screenshot.png"
+  },
+  "related": [],
+  "curatorNote": "A clean, well-designed GUI layer over the excellent vphone-cli, making iOS research VMs approachable. The focus on a professional library/detail UI and a guided create wizard with live progress turns a niche command-line research workflow into something a much wider audience can actually use.",
+  "publishedAt": "2026-08-03"
+}

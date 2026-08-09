@@ -1,0 +1,28 @@
+{
+  "slug": "top-welcome-screens",
+  "name": "Top Welcome Screens",
+  "fullName": "Appllama/top-welcome-screens",
+  "tagline": "Open-source React Native welcome animations inspired by leading iOS apps",
+  "description": "Top Welcome Screens is an open-source collection of animated splash screens, loading screens, welcome screens, and onboarding UI studies inspired by leading iOS apps. It rebuilds ten welcome-screen designs with React Native and Expo so they are ready to drop into a mobile app. Built on Expo SDK 57 and React Native 0.86 with strict TypeScript, the project is a practical reference and component library for onboarding experiences. Each screen is a study of a top-performing iOS app's onboarding, giving developers a curated starting point rather than a blank canvas. The repo includes a live Expo gallery to preview and explore the screens, copy-paste prompts for reproducing each design, and is MIT-licensed or GPL-3.0 (per the code) with a CI pipeline.",
+  "category": "frontend",
+  "featured": false,
+  "tags": ["react-native", "expo", "onboarding", "ui-components", "welcome-screens", "mobile"],
+  "highlights": [
+    "Ten animated welcome, splash, and onboarding screens rebuilt with React Native and Expo",
+    "Design studies inspired by leading iOS apps, ready to drop into a mobile project",
+    "Built on Expo SDK 57 and React Native 0.86 with strict TypeScript",
+    "Live Expo gallery to preview and explore each screen",
+    "Includes copy-paste prompts for reproducing each design in your own app"
+  ],
+  "techStack": ["TypeScript", "React Native", "Expo", "jest"],
+  "links": {
+    "website": "https://github.com/Appllama/top-welcome-screens",
+    "docs": "https://appllama.io"
+  },
+  "images": {
+    "logo": "/repos/top-welcome-screens/logo.png"
+  },
+  "related": ["chatdeck-shadcn-saas-landing-page-template"],
+  "curatorNote": "Onboarding is where most mobile apps lose users, and this library hands you ten polished, proven designs instead of a blank screen. The copy-paste prompts and live Expo gallery make it genuinely practical — a great starting point whether you are prototyping or shipping a real onboarding flow.",
+  "publishedAt": "2026-08-08"
+}

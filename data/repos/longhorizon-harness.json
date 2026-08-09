@@ -1,0 +1,26 @@
+{
+  "slug": "longhorizon-harness",
+  "name": "LongHorizon-Harness",
+  "fullName": "AMAP-ML/LongHorizon-Harness",
+  "tagline": "Test harness that advances long-horizon computer-use agents for real-world tasks",
+  "description": "LongHorizon-Harness is an AI agent benchmark and infrastructure project built to advance long-horizon computer-use agents. It lets an agent operate the whole computer like a human, working across desktop apps and the command line for dozens of hours with no state drift and verifiable progress. The harness provides state preservation, independent audit, and native integration with Claude Code and Codex, and it is evaluated against benchmarks including WeaveBench, OSWorld 2.0, and Terminal-Bench 2.1 with hundreds of real measured tasks. It ships Python 3.10+ and supports any model or agent backend, positioning itself as a trustworthy, measurable way to push agents from short-turn tasks to sustained, multi-hour engagements that carry complex tasks through to completion.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["ai-agent", "benchmark", "computer-use", "infrastructure", "long-horizon", "python"],
+  "highlights": [
+    "Operates the whole computer like a human across desktop apps and CLI for dozens of hours",
+    "No state drift with verifiable progress and independent audit of agent behavior",
+    "Native integration with Claude Code and Codex, plus support for any model or agent backend",
+    "Evaluated on WeaveBench, OSWorld 2.0, and Terminal-Bench 2.1 with hundreds of real tasks",
+    "State preservation and independent audit make long-horizon progress trustworthy and measurable"
+  ],
+  "techStack": ["Python", "Claude Code", "Codex", "Computer-use agents"],
+  "links": {
+    "website": "https://lh-harness.pages.dev",
+    "docs": "https://github.com/AMAP-ML/LongHorizon-Harness#readme"
+  },
+  "images": {},
+  "related": ["browser-use", "agenthound"],
+  "curatorNote": "The most honest challenge in agent evaluation today: sustaining work for hours without the agent drifting off task. This harness takes state preservation and independent audit seriously, and the grounding in real benchmarks (OSWorld, WeaveBench, Terminal-Bench) rather than toy demos is exactly what the field needs to trust long-horizon agents.",
+  "publishedAt": "2026-08-04"
+}

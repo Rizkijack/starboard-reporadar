@@ -1,0 +1,26 @@
+{
+  "slug": "diri",
+  "name": "diri",
+  "fullName": "cristicretu/diri",
+  "tagline": "A native macOS orchestrator for parallel coding agents across worktrees and remote hosts",
+  "description": "diri is a native macOS orchestrator built for coding agents. It enables the parallel execution of Claude Code, Codex, Cursor, and Gemini across different git worktrees and remote hosts, letting multiple agents work on the same repository simultaneously without conflicts. Because each agent runs in its own isolated worktree, teams can scale coding throughput while keeping changes cleanly separated. diri is engineered for the multi-agent era, positioning a single orchestrator to coordinate the growing range of CLI coding agents rather than forcing everything through one vendor's tool. It is written in Rust and licensed under Apache-2.0, with a CI pipeline and a native macOS focus.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["orchestration", "multi-agent", "coding-agents", "macos", "rust", "worktrees"],
+  "highlights": [
+    "Orchestrates parallel execution of Claude Code, Codex, Cursor, and Gemini",
+    "Runs agents across multiple git worktrees so parallel work stays conflict-free",
+    "Supports remote hosts for scaling coding agents beyond a single machine",
+    "Native macOS app written in Rust with Apache-2.0 licensing",
+    "Built for the multi-agent era where many CLI coding agents must be coordinated in one place"
+  ],
+  "techStack": ["Rust", "macOS", "git worktrees"],
+  "links": {
+    "website": "https://github.com/cristicretu/diri",
+    "docs": "https://github.com/cristicretu/diri#readme"
+  },
+  "images": {},
+  "related": ["code-review-agent", "agenthound"],
+  "curatorNote": "The coordination problem of the agent era, solved directly: many coding agents, many worktrees, one orchestrator. The worktree-based isolation is the right call to avoid merge chaos, and supporting Claude Code, Codex, Cursor, and Gemini in one tool is exactly the vendor-neutral approach teams will want as agent usage scales.",
+  "publishedAt": "2026-08-04"
+}

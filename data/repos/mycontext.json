@@ -1,0 +1,26 @@
+{
+  "slug": "mycontext",
+  "name": "MyContext",
+  "fullName": "openTrinity/mycontext",
+  "tagline": "A persistent personal work context layer that makes your scattered context usable",
+  "description": "MyContext is a local-first desktop application that acts as a persistent personal work context layer. It connects the signals scattered across instant messaging, documents, calendars, meetings, approvals, and local activity, then continuously organizes them into a private, evolving view of what you know, who you work with, and what you are working on. Instead of making every AI start from an empty prompt, MyContext provides a durable context layer that large language models, local agents, and authorized external AI applications can retrieve from and reason over. It builds a personal context graph linking people, projects, topics, events, conversations, and supporting facts, so you can explore relationships from your own point of view and return to underlying evidence rather than relying on isolated summaries. Importantly, your personal context stays under your control, and consequential actions remain behind explicit approval — no private data is sent to a public cloud.",
+  "category": "productivity",
+  "featured": false,
+  "tags": ["personal-knowledge-base", "local-first", "desktop-app", "ai-context", "privacy", "context-graph"],
+  "highlights": [
+    "Local-first desktop app that keeps personal context under your control with no public-cloud data sharing",
+    "Connects signals from IM, documents, calendars, meetings, approvals, and local activity into one view",
+    "Builds an explorable personal context graph linking people, projects, topics, events, and facts",
+    "Provides a durable context layer that LLMs, local agents, and authorized AI apps can retrieve from",
+    "Keeps consequential actions behind explicit approval rather than auto-executing"
+  ],
+  "techStack": ["TypeScript", "Desktop", "Local-first"],
+  "links": {
+    "website": "https://github.com/openTrinity/mycontext",
+    "docs": "https://github.com/openTrinity/mycontext#readme"
+  },
+  "images": {},
+  "related": ["outline", "appflowy"],
+  "curatorNote": "A thoughtful answer to the growing problem of AI amnesia: instead of a fresh empty prompt every time, give models a durable, private context layer. The emphasis on local-first control and explicit approval for consequential actions sets the right privacy bar while still unlocking genuinely useful AI assistance.",
+  "publishedAt": "2026-08-03"
+}

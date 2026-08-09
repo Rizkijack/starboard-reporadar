@@ -1,0 +1,26 @@
+{
+  "slug": "time-to-first-token",
+  "name": "Time to First Token",
+  "fullName": "patchy631/time-to-first-token",
+  "tagline": "Learn LLM inference serving by shipping one service — a 10-week, 30-minutes-a-day roadmap",
+  "description": "Time to First Token is a 10-week, 30-minutes-a-day learning roadmap for engineers who want to actually run LLM inference in production, not just read about it. Fifty sessions feed a single artifact: an OpenAI-compatible inference service that you deploy on a rented GPU, instrument, load test past 1000 concurrent requests, optimize with quantization and speculative decoding, put a cost-aware router in front of, and publish as a reproducible benchmark. The curriculum covers vLLM, SGLang, quantization, speculative decoding, and Time-To-First-Token (TTFT) pruning, and assumes only comfort with Python and transformers at the architecture level — no prior serving, Kubernetes, or CUDA experience required. By the end you have a serving stack you configured, instrumented, and tuned yourself, with Grafana dashboards showing TTFT, inter-token latency, throughput, queue depth, and cost per request, plus a load-test harness and a published benchmark writeup.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["llm", "inference", "roadmap", "vllm", "sglang", "quantization"],
+  "highlights": [
+    "10-week, 30-minutes-a-day roadmap with 50 sessions feeding one real inference service",
+    "Covers vLLM, SGLang, quantization, speculative decoding, and TTFT pruning",
+    "Deploy, instrument, and load test past 1000 concurrent requests on a rented GPU",
+    "Grafana dashboards for TTFT, inter-token latency, throughput, queue depth, and cost",
+    "No prior serving, Kubernetes, or CUDA experience required to begin"
+  ],
+  "techStack": ["Python", "vLLM", "SGLang", "Grafana", "CUDA"],
+  "links": {
+    "website": "https://github.com/patchy631/time-to-first-token",
+    "docs": "https://github.com/patchy631/time-to-first-token#readme"
+  },
+  "images": {},
+  "related": ["optmem", "kimi-k3-mlx"],
+  "curatorNote": "The best answer I have seen to 'how do I actually learn LLM serving'. Instead of seventeen disconnected experiments, you build one growing service and learn everything through it — the single-artifact approach forces real depth and leaves you with something deployable and publishable at the end. Rarely is a learning roadmap this concrete.",
+  "publishedAt": "2026-08-02"
+}
