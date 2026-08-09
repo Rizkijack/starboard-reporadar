@@ -83,7 +83,7 @@ export function RepoTable({ repos }: { repos: RepoWithStats[] }) {
     return (
       <th
         scope="col"
-        className="px-4 py-3 text-right font-medium"
+        className={`px-4 py-3 text-right font-medium ${sort.key === "stars" ? "w-[100px]" : sort.key === "momentum" ? "w-[110px]" : "w-[100px]"}`}
         aria-sort={
           active ? (sortDir === "asc" ? "ascending" : "descending") : "none"
         }
@@ -155,11 +155,11 @@ export function RepoTable({ repos }: { repos: RepoWithStats[] }) {
       </div>
 
       {/* Desktop table */}
-      <div className="hidden overflow-hidden rounded-lg border border-line md:block">
-        <table className="w-full border-collapse text-sm">
+      <div className="hidden overflow-x-auto rounded-lg border border-line md:block">
+        <table className="w-full table-fixed border-collapse text-sm">
           <thead className="border-b border-line bg-surface-elevated/60">
             <tr>
-              <th scope="col" className="px-4 py-3 text-left font-medium">
+              <th scope="col" className="w-[40%] px-4 py-3 text-left font-medium">
                 <button
                   type="button"
                   onClick={() => toggleSort("name")}
@@ -175,12 +175,12 @@ export function RepoTable({ repos }: { repos: RepoWithStats[] }) {
                   ) : null}
                 </button>
               </th>
-              <th scope="col" className="px-4 py-3 text-left font-medium">
+              <th scope="col" className="w-[120px] px-4 py-3 text-left font-medium">
                 <span className="text-xs uppercase tracking-wide text-muted">
                   Category
                 </span>
               </th>
-              <th scope="col" className="px-4 py-3 text-left font-medium">
+              <th scope="col" className="w-[100px] px-4 py-3 text-left font-medium">
                 <span className="text-xs uppercase tracking-wide text-muted">
                   Language
                 </span>
@@ -188,7 +188,7 @@ export function RepoTable({ repos }: { repos: RepoWithStats[] }) {
               {SORTS.map((s) => (
                 <SortHeader key={s.key} sort={s} />
               ))}
-              <th scope="col" className="px-4 py-3 text-right">
+              <th scope="col" className="w-[48px] px-4 py-3 text-right">
                 <span className="sr-only">Watch</span>
               </th>
             </tr>
@@ -201,7 +201,7 @@ export function RepoTable({ repos }: { repos: RepoWithStats[] }) {
                   key={repo.slug}
                   className="transition-colors hover:bg-accent-soft/20"
                 >
-                  <td className="px-4 py-3">
+                  <td className="max-w-0 px-4 py-3">
                     <Link
                       href={`/repos/${repo.slug}`}
                       className="group flex items-center gap-3"
