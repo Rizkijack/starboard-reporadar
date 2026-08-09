@@ -34,7 +34,7 @@ export default function Home() {
       <Reveal>
         <CategoryIndex counts={counts} />
       </Reveal>
-      <Reveal>
+      <Reveal amount={0.05}>
         <RepoTable repos={repos} />
       </Reveal>
 
