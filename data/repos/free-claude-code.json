@@ -1,0 +1,29 @@
+{
+  "slug": "free-claude-code",
+  "name": "Free Claude Code",
+  "fullName": "Alishahryar1/free-claude-code",
+  "tagline": "Use Claude Code, Codex, and Pi with 30+ free, paid, or local AI model providers",
+  "description": "Free Claude Code (FCC) is a local proxy server and launcher utility that allows developers to run terminal AI coding agents — including Claude Code, Codex, and Pi — using any preferred model provider. It supports over 30 providers out of the box, including NVIDIA NIM, OpenAI/ChatGPT, OpenRouter, Google Gemini, DeepSeek, Mistral, Ollama, LM Studio, and llama.cpp. FCC features a browser Admin UI for real-time model configuration, key validation, and tier-specific routing across Fable, Opus, Sonnet, and Haiku. Built-in performance optimizations resolve quota probes, command prefixes, and title generation locally, while optional RTK integration trims noisy terminal output before hitting LLM context limits.",
+  "category": "developer-tools",
+  "featured": true,
+  "tags": ["claude-code", "codex", "llm-proxy", "cli", "ai-agents", "python", "ollama"],
+  "highlights": [
+    "Run Claude Code, Codex, and Pi with over 30 free, paid, or local model providers",
+    "Local Admin UI for zero-friction model selection, provider key setup, and reasoning controls",
+    "Support for tier routing — assign custom models to Fable, Opus, Sonnet, and Haiku tiers",
+    "Built-in token and quota optimizations to process probes, prefixes, and filepaths locally",
+    "Seamless integration with terminal CLIs, VS Code extension, desktop tray, and Discord/Telegram bots"
+  ],
+  "techStack": ["Python", "uv", "FastAPI", "Ruff", "Loguru", "Pytest"],
+  "links": {
+    "website": "https://github.com/Alishahryar1/free-claude-code",
+    "docs": "https://github.com/Alishahryar1/free-claude-code#readme"
+  },
+  "images": {
+    "logo": "/repos/free-claude-code/logo.svg",
+    "screenshot": "/repos/free-claude-code/screenshot.png"
+  },
+  "related": ["claude-red", "bb", "code-review-agent"],
+  "curatorNote": "A massive hit in the AI developer ecosystem — over 45k stars. Free Claude Code decouples terminal coding agents like Claude Code, Codex, and Pi from fixed API backends, allowing developers to plug in NVIDIA NIM, DeepSeek, local Ollama, or open-router models with automated token optimization and tier routing.",
+  "publishedAt": "2026-08-09"
+}
