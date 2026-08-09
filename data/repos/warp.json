@@ -1,0 +1,29 @@
+{
+  "slug": "warp",
+  "name": "Warp",
+  "fullName": "warpdotdev/warp",
+  "tagline": "Agentic development environment born out of the terminal",
+  "description": "Warp is a modern terminal reimagined as an agentic development environment. Built in Rust for native GPU-accelerated performance, it replaces the standard terminal with an IDE-grade editing experience — full cursor navigation, syntax-highlighted command input, block-based output grouping, and persistent session history. Its headline feature is a built-in coding agent that can plan, implement, and iterate on code changes directly from the terminal, or you can bring your own CLI agent such as Claude Code, Codex, or Gemini CLI. The Oz agent management layer lets teams run thousands of autonomous agents that triage issues, write specs, implement features, and review PRs across an entire repository. Warp Drive provides a shared knowledge layer: teams save and parameterise commands, workflows, and runbooks that any member can discover and run without memorising flags. Additional productivity features include AI-powered command search, natural-language-to-shell translation, inline documentation, and SSH session management. The client is open source with a Rust UI framework (MIT-licensed) and an AGPL-licensed application core, backed by OpenAI as a founding sponsor. Available on macOS, Linux, and Windows, it has attracted 64 000+ GitHub stars and an active contributor community with a public build dashboard at build.warp.dev.",
+  "category": "cli-terminal",
+  "featured": true,
+  "tags": ["terminal", "rust", "ai-agent", "developer-tools", "ide", "gpu-accelerated"],
+  "highlights": [
+    "GPU-accelerated Rust terminal with IDE-grade input editing, syntax highlighting, and block-based output",
+    "Built-in coding agent plus bring-your-own CLI agent support (Claude Code, Codex, Gemini CLI)",
+    "Oz agent management layer runs thousands of autonomous agents for issue triage, specs, implementation, and PR review",
+    "Warp Drive shared knowledge layer for team commands, workflows, and parameterised runbooks",
+    "Open-source client with MIT UI framework and AGPL application core, backed by OpenAI"
+  ],
+  "techStack": ["Rust", "Metal", "Vulkan", "WebGPU", "Tokio"],
+  "links": {
+    "website": "https://www.warp.dev",
+    "docs": "https://docs.warp.dev"
+  },
+  "images": {
+    "logo": "/repos/warp/logo.png",
+    "screenshot": "/repos/warp/screenshot.png"
+  },
+  "related": ["bb", "brightdata-cli"],
+  "curatorNote": "The most ambitious rethinking of the terminal in years — 64K stars and a Rust codebase that proves a terminal can have IDE-quality editing without sacrificing speed. The Oz agent layer is the real differentiator: an open build dashboard shows thousands of agents autonomously triaging, coding, and reviewing across the repo in real time.",
+  "publishedAt": "2026-08-09"
+}
