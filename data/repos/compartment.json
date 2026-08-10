@@ -1,0 +1,25 @@
+{
+  "slug": "compartment",
+  "name": "Compartment",
+  "fullName": "compartmentdev/compartment",
+  "tagline": "CLI-first Kubernetes deployment platform",
+  "description": "Compartment is a CLI-first platform for deploying to Kubernetes. You declare your workload in a single compartment.yml file and the tool handles the rest, baking in gVisor isolation for stronger sandboxing, SSO, and role-based access control. It reached v0.10 this week, signaling an actively maintained project. For teams that prefer GitOps-style, terminal-driven workflows over heavy dashboards, Compartment offers a lighter, more focused path to running services on a cluster.",
+  "category": "self-hosting",
+  "featured": false,
+  "tags": ["kubernetes", "deployment", "cli-first", "gvisor", "self-hosted", "devops"],
+  "highlights": [
+    "Declare workloads in a single compartment.yml file",
+    "gVisor isolation for stronger workload sandboxing",
+    "Built-in SSO and RBAC",
+    "v0.10 released this week — actively developed"
+  ],
+  "techStack": [],
+  "links": {
+    "website": "https://github.com/compartmentdev/compartment",
+    "docs": "https://github.com/compartmentdev/compartment#readme"
+  },
+  "images": {},
+  "related": ["coolify", "k3flight"],
+  "curatorNote": "A CLI-first Kubernetes deploy platform with gVisor isolation is a refreshing alternative to the dashboard-heavy platforms. Declaring everything in one YAML file keeps the mental model small.",
+  "publishedAt": "2026-08-09"
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "portfolio-os",
+  "name": "portfolio-os",
+  "fullName": "tnandla/portfolio-os",
+  "tagline": "Self-hosted operations app for teams managing portfolio sites",
+  "description": "portfolio-os is a self-hosted operations app built for teams that manage multiple portfolio websites. It centralizes the operational side of running a portfolio — giving a small team a shared place to track, manage, and coordinate the sites they operate. Written in PHP, it fits the classic self-hosted LAMP-style stack and is aimed at keeping portfolio management organized without a heavyweight SaaS.",
+  "category": "self-hosting",
+  "featured": false,
+  "tags": ["portfolio", "operations", "self-hosted", "php", "team"],
+  "highlights": [
+    "Self-hosted ops app for teams running portfolio sites",
+    "Centralizes management across multiple portfolio websites",
+    "Fits a classic PHP/LAMP self-hosted stack",
+    "A lightweight alternative to heavyweight SaaS"
+  ],
+  "techStack": ["PHP"],
+  "links": {
+    "website": "https://github.com/tnandla/portfolio-os",
+    "docs": "https://github.com/tnandla/portfolio-os#readme"
+  },
+  "images": {},
+  "related": ["kaneo", "appflowy"],
+  "curatorNote": "Most portfolio tooling focuses on building the site, not running it. A self-hosted ops layer for teams managing many portfolios is a niche but real need.",
+  "publishedAt": "2026-08-09"
+}

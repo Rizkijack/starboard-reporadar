@@ -1,0 +1,25 @@
+{
+  "slug": "clumoove",
+  "name": "clumoove",
+  "fullName": "xXRoxXeRXx/clumoove",
+  "tagline": "Multi-cloud migration across 15 providers with hash-verified transfers",
+  "description": "clumoove is a multi-cloud migration tool that moves data between 15 providers — Nextcloud, Dropbox, Google Drive, S3, and SFTP among them. It verifies each transfer with a three-way hash check to guard against silent corruption, and features multi-tenancy with TOTP support, so it can serve multiple users safely. It is written in Go and aimed at anyone who needs dependable, verified data portability across cloud and self-hosted storage.",
+  "category": "self-hosting",
+  "featured": false,
+  "tags": ["migration", "multicloud", "nextcloud", "s3", "sftp", "go", "self-hosted"],
+  "highlights": [
+    "Migrates across 15 providers including Nextcloud, Dropbox, GDrive, S3, SFTP",
+    "Three-way hash verification against silent corruption",
+    "Multi-tenancy with TOTP support",
+    "Written in Go"
+  ],
+  "techStack": ["Go"],
+  "links": {
+    "website": "https://github.com/xXRoxXeRXx/clumoove",
+    "docs": "https://github.com/xXRoxXeRXx/clumoove#readme"
+  },
+  "images": {},
+  "related": ["pihole-ha-cluster"],
+  "curatorNote": "Cloud migration tools tend to be tied to one provider. Hash-verified moves across 15 providers with multi-tenancy is a genuinely useful gap to fill for self-hosters.",
+  "publishedAt": "2026-08-09"
+}

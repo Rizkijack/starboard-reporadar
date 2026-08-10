@@ -1,0 +1,25 @@
+{
+  "slug": "wyrmrss",
+  "name": "WyrmRSS",
+  "fullName": "kryoseu/WyrmRSS",
+  "tagline": "Self-hosted RSS reader with a desktop Tauri app",
+  "description": "WyrmRSS is a self-hosted RSS reader with a companion desktop app built on Tauri. It goes beyond plain feeds with feed discovery straight from homepages and YouTube, an inline YouTube player, and notifications pushed to Discord or Slack via webhooks. That mix of server-side aggregation and a native desktop client makes it a practical, modern take on the self-hosted RSS reader.",
+  "category": "self-hosting",
+  "featured": false,
+  "tags": ["rss", "self-hosted", "reader", "tauri", "rust", "desktop"],
+  "highlights": [
+    "Self-hosted RSS aggregation with a Tauri desktop app",
+    "Feed discovery from homepages and YouTube",
+    "Inline YouTube player",
+    "Discord and Slack webhook notifications"
+  ],
+  "techStack": ["Rust", "Tauri"],
+  "links": {
+    "website": "https://github.com/kryoseu/WyrmRSS",
+    "docs": "https://github.com/kryoseu/WyrmRSS#readme"
+  },
+  "images": {},
+  "related": ["listmonk", "shiori"],
+  "curatorNote": "Most self-hosted RSS readers are web-only. A Tauri desktop client with YouTube inline playback and Slack-style notifications is a unusually complete and modern package.",
+  "publishedAt": "2026-08-09"
+}

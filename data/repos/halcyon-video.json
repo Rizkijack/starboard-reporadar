@@ -1,0 +1,26 @@
+{
+  "slug": "halcyon-video",
+  "name": "Halcyon Video",
+  "fullName": "halcyon-video/halcyon-video",
+  "tagline": "Jellyfin as a 90s 3D first-person VHS rental store",
+  "description": "halcyon-video turns your Jellyfin media library into a navigable 3D first-person VHS rental store straight out of the 90s. Built with three.js, it lets you walk through a virtual video store and browse your self-hosted library as physical tapes. It adds character through clerk Doom-style A* pathing and a cloth-sim shopping bag, turning media browsing into a full immersive experience. A playful but technically ambitious take on the self-hosted media frontend.",
+  "category": "self-hosting",
+  "featured": false,
+  "tags": ["jellyfin", "threejs", "self-hosted", "media", "3d", "typescript"],
+  "highlights": [
+    "Walks your Jellyfin library as a 3D first-person VHS rental store",
+    "three.js rendering with clerk Doom-style A* character pathing",
+    "Cloth-sim shopping bag adds a tactile touch",
+    "A memorable, immersive frontend for self-hosted media"
+  ],
+  "techStack": ["TypeScript", "three.js"],
+  "links": {
+    "website": "https://github.com/halcyon-video/halcyon-video",
+    "docs": "https://github.com/halcyon-video/halcyon-video#readme",
+    "demo": "https://halcyon-video.github.io"
+  },
+  "images": {},
+  "related": ["kaneo"],
+  "curatorNote": "Self-hosted media frontends are usually utilitarian lists. Converting Jellyfin into a walkable 90s video store is a genuinely creative re-frame that still solves a real browsing problem.",
+  "publishedAt": "2026-08-09"
+}
