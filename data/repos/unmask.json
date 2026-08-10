@@ -1,0 +1,25 @@
+{
+  "slug": "unmask",
+  "name": "unmask",
+  "fullName": "unmask-sh/unmask",
+  "tagline": "Bot defense that runs inside nginx or Apache",
+  "description": "unmask is a bot-defense module that lives directly inside nginx or Apache. It combines JA4 TLS fingerprinting with behavioral CAPTCHAs to tell humans from bots, adding only about 0.05ms of overhead per request — and it is explicitly search-bot safe, so SEO traffic is never blocked. By running inside the web server rather than as a separate service, it needs no infrastructure changes and no external round trips to start protecting endpoints.",
+  "category": "backend",
+  "featured": false,
+  "tags": ["bot-defense", "nginx", "apache", "ja4", "captcha", "security"],
+  "highlights": [
+    "JA4 TLS fingerprinting plus behavioral CAPTCHA",
+    "Runs inside nginx or Apache with ~0.05ms overhead",
+    "Search-bot safe — no SEO collateral damage",
+    "No separate service or infrastructure changes required"
+  ],
+  "techStack": ["nginx", "Apache", "JA4"],
+  "links": {
+    "website": "https://github.com/unmask-sh/unmask",
+    "docs": "https://github.com/unmask-sh/unmask#readme"
+  },
+  "images": {},
+  "related": ["tamga", "camofox-browser"],
+  "curatorNote": "Bot defense usually means another reverse proxy in front of your stack. Running it inside the web server with a JA4 fingerprint and 0.05ms of overhead is the zero-infrastructure answer, and being search-bot safe is the detail that keeps it deployable.",
+  "publishedAt": "2026-08-09"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "tamga",
+  "name": "tamga",
+  "fullName": "yatuk/tamga",
+  "tagline": "Scan LLM prompts and responses for PII and prompt injection",
+  "description": "tamga is a proxy that scans prompts and LLM responses for PII, secrets, and prompt injection before they reach the model. It uses an Aho-Corasick DFA to classify payloads in sub-millisecond time, and its rules map to compliance regimes like KVKK, GDPR, and PCI-DSS. Running as an inline proxy keeps the scan transparent to both the application and the model, making it a drop-in guardrail for LLM-powered products.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["llm-security", "pii", "prompt-injection", "proxy", "gdpr", "privacy"],
+  "highlights": [
+    "Scans both prompts and model responses in real time",
+    "Aho-Corasick DFA engine with sub-millisecond classification",
+    "Detects PII, secrets, and prompt injection attempts",
+    "Rules aligned with KVKK, GDPR, and PCI-DSS",
+    "Transparent inline proxy — no app or model changes"
+  ],
+  "techStack": ["Go", "Python", "Aho-Corasick"],
+  "links": {
+    "website": "https://github.com/yatuk/tamga",
+    "docs": "https://github.com/yatuk/tamga#readme"
+  },
+  "images": {},
+  "related": ["claude-tap", "pii-protection"],
+  "curatorNote": "Every serious LLM deployment needs a guardrail between the app and the model, and tamga's proxy approach with sub-ms classification is the pragmatic version — no agent changes, just a transparent scan for PII, secrets, and injection.",
+  "publishedAt": "2026-08-09"
+}

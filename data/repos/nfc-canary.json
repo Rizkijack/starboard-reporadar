@@ -1,0 +1,25 @@
+{
+  "slug": "nfc-canary",
+  "name": "NFC Canary",
+  "fullName": "antitree/nfc_canary",
+  "tagline": "A Flipper Zero app that detects unwanted NFC scans",
+  "description": "NFC Canary is a Flipper Zero app that turns the device into an intrusion canary for NFC — it sits passively and alerts you with a vibration when someone scans your card, badge, or keyfob without permission. For a device best known for attacking NFC, this flips the script and gives defenders a cheap, pocketable way to know when their credentials are being probed.",
+  "category": "other-fun",
+  "featured": false,
+  "tags": ["flipper-zero", "nfc", "security", "privacy", "canary"],
+  "highlights": [
+    "Detects NFC scans of your cards, badges, and keyfobs",
+    "Alerts via vibration when an unwanted scan happens",
+    "Turns the Flipper Zero into a defensive security tool",
+    "Simple, practical intrusion detection for physical credentials"
+  ],
+  "techStack": ["C", "Flipper Zero"],
+  "links": {
+    "website": "https://github.com/antitree/nfc_canary",
+    "docs": "https://github.com/antitree/nfc_canary#readme"
+  },
+  "images": {},
+  "related": ["pii-protection", "rever-browser"],
+  "curatorNote": "The Flipper Zero is the poster child of RFID mischief, so a canary app that detects when your own credentials are being probed is a clever inversion — cheap physical-intrusion detection for the card in your pocket.",
+  "publishedAt": "2026-08-09"
+}

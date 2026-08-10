@@ -1,0 +1,25 @@
+{
+  "slug": "cmd",
+  "name": "cmd",
+  "fullName": "ChenPi11/cmd",
+  "tagline": "A reimplementation of Windows cmd.exe for Unix",
+  "description": "cmd is a C reimplementation of Windows cmd.exe that runs on Unix, built for cross-platform batch script testing. It targets the batch-language surface that CI systems and Windows-first tooling depend on, so batch scripts can be exercised on Linux and macOS without a Windows box. The project is early but genuinely useful for anyone maintaining cross-platform pipelines that still ship .bat files.",
+  "category": "cli-terminal",
+  "featured": false,
+  "tags": ["cmd.exe", "batch", "windows", "unix", "cli", "compatibility"],
+  "highlights": [
+    "Reimplements Windows cmd.exe behavior in C for Unix",
+    "Lets batch scripts run and be tested on Linux and macOS",
+    "Targets the batch-language surface CI systems rely on",
+    "Cross-platform testing without spinning up a Windows VM"
+  ],
+  "techStack": ["C"],
+  "links": {
+    "website": "https://github.com/ChenPi11/cmd",
+    "docs": "https://github.com/ChenPi11/cmd#readme"
+  },
+  "images": {},
+  "related": ["jc-rs", "undo"],
+  "curatorNote": "Batch files are the least loved part of cross-platform engineering, but they refuse to die. A C reimplementation of cmd.exe that runs on Unix is the pragmatic answer for CI systems that still have to test .bat scripts.",
+  "publishedAt": "2026-08-09"
+}

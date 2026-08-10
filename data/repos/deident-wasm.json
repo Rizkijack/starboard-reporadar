@@ -1,0 +1,25 @@
+{
+  "slug": "deident-wasm",
+  "name": "deident-wasm",
+  "fullName": "ikuV/deident-wasm",
+  "tagline": "Privacy engine that de-identifies datasets in WASM",
+  "description": "deident-wasm is a privacy and anonymization engine compiled to WebAssembly. It performs pseudonymization and risk-assessed de-identification on datasets, with a design aimed at GDPR and HIPAA compliance workflows. Running in WASM means the sensitive data never has to leave the browser or the local environment, making it a practical fit for privacy-preserving data pipelines and client-side redaction tooling.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["privacy", "anonymization", "wasm", "gdpr", "hipaa", "de-identification"],
+  "highlights": [
+    "Pseudonymization and risk-assessed de-identification in one engine",
+    "Compiled to WebAssembly so data can stay on-device",
+    "Built around GDPR and HIPAA compliance requirements",
+    "Rust core with a portable WASM interface"
+  ],
+  "techStack": ["Rust", "WASM"],
+  "links": {
+    "website": "https://github.com/ikuV/deident-wasm",
+    "docs": "https://github.com/ikuV/deident-wasm#readme"
+  },
+  "images": {},
+  "related": ["pii-protection", "mr-rao"],
+  "curatorNote": "De-identification is usually a server-side database chore. Doing it in WASM keeps the data local, which is exactly the right call for privacy-sensitive pipelines — and a neat fit for client-side tooling.",
+  "publishedAt": "2026-08-09"
+}

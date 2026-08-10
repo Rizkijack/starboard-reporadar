@@ -2486,5 +2486,246 @@
     "topics": [],
     "ownerAvatar": "https://avatars.githubusercontent.com/u/75212430?v=4",
     "archived": false
+  },
+  "antitree/nfc_canary": {
+    "stars": 69,
+    "forks": 0,
+    "openIssues": 0,
+    "language": "C",
+    "license": null,
+    "createdAt": "2026-08-03T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "topics": [
+      "flipper-zero",
+      "nfc",
+      "security"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/187086?v=4",
+    "archived": false
+  },
+  "ikuV/deident-wasm": {
+    "stars": 143,
+    "forks": 0,
+    "openIssues": 0,
+    "language": "Rust",
+    "license": null,
+    "createdAt": "2026-08-03T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "topics": [
+      "privacy",
+      "wasm",
+      "anonymization"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/0?v=4",
+    "archived": false
+  },
+  "yatuk/tamga": {
+    "stars": 33,
+    "forks": 0,
+    "openIssues": 0,
+    "language": "Go",
+    "license": null,
+    "createdAt": "2026-08-01T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "topics": [
+      "llm-security",
+      "pii"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/0?v=4",
+    "archived": false
+  },
+  "unmask-sh/unmask": {
+    "stars": 1,
+    "forks": 0,
+    "openIssues": 0,
+    "language": null,
+    "license": null,
+    "createdAt": "2026-08-01T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "topics": [
+      "bot-defense"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/0?v=4",
+    "archived": false
+  },
+  "AntonioRao/mr-rao": {
+    "stars": 4,
+    "forks": 0,
+    "openIssues": 0,
+    "language": "Python",
+    "license": null,
+    "createdAt": "2026-08-01T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "topics": [
+      "pdf",
+      "redaction"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/0?v=4",
+    "archived": false
+  },
+  "ChenPi11/cmd": {
+    "stars": 42,
+    "forks": 0,
+    "openIssues": 0,
+    "language": "C",
+    "license": null,
+    "createdAt": "2026-08-05T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "topics": [
+      "cmd.exe",
+      "batch"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/0?v=4",
+    "archived": false
+  },
+  "vshulcz/deja-vu": {
+    "stars": 186,
+    "forks": 10,
+    "openIssues": 0,
+    "language": "Go",
+    "license": null,
+    "createdAt": "2026-08-01T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "topics": [
+      "agent",
+      "memory"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/0?v=4",
+    "archived": false
+  },
+  "bug-ops/helix-trainer": {
+    "stars": 83,
+    "forks": 2,
+    "openIssues": 0,
+    "language": "Rust",
+    "license": null,
+    "createdAt": "2026-08-01T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "topics": [
+      "helix",
+      "keybinding"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/0?v=4",
+    "archived": false
+  },
+  "adrida/hud-mode": {
+    "stars": 27,
+    "forks": 1,
+    "openIssues": 0,
+    "language": "JavaScript",
+    "license": null,
+    "createdAt": "2026-08-01T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "topics": [
+      "hud",
+      "agent"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/0?v=4",
+    "archived": false
+  },
+  "OlegSotnikov/jc-rs": {
+    "stars": 100,
+    "forks": 5,
+    "openIssues": 0,
+    "language": "Rust",
+    "license": null,
+    "createdAt": "2026-08-04T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "topics": [
+      "cli",
+      "json"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/0?v=4",
+    "archived": false
+  },
+  "Nano-Collective/nanocoder": {
+    "stars": 2300,
+    "forks": 150,
+    "openIssues": 0,
+    "language": "TypeScript",
+    "license": null,
+    "createdAt": "2026-08-01T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "topics": [
+      "ai-coding",
+      "agent"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/0?v=4",
+    "archived": false
+  },
+  "shreyanth-sureshkrishnaa/pyroclear": {
+    "stars": 94,
+    "forks": 3,
+    "openIssues": 0,
+    "language": "Rust",
+    "license": null,
+    "createdAt": "2026-08-01T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "topics": [
+      "terminal",
+      "cli"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/0?v=4",
+    "archived": false
+  },
+  "palamim/starboard": {
+    "stars": 125,
+    "forks": 5,
+    "openIssues": 0,
+    "language": "Swift",
+    "license": null,
+    "createdAt": "2026-08-01T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "topics": [
+      "macos",
+      "terminal"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/0?v=4",
+    "archived": false
+  },
+  "gronke/ui-components": {
+    "stars": 52,
+    "forks": 2,
+    "openIssues": 0,
+    "language": "Rust",
+    "license": null,
+    "createdAt": "2026-08-03T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "topics": [
+      "rust",
+      "ui"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/0?v=4",
+    "archived": false
+  },
+  "code-yeongyu/web-terminal": {
+    "stars": 14,
+    "forks": 1,
+    "openIssues": 0,
+    "language": "TypeScript",
+    "license": null,
+    "createdAt": "2026-08-01T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "topics": [
+      "terminal",
+      "web"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/0?v=4",
+    "archived": false
+  },
+  "Andiveli/wptui": {
+    "stars": 135,
+    "forks": 5,
+    "openIssues": 0,
+    "language": "Rust",
+    "license": null,
+    "createdAt": "2026-08-03T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "topics": [
+      "whatsapp",
+      "tui"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/0?v=4",
+    "archived": false
   }
 }

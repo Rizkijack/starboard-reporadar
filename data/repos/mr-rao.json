@@ -1,0 +1,25 @@
+{
+  "slug": "mr-rao",
+  "name": "mr-rao",
+  "fullName": "AntonioRao/mr-rao",
+  "tagline": "Convert PDFs and Office files to Markdown with PII stripped",
+  "description": "mr-rao converts PDF and Office documents to Markdown while stripping personally identifiable information — a redaction-rebuild rather than a cover-up, with 859 tests and Sigstore-signed releases. The pipeline is built for document workflows that must ship clean, safe Markdown downstream (RAG, archiving, publishing) without leaking names, emails, phone numbers, or other PII that sits inside the original files.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["pdf", "redaction", "pii", "markdown", "privacy", "document-processing"],
+  "highlights": [
+    "PDF/Office to Markdown conversion with PII removed",
+    "Redaction rebuild rather than simple black bars or cover-ups",
+    "859 tests covering the conversion and redaction pipeline",
+    "Sigstore-signed releases for supply-chain verification"
+  ],
+  "techStack": ["Python", "Sigstore"],
+  "links": {
+    "website": "https://github.com/AntonioRao/mr-rao",
+    "docs": "https://github.com/AntonioRao/mr-rao#readme"
+  },
+  "images": {},
+  "related": ["anydoc", "deident-wasm"],
+  "curatorNote": "Document-to-Markdown tools are everywhere now, but almost none redact PII as part of the conversion. mr-rao's rebuild-not-cover redaction, 859 tests, and signed releases make it the safe default for document pipelines that handle sensitive data.",
+  "publishedAt": "2026-08-09"
+}
