@@ -1,0 +1,25 @@
+{
+  "slug": "google-skills",
+  "name": "Google Skills",
+  "fullName": "google/skills",
+  "tagline": "Official Agent Skills for Google products and Google Cloud",
+  "description": "google/skills is the official Agent Skills repository from Google, packaging skills for Google products and Google Cloud services into the emerging Agent Skills standard. Installation is a single command — npx skills add google/skills — and the collection sits at the center of the Agent Skills ecosystem that exploded this week, giving agents structured, versionable skill definitions rather than ad-hoc prompts.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["agent-skills", "google", "google-cloud", "skill", "ai"],
+  "highlights": [
+    "Official Agent Skills from Google for its products and Google Cloud",
+    "Install via a single command: npx skills add google/skills",
+    "Part of the emerging Agent Skills standard ecosystem",
+    "Structured, versionable skill definitions instead of ad-hoc prompts"
+  ],
+  "techStack": ["Python", "Agent Skills"],
+  "links": {
+    "website": "https://github.com/google/skills",
+    "docs": "https://github.com/google/skills#readme"
+  },
+  "images": {},
+  "related": ["book-to-skill", "open-kimi-ppt-skill"],
+  "curatorNote": "When Google ships official skills, the Agent Skills standard has arrived. The install-once model for vendor skill packs is the strongest signal yet that SKILL.md is becoming the distribution format for agent knowledge.",
+  "publishedAt": "2026-08-09"
+}

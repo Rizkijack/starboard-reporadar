@@ -1,0 +1,26 @@
+{
+  "slug": "open-code-review",
+  "name": "open-code-review",
+  "fullName": "alibaba/open-code-review",
+  "tagline": "Battle-tested AI code review CLI from Alibaba",
+  "description": "open-code-review is an AI code review CLI that Alibaba open-sourced after two years of internal use at massive scale — tens of thousands of developers and millions of defects caught. It uses a hybrid architecture that combines a deterministic pipeline (precise file selection, smart file bundling, fine-grained rule matching) with an LLM agent for deeper analysis. Built-in rulesets cover NPE, thread-safety, XSS, and SQL injection, and it is compatible with both OpenAI and Anthropic backends, including a plugin for Claude Code. The design specifically addresses the classic agent review failure modes: incomplete coverage, position drift, and unstable quality.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["code-review", "ai", "claude-code", "alibaba", "cli", "llm"],
+  "highlights": [
+    "Hybrid deterministic pipeline plus LLM agent for precise, stable reviews",
+    "Battle-tested at Alibaba across tens of thousands of developers for two years",
+    "Built-in rulesets for NPE, thread-safety, XSS, and SQL injection",
+    "Works with OpenAI and Anthropic backends, including a Claude Code plugin",
+    "Tackles incomplete coverage, position drift, and unstable quality head-on"
+  ],
+  "techStack": ["Go", "LLM", "CLI"],
+  "links": {
+    "website": "https://github.com/alibaba/open-code-review",
+    "docs": "https://github.com/alibaba/open-code-review#readme"
+  },
+  "images": {},
+  "related": ["code-review-agent", "prime-agent"],
+  "curatorNote": "AI code review tools are everywhere, but almost none have been hardened by two years inside Alibaba. The deterministic-plus-LLM hybrid is the pragmatic architecture the space needs — rules catch what rules catch, and the agent handles the rest.",
+  "publishedAt": "2026-08-09"
+}

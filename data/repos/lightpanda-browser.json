@@ -1,0 +1,26 @@
+{
+  "slug": "lightpanda-browser",
+  "name": "lightpanda",
+  "fullName": "lightpanda-io/browser",
+  "tagline": "A headless browser for AI and automation written from scratch in Zig",
+  "description": "lightpanda is a headless browser built from scratch in Zig for AI agents and automation — neither a Chromium fork nor a WebKit patch. It uses roughly 16× less memory (123MB vs 2GB) and is about 9× faster (5s vs 46s for 100 pages) because it strips out everything a human-facing browser needs. It speaks the Chrome DevTools Protocol with Puppeteer compatibility and ships a native MCP server, making it a drop-in lightweight target for web scraping and agent tooling.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["headless-browser", "zig", "web-scraping", "automation", "ai-agent", "mcp"],
+  "highlights": [
+    "Headless browser written from scratch in Zig — no Chromium, no WebKit",
+    "~16× less memory and ~9× faster page loads than Chrome-based browsers",
+    "Chrome DevTools Protocol server with Puppeteer compatibility",
+    "Native MCP server for AI agent integration",
+    "Designed specifically for scraping and automation workloads"
+  ],
+  "techStack": ["Zig", "CDP", "MCP"],
+  "links": {
+    "website": "https://github.com/lightpanda-io/browser",
+    "docs": "https://github.com/lightpanda-io/browser#readme"
+  },
+  "images": {},
+  "related": ["browser-use", "camofox-browser"],
+  "curatorNote": "The 'just fork Chrome' approach to headless browsing is a memory and startup-tax disaster for agents. A from-scratch Zig browser with CDP and native MCP is exactly the right bet for the automation-heavy future.",
+  "publishedAt": "2026-08-09"
+}

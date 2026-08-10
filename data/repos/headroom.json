@@ -1,0 +1,26 @@
+{
+  "slug": "headroom",
+  "name": "headroom",
+  "fullName": "chopratejas/headroom",
+  "tagline": "Compress tool output, logs, and files before they ever reach the LLM",
+  "description": "headroom is a context compression layer for AI agents that shrinks tool output, logs, files, and RAG chunks before they are sent to the model — cutting tokens by 60–95% while preserving the answer. It ships as a library, a proxy, and an MCP server, with six algorithms (including SmartCrusher, CodeCompressor, and Kompress-base) plus reversible compression (CCR) so originals are never destroyed. headroom works across agents — Claude, Codex, Gemini — and its headroom learn command writes corrections back into CLAUDE.md and AGENTS.md, so agent memory improves with usage. Benchmarks show 92% token savings on SRE debugging.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["context-compression", "llm", "token-savings", "mcp", "agents", "python", "rust"],
+  "highlights": [
+    "Cuts tokens 60–95% on tool output, logs, files, and RAG chunks with equal answers",
+    "Six compression algorithms including SmartCrusher, CodeCompressor, and Kompress-base",
+    "Reversible compression (CCR) so original data is never lost",
+    "Works across Claude, Codex, and Gemini with library, proxy, and MCP server modes",
+    "headroom learn persists corrections into CLAUDE.md and AGENTS.md for improving agent memory"
+  ],
+  "techStack": ["Python", "Rust", "MCP"],
+  "links": {
+    "website": "https://github.com/chopratejas/headroom",
+    "docs": "https://github.com/chopratejas/headroom#readme"
+  },
+  "images": {},
+  "related": ["claude-tap", "zero-mem"],
+  "curatorNote": "Token budgets are the real constraint of the agent era, and headroom attacks it at the right place — before the payload reaches the model. Reversible compression and a learn command that writes back into agent memory make this far more than a dumb compressor.",
+  "publishedAt": "2026-08-09"
+}

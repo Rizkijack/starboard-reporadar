@@ -1,0 +1,26 @@
+{
+  "slug": "gh-stack",
+  "name": "gh-stack",
+  "fullName": "github/gh-stack",
+  "tagline": "Official GitHub CLI extension for stacked branches and PRs",
+  "description": "gh-stack is the official GitHub CLI extension for stacked branches and pull requests. Commands like gh stack init, add, push, submit, rebase, sync, and modify make the entire stacked-PR lifecycle scriptable, while a TUI supports restructuring stacks — dropping, folding, inserting, and reordering branches. It auto-enables git rerere to resolve recurring merge conflicts, and integrates with AI agent skills, making it a natural fit for worktree-heavy and multi-agent workflows.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["github-cli", "stacked-pr", "git", "workflow", "cli"],
+  "highlights": [
+    "Official GitHub CLI extension for stacked branches and pull requests",
+    "gh stack init/add/push/submit/rebase/sync/modify cover the whole lifecycle",
+    "TUI for restructuring stacks: drop, fold, insert, and reorder branches",
+    "Auto-enables git rerere to handle recurring merge conflicts",
+    "Integrates with AI agent skills for multi-agent workflows"
+  ],
+  "techStack": ["Go", "GitHub CLI"],
+  "links": {
+    "website": "https://github.com/github/gh-stack",
+    "docs": "https://github.com/github/gh-stack#readme"
+  },
+  "images": {},
+  "related": ["diri", "code-review-agent"],
+  "curatorNote": "Stacked PRs are the workflow of choice for anyone working in parallel branches or with agents, yet tooling has always lagged. An official extension from GitHub that automates init, submit, and restructure finally makes the pattern approachable.",
+  "publishedAt": "2026-08-09"
+}

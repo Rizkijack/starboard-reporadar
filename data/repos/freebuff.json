@@ -1,0 +1,26 @@
+{
+  "slug": "freebuff",
+  "name": "freebuff",
+  "fullName": "CodebuffAI/freebuff",
+  "tagline": "Five genuinely free AI coding products with no API keys",
+  "description": "freebuff bundles five free AI coding products from Codebuff: a desktop app with parallel agents, a CLI, a web app for full-stack projects, a cloud service that works from any GitHub repo, and a chat interface. It runs a multi-agent architecture with specialized agents rather than one model doing everything, powered by DeepSeek V4 Flash/Pro, GPT-5.6 Luna, MiniMax M3, and MiMo 2.5. There are no subscriptions, credits, or API keys — the model is supported by text ads, and it works in every country.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["ai-coding", "free", "multi-agent", "cli", "desktop", "web"],
+  "highlights": [
+    "Five products — desktop, CLI, web, cloud, and chat — under one free umbrella",
+    "No subscription, credits, or API keys; supported by text ads",
+    "Multi-agent architecture with specialized agents instead of one model",
+    "Runs DeepSeek V4, GPT-5.6 Luna, MiniMax M3, and MiMo 2.5",
+    "Cloud mode works directly from any GitHub repo"
+  ],
+  "techStack": ["TypeScript", "Multi-agent", "DeepSeek", "GPT-5.6"],
+  "links": {
+    "website": "https://github.com/CodebuffAI/freebuff",
+    "docs": "https://github.com/CodebuffAI/freebuff#readme"
+  },
+  "images": {},
+  "related": ["prime-agent", "free-claude-code"],
+  "curatorNote": "Free AI coding tools usually mean a stingy free tier. freebuff's bet — genuinely free everywhere, supported by text ads — is worth watching, and the specialized multi-agent architecture is a better design than most paid products.",
+  "publishedAt": "2026-08-09"
+}

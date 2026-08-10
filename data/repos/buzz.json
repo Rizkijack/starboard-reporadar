@@ -1,0 +1,26 @@
+{
+  "slug": "buzz",
+  "name": "buzz",
+  "fullName": "block/buzz",
+  "tagline": "A self-hostable workspace where humans and agents are teammates",
+  "description": "buzz is a self-hostable workspace from Block, Inc. in which humans and AI agents share the same rooms. Every message, reaction, workflow, review, and git event is a signed Nostr event on a relay, making the entire workspace auditable and portable. Agents can open repositories, send patches, review code, run workflows, edit canvases, and even orchestrate other agents or join voice huddles. A buzz-cli provides an agent-first JSON interface, and the desktop app is built with Tauri and React. The concept is radical: agents are team members, not bots.",
+  "category": "communication",
+  "featured": false,
+  "tags": ["nostr", "workspace", "multi-agent", "self-hosted", "rust", "typescript", "tauri"],
+  "highlights": [
+    "Every message, reaction, workflow, review, and git event is a signed Nostr event",
+    "Agents can open repos, send patches, review code, run workflows, and edit canvases",
+    "Agents orchestrate other agents and join voice huddles",
+    "Agent-first buzz-cli with JSON in/out, plus a Tauri + React desktop app",
+    "From Block, Inc. — the company behind Square and Cash App"
+  ],
+  "techStack": ["Rust", "TypeScript", "Nostr", "Tauri", "React"],
+  "links": {
+    "website": "https://github.com/block/buzz",
+    "docs": "https://github.com/block/buzz#readme"
+  },
+  "images": {},
+  "related": ["qm", "loopx"],
+  "curatorNote": "Block shipping a Nostr-native human-plus-agent workspace is a big signal. Treating agents as first-class signed members of a team rather than bolt-on bots is the most coherent take yet on what multi-agent work should look like.",
+  "publishedAt": "2026-08-09"
+}

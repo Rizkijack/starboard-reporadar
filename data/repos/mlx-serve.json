@@ -1,0 +1,26 @@
+{
+  "slug": "mlx-serve",
+  "name": "mlx-serve",
+  "fullName": "ddalcu/mlx-serve",
+  "tagline": "A native Zig inference server for Apple Silicon — no Python",
+  "description": "mlx-serve is a native inference server for Apple Silicon written in Zig, built on MLX and GGUF. It exposes OpenAI-, Anthropic-, and Ollama-compatible APIs with no Python in the stack, and measures roughly 26% faster decode than LM Studio. Speculative decoding, continuous batching, and KV-cache quantization squeeze more throughput out of unified memory, and the MLX Core app layers chat, agent mode, MCP tools, and image, video, music, speech, and 3D generation on top. A single static binary makes LAN model sharing between Macs trivial, and it can run DeepSeek V4 Flash.",
+  "category": "cli-terminal",
+  "featured": false,
+  "tags": ["zig", "mlx", "inference-server", "apple-silicon", "llm", "gguf"],
+  "highlights": [
+    "Native Zig inference server on MLX + GGUF with no Python in the stack",
+    "OpenAI-, Anthropic-, and Ollama-compatible APIs",
+    "~26% faster decode than LM Studio",
+    "Speculative decoding, continuous batching, and KV-cache quantization",
+    "MLX Core app with chat, agent mode, MCP tools, and multimodal generation"
+  ],
+  "techStack": ["Zig", "MLX", "GGUF"],
+  "links": {
+    "website": "https://github.com/ddalcu/mlx-serve",
+    "docs": "https://github.com/ddalcu/mlx-serve#readme"
+  },
+  "images": {},
+  "related": ["ds4", "kimi-k3-mlx"],
+  "curatorNote": "A single Zig binary serving OpenAI-compatible endpoints from Apple Silicon, no Python anywhere, and measurably faster than LM Studio. The trend of ditching Python for native inference servers just got a very strong entry.",
+  "publishedAt": "2026-08-09"
+}

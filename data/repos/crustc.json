@@ -1,0 +1,26 @@
+{
+  "slug": "crustc",
+  "name": "crustc",
+  "fullName": "FractalFir/crustc",
+  "tagline": "The rustc compiler translated into 46 million lines of C",
+  "description": "crustc is a C translation of the entire rustc 1.98.0-nightly compiler — roughly 46 million lines of C that builds with GCC and make. The resulting Rust compiler can compile core, alloc, and std, and it is network-transparent, meaning it can even talk to a C compiler over TCP. Built over three years across 14 attempts, crustc's goal is to bring Rust to old or obscure hardware that has no LLVM backend; it has already successfully compiled Rust for Plan 9.",
+  "category": "other-fun",
+  "featured": false,
+  "tags": ["rust", "c", "compiler", "translation", "plan9", "llvm-free"],
+  "highlights": [
+    "Entire rustc 1.98.0-nightly translated to ~46 million lines of C",
+    "Builds with GCC and make — no LLVM required",
+    "Compiles core, alloc, and std; already compiled Rust for Plan 9",
+    "Network-transparent: can talk to a C compiler over TCP",
+    "Three years of work across 14 attempts"
+  ],
+  "techStack": ["C", "GCC", "rustc"],
+  "links": {
+    "website": "https://github.com/FractalFir/crustc",
+    "docs": "https://github.com/FractalFir/crustc#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "A three-year, 14-attempt effort to translate the entire rustc into C so Rust can run where LLVM cannot. It already compiles for Plan 9. Absurd in the best way — and a genuinely important portability experiment.",
+  "publishedAt": "2026-08-09"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "ds4",
+  "name": "ds4",
+  "fullName": "antirez/ds4",
+  "tagline": "DeepSeek V4 Flash inference engine from the creator of Redis",
+  "description": "ds4 is a native inference engine for DeepSeek V4 Flash (284B parameters) written in C, from Salvatore Sanfilippo, the creator of Redis. It targets Metal on macOS and CUDA on Linux, and treats the KV cache as a first-class disk citizen: instead of holding everything in RAM, it streams key-value state from disk with a custom 2-bit quantization scheme, enabling a 1M token context window on modest hardware. The project ships with an integrated agent and is explicitly positioned as beta-quality but visionary — 'KV cache belongs on disk, not RAM.'",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["inference-engine", "deepseek", "llm", "kv-cache", "c", "metal", "cuda"],
+  "highlights": [
+    "Runs DeepSeek V4 Flash (284B params) natively via Metal on macOS and CUDA on Linux",
+    "KV cache as a first-class disk citizen with custom 2-bit quantization",
+    "1M token context window on hardware that does not fit the cache in RAM",
+    "From Salvatore Sanfilippo, creator of Redis",
+    "Ships with an integrated agent for interactive use"
+  ],
+  "techStack": ["C", "Metal", "CUDA"],
+  "links": {
+    "website": "https://github.com/antirez/ds4",
+    "docs": "https://github.com/antirez/ds4#readme"
+  },
+  "images": {},
+  "related": ["waste", "kimi-k3-mlx"],
+  "curatorNote": "The creator of Redis putting 'KV cache belongs on disk, not RAM' into practice. Beta quality, but a genuinely different answer to running a 284B model on consumer hardware — and exactly the kind of visionary, opinionated engineering worth watching.",
+  "publishedAt": "2026-08-09"
+}
