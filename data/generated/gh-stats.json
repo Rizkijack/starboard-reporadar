@@ -1,12 +1,12 @@
 {
   "adithyan-ak/agenthound": {
-    "stars": 242,
-    "forks": 54,
-    "openIssues": 15,
+    "stars": 252,
+    "forks": 56,
+    "openIssues": 17,
     "language": "Go",
     "license": "Apache-2.0",
     "createdAt": "2026-04-05T20:37:16Z",
-    "updatedAt": "2026-08-09T12:47:45Z",
+    "updatedAt": "2026-08-10T12:47:29Z",
     "topics": [
       "a2a",
       "agentic-ai",
@@ -27,13 +27,13 @@
     "archived": false
   },
   "AppFlowy-IO/AppFlowy": {
-    "stars": 75124,
-    "forks": 5811,
-    "openIssues": 977,
+    "stars": 75151,
+    "forks": 5816,
+    "openIssues": 980,
     "language": "Dart",
     "license": "AGPL-3.0",
     "createdAt": "2021-06-16T12:56:48Z",
-    "updatedAt": "2026-08-09T13:23:40Z",
+    "updatedAt": "2026-08-10T12:22:27Z",
     "topics": [
       "blog",
       "confluence-alternative",
@@ -52,25 +52,25 @@
     "archived": false
   },
   "openai/apps-sdk-ui": {
-    "stars": 922,
+    "stars": 923,
     "forks": 121,
     "openIssues": 26,
     "language": "TypeScript",
     "license": "MIT",
     "createdAt": "2025-10-31T21:46:41Z",
-    "updatedAt": "2026-08-07T16:21:17Z",
+    "updatedAt": "2026-08-10T07:06:52Z",
     "topics": [],
     "ownerAvatar": "https://avatars.githubusercontent.com/u/14957082?v=4",
     "archived": false
   },
   "AppsmithOrg/appsmith": {
-    "stars": 40611,
+    "stars": 40612,
     "forks": 4710,
-    "openIssues": 4464,
+    "openIssues": 4466,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "createdAt": "2020-06-30T04:07:36Z",
-    "updatedAt": "2026-08-09T05:02:10Z",
+    "updatedAt": "2026-08-10T12:25:35Z",
     "topics": [
       "admin-dashboard",
       "admin-panels",
@@ -97,13 +97,13 @@
     "archived": false
   },
   "get-bb/bb": {
-    "stars": 1510,
-    "forks": 140,
-    "openIssues": 85,
+    "stars": 1571,
+    "forks": 150,
+    "openIssues": 86,
     "language": "TypeScript",
     "license": "MIT",
     "createdAt": "2026-02-24T22:32:40Z",
-    "updatedAt": "2026-08-09T13:14:47Z",
+    "updatedAt": "2026-08-10T12:44:08Z",
     "topics": [
       "ade",
       "agent-ide",
@@ -122,31 +122,31 @@
     "language": "Dart",
     "license": null,
     "createdAt": "2026-07-18T06:38:12Z",
-    "updatedAt": "2026-08-08T21:36:26Z",
+    "updatedAt": "2026-08-09T15:47:00Z",
     "topics": [],
     "ownerAvatar": "https://avatars.githubusercontent.com/u/6342?v=4",
     "archived": false
   },
   "brightdata/cli": {
-    "stars": 3042,
-    "forks": 53,
+    "stars": 3521,
+    "forks": 59,
     "openIssues": 6,
     "language": "TypeScript",
     "license": "MIT",
     "createdAt": "2026-03-07T10:25:57Z",
-    "updatedAt": "2026-08-09T13:23:34Z",
+    "updatedAt": "2026-08-10T12:51:34Z",
     "topics": [],
     "ownerAvatar": "https://avatars.githubusercontent.com/u/213028976?v=4",
     "archived": false
   },
   "jo-inc/camofox-browser": {
-    "stars": 8447,
-    "forks": 894,
-    "openIssues": 41,
+    "stars": 8476,
+    "forks": 897,
+    "openIssues": 47,
     "language": "JavaScript",
     "license": "MIT",
     "createdAt": "2026-01-26T07:31:13Z",
-    "updatedAt": "2026-08-09T12:48:00Z",
+    "updatedAt": "2026-08-10T12:32:03Z",
     "topics": [
       "ai-agent",
       "anti-bot",
@@ -180,13 +180,13 @@
     "archived": false
   },
   "coollabsio/coolify": {
-    "stars": 60284,
-    "forks": 5234,
-    "openIssues": 833,
+    "stars": 60331,
+    "forks": 5243,
+    "openIssues": 811,
     "language": "PHP",
     "license": "Apache-2.0",
     "createdAt": "2021-01-25T20:54:01Z",
-    "updatedAt": "2026-08-09T12:41:22Z",
+    "updatedAt": "2026-08-10T12:13:31Z",
     "topics": [
       "coolify",
       "databases",
@@ -219,7 +219,7 @@
     "language": "Go",
     "license": "MIT",
     "createdAt": "2026-05-13T12:24:09Z",
-    "updatedAt": "2026-08-09T03:11:19Z",
+    "updatedAt": "2026-08-10T11:34:17Z",
     "topics": [
       "bubbletea",
       "golang",
@@ -233,13 +233,13 @@
     "archived": false
   },
   "Giammarco-Ferranti/deja": {
-    "stars": 551,
+    "stars": 554,
     "forks": 10,
     "openIssues": 6,
     "language": "Go",
     "license": "MIT",
     "createdAt": "2026-04-07T05:56:30Z",
-    "updatedAt": "2026-08-09T13:10:26Z",
+    "updatedAt": "2026-08-10T02:47:07Z",
     "topics": [
       "autocomplete",
       "autocomplete-suggestions",
@@ -254,13 +254,13 @@
     "archived": false
   },
   "directus/directus": {
-    "stars": 37263,
-    "forks": 4895,
-    "openIssues": 399,
+    "stars": 37276,
+    "forks": 4897,
+    "openIssues": 401,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "createdAt": "2012-12-12T01:35:36Z",
-    "updatedAt": "2026-08-09T13:20:02Z",
+    "updatedAt": "2026-08-10T11:41:36Z",
     "topics": [
       "api",
       "app",
@@ -287,13 +287,13 @@
     "archived": false
   },
   "documenso/documenso": {
-    "stars": 14312,
-    "forks": 3019,
-    "openIssues": 210,
+    "stars": 14320,
+    "forks": 3023,
+    "openIssues": 207,
     "language": "TypeScript",
     "license": "AGPL-3.0",
     "createdAt": "2023-03-12T16:28:56Z",
-    "updatedAt": "2026-08-09T13:18:39Z",
+    "updatedAt": "2026-08-10T12:38:24Z",
     "topics": [
       "digital-signature",
       "document-signing",
@@ -318,37 +318,37 @@
     "archived": false
   },
   "iamrohithrnair/emeraldian": {
-    "stars": 158,
+    "stars": 166,
     "forks": 5,
     "openIssues": 2,
     "language": "Rust",
     "license": "GPL-3.0",
     "createdAt": "2026-07-27T13:04:41Z",
-    "updatedAt": "2026-08-09T12:05:10Z",
+    "updatedAt": "2026-08-10T11:59:30Z",
     "topics": [],
     "ownerAvatar": "https://avatars.githubusercontent.com/u/269915440?v=4",
     "archived": false
   },
   "google-gemma/gemma-translator": {
-    "stars": 656,
-    "forks": 83,
-    "openIssues": 1,
+    "stars": 762,
+    "forks": 90,
+    "openIssues": 3,
     "language": "JavaScript",
     "license": "Apache-2.0",
     "createdAt": "2026-08-03T18:50:34Z",
-    "updatedAt": "2026-08-09T13:19:47Z",
+    "updatedAt": "2026-08-10T12:41:21Z",
     "topics": [],
     "ownerAvatar": "https://avatars.githubusercontent.com/u/271369873?v=4",
     "archived": false
   },
   "generaltranslation/gt": {
-    "stars": 1029,
+    "stars": 1033,
     "forks": 35,
     "openIssues": 99,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "createdAt": "2024-11-19T21:04:57Z",
-    "updatedAt": "2026-08-09T09:52:33Z",
+    "updatedAt": "2026-08-10T08:44:13Z",
     "topics": [
       "i18n",
       "internationalization",
@@ -378,11 +378,11 @@
   "juggler-ai/juggler": {
     "stars": 556,
     "forks": 42,
-    "openIssues": 6,
+    "openIssues": 7,
     "language": "JavaScript",
     "license": "AGPL-3.0",
     "createdAt": "2026-06-19T08:33:59Z",
-    "updatedAt": "2026-08-09T07:52:52Z",
+    "updatedAt": "2026-08-10T12:24:32Z",
     "topics": [
       "agent",
       "agentic-ai",
@@ -394,13 +394,13 @@
     "archived": false
   },
   "PipeNetwork/kimi-k3-mlx": {
-    "stars": 328,
-    "forks": 37,
+    "stars": 329,
+    "forks": 38,
     "openIssues": 15,
     "language": "Python",
     "license": null,
     "createdAt": "2026-07-27T23:51:45Z",
-    "updatedAt": "2026-08-09T09:50:12Z",
+    "updatedAt": "2026-08-10T01:48:32Z",
     "topics": [],
     "ownerAvatar": "https://avatars.githubusercontent.com/u/177175125?v=4",
     "archived": false
@@ -418,13 +418,13 @@
     "archived": false
   },
   "Mte90/linus-torvalds-skill": {
-    "stars": 54,
-    "forks": 4,
+    "stars": 56,
+    "forks": 6,
     "openIssues": 1,
     "language": "Python",
     "license": "CC0-1.0",
     "createdAt": "2026-08-04T13:29:44Z",
-    "updatedAt": "2026-08-09T11:15:46Z",
+    "updatedAt": "2026-08-10T11:30:25Z",
     "topics": [
       "review",
       "skill",
@@ -434,13 +434,13 @@
     "archived": false
   },
   "knadh/listmonk": {
-    "stars": 22680,
-    "forks": 2481,
-    "openIssues": 105,
+    "stars": 22694,
+    "forks": 2486,
+    "openIssues": 106,
     "language": "Go",
     "license": "AGPL-3.0",
     "createdAt": "2019-06-26T05:08:39Z",
-    "updatedAt": "2026-08-09T13:01:43Z",
+    "updatedAt": "2026-08-10T09:58:48Z",
     "topics": [
       "campaign",
       "campaign-management",
@@ -460,37 +460,37 @@
     "archived": false
   },
   "cosmtrek/mindwalk": {
-    "stars": 1155,
+    "stars": 1161,
     "forks": 90,
-    "openIssues": 7,
+    "openIssues": 6,
     "language": "Go",
     "license": "MIT",
     "createdAt": "2026-07-09T11:41:46Z",
-    "updatedAt": "2026-08-09T12:53:26Z",
+    "updatedAt": "2026-08-10T11:22:02Z",
     "topics": [],
     "ownerAvatar": "https://avatars.githubusercontent.com/u/8832222?v=4",
     "archived": false
   },
   "MiniMax-AI/MiniMax-H3": {
-    "stars": 2361,
-    "forks": 141,
-    "openIssues": 3,
+    "stars": 3606,
+    "forks": 214,
+    "openIssues": 10,
     "language": "Python",
     "license": null,
     "createdAt": "2026-07-30T08:41:09Z",
-    "updatedAt": "2026-08-09T13:24:25Z",
+    "updatedAt": "2026-08-10T12:52:28Z",
     "topics": [],
     "ownerAvatar": "https://avatars.githubusercontent.com/u/194880281?v=4",
     "archived": false
   },
   "jchultarsky/mirador": {
-    "stars": 281,
+    "stars": 283,
     "forks": 29,
     "openIssues": 4,
     "language": "Rust",
     "license": "MIT",
     "createdAt": "2026-07-25T18:31:04Z",
-    "updatedAt": "2026-08-09T08:53:50Z",
+    "updatedAt": "2026-08-10T06:58:08Z",
     "topics": [
       "cli",
       "command-line-tool",
@@ -512,13 +512,13 @@
     "archived": false
   },
   "n8n-io/n8n": {
-    "stars": 199922,
-    "forks": 60022,
-    "openIssues": 1414,
+    "stars": 200075,
+    "forks": 60046,
+    "openIssues": 1420,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "createdAt": "2019-06-22T09:24:21Z",
-    "updatedAt": "2026-08-09T13:03:48Z",
+    "updatedAt": "2026-08-10T12:51:17Z",
     "topics": [
       "ai",
       "apis",
@@ -545,13 +545,13 @@
     "archived": false
   },
   "nocodb/nocodb": {
-    "stars": 64466,
-    "forks": 4978,
+    "stars": 64485,
+    "forks": 4980,
     "openIssues": 696,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "createdAt": "2017-10-29T18:51:48Z",
-    "updatedAt": "2026-08-09T13:23:46Z",
+    "updatedAt": "2026-08-10T12:27:23Z",
     "topics": [
       "airtable",
       "airtable-alternative",
@@ -572,13 +572,13 @@
     "archived": false
   },
   "perplexityai/numbat": {
-    "stars": 820,
-    "forks": 85,
-    "openIssues": 3,
+    "stars": 865,
+    "forks": 91,
+    "openIssues": 4,
     "language": "Go",
     "license": "Apache-2.0",
     "createdAt": "2026-07-24T06:07:59Z",
-    "updatedAt": "2026-08-09T12:34:43Z",
+    "updatedAt": "2026-08-10T12:50:03Z",
     "topics": [
       "agent-security",
       "ai-agent-security",
@@ -588,13 +588,13 @@
     "archived": false
   },
   "Vrun-design/openflowkit": {
-    "stars": 675,
+    "stars": 678,
     "forks": 133,
     "openIssues": 4,
     "language": "TypeScript",
     "license": "MIT",
     "createdAt": "2026-02-10T10:15:00Z",
-    "updatedAt": "2026-08-08T15:23:27Z",
+    "updatedAt": "2026-08-10T12:17:56Z",
     "topics": [
       "ai",
       "architecture-diagrams",
@@ -615,13 +615,13 @@
     "archived": false
   },
   "codewiththiha/OpenSlides": {
-    "stars": 177,
-    "forks": 14,
+    "stars": 179,
+    "forks": 15,
     "openIssues": 0,
     "language": "TypeScript",
     "license": "MIT",
     "createdAt": "2026-07-17T09:59:49Z",
-    "updatedAt": "2026-08-08T15:36:34Z",
+    "updatedAt": "2026-08-10T12:43:58Z",
     "topics": [
       "code-animation",
       "code-presentation",
@@ -643,25 +643,25 @@
     "archived": false
   },
   "VictorTaelin/OptMem": {
-    "stars": 1137,
-    "forks": 71,
-    "openIssues": 2,
+    "stars": 1215,
+    "forks": 75,
+    "openIssues": 3,
     "language": "Python",
     "license": null,
     "createdAt": "2026-07-25T16:58:43Z",
-    "updatedAt": "2026-08-08T15:05:12Z",
+    "updatedAt": "2026-08-10T10:45:18Z",
     "topics": [],
     "ownerAvatar": "https://avatars.githubusercontent.com/u/13090166?v=4",
     "archived": false
   },
   "outline/outline": {
-    "stars": 40046,
-    "forks": 3471,
-    "openIssues": 69,
+    "stars": 40063,
+    "forks": 3473,
+    "openIssues": 68,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "createdAt": "2016-05-22T21:31:47Z",
-    "updatedAt": "2026-08-09T04:14:29Z",
+    "updatedAt": "2026-08-10T12:24:01Z",
     "topics": [
       "docker",
       "javascript",
@@ -675,13 +675,13 @@
     "archived": false
   },
   "paperless-ngx/paperless-ngx": {
-    "stars": 44108,
-    "forks": 3005,
-    "openIssues": 10,
+    "stars": 44140,
+    "forks": 3009,
+    "openIssues": 11,
     "language": "Python",
     "license": "GPL-3.0",
     "createdAt": "2022-02-12T21:56:52Z",
-    "updatedAt": "2026-08-09T05:44:00Z",
+    "updatedAt": "2026-08-10T12:46:55Z",
     "topics": [
       "angular",
       "archiving",
@@ -699,13 +699,13 @@
     "archived": false
   },
   "xikhar/persona": {
-    "stars": 885,
-    "forks": 80,
-    "openIssues": 5,
+    "stars": 887,
+    "forks": 82,
+    "openIssues": 8,
     "language": "JavaScript",
     "license": "MIT",
     "createdAt": "2026-07-28T11:40:19Z",
-    "updatedAt": "2026-08-09T05:30:51Z",
+    "updatedAt": "2026-08-10T05:39:28Z",
     "topics": [],
     "ownerAvatar": "https://avatars.githubusercontent.com/u/215908419?v=4",
     "archived": false
@@ -723,13 +723,13 @@
     "archived": false
   },
   "pocketbase/pocketbase": {
-    "stars": 60564,
-    "forks": 3628,
+    "stars": 60596,
+    "forks": 3631,
     "openIssues": 19,
     "language": "Go",
     "license": "MIT",
     "createdAt": "2022-07-05T06:06:21Z",
-    "updatedAt": "2026-08-09T05:27:57Z",
+    "updatedAt": "2026-08-10T11:25:10Z",
     "topics": [
       "authentication",
       "backend",
@@ -741,12 +741,12 @@
   },
   "go-shiori/shiori": {
     "stars": 11574,
-    "forks": 625,
+    "forks": 624,
     "openIssues": 113,
     "language": "Go",
     "license": "MIT",
     "createdAt": "2018-01-23T13:57:11Z",
-    "updatedAt": "2026-08-07T21:05:55Z",
+    "updatedAt": "2026-08-10T02:34:03Z",
     "topics": [
       "bookmark-manager",
       "command-line",
@@ -759,13 +759,13 @@
     "archived": false
   },
   "leonickson1/Swiftlet": {
-    "stars": 453,
+    "stars": 473,
     "forks": 20,
     "openIssues": 2,
     "language": "Swift",
     "license": "Apache-2.0",
     "createdAt": "2026-08-03T13:03:37Z",
-    "updatedAt": "2026-08-08T14:24:58Z",
+    "updatedAt": "2026-08-10T10:30:35Z",
     "topics": [
       "local-llm",
       "mixture-of-experts",
@@ -777,13 +777,13 @@
     "archived": false
   },
   "TencentCloud/TencentDB-Agent-Memory": {
-    "stars": 18063,
-    "forks": 1618,
-    "openIssues": 566,
+    "stars": 19195,
+    "forks": 1731,
+    "openIssues": 610,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "createdAt": "2026-04-07T06:34:26Z",
-    "updatedAt": "2026-08-08T15:52:56Z",
+    "updatedAt": "2026-08-10T12:49:46Z",
     "topics": [
       "agent",
       "ai-agent",
@@ -799,13 +799,13 @@
     "archived": false
   },
   "guilt/TinyToT": {
-    "stars": 59,
+    "stars": 60,
     "forks": 3,
     "openIssues": 0,
     "language": "Python",
     "license": "MIT",
     "createdAt": "2026-07-10T04:55:07Z",
-    "updatedAt": "2026-08-07T01:04:51Z",
+    "updatedAt": "2026-08-08T23:39:51Z",
     "topics": [
       "grounded",
       "inference",
@@ -818,13 +818,13 @@
     "archived": false
   },
   "umami-software/umami": {
-    "stars": 38109,
-    "forks": 7722,
-    "openIssues": 119,
+    "stars": 38134,
+    "forks": 7727,
+    "openIssues": 120,
     "language": "TypeScript",
     "license": "MIT",
     "createdAt": "2020-07-17T07:59:00Z",
-    "updatedAt": "2026-08-08T15:25:27Z",
+    "updatedAt": "2026-08-10T11:43:53Z",
     "topics": [
       "analytics",
       "audience-segmentation",
@@ -840,13 +840,13 @@
     "archived": false
   },
   "edaywalid/undo": {
-    "stars": 366,
-    "forks": 11,
-    "openIssues": 4,
+    "stars": 370,
+    "forks": 12,
+    "openIssues": 5,
     "language": "Go",
     "license": "MIT",
     "createdAt": "2026-07-23T09:27:59Z",
-    "updatedAt": "2026-08-08T06:24:15Z",
+    "updatedAt": "2026-08-10T09:59:23Z",
     "topics": [
       "cli",
       "developer-tools",
@@ -861,13 +861,13 @@
     "archived": false
   },
   "FrigadeHQ/yap": {
-    "stars": 346,
-    "forks": 20,
+    "stars": 352,
+    "forks": 21,
     "openIssues": 5,
     "language": "Swift",
     "license": "MIT",
     "createdAt": "2026-07-23T23:34:40Z",
-    "updatedAt": "2026-08-08T09:28:40Z",
+    "updatedAt": "2026-08-10T08:22:31Z",
     "topics": [
       "accessibility",
       "apple-speech",
@@ -890,25 +890,25 @@
     "archived": false
   },
   "pablostanley/yoinks": {
-    "stars": 1274,
+    "stars": 1283,
     "forks": 121,
     "openIssues": 11,
     "language": "TypeScript",
     "license": "MIT",
     "createdAt": "2026-07-16T07:06:09Z",
-    "updatedAt": "2026-08-08T15:40:45Z",
+    "updatedAt": "2026-08-10T09:41:04Z",
     "topics": [],
     "ownerAvatar": "https://avatars.githubusercontent.com/u/7430988?v=4",
     "archived": false
   },
   "zitadel/zitadel": {
-    "stars": 14674,
-    "forks": 1216,
-    "openIssues": 1103,
+    "stars": 14684,
+    "forks": 1217,
+    "openIssues": 1109,
     "language": "Go",
     "license": "AGPL-3.0",
     "createdAt": "2020-03-16T13:51:31Z",
-    "updatedAt": "2026-08-08T15:10:20Z",
+    "updatedAt": "2026-08-10T08:53:21Z",
     "topics": [
       "2fa",
       "authentication",
@@ -932,13 +932,13 @@
     "archived": false
   },
   "twalichiewicz/Backchannel": {
-    "stars": 242,
+    "stars": 246,
     "forks": 10,
-    "openIssues": 10,
+    "openIssues": 11,
     "language": "JavaScript",
     "license": "MIT",
     "createdAt": "2026-07-28T19:26:13Z",
-    "updatedAt": "2026-08-09T07:20:50Z",
+    "updatedAt": "2026-08-10T07:54:17Z",
     "topics": [
       "bluesky",
       "hacker-news",
@@ -954,7 +954,7 @@
   "RtiM0/peek": {
     "stars": 58,
     "forks": 1,
-    "openIssues": 3,
+    "openIssues": 4,
     "language": "Kotlin",
     "license": "GPL-3.0",
     "createdAt": "2026-07-25T09:55:16Z",
@@ -971,13 +971,13 @@
     "archived": false
   },
   "ShadcnDeck/chatdeck-shadcn-saas-landing-page-template": {
-    "stars": 46,
-    "forks": 10,
+    "stars": 47,
+    "forks": 11,
     "openIssues": 0,
     "language": "TypeScript",
     "license": null,
     "createdAt": "2025-12-07T05:19:07Z",
-    "updatedAt": "2026-08-09T06:07:23Z",
+    "updatedAt": "2026-08-09T16:47:15Z",
     "topics": [
       "free-templates",
       "landing-page-template",
@@ -1009,19 +1009,19 @@
     "language": "JavaScript",
     "license": "MIT",
     "createdAt": "2026-07-29T13:28:46Z",
-    "updatedAt": "2026-08-09T12:20:54Z",
+    "updatedAt": "2026-08-09T19:55:45Z",
     "topics": [],
     "ownerAvatar": "https://avatars.githubusercontent.com/u/174888090?v=4",
     "archived": false
   },
   "letsseal/letsseal": {
-    "stars": 335,
+    "stars": 338,
     "forks": 11,
     "openIssues": 13,
     "language": "JavaScript",
     "license": "Apache-2.0",
     "createdAt": "2026-07-16T11:41:05Z",
-    "updatedAt": "2026-08-08T22:46:15Z",
+    "updatedAt": "2026-08-10T11:03:42Z",
     "topics": [
       "c2pa",
       "cades",
@@ -1055,13 +1055,13 @@
     "archived": false
   },
   "Portabase/portabase": {
-    "stars": 1631,
+    "stars": 1638,
     "forks": 100,
-    "openIssues": 32,
+    "openIssues": 31,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "createdAt": "2024-10-19T08:04:10Z",
-    "updatedAt": "2026-08-08T16:17:17Z",
+    "updatedAt": "2026-08-10T06:14:51Z",
     "topics": [
       "backup",
       "backup-tool",
@@ -1086,13 +1086,13 @@
     "archived": false
   },
   "Studio-Saelix/sencho": {
-    "stars": 421,
-    "forks": 17,
-    "openIssues": 5,
+    "stars": 426,
+    "forks": 18,
+    "openIssues": 8,
     "language": "TypeScript",
     "license": "AGPL-3.0",
     "createdAt": "2026-02-20T23:33:32Z",
-    "updatedAt": "2026-08-08T17:12:49Z",
+    "updatedAt": "2026-08-10T10:07:15Z",
     "topics": [
       "docker-compose",
       "docker-deployment",
@@ -1107,13 +1107,13 @@
     "archived": false
   },
   "talivia-group/talivia": {
-    "stars": 1275,
+    "stars": 1525,
     "forks": 71,
     "openIssues": 1,
     "language": "TypeScript",
     "license": "MIT",
     "createdAt": "2026-07-29T07:56:49Z",
-    "updatedAt": "2026-08-08T15:52:29Z",
+    "updatedAt": "2026-08-10T09:37:17Z",
     "topics": [
       "analytics",
       "bing",
@@ -1133,13 +1133,13 @@
     "archived": false
   },
   "jo-duchan/tapflow": {
-    "stars": 348,
-    "forks": 39,
-    "openIssues": 42,
+    "stars": 409,
+    "forks": 46,
+    "openIssues": 45,
     "language": "TypeScript",
     "license": "MIT",
     "createdAt": "2026-05-07T15:34:29Z",
-    "updatedAt": "2026-08-08T14:59:57Z",
+    "updatedAt": "2026-08-10T12:48:47Z",
     "topics": [
       "android",
       "android-emulator",
@@ -1166,13 +1166,13 @@
     "archived": false
   },
   "DynamicsAndNeuralSystems/pyhctsa": {
-    "stars": 120,
-    "forks": 10,
-    "openIssues": 3,
+    "stars": 123,
+    "forks": 11,
+    "openIssues": 2,
     "language": "Python",
     "license": "GPL-3.0",
     "createdAt": "2025-06-27T02:55:23Z",
-    "updatedAt": "2026-08-07T14:43:15Z",
+    "updatedAt": "2026-08-10T07:47:32Z",
     "topics": [
       "feature-extraction",
       "highly-comparative",
@@ -1208,37 +1208,37 @@
     "archived": false
   },
   "xoreaxeaxeax/asm-hall-of-shame": {
-    "stars": 607,
-    "forks": 5,
-    "openIssues": 3,
+    "stars": 699,
+    "forks": 9,
+    "openIssues": 6,
     "language": "C",
     "license": "MIT",
     "createdAt": "2026-08-06T00:08:06Z",
-    "updatedAt": "2026-08-09T13:22:40Z",
+    "updatedAt": "2026-08-10T12:08:59Z",
     "topics": [],
     "ownerAvatar": "https://avatars.githubusercontent.com/u/12904366?v=4",
     "archived": false
   },
   "AARomanov1985/Audio-Cassette-Simulation": {
-    "stars": 494,
+    "stars": 496,
     "forks": 27,
     "openIssues": 1,
     "language": "Shell",
     "license": "MIT",
     "createdAt": "2026-07-22T19:33:59Z",
-    "updatedAt": "2026-08-07T21:05:58Z",
+    "updatedAt": "2026-08-10T11:03:05Z",
     "topics": [],
     "ownerAvatar": "https://avatars.githubusercontent.com/u/7081470?v=4",
     "archived": false
   },
   "mokshablr/gander": {
-    "stars": 576,
-    "forks": 13,
-    "openIssues": 6,
+    "stars": 629,
+    "forks": 14,
+    "openIssues": 7,
     "language": "JavaScript",
     "license": "MIT",
     "createdAt": "2026-07-19T08:40:10Z",
-    "updatedAt": "2026-08-09T11:23:30Z",
+    "updatedAt": "2026-08-10T12:51:29Z",
     "topics": [
       "android",
       "android-app",
@@ -1263,13 +1263,13 @@
     "archived": false
   },
   "wie-project/kakehashi": {
-    "stars": 405,
-    "forks": 7,
+    "stars": 407,
+    "forks": 8,
     "openIssues": 0,
     "language": "Rust",
     "license": "Apache-2.0",
     "createdAt": "2026-07-24T17:03:42Z",
-    "updatedAt": "2026-08-09T12:09:37Z",
+    "updatedAt": "2026-08-10T09:26:32Z",
     "topics": [
       "darling",
       "emulator",
@@ -1284,13 +1284,13 @@
     "archived": false
   },
   "chrissotraidis/harkinianpad": {
-    "stars": 338,
+    "stars": 342,
     "forks": 24,
     "openIssues": 0,
     "language": "Shell",
     "license": "NOASSERTION",
     "createdAt": "2026-07-24T07:40:35Z",
-    "updatedAt": "2026-08-08T19:01:27Z",
+    "updatedAt": "2026-08-10T12:50:42Z",
     "topics": [
       "game-controller",
       "ios",
@@ -1308,37 +1308,37 @@
     "archived": false
   },
   "typewriter03/Desko": {
-    "stars": 154,
+    "stars": 159,
     "forks": 8,
     "openIssues": 0,
     "language": "Python",
     "license": "NOASSERTION",
     "createdAt": "2026-08-02T16:12:00Z",
-    "updatedAt": "2026-08-09T08:03:54Z",
+    "updatedAt": "2026-08-10T12:51:44Z",
     "topics": [],
     "ownerAvatar": "https://avatars.githubusercontent.com/u/149319214?v=4",
     "archived": false
   },
   "PrimeIntellect-ai/prime-agent": {
-    "stars": 8281,
-    "forks": 702,
-    "openIssues": 367,
+    "stars": 12557,
+    "forks": 1264,
+    "openIssues": 474,
     "language": "TypeScript",
     "license": "MIT",
     "createdAt": "2026-05-08T01:42:41Z",
-    "updatedAt": "2026-08-08T17:36:59Z",
+    "updatedAt": "2026-08-10T12:52:57Z",
     "topics": [],
     "ownerAvatar": "https://avatars.githubusercontent.com/u/148051844?v=4",
     "archived": false
   },
   "browser-use/browser-use": {
-    "stars": 108430,
-    "forks": 11917,
-    "openIssues": 338,
+    "stars": 108590,
+    "forks": 11935,
+    "openIssues": 346,
     "language": "Python",
     "license": "MIT",
     "createdAt": "2024-10-31T16:00:56Z",
-    "updatedAt": "2026-08-09T13:18:39Z",
+    "updatedAt": "2026-08-10T12:46:18Z",
     "topics": [
       "ai-agents",
       "ai-tools",
@@ -1352,45 +1352,46 @@
     "archived": false
   },
   "warpdotdev/warp": {
-    "stars": 64083,
-    "forks": 5401,
-    "openIssues": 4839,
+    "stars": 64113,
+    "forks": 5407,
+    "openIssues": 4853,
     "language": "Rust",
     "license": "AGPL-3.0",
-    "createdAt": "2022-04-05T18:56:47Z",
-    "updatedAt": "2026-08-09T00:00:00Z",
+    "createdAt": "2021-07-08T18:48:08Z",
+    "updatedAt": "2026-08-10T12:17:50Z",
     "topics": [
-      "terminal",
+      "bash",
+      "linux",
+      "macos",
       "rust",
-      "ai",
-      "developer-tools",
-      "warp",
-      "agent",
-      "ide"
+      "shell",
+      "terminal",
+      "wasm",
+      "zsh"
     ],
     "ownerAvatar": "https://avatars.githubusercontent.com/u/71840468?v=4",
     "archived": false
   },
   "MarcosSete/awesome-free-ai-course-notes": {
-    "stars": 569,
-    "forks": 48,
+    "stars": 585,
+    "forks": 50,
     "openIssues": 2,
     "language": null,
     "license": "NOASSERTION",
     "createdAt": "2026-08-03T11:36:49Z",
-    "updatedAt": "2026-08-09T13:04:56Z",
+    "updatedAt": "2026-08-10T11:03:48Z",
     "topics": [],
     "ownerAvatar": "https://avatars.githubusercontent.com/u/161395376?v=4",
     "archived": false
   },
   "mikiarlo3/awesome-growth-hacking-skills": {
-    "stars": 782,
-    "forks": 11,
+    "stars": 809,
+    "forks": 14,
     "openIssues": 0,
     "language": "Shell",
     "license": null,
     "createdAt": "2026-08-04T19:45:15Z",
-    "updatedAt": "2026-08-09T12:50:39Z",
+    "updatedAt": "2026-08-10T12:37:49Z",
     "topics": [],
     "ownerAvatar": "https://avatars.githubusercontent.com/u/1715109?v=4",
     "archived": false
@@ -1419,13 +1420,13 @@
     "archived": false
   },
   "magicrew/doc7": {
-    "stars": 832,
-    "forks": 27,
+    "stars": 896,
+    "forks": 28,
     "openIssues": 0,
     "language": "Go",
     "license": "MIT",
     "createdAt": "2026-08-02T14:03:55Z",
-    "updatedAt": "2026-08-09T10:23:13Z",
+    "updatedAt": "2026-08-10T08:09:47Z",
     "topics": [
       "document-ai",
       "docx-to-markdown",
@@ -1440,13 +1441,13 @@
     "archived": false
   },
   "petergyang/human-review": {
-    "stars": 635,
-    "forks": 43,
-    "openIssues": 8,
+    "stars": 681,
+    "forks": 45,
+    "openIssues": 9,
     "language": "JavaScript",
     "license": "MIT",
     "createdAt": "2026-07-27T14:58:36Z",
-    "updatedAt": "2026-08-09T13:14:43Z",
+    "updatedAt": "2026-08-10T12:18:40Z",
     "topics": [
       "ai-agents",
       "claude-code",
@@ -1462,25 +1463,25 @@
     "archived": false
   },
   "jd-opensource/JoyAI-Video-Edit": {
-    "stars": 568,
-    "forks": 23,
-    "openIssues": 5,
+    "stars": 679,
+    "forks": 27,
+    "openIssues": 6,
     "language": "Python",
     "license": "Apache-2.0",
     "createdAt": "2026-08-04T08:22:24Z",
-    "updatedAt": "2026-08-09T13:23:31Z",
+    "updatedAt": "2026-08-10T12:22:32Z",
     "topics": [],
     "ownerAvatar": "https://avatars.githubusercontent.com/u/75349771?v=4",
     "archived": false
   },
   "onetoken-oss/K3Flight": {
-    "stars": 900,
+    "stars": 1010,
     "forks": 0,
     "openIssues": 0,
     "language": "HTML",
     "license": "NOASSERTION",
     "createdAt": "2026-07-30T12:21:48Z",
-    "updatedAt": "2026-08-09T10:33:26Z",
+    "updatedAt": "2026-08-10T07:55:26Z",
     "topics": [
       "cpu-inference",
       "edge-ai",
@@ -1494,13 +1495,13 @@
     "archived": false
   },
   "guillermolg00/morphicons": {
-    "stars": 905,
+    "stars": 927,
     "forks": 16,
     "openIssues": 4,
     "language": "TypeScript",
     "license": "MIT",
     "createdAt": "2026-08-01T08:15:09Z",
-    "updatedAt": "2026-08-09T12:47:52Z",
+    "updatedAt": "2026-08-10T11:07:04Z",
     "topics": [
       "animation",
       "icons",
@@ -1513,25 +1514,25 @@
     "archived": false
   },
   "zqxwce/vphone-ws": {
-    "stars": 447,
-    "forks": 25,
+    "stars": 455,
+    "forks": 26,
     "openIssues": 0,
     "language": "Swift",
     "license": "MIT",
-    "createdAt": "2026-08-03T00:00:00Z",
-    "updatedAt": "2026-08-04T08:59:35Z",
+    "createdAt": "2026-08-03T15:53:30Z",
+    "updatedAt": "2026-08-10T09:47:18Z",
     "topics": [],
-    "ownerAvatar": "https://avatars.githubusercontent.com/u/19415570?s=60&v=4",
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/19415570?v=4",
     "archived": false
   },
   "criptogus/HermesOffice": {
-    "stars": 424,
+    "stars": 425,
     "forks": 52,
     "openIssues": 23,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "createdAt": "2026-08-04T15:55:03Z",
-    "updatedAt": "2026-08-09T12:55:18Z",
+    "updatedAt": "2026-08-10T02:38:26Z",
     "topics": [
       "ai-native",
       "docx",
@@ -1548,13 +1549,13 @@
     "archived": false
   },
   "cristicretu/diri": {
-    "stars": 232,
-    "forks": 15,
-    "openIssues": 12,
+    "stars": 236,
+    "forks": 16,
+    "openIssues": 7,
     "language": "Rust",
     "license": "Apache-2.0",
     "createdAt": "2026-08-04T10:08:23Z",
-    "updatedAt": "2026-08-09T12:27:07Z",
+    "updatedAt": "2026-08-10T05:38:01Z",
     "topics": [
       "claude-code",
       "coding-agents",
@@ -1569,87 +1570,55 @@
     "archived": false
   },
   "Appllama/top-welcome-screens": {
-    "stars": 170,
-    "forks": 23,
+    "stars": 357,
+    "forks": 34,
     "openIssues": 0,
     "language": "TypeScript",
     "license": "GPL-3.0",
-    "createdAt": "2026-08-08T00:00:00Z",
-    "updatedAt": "2026-08-08T14:15:22Z",
+    "createdAt": "2026-08-08T12:44:52Z",
+    "updatedAt": "2026-08-10T12:15:37Z",
     "topics": [
-      {
-        "name": "design"
-      },
-      {
-        "name": "design-patterns"
-      },
-      {
-        "name": "expo"
-      },
-      {
-        "name": "ios"
-      },
-      {
-        "name": "ios-app"
-      },
-      {
-        "name": "motion"
-      },
-      {
-        "name": "react"
-      },
-      {
-        "name": "react-native"
-      },
-      {
-        "name": "uiux-design"
-      }
+      "design",
+      "design-patterns",
+      "expo",
+      "ios",
+      "ios-app",
+      "motion",
+      "react",
+      "react-native",
+      "uiux-design"
     ],
-    "ownerAvatar": "https://avatars.githubusercontent.com/u/313732614?s=60&v=4",
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/313732614?v=4",
     "archived": false
   },
   "patchy631/time-to-first-token": {
-    "stars": 349,
-    "forks": 30,
+    "stars": 400,
+    "forks": 46,
     "openIssues": 0,
     "language": "HTML",
     "license": "Apache-2.0",
-    "createdAt": "2026-08-02T00:00:00Z",
-    "updatedAt": "2026-08-02T13:08:11Z",
+    "createdAt": "2026-08-02T13:02:26Z",
+    "updatedAt": "2026-08-10T12:24:03Z",
     "topics": [
-      {
-        "name": "learning-resources"
-      },
-      {
-        "name": "llm"
-      },
-      {
-        "name": "llm-inference"
-      },
-      {
-        "name": "mlops"
-      },
-      {
-        "name": "roadmap"
-      },
-      {
-        "name": "sglang"
-      },
-      {
-        "name": "vllm"
-      }
+      "learning-resources",
+      "llm",
+      "llm-inference",
+      "mlops",
+      "roadmap",
+      "sglang",
+      "vllm"
     ],
-    "ownerAvatar": "https://avatars.githubusercontent.com/u/38653995?s=60&v=4",
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/38653995?v=4",
     "archived": false
   },
   "wassgha/rescript": {
-    "stars": 714,
-    "forks": 81,
-    "openIssues": 5,
+    "stars": 756,
+    "forks": 83,
+    "openIssues": 7,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "createdAt": "2026-07-26T22:43:11Z",
-    "updatedAt": "2026-08-09T09:55:04Z",
+    "updatedAt": "2026-08-10T12:02:20Z",
     "topics": [
       "audio",
       "media",
@@ -1666,49 +1635,49 @@
     "archived": false
   },
   "nfzerox/VirtualMacOniPad": {
-    "stars": 531,
-    "forks": 24,
-    "openIssues": 0,
+    "stars": 572,
+    "forks": 29,
+    "openIssues": 15,
     "language": "Objective-C",
     "license": "MIT",
-    "createdAt": "2026-08-03T00:00:00Z",
-    "updatedAt": "2026-08-09T01:57:02Z",
+    "createdAt": "2026-08-03T10:42:50Z",
+    "updatedAt": "2026-08-10T12:25:21Z",
     "topics": [],
-    "ownerAvatar": "https://avatars.githubusercontent.com/u/186503464?s=60&v=4",
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/186503464?v=4",
     "archived": false
   },
   "disler/super-simple-software-factory": {
-    "stars": 526,
-    "forks": 122,
-    "openIssues": 0,
+    "stars": 552,
+    "forks": 130,
+    "openIssues": 11,
     "language": "Python",
     "license": "MIT",
-    "createdAt": "2026-08-02T00:00:00Z",
-    "updatedAt": "2026-08-02T17:57:38Z",
+    "createdAt": "2026-08-02T17:41:00Z",
+    "updatedAt": "2026-08-10T12:35:21Z",
     "topics": [],
-    "ownerAvatar": "https://avatars.githubusercontent.com/u/7570811?s=60&v=4",
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/7570811?v=4",
     "archived": false
   },
   "openTrinity/mycontext": {
-    "stars": 492,
-    "forks": 37,
+    "stars": 534,
+    "forks": 52,
     "openIssues": 0,
     "language": "TypeScript",
     "license": "NOASSERTION",
     "createdAt": "2026-08-03T15:08:51Z",
-    "updatedAt": "2026-08-09T13:19:49Z",
+    "updatedAt": "2026-08-10T08:57:03Z",
     "topics": [],
     "ownerAvatar": "https://avatars.githubusercontent.com/u/312550136?v=4",
     "archived": false
   },
   "AMAP-ML/LongHorizon-Harness": {
-    "stars": 466,
-    "forks": 59,
+    "stars": 538,
+    "forks": 65,
     "openIssues": 6,
     "language": "Python",
     "license": "MIT",
     "createdAt": "2026-08-04T04:30:58Z",
-    "updatedAt": "2026-08-09T13:06:47Z",
+    "updatedAt": "2026-08-10T11:41:15Z",
     "topics": [
       "agent",
       "claude",
@@ -1731,15 +1700,629 @@
     "archived": false
   },
   "Alishahryar1/free-claude-code": {
-    "stars": 45002,
-    "forks": 7444,
-    "openIssues": 345,
+    "stars": 45125,
+    "forks": 7466,
+    "openIssues": 347,
     "language": "Python",
     "license": "MIT",
     "createdAt": "2026-01-28T19:02:30Z",
-    "updatedAt": "2026-08-09T13:23:09Z",
+    "updatedAt": "2026-08-10T12:44:56Z",
     "topics": [],
     "ownerAvatar": "https://avatars.githubusercontent.com/u/20476625?v=4",
+    "archived": false
+  },
+  "anandprtp/Antra": {
+    "stars": 1911,
+    "forks": 90,
+    "openIssues": 23,
+    "language": "Python",
+    "license": "NOASSERTION",
+    "createdAt": "2026-04-03T21:33:10Z",
+    "updatedAt": "2026-08-10T08:32:02Z",
+    "topics": [
+      "amazon-music",
+      "apple-music",
+      "deezer",
+      "flac",
+      "hi-res",
+      "jellyfin",
+      "lossless",
+      "music-library",
+      "navidrome",
+      "qobuz",
+      "spotify",
+      "spotify-downloader",
+      "tidal",
+      "youtube-music"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/129586825?v=4",
+    "archived": false
+  },
+  "firecrawl/anydoc": {
+    "stars": 13130,
+    "forks": 658,
+    "openIssues": 51,
+    "language": "Rust",
+    "license": "MIT",
+    "createdAt": "2026-08-03T16:36:14Z",
+    "updatedAt": "2026-08-10T12:51:41Z",
+    "topics": [],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/135057108?v=4",
+    "archived": false
+  },
+  "tanrax/bitpoint": {
+    "stars": 6,
+    "forks": 0,
+    "openIssues": 0,
+    "language": "Python",
+    "license": "MIT",
+    "createdAt": "2026-07-04T18:16:36Z",
+    "updatedAt": "2026-08-08T08:40:47Z",
+    "topics": [
+      "backend",
+      "backend-api",
+      "python"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/4553672?v=4",
+    "archived": false
+  },
+  "virgiliojr94/book-to-skill": {
+    "stars": 19769,
+    "forks": 2117,
+    "openIssues": 25,
+    "language": "Python",
+    "license": "MIT",
+    "createdAt": "2026-05-01T02:09:39Z",
+    "updatedAt": "2026-08-10T12:51:42Z",
+    "topics": [],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/23645449?v=4",
+    "archived": false
+  },
+  "HaidarJbeily7/cargo-frisk": {
+    "stars": 279,
+    "forks": 9,
+    "openIssues": 0,
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "createdAt": "2026-08-03T12:23:26Z",
+    "updatedAt": "2026-08-07T10:19:39Z",
+    "topics": [],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/112971443?v=4",
+    "archived": false
+  },
+  "liaohch3/claude-tap": {
+    "stars": 2996,
+    "forks": 257,
+    "openIssues": 21,
+    "language": "Python",
+    "license": "MIT",
+    "createdAt": "2026-02-15T12:51:26Z",
+    "updatedAt": "2026-08-10T09:03:33Z",
+    "topics": [
+      "agent-debugging",
+      "agent-observability",
+      "ai-agents",
+      "ai-tools",
+      "api-debugging",
+      "claude-code",
+      "codex",
+      "codex-cli",
+      "cursor-cli",
+      "developer-tools",
+      "gemini-cli",
+      "hermes-agent",
+      "kimi",
+      "llm",
+      "llm-proxy",
+      "opencode",
+      "pi-coding-agent",
+      "proxy",
+      "trace",
+      "trace-viewer"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/34056481?v=4",
+    "archived": false
+  },
+  "vitali87/code-graph-rag": {
+    "stars": 3365,
+    "forks": 539,
+    "openIssues": 29,
+    "language": "Python",
+    "license": "MIT",
+    "createdAt": "2025-06-16T14:31:57Z",
+    "updatedAt": "2026-08-10T12:43:02Z",
+    "topics": [
+      "ai",
+      "ast",
+      "claude-code",
+      "code-analysis",
+      "code-understanding",
+      "codebase-search",
+      "developer-tools",
+      "graph-database",
+      "knowledge-graph",
+      "llm",
+      "mcp",
+      "mcp-server",
+      "memgraph",
+      "monorepo",
+      "multi-language",
+      "python",
+      "rag",
+      "retrieval-augmented-generation",
+      "semantic-search",
+      "tree-sitter"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/22404335?v=4",
+    "archived": false
+  },
+  "T8mars/comfyui-minimax-h3-audio-T8": {
+    "stars": 581,
+    "forks": 29,
+    "openIssues": 4,
+    "language": "Python",
+    "license": "NOASSERTION",
+    "createdAt": "2026-08-05T15:30:15Z",
+    "updatedAt": "2026-08-10T12:48:15Z",
+    "topics": [],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/96167788?v=4",
+    "archived": false
+  },
+  "huangserva/ComfyUI_MiniMaxH3_Director": {
+    "stars": 460,
+    "forks": 49,
+    "openIssues": 0,
+    "language": null,
+    "license": "Apache-2.0",
+    "createdAt": "2026-08-04T10:39:02Z",
+    "updatedAt": "2026-08-10T09:35:46Z",
+    "topics": [],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/201197786?v=4",
+    "archived": false
+  },
+  "esengine/DeepSeek-Reasonix": {
+    "stars": 33640,
+    "forks": 2184,
+    "openIssues": 1036,
+    "language": "Go",
+    "license": "MIT",
+    "createdAt": "2026-04-21T08:27:02Z",
+    "updatedAt": "2026-08-10T12:49:12Z",
+    "topics": [
+      "agent",
+      "agent-framework",
+      "ai-agent",
+      "ai-coding",
+      "cli",
+      "coding-agent",
+      "deepseek",
+      "developer-tools",
+      "ink",
+      "llm",
+      "prompt-caching",
+      "r1",
+      "terminal",
+      "tool-use",
+      "tui",
+      "typescript"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/18465053?v=4",
+    "archived": false
+  },
+  "slvDev/esp32-ai": {
+    "stars": 3892,
+    "forks": 499,
+    "openIssues": 16,
+    "language": "Python",
+    "license": "MIT",
+    "createdAt": "2026-07-23T14:53:51Z",
+    "updatedAt": "2026-08-10T12:45:54Z",
+    "topics": [],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/15254847?v=4",
+    "archived": false
+  },
+  "bryanthaboi/gen1recomp": {
+    "stars": 2784,
+    "forks": 231,
+    "openIssues": 111,
+    "language": "C",
+    "license": "MIT",
+    "createdAt": "2026-07-18T00:29:27Z",
+    "updatedAt": "2026-08-10T12:48:15Z",
+    "topics": [],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/116906279?v=4",
+    "archived": false
+  },
+  "geoeq/geoeq": {
+    "stars": 69,
+    "forks": 3,
+    "openIssues": 0,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "createdAt": "2026-03-28T06:36:57Z",
+    "updatedAt": "2026-08-10T11:08:45Z",
+    "topics": [
+      "bearing-capacity",
+      "civil-engineering",
+      "cpt",
+      "engineering",
+      "foundation-design",
+      "geology",
+      "geotechnical-engineering",
+      "geotechnics",
+      "liquefaction",
+      "numpy",
+      "pypi",
+      "python",
+      "scientific-computing",
+      "settlement-analysis",
+      "slope-stability",
+      "soil-classification",
+      "soil-mechanics",
+      "spt"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/271702375?v=4",
+    "archived": false
+  },
+  "harveyai/harvey-labs": {
+    "stars": 954,
+    "forks": 185,
+    "openIssues": 47,
+    "language": "Python",
+    "license": "MIT",
+    "createdAt": "2026-03-30T18:20:43Z",
+    "updatedAt": "2026-08-10T12:42:10Z",
+    "topics": [],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/117767849?v=4",
+    "archived": false
+  },
+  "KKKKhazix/human-writing": {
+    "stars": 2227,
+    "forks": 195,
+    "openIssues": 4,
+    "language": "Python",
+    "license": "MIT",
+    "createdAt": "2026-08-05T01:19:41Z",
+    "updatedAt": "2026-08-10T12:48:06Z",
+    "topics": [
+      "agent-skills",
+      "chinese-writing",
+      "creative-writing",
+      "writing-skill"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/239590580?v=4",
+    "archived": false
+  },
+  "MengTo/kage": {
+    "stars": 728,
+    "forks": 125,
+    "openIssues": 0,
+    "language": "HTML",
+    "license": null,
+    "createdAt": "2026-08-08T07:05:07Z",
+    "updatedAt": "2026-08-10T12:43:33Z",
+    "topics": [
+      "creative-coding",
+      "generative-art",
+      "interactive-storytelling",
+      "japanese-design",
+      "threejs",
+      "webgl"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/1065452?v=4",
+    "archived": false
+  },
+  "usekaneo/kaneo": {
+    "stars": 7994,
+    "forks": 636,
+    "openIssues": 60,
+    "language": "TypeScript",
+    "license": "MIT",
+    "createdAt": "2024-12-31T08:25:09Z",
+    "updatedAt": "2026-08-10T12:50:07Z",
+    "topics": [
+      "hacktoberfest",
+      "hono",
+      "issue-management",
+      "issue-tracker",
+      "jira-alternative",
+      "kanban",
+      "linear-alternative",
+      "project-management",
+      "react",
+      "self-hosted",
+      "typescript"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/192649426?v=4",
+    "archived": false
+  },
+  "joeamroo/knowledgemaxxing": {
+    "stars": 1,
+    "forks": 0,
+    "openIssues": 0,
+    "language": "Python",
+    "license": "MIT",
+    "createdAt": "2026-07-29T23:27:50Z",
+    "updatedAt": "2026-08-04T16:32:05Z",
+    "topics": [],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/70177128?v=4",
+    "archived": false
+  },
+  "NVIDIA-NeMo/labs-OO-Agents": {
+    "stars": 1368,
+    "forks": 181,
+    "openIssues": 37,
+    "language": "Python",
+    "license": "NOASSERTION",
+    "createdAt": "2026-07-20T15:48:25Z",
+    "updatedAt": "2026-08-10T12:49:54Z",
+    "topics": [],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/213689629?v=4",
+    "archived": false
+  },
+  "wumingqi60/lingxi": {
+    "stars": 755,
+    "forks": 13,
+    "openIssues": 0,
+    "language": "TypeScript",
+    "license": "Apache-2.0",
+    "createdAt": "2026-08-03T05:46:34Z",
+    "updatedAt": "2026-08-10T12:48:37Z",
+    "topics": [],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/63189147?v=4",
+    "archived": false
+  },
+  "SupermodularAI/local_bench": {
+    "stars": 4,
+    "forks": 0,
+    "openIssues": 0,
+    "language": "Python",
+    "license": "MIT",
+    "createdAt": "2026-08-06T14:57:47Z",
+    "updatedAt": "2026-08-07T23:00:04Z",
+    "topics": [],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/189277692?v=4",
+    "archived": false
+  },
+  "huangruiteng/loopx": {
+    "stars": 3871,
+    "forks": 313,
+    "openIssues": 22,
+    "language": "Python",
+    "license": "MIT",
+    "createdAt": "2026-05-31T14:58:56Z",
+    "updatedAt": "2026-08-10T12:47:37Z",
+    "topics": [
+      "agent-control-plane",
+      "agent-ops",
+      "ai-agents",
+      "codex",
+      "long-running-agents",
+      "loop-engineering",
+      "loopx",
+      "workflow-automation"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/14976749?v=4",
+    "archived": false
+  },
+  "SandAI-org/MAGI-2-preview": {
+    "stars": 436,
+    "forks": 10,
+    "openIssues": 2,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "createdAt": "2026-08-04T12:47:38Z",
+    "updatedAt": "2026-08-10T07:40:51Z",
+    "topics": [],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/208222005?v=4",
+    "archived": false
+  },
+  "oil-oil/oil-motion": {
+    "stars": 879,
+    "forks": 75,
+    "openIssues": 0,
+    "language": "Python",
+    "license": "MIT",
+    "createdAt": "2026-08-07T12:36:33Z",
+    "updatedAt": "2026-08-10T12:52:19Z",
+    "topics": [],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/57465570?v=4",
+    "archived": false
+  },
+  "veedstudio/open-edit": {
+    "stars": 242,
+    "forks": 16,
+    "openIssues": 1,
+    "language": "TypeScript",
+    "license": "Apache-2.0",
+    "createdAt": "2026-07-22T12:22:15Z",
+    "updatedAt": "2026-08-10T12:20:40Z",
+    "topics": [
+      "ai-agents",
+      "captions",
+      "claude-code",
+      "ffmpeg",
+      "macos",
+      "subtitles",
+      "transcription",
+      "video",
+      "video-editing"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/62110260?v=4",
+    "archived": false
+  },
+  "Binaryify/open-kimi-ppt-skill": {
+    "stars": 1607,
+    "forks": 1178,
+    "openIssues": 6,
+    "language": null,
+    "license": null,
+    "createdAt": "2026-08-05T07:30:56Z",
+    "updatedAt": "2026-08-10T10:54:35Z",
+    "topics": [],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/12221718?v=4",
+    "archived": true
+  },
+  "firecrawl/pdf-inspector": {
+    "stars": 14203,
+    "forks": 965,
+    "openIssues": 126,
+    "language": "Rust",
+    "license": "MIT",
+    "createdAt": "2026-02-06T19:44:47Z",
+    "updatedAt": "2026-08-10T12:50:24Z",
+    "topics": [
+      "markdown",
+      "nodejs",
+      "ocr-routing",
+      "pdf",
+      "pdf-classification",
+      "pdf-extraction",
+      "pdf-parser",
+      "python",
+      "rust",
+      "text-extraction"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/135057108?v=4",
+    "archived": false
+  },
+  "ShawnPana/phone-harness": {
+    "stars": 1141,
+    "forks": 89,
+    "openIssues": 14,
+    "language": "Python",
+    "license": "MIT",
+    "createdAt": "2026-08-07T22:28:53Z",
+    "updatedAt": "2026-08-10T12:50:11Z",
+    "topics": [],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/129362299?v=4",
+    "archived": false
+  },
+  "yc-software/qm": {
+    "stars": 12889,
+    "forks": 1490,
+    "openIssues": 170,
+    "language": "TypeScript",
+    "license": "MIT",
+    "createdAt": "2026-07-29T20:03:08Z",
+    "updatedAt": "2026-08-10T12:53:16Z",
+    "topics": [],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/153323858?v=4",
+    "archived": false
+  },
+  "greekr4/rever-browser": {
+    "stars": 17,
+    "forks": 1,
+    "openIssues": 0,
+    "language": "TypeScript",
+    "license": "Apache-2.0",
+    "createdAt": "2026-04-27T05:56:09Z",
+    "updatedAt": "2026-08-10T04:45:12Z",
+    "topics": [
+      "ai-agent",
+      "api",
+      "api-security",
+      "browser-automation",
+      "chrome-devtools-protocol",
+      "deobfuscation",
+      "devtools",
+      "electron",
+      "mcp",
+      "reverse-engineering",
+      "web-scraping"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/102001532?v=4",
+    "archived": false
+  },
+  "eternityspring/shuohao-skills": {
+    "stars": 622,
+    "forks": 71,
+    "openIssues": 1,
+    "language": "JavaScript",
+    "license": "Apache-2.0",
+    "createdAt": "2026-08-06T10:38:49Z",
+    "updatedAt": "2026-08-10T12:44:17Z",
+    "topics": [],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/5795147?v=4",
+    "archived": false
+  },
+  "NovaSky-AI/SkyRL": {
+    "stars": 2139,
+    "forks": 400,
+    "openIssues": 402,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "createdAt": "2025-04-22T17:33:31Z",
+    "updatedAt": "2026-08-10T08:04:11Z",
+    "topics": [],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/194174999?v=4",
+    "archived": false
+  },
+  "prime-radiant-inc/smevals": {
+    "stars": 237,
+    "forks": 8,
+    "openIssues": 2,
+    "language": "Python",
+    "license": "MIT",
+    "createdAt": "2026-07-17T22:57:27Z",
+    "updatedAt": "2026-08-10T12:16:34Z",
+    "topics": [],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/253595997?v=4",
+    "archived": false
+  },
+  "unclebob/swarm-forge": {
+    "stars": 2089,
+    "forks": 220,
+    "openIssues": 18,
+    "language": "Clojure",
+    "license": null,
+    "createdAt": "2026-04-17T15:18:26Z",
+    "updatedAt": "2026-08-10T12:28:16Z",
+    "topics": [],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/36901?v=4",
+    "archived": false
+  },
+  "sqliteai/waste": {
+    "stars": 2031,
+    "forks": 148,
+    "openIssues": 10,
+    "language": "C",
+    "license": "Apache-2.0",
+    "createdAt": "2026-07-28T20:56:00Z",
+    "updatedAt": "2026-08-10T12:50:10Z",
+    "topics": [],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/206516623?v=4",
+    "archived": false
+  },
+  "sowarma/wp2shell-PoC": {
+    "stars": 351,
+    "forks": 22,
+    "openIssues": 0,
+    "language": "Python",
+    "license": null,
+    "createdAt": "2026-08-05T12:48:03Z",
+    "updatedAt": "2026-08-08T20:11:19Z",
+    "topics": [
+      "cve",
+      "cve-2026-60137",
+      "cve-2026-63030",
+      "data-analysis",
+      "wp2shell",
+      "wp2shell-poc"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/47214744?v=4",
+    "archived": false
+  },
+  "skorotkiewicz/zero-mem": {
+    "stars": 1,
+    "forks": 0,
+    "openIssues": 0,
+    "language": "TypeScript",
+    "license": null,
+    "createdAt": "2026-08-06T08:01:40Z",
+    "updatedAt": "2026-08-08T02:57:34Z",
+    "topics": [],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/899351?v=4",
     "archived": false
   }
 }

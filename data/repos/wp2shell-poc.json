@@ -1,0 +1,24 @@
+{
+  "slug": "wp2shell-poc",
+  "name": "wp2shell-PoC",
+  "fullName": "sowarma/wp2shell-PoC",
+  "tagline": "CVE-2026-63030 & CVE-2026-60137 RCE chain proof-of-concept",
+  "description": "wp2shell-PoC is a proof-of-concept demonstrating a remote code execution chain that combines CVE-2026-63030 and CVE-2026-60137. It is a security research artifact showing how two WordPress-adjacent vulnerabilities can be chained into full shell access, intended for defenders, pentesters, and researchers validating their detection and patching. As with any PoC, it should only run against systems you own or have explicit permission to test.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["security", "cve", "proof-of-concept", "rce", "wordpress", "vulnerability"],
+  "highlights": [
+    "Chains CVE-2026-63030 and CVE-2026-60137 into RCE",
+    "Python PoC for security research and validation",
+    "Documented exploit chain for defenders to test against",
+    "Clear intended-use scope for authorized testing only"
+  ],
+  "techStack": ["Python", "Exploit Chain"],
+  "links": {
+    "docs": "https://github.com/sowarma/wp2shell-PoC#readme"
+  },
+  "images": {},
+  "related": ["agenthound", "pii-protection"],
+  "curatorNote": "A tightly-scoped RCE chain PoC that pairs two recent CVEs — valuable for defenders validating detection, provided it is used only on systems you are authorized to test. Standard researcher tooling, not a weapon.",
+  "publishedAt": "2026-08-09"
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "phone-harness",
+  "name": "phone-harness",
+  "fullName": "ShawnPana/phone-harness",
+  "tagline": "Let your agent control your phone",
+  "description": "phone-harness is a harness that lets your AI agent control your phone. It bridges agent tooling to mobile devices, enabling automation of real phone workflows — tapping, typing, reading screens — the same way computer-use agents control desktops. The project targets the growing interest in mobile agent control and ships as a Python harness.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["ai-agent", "phone-automation", "computer-use", "mobile", "harness"],
+  "highlights": [
+    "Agent-driven control of real phones, not just emulators",
+    "Python harness that slots into agent workflows",
+    "1.1k stars in days reflects intense interest in mobile agent control",
+    "Complements the desktop computer-use wave"
+  ],
+  "techStack": ["Python"],
+  "links": {
+    "docs": "https://github.com/ShawnPana/phone-harness#readme"
+  },
+  "images": {},
+  "related": ["longhorizon-harness", "virtualmac-on-ipad"],
+  "curatorNote": "Computer-use agents conquered the desktop; the phone is the obvious next frontier. phone-harness is one of the first credible open takes on letting agents drive real devices.",
+  "publishedAt": "2026-08-09"
+}

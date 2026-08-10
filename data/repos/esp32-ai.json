@@ -1,0 +1,24 @@
+{
+  "slug": "esp32-ai",
+  "name": "esp32-ai",
+  "fullName": "slvDev/esp32-ai",
+  "tagline": "AI on ESP32 microcontrollers",
+  "description": "esp32-ai brings AI to ESP32 microcontrollers, demonstrating what is possible when tiny, low-power hardware meets on-device intelligence. The project focuses on practical embedded AI workflows, showing how to run models and intelligent logic on the ESP32 family of chips that power countless IoT and hobbyist projects. It targets makers and engineers who want AI features without a cloud round-trip.",
+  "category": "other-fun",
+  "featured": false,
+  "tags": ["esp32", "embedded-ai", "microcontroller", "iot", "on-device-ai"],
+  "highlights": [
+    "AI workloads running on ESP32-class microcontrollers",
+    "On-device inference with no cloud round-trip",
+    "Practical embedded-AI workflows for makers and engineers",
+    "3.8k stars with an active community"
+  ],
+  "techStack": ["Python", "C", "ESP32"],
+  "links": {
+    "docs": "https://github.com/slvDev/esp32-ai#readme"
+  },
+  "images": {},
+  "related": ["swiftlet", "waste"],
+  "curatorNote": "The edge-AI story usually stops at phones and laptops; esp32-ai pushes inference to dollar-weeny microcontrollers, which is where the real IoT value lives.",
+  "publishedAt": "2026-08-09"
+}

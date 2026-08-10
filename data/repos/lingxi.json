@@ -1,0 +1,24 @@
+{
+  "slug": "lingxi",
+  "name": "lingxi",
+  "fullName": "wumingqi60/lingxi",
+  "tagline": "灵犀跨境 — open-source community edition of a multilingual customer operations hub for going-global teams",
+  "description": "lingxi (灵犀跨境) is the open-source community edition of a multilingual customer operations hub built for teams expanding overseas. The repository includes the SaaS application, API layer, and database layer, with multi-tenant registration, login, teams, role-based permissions, token revocation, and audit logging. Telegram and WhatsApp gateway implementations and all production credentials are intentionally excluded from the open scope. It targets cross-border (出海) teams that want auditable, self-deployable customer operations infrastructure rather than vendor lock-in.",
+  "category": "productivity",
+  "featured": false,
+  "tags": ["cross-border", "customer-operations", "multi-tenant", "saas", "open-source", "community-edition"],
+  "highlights": [
+    "Open community edition of a multilingual customer operations hub",
+    "Multi-tenant SaaS layer with roles, token revocation, and audit logs",
+    "Deliberately excludes gateway implementations and production credentials from open scope",
+    "Built for go-global teams wanting auditable, self-deployable infrastructure"
+  ],
+  "techStack": ["TypeScript", "SaaS", "API"],
+  "links": {
+    "docs": "https://github.com/wumingqi60/lingxi#readme"
+  },
+  "images": {},
+  "related": ["kaneo", "hermesoffice"],
+  "curatorNote": "The 'community edition for multilingual customer operations' model is a refreshingly honest open-source strategy — share the core, keep the fragile production gateways private. For cross-border teams it is a genuinely useful self-hostable base.",
+  "publishedAt": "2026-08-09"
+}

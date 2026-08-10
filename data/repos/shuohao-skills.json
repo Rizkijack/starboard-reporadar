@@ -1,0 +1,24 @@
+{
+  "slug": "shuohao-skills",
+  "name": "shuohao-skills",
+  "fullName": "eternityspring/shuohao-skills",
+  "tagline": "A skill collection for AI coding agents — works with both Claude Code and Codex",
+  "description": "shuohao-skills is a collection of skills for AI coding agents that run in both Claude Code and Codex. The flagship skill, novel-characters, turns a novel into a character bible: character profiles, cartoon-design prompts, voice-prompt text, and turnaround sheets. The project is bilingual (Chinese and English) and demonstrates a practical, cross-agent approach to packing domain knowledge into reusable agent skills.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["agent-skills", "claude-code", "codex", "creative-writing", "novel"],
+  "highlights": [
+    "Skills that run on both Claude Code and Codex without modification",
+    "novel-characters converts a novel into a complete character bible with art and voice prompts",
+    "Bilingual (CN/EN) documentation for a global audience",
+    "Active community with 621 stars and growing"
+  ],
+  "techStack": ["JavaScript", "Claude Code", "Codex"],
+  "links": {
+    "docs": "https://github.com/eternityspring/shuohao-skills#readme"
+  },
+  "images": {},
+  "related": ["linus-torvalds-skill", "book-to-skill"],
+  "curatorNote": "Cross-agent compatibility is the sleeper feature here — most skill repos lock into one agent, while this one runs on both Claude Code and Codex, making the novel-to-character-bible workflow genuinely portable.",
+  "publishedAt": "2026-08-09"
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "kage",
+  "name": "kage",
+  "fullName": "MengTo/kage",
+  "tagline": "An interactive five-chapter night walk through a Kyoto mountain temple, rendered live in Three.js",
+  "description": "kage is an interactive five-chapter night walk through a Kyoto mountain temple, rendered live in Three.js. It is a generative-art and interactive-storytelling piece by Meng To (the creator of Design+Code and Stitch), combining WebGL, Japanese design aesthetics, and a narrative arc you navigate by walking. It is a showcase of what web-native interactive art can feel like.",
+  "category": "other-fun",
+  "featured": false,
+  "tags": ["threejs", "generative-art", "interactive-storytelling", "webgl", "japanese-design", "creative-coding"],
+  "highlights": [
+    "Five-chapter narrative walk through a virtual Kyoto temple",
+    "Live Three.js/WebGL rendering, no video tricks",
+    "From Meng To, a well-known design educator",
+    "725 stars in days shows the appetite for web-native art"
+  ],
+  "techStack": ["Three.js", "WebGL", "HTML"],
+  "links": {
+    "website": "https://mengto.github.io/kage/",
+    "docs": "https://github.com/MengTo/kage#readme"
+  },
+  "images": {},
+  "related": ["cssgraphics", "gander"],
+  "curatorNote": "Most AI-era web art is still flat; kage is a proper interactive night-walk built in Three.js, and the design pedigree shows. Bookmark it as a benchmark for storytelling on the web.",
+  "publishedAt": "2026-08-09"
+}

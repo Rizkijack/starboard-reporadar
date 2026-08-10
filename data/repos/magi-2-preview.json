@@ -1,0 +1,25 @@
+{
+  "slug": "magi-2-preview",
+  "name": "MAGI-2-preview",
+  "fullName": "SandAI-org/MAGI-2-preview",
+  "tagline": "Scaling video generation models efficiently",
+  "description": "MAGI-2-preview is Sand AI's open preview of MAGI-2, a research release focused on scaling video generation models efficiently. Rather than just posting weights, the repo documents and implements the efficiency techniques that make high-quality video generation tractable — a direction that matters as video models grow expensive to train and run. It targets researchers and engineers building the next generation of generative video systems.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["video-generation", "generative-ai", "research", "scaling", "sand-ai"],
+  "highlights": [
+    "Open preview of Sand AI's MAGI-2 video generation model",
+    "Focus on efficiency techniques for scaling video models",
+    "Research-grade release with practical implementation",
+    "436 stars and growing in the generative-video space"
+  ],
+  "techStack": ["Python"],
+  "links": {
+    "website": "https://sand.ai/",
+    "docs": "https://github.com/SandAI-org/MAGI-2-preview#readme"
+  },
+  "images": {},
+  "related": ["joyai-video-edit", "minimax-h3"],
+  "curatorNote": "Video generation is the most compute-hungry corner of generative AI, so a release that openly tackles efficiency is a rare and valuable contribution — the field needs this more than another set of weights.",
+  "publishedAt": "2026-08-09"
+}

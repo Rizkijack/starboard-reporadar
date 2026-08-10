@@ -1,0 +1,24 @@
+{
+  "slug": "swarm-forge",
+  "name": "swarm-forge",
+  "fullName": "unclebob/swarm-forge",
+  "tagline": "A simple tool for coordinating several AI agents",
+  "description": "swarm-forge is a minimal tool for coordinating several AI agents, written in Clojure. It comes from Robert C. Martin (Uncle Bob), one of the most influential voices in software craftsmanship. The project explores how multiple agents can be orchestrated into a single coherent effort, keeping the coordination layer simple rather than building a heavy framework.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["ai-agent", "orchestration", "clojure", "coordination", "swarm"],
+  "highlights": [
+    "Deliberately simple multi-agent coordination, not a heavyweight framework",
+    "Authored by Robert C. Martin (Uncle Bob), a landmark voice in software craftsmanship",
+    "Clojure implementation that favors functional clarity",
+    "2k+ stars reflect strong interest in agent orchestration"
+  ],
+  "techStack": ["Clojure"],
+  "links": {
+    "docs": "https://github.com/unclebob/swarm-forge#readme"
+  },
+  "images": {},
+  "related": ["qm", "loopx"],
+  "curatorNote": "Uncle Bob turning his craftsmanship lens on multi-agent coordination is worth watching — the project's whole point is that orchestration should stay simple instead of becoming another framework.",
+  "publishedAt": "2026-08-09"
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "harvey-labs",
+  "name": "harvey-labs",
+  "fullName": "harveyai/harvey-labs",
+  "tagline": "A benchmark built to evaluate and improve agent capabilities for supporting legal work",
+  "description": "harvey-labs is Harvey's open benchmark for evaluating and improving AI agents that support legal work. It defines tasks and metrics that reflect real legal workflows — research, drafting, review — so agent teams can measure whether their systems actually help lawyers. The project comes from Harvey, a major player in legal AI, and signals a shift toward open evaluation in a traditionally closed vertical.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["legal-ai", "benchmark", "ai-agent", "evaluation", "harvey"],
+  "highlights": [
+    "First open agent benchmark for legal work from a major legal-AI player",
+    "Measures real legal workflows: research, drafting, review",
+    "953 stars and strong interest in legal agent evaluation",
+    "Sets a standard the legal-AI ecosystem can build on"
+  ],
+  "techStack": ["Python", "Benchmark"],
+  "links": {
+    "website": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+    "docs": "https://github.com/harveyai/harvey-labs#readme"
+  },
+  "images": {},
+  "related": ["smevals", "longhorizon-harness"],
+  "curatorNote": "Legal AI is famously closed; an open benchmark from Harvey is a notable exception. If legal agents are going to be trusted, they need public yardsticks like this one.",
+  "publishedAt": "2026-08-09"
+}

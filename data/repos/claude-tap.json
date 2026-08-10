@@ -1,0 +1,24 @@
+{
+  "slug": "claude-tap",
+  "name": "claude-tap",
+  "fullName": "liaohch3/claude-tap",
+  "tagline": "Intercept and inspect coding agent API traffic in a local trace viewer",
+  "description": "claude-tap is a local trace viewer that intercepts and inspects API traffic from Claude Code, Codex CLI, Gemini CLI, Cursor CLI, OpenCode, Kimi/Kimi Code, Pi, and Hermes. It gives you visibility into exactly what your coding agents are sending and receiving, which is invaluable for debugging, cost control, security review, and understanding agent behavior. The tool runs a local proxy that captures the streams and presents them in an inspectable trace viewer.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["agent-observability", "debugging", "proxy", "trace-viewer", "claude-code", "codex"],
+  "highlights": [
+    "Captures traffic from 8+ major coding agents and CLIs",
+    "Local proxy with an inspectable trace viewer",
+    "Ideal for debugging agent behavior, costs, and security review",
+    "3k stars and strong momentum in the agent-observability space"
+  ],
+  "techStack": ["Python", "Local Proxy"],
+  "links": {
+    "docs": "https://github.com/liaohch3/claude-tap#readme"
+  },
+  "images": {},
+  "related": ["loopx", "qm"],
+  "curatorNote": "As agents take over more of our work, 'what did the agent actually send?' becomes a security and cost question. claude-tap answers it across nearly every major coding agent from one local viewer.",
+  "publishedAt": "2026-08-09"
+}

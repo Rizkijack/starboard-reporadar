@@ -1,0 +1,25 @@
+{
+  "slug": "qm",
+  "name": "qm",
+  "fullName": "yc-software/qm",
+  "tagline": "Multiplayer agent harness for work",
+  "description": "qm is a multiplayer harness for AI agent work, built to let multiple agents (and humans) collaborate on the same tasks. It treats agent runs as shared, inspectable state rather than isolated one-off sessions, which makes long-running and team-scale agent workflows more manageable. The project comes out of the Y Combinator software team and is positioned as infrastructure for real work, not just demos.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["ai-agent", "multiplayer", "collaboration", "harness", "workflow"],
+  "highlights": [
+    "Multiplayer agent runs that multiple participants can observe and steer",
+    "First-party harness from the Y Combinator software team",
+    "Treats agent work as shared state, enabling long-running collaborative tasks",
+    "12.8k stars within days of release signals strong early traction"
+  ],
+  "techStack": ["TypeScript"],
+  "links": {
+    "website": "https://qm.ycombinator.com",
+    "docs": "https://github.com/yc-software/qm#readme"
+  },
+  "images": {},
+  "related": ["loopx", "claude-tap"],
+  "curatorNote": "YC shipping an internal agent harness publicly is a signal moment — the 'one agent, one terminal' era is giving way to shared, observable agent sessions. qm is the strongest multiplayer take on that shift so far.",
+  "publishedAt": "2026-08-09"
+}

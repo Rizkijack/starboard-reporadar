@@ -1,0 +1,24 @@
+{
+  "slug": "open-kimi-ppt-skill",
+  "name": "open-kimi-ppt-skill",
+  "fullName": "Binaryify/open-kimi-ppt-skill",
+  "tagline": "Unofficial Kimi Slides skill for AI agents — generate editable PPTD + PPTX with a local browser editor",
+  "description": "open-kimi-ppt-skill is an unofficial Kimi Slides skill that lets AI agents generate editable PPTD and PPTX presentations, complete with a local browser editor for tweaking slides after generation. It mirrors the workflow behind Kimi's popular slides feature but keeps it open and agent-native, so any compatible agent can produce deck files that stay editable rather than locked-in exports.",
+  "category": "productivity",
+  "featured": false,
+  "tags": ["ppt", "slides", "kimi", "agent-skills", "presentation", "ai-agent"],
+  "highlights": [
+    "Agent-generated PPTD and PPTX files that remain fully editable",
+    "Local browser editor for post-generation slide tweaks",
+    "Unofficial open re-implementation of the Kimi Slides agent workflow",
+    "1.6k stars even after the repo was archived"
+  ],
+  "techStack": ["JavaScript", "Agent Skills"],
+  "links": {
+    "docs": "https://github.com/Binaryify/open-kimi-ppt-skill#readme"
+  },
+  "images": {},
+  "related": ["book-to-skill"],
+  "curatorNote": "Worth tracking despite being archived — the pattern it established (agents producing editable decks plus a local editor) is the template for agentic document tools. The archived status is a caution flag, so treat it as reference material rather than an active dependency.",
+  "publishedAt": "2026-08-09"
+}

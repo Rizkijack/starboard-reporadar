@@ -1,0 +1,24 @@
+{
+  "slug": "comfyui-minimaxh3-director",
+  "name": "ComfyUI_MiniMaxH3_Director",
+  "fullName": "huangserva/ComfyUI_MiniMaxH3_Director",
+  "tagline": "ComfyUI MiniMax H3 Director workflow",
+  "description": "ComfyUI_MiniMaxH3_Director is a ComfyUI workflow that acts as a director for the MiniMax H3 model, wiring the model into node-based pipelines for structured generation. It is part of the fast-moving ComfyUI ecosystem around the MiniMax H3 family, giving creators a reusable 'director' pattern for steering outputs within their existing ComfyUI setups.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["comfyui", "minimax-h3", "workflow", "generative-ai", "director"],
+  "highlights": [
+    "Reusable 'director' workflow for MiniMax H3 in ComfyUI",
+    "Node-based pipeline integration for structured generation",
+    "Apache-2.0 licensed from the active H3 community",
+    "460 stars in days show rapid ComfyUI ecosystem adoption"
+  ],
+  "techStack": ["ComfyUI", "MiniMax H3"],
+  "links": {
+    "docs": "https://github.com/huangserva/ComfyUI_MiniMaxH3_Director#readme"
+  },
+  "images": {},
+  "related": ["comfyui-minimax-h3-audio-t8", "minimax-h3"],
+  "curatorNote": "The ComfyUI community moves fast, and the MiniMax H3 director pattern is a great example of how model releases turn into reusable creative tooling within days.",
+  "publishedAt": "2026-08-09"
+}

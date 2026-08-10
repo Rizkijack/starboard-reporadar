@@ -1,0 +1,24 @@
+{
+  "slug": "labs-oo-agents",
+  "name": "labs-OO-Agents",
+  "fullName": "NVIDIA-NeMo/labs-OO-Agents",
+  "tagline": "NVIDIA Object Oriented Agents: the Pythonic way to build AI agents",
+  "description": "labs-OO-Agents is NVIDIA's Object Oriented Agents project: a Pythonic framework for building AI agents using object-oriented patterns. Instead of forcing agent logic into a single prompt or a rigid pipeline, the library lets you model agents, tools, and their interactions as objects — composable, testable, and reusable. It comes from the NVIDIA NeMo labs and targets developers who want structure and ergonomics in agent construction.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["ai-agent", "python", "nvidia", "framework", "object-oriented"],
+  "highlights": [
+    "Object-oriented modeling for agents, tools, and interactions",
+    "Pythonic ergonomics from NVIDIA's NeMo labs",
+    "Composable and testable agent building blocks",
+    "1.3k stars with a growing community"
+  ],
+  "techStack": ["Python"],
+  "links": {
+    "docs": "https://github.com/NVIDIA-NeMo/labs-OO-Agents#readme"
+  },
+  "images": {},
+  "related": ["prime-agent", "swarm-forge"],
+  "curatorNote": "Most agent frameworks treat code as an afterthought around a prompt. NVIDIA's OO approach treats agents as a software engineering problem — and that's the right instinct as agent systems get serious.",
+  "publishedAt": "2026-08-09"
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "geoeq",
+  "name": "geoeq",
+  "fullName": "geoeq/geoeq",
+  "tagline": "Geotechnical engineering, solved in Python — 170+ validated functions for soil mechanics",
+  "description": "geoeq is a Python package for geotechnical engineering with 170+ validated functions covering soil mechanics, SPT, CPT, bearing capacity, settlement, liquefaction, and slope stability. It is Apache-2.0 licensed and published on PyPI, built on NumPy, and aimed at practicing engineers who want transparent, scriptable geotech calculations instead of black-box spreadsheets.",
+  "category": "backend",
+  "featured": false,
+  "tags": ["geotechnical-engineering", "soil-mechanics", "python", "engineering", "numpy", "scientific-computing"],
+  "highlights": [
+    "170+ validated functions across the core geotech workflow",
+    "SPT, CPT, bearing capacity, settlement, liquefaction, slope stability",
+    "Apache-2.0 with PyPI distribution and clean NumPy design",
+    "A rare open tool for a traditionally closed engineering niche"
+  ],
+  "techStack": ["Python", "NumPy"],
+  "links": {
+    "website": "https://geoeq.org",
+    "docs": "https://github.com/geoeq/geoeq#readme"
+  },
+  "images": {},
+  "related": ["pyhctsa", "bitpoint"],
+  "curatorNote": "Geotech runs on spreadsheets and legacy software, so a validated, open, scriptable Python library is genuinely refreshing — a small niche, but one with real professional impact.",
+  "publishedAt": "2026-08-09"
+}

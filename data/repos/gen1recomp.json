@@ -1,0 +1,24 @@
+{
+  "slug": "gen1recomp",
+  "name": "gen1recomp",
+  "fullName": "bryanthaboi/gen1recomp",
+  "tagline": "A native Lua / LÖVE2D recreation of Gen 1 Pokémon",
+  "description": "gen1recomp is a native Lua/LÖVE2D recreation of the first-generation Pokémon games, rebuilt from the ground up rather than emulated. The project reimplements the Gen 1 experience in a modern engine, making it portable, moddable, and easier to study than the original binaries. It targets retro fans, game developers, and anyone curious about how classic game systems actually work.",
+  "category": "other-fun",
+  "featured": false,
+  "tags": ["pokemon", "game-development", "lua", "love2d", "retro", "recreation"],
+  "highlights": [
+    "Native recreation in Lua/LÖVE2D instead of an emulator",
+    "Portable and moddable by design",
+    "A study-worthy reimplementation of classic Gen 1 systems",
+    "2.7k stars with an engaged retro-gaming community"
+  ],
+  "techStack": ["Lua", "LÖVE2D"],
+  "links": {
+    "docs": "https://github.com/bryanthaboi/gen1recomp#readme"
+  },
+  "images": {},
+  "related": ["harkinianpad", "kakehashi"],
+  "curatorNote": "Recompilation projects are having a moment, but this one goes further: a full native reimplementation in an open engine. For retro fans it is pure gold, and for developers it is a readable, moddable dissection of a legendary game.",
+  "publishedAt": "2026-08-09"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "deepseek-reasonix",
+  "name": "DeepSeek-Reasonix",
+  "fullName": "esengine/DeepSeek-Reasonix",
+  "tagline": "DeepSeek-native AI coding agent for your terminal, engineered around prefix-cache stability",
+  "description": "DeepSeek-Reasonix is a terminal-based AI coding agent built natively for DeepSeek models. It is engineered around prefix-cache stability: the idea that keeping the prompt prefix stable lets the DeepSeek backend reuse cached reasoning, which both cuts cost and latency and keeps long-lived sessions fast. The agent ships as a Go binary with a TUI, supports tool use and terminal workflows, and is designed to be left running rather than restarted per task.",
+  "category": "cli-terminal",
+  "featured": false,
+  "tags": ["ai-coding", "deepseek", "cli", "tui", "prefix-cache", "agent"],
+  "highlights": [
+    "DeepSeek-native agent with prompt-cache-aware session design",
+    "Engineered for long-running use: leave it running instead of restarting per task",
+    "Go binary with a full TUI and tool-use support",
+    "33k+ stars and an active 2k+ fork community",
+    "Terminal-first experience for coding agent workflows"
+  ],
+  "techStack": ["Go", "TUI"],
+  "links": {
+    "website": "http://reasonix.io/",
+    "docs": "https://github.com/esengine/DeepSeek-Reasonix#readme"
+  },
+  "images": {},
+  "related": ["prime-agent", "claude-tap"],
+  "curatorNote": "Most coding agents are model-agnostic glue; Reasonix is deliberately DeepSeek-native, and the prefix-cache-stability design is a genuinely different engineering philosophy — cheaper, faster, and built for sessions that outlive a single task.",
+  "publishedAt": "2026-08-09"
+}

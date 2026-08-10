@@ -1,0 +1,25 @@
+{
+  "slug": "pdf-inspector",
+  "name": "pdf-inspector",
+  "fullName": "firecrawl/pdf-inspector",
+  "tagline": "Fast Rust library for PDF inspection, classification, and text extraction",
+  "description": "pdf-inspector is a fast Rust library for PDF inspection, classification, and text extraction. It intelligently detects whether a PDF is scanned or text-based, enabling smart routing decisions — send scanned PDFs to OCR, pass text PDFs straight to extraction. It ships with Python and Node.js bindings, making it a practical building block for document pipelines and RAG systems.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["pdf", "ocr-routing", "text-extraction", "rust", "rag", "document-processing"],
+  "highlights": [
+    "Classifies scanned vs text-based PDFs for smart OCR routing",
+    "Rust core with Python and Node.js bindings",
+    "14.1k stars from Firecrawl's document tooling",
+    "Purpose-built for RAG and LLM ingestion pipelines"
+  ],
+  "techStack": ["Rust", "Python", "Node.js"],
+  "links": {
+    "website": "https://firecrawl.github.io/pdf-inspector/",
+    "docs": "https://github.com/firecrawl/pdf-inspector#readme"
+  },
+  "images": {},
+  "related": ["anydoc"],
+  "curatorNote": "The perfect companion to anydoc: one library tells you what kind of PDF you have, the other turns it into Markdown. Together they are the cleanest open pipeline for document ingestion.",
+  "publishedAt": "2026-08-09"
+}

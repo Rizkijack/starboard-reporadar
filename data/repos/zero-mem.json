@@ -1,0 +1,24 @@
+{
+  "slug": "zero-mem",
+  "name": "zero-mem",
+  "fullName": "skorotkiewicz/zero-mem",
+  "tagline": "Zero-token memory retrieval for Pi",
+  "description": "zero-mem is a zero-token memory retrieval plugin for Pi, the coding agent. It stores and retrieves project memory without consuming any tokens from the agent's context window — memory lives outside the conversation and is injected only when relevant. The project is TypeScript-based and targets the growing group of users who want agent memory without paying the token cost.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["pi", "memory", "zero-token", "ai-agent", "context-window", "typescript"],
+  "highlights": [
+    "Memory retrieval that costs zero context-window tokens",
+    "Designed for Pi, the coding agent",
+    "Injects memory only when relevant instead of bloating every call",
+    "Early but precisely aimed at a real pain point"
+  ],
+  "techStack": ["TypeScript", "Pi Agent"],
+  "links": {
+    "docs": "https://github.com/skorotkiewicz/zero-mem#readme"
+  },
+  "images": {},
+  "related": ["tencentdb-agent-memory", "optmem"],
+  "curatorNote": "Agent memory usually costs context; zero-mem inverts that by keeping memory outside the window and injecting on demand. 1 star, but the idea is exactly where agent ergonomics are heading.",
+  "publishedAt": "2026-08-09"
+}

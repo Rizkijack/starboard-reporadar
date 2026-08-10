@@ -1,0 +1,24 @@
+{
+  "slug": "book-to-skill",
+  "name": "book-to-skill",
+  "fullName": "virgiliojr94/book-to-skill",
+  "tagline": "Turn any technical book PDF into a Claude Code skill",
+  "description": "book-to-skill converts a technical book PDF into a Claude Code skill that you can study, reference, and use while you work. Instead of leaving knowledge trapped in a static PDF, the tool packages the book's content into a skill structure Claude Code can load on demand — turning a textbook into an always-available reference for active coding sessions. It is Python-based and aims to make deep technical reference material directly usable by AI coding agents.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["claude-code", "skill", "pdf", "documentation", "ai-agent", "python"],
+  "highlights": [
+    "Packages a technical book PDF into a Claude Code skill for on-demand reference",
+    "Lets agents study and use the book's knowledge while working, not just search it",
+    "19.7k stars shows the hunger for agent-ready reference material",
+    "Python tooling designed for practical workflows"
+  ],
+  "techStack": ["Python", "Claude Code"],
+  "links": {
+    "docs": "https://github.com/virgiliojr94/book-to-skill#readme"
+  },
+  "images": {},
+  "related": ["linus-torvalds-skill", "super-simple-software-factory"],
+  "curatorNote": "This is the pattern everyone will copy in the next year: books as agent skills instead of PDFs. 19k stars in a few months says authors and readers alike see the shift coming.",
+  "publishedAt": "2026-08-09"
+}

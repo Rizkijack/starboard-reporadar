@@ -1,0 +1,25 @@
+{
+  "slug": "knowledgemaxxing",
+  "name": "knowledgemaxxing",
+  "fullName": "joeamroo/knowledgemaxxing",
+  "tagline": "Every rabbit hole you ever went down, searchable — a local-first AI knowledge base of your whole digital life",
+  "description": "knowledgemaxxing is a local-first, AI-powered knowledge base that makes your entire digital life searchable — every rabbit hole, every saved tab, every note, everything. It indexes your personal data and layers AI retrieval on top so you can actually find what you half-remembered. The project is Python-based and designed to run on your own machine, keeping your data local.",
+  "category": "productivity",
+  "featured": false,
+  "tags": ["knowledge-base", "local-first", "ai-search", "personal-data", "python"],
+  "highlights": [
+    "Searchable index across your whole digital life",
+    "Local-first design keeps personal data on your machine",
+    "AI-powered retrieval for fuzzy 'I half-remember this' queries",
+    "Early project (1 star) but a sharp, well-scoped idea"
+  ],
+  "techStack": ["Python", "AI Search"],
+  "links": {
+    "website": "https://montroselabs.ai/km/",
+    "docs": "https://github.com/joeamroo/knowledgemaxxing#readme"
+  },
+  "images": {},
+  "related": ["mycontext", "optmem"],
+  "curatorNote": "'Every rabbit hole you ever went down, searchable' is the most honest description of personal knowledge management I have read this year. Local-first and AI-powered — watch this one.",
+  "publishedAt": "2026-08-09"
+}

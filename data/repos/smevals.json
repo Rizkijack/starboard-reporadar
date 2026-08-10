@@ -1,0 +1,23 @@
+{
+  "slug": "smevals",
+  "name": "smevals",
+  "fullName": "prime-radiant-inc/smevals",
+  "tagline": "A framework for running evals against small (and large) models",
+  "description": "smevals is an evaluation framework for running evals against small models — and large ones too. It gives model teams a structured way to measure quality across a battery of tasks, with the small-model focus reflecting the industry shift toward compact, on-device, and edge models where eval rigor matters even more because there is less headroom for error.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["eval", "llm", "small-models", "benchmark", "framework"],
+  "highlights": [
+    "Evals designed for small models without sacrificing large-model support",
+    "Framework approach makes evals repeatable and comparable",
+    "From Prime Radiant, focused on practical model quality measurement"
+  ],
+  "techStack": ["Python"],
+  "links": {
+    "docs": "https://github.com/prime-radiant-inc/smevals#readme"
+  },
+  "images": {},
+  "related": ["local-bench", "pyhctsa"],
+  "curatorNote": "Small models are eating the edge, but most eval tooling still targets frontier models. smevals fills the gap with a framework built for the compact-model era.",
+  "publishedAt": "2026-08-09"
+}

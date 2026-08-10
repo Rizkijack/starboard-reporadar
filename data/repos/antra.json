@@ -1,0 +1,25 @@
+{
+  "slug": "antra",
+  "name": "Antra",
+  "fullName": "anandprtp/Antra",
+  "tagline": "Desktop music library builder that turns streaming links into a fully tagged local library",
+  "description": "Antra is a desktop music library builder that converts Spotify, YouTube Music, Apple Music, Amazon Music, Tidal, Qobuz, and Deezer links into a fully tagged local library in FLAC, ALAC, AAC, or MP3. It is built for people who want to own their music, with support for lossless formats and integration with self-hosted servers like Jellyfin and Navidrome. The project is Python-based with a desktop interface.",
+  "category": "productivity",
+  "featured": false,
+  "tags": ["music-library", "spotify", "lossless", "flac", "self-hosted", "jellyfin"],
+  "highlights": [
+    "Converts links from 7+ streaming services into a local library",
+    "Lossless FLAC/ALAC support with AAC/MP3 options",
+    "Jellyfin and Navidrome friendly for self-hosted setups",
+    "1.9k stars with an engaged music-ownership community"
+  ],
+  "techStack": ["Python", "Desktop"],
+  "links": {
+    "website": "https://antra.hoshi.cfd/",
+    "docs": "https://github.com/anandprtp/Antra#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "Own-your-music is a growing movement, and Antra is the friendliest open on-ramp: paste a playlist link, get a tagged local library. Lossless-first design seals it.",
+  "publishedAt": "2026-08-09"
+}

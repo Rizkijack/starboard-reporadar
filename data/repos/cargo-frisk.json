@@ -1,0 +1,24 @@
+{
+  "slug": "cargo-frisk",
+  "name": "cargo-frisk",
+  "fullName": "HaidarJbeily7/cargo-frisk",
+  "tagline": "Cargo subcommand that diffs your packaged .crate against git to catch leaked secrets before publishing",
+  "description": "cargo-frisk is a cargo subcommand that catches secrets leaking into the package tarball before you publish to crates.io. Everything in a release tarball is effectively permanent once published, and files that are gitignored locally can still sneak into the .crate. cargo frisk diffs the packaged .crate against git ls-files, then annotates the difference with secret-detection rules so you can spot and fix leaks before they become permanent.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["rust", "cargo", "security", "secret-detection", "publishing", "cli"],
+  "highlights": [
+    "Diffs packaged .crate contents against git ls-files to surface unexpected files",
+    "Annotates differences with secret-detection rules",
+    "Catches gitignored secrets that would otherwise ship forever",
+    "A cargo-native subcommand that slots into the publish workflow"
+  ],
+  "techStack": ["Rust", "Cargo"],
+  "links": {
+    "docs": "https://github.com/HaidarJbeily7/cargo-frisk#readme"
+  },
+  "images": {},
+  "related": ["pii-protection", "code-review-agent"],
+  "curatorNote": "'The tarball is what lands on crates.io forever' is the whole pitch, and it is a good one — a tiny tool that prevents a permanent, embarrassing, and security-relevant mistake in the Rust publishing flow.",
+  "publishedAt": "2026-08-09"
+}

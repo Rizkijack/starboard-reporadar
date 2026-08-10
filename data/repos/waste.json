@@ -1,0 +1,25 @@
+{
+  "slug": "waste",
+  "name": "waste",
+  "fullName": "sqliteai/waste",
+  "tagline": "Run the full 2.78-trillion-parameter Kimi K3 model beyond available RAM by streaming activated weights from NVMe",
+  "description": "waste is a dependency-free, embeddable C inference engine that runs the full 2.78-trillion-parameter Kimi K3 model beyond available RAM by streaming activated weights directly from NVMe. Instead of requiring the entire model in memory, it exploits activation sparsity to fetch only the weights each token actually needs, turning high-throughput storage into virtual memory for huge MoE models. The project comes from the SQLite AI team and is a striking example of on-device inference for models that should not fit.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["llm-inference", "kimi-k3", "moe", "nvme", "on-device-ai", "c"],
+  "highlights": [
+    "Runs a 2.78T-parameter model on hardware with far less RAM than the model needs",
+    "Streams only activated weights from NVMe based on sparsity",
+    "Dependency-free, embeddable C inference engine",
+    "2k stars and a fast-growing community in the local-LLM space"
+  ],
+  "techStack": ["C", "NVMe", "Kimi K3"],
+  "links": {
+    "website": "https://sqlite.ai",
+    "docs": "https://github.com/sqliteai/waste#readme"
+  },
+  "images": {},
+  "related": ["swiftlet", "kimi-k3-mlx"],
+  "curatorNote": "The 'model bigger than your RAM' problem is being cracked from two directions: Swiftlet streams MoE experts on Apple devices, and waste does the same from NVMe for a 2.78T model. Both prove memory, not just compute, can be virtualized for inference.",
+  "publishedAt": "2026-08-09"
+}

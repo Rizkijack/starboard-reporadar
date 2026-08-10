@@ -1,0 +1,24 @@
+{
+  "slug": "oil-motion",
+  "name": "oil-motion",
+  "fullName": "oil-oil/oil-motion",
+  "tagline": "Create smooth, responsive interactive web animations",
+  "description": "oil-motion is a library for creating smooth, responsive interactive web animations. It focuses on making motion feel natural on the web — easing, timing, and responsiveness that respect the user's device and interaction — without the boilerplate of lower-level animation APIs. It is a Python-flavored project with a growing community, aimed at developers who want polished motion in their interfaces.",
+  "category": "frontend",
+  "featured": false,
+  "tags": ["animation", "web", "interactive", "motion", "frontend"],
+  "highlights": [
+    "Smooth, responsive animation primitives for the web",
+    "Interaction-aware motion that respects the device",
+    "Low boilerplate compared to raw animation APIs",
+    "867 stars in days shows demand for modern motion tooling"
+  ],
+  "techStack": ["Python", "Web Animation"],
+  "links": {
+    "docs": "https://github.com/oil-oil/oil-motion#readme"
+  },
+  "images": {},
+  "related": ["kage", "cssgraphics"],
+  "curatorNote": "Web motion is having a renaissance, and oil-motion's focus on smooth, responsive, interaction-aware animation fills a real gap between raw APIs and heavy frameworks.",
+  "publishedAt": "2026-08-09"
+}

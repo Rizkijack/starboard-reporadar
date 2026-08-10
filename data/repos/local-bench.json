@@ -1,0 +1,24 @@
+{
+  "slug": "local-bench",
+  "name": "local_bench",
+  "fullName": "SupermodularAI/local_bench",
+  "tagline": "Benchmark the local LLMs you already have — speed, memory, energy, and quality — as a live terminal leaderboard",
+  "description": "local_bench benchmarks the local LLMs you already have installed, measuring speed, memory, energy, and quality, and presents results as a live terminal leaderboard. Instead of comparing models on someone else's cloud, it tells you how your hardware actually performs with the models you run, which is exactly the information you need to pick between local model options. The project is Python-based and targets the growing local-LLM community.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["local-llm", "benchmark", "terminal", "leaderboard", "energy"],
+  "highlights": [
+    "Benchmarks local models on your own hardware",
+    "Measures speed, memory, energy, and quality",
+    "Live terminal leaderboard output",
+    "Early project (4 stars) but a genuinely useful niche"
+  ],
+  "techStack": ["Python", "Terminal"],
+  "links": {
+    "docs": "https://github.com/SupermodularAI/local_bench#readme"
+  },
+  "images": {},
+  "related": ["smevals", "time-to-first-token"],
+  "curatorNote": "Everyone benchmarks models on cloud GPUs; nobody benchmarks them on your laptop with your energy budget. That is exactly the gap local_bench fills — a niche worth an early radar ping.",
+  "publishedAt": "2026-08-09"
+}

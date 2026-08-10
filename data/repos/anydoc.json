@@ -1,0 +1,26 @@
+{
+  "slug": "anydoc",
+  "name": "anydoc",
+  "fullName": "firecrawl/anydoc",
+  "tagline": "Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown",
+  "description": "anydoc is a Rust library that converts Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF documents into clean, structured Markdown. It ships with Node.js and Python bindings, making it a drop-in document-to-Markdown pipeline for LLM ingestion, RAG pipelines, and content workflows. The project takes the messy reality of office and document formats seriously, producing consistent Markdown output that preserves structure rather than dumping raw text.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["document-conversion", "markdown", "pdf", "rag", "rust", "llm"],
+  "highlights": [
+    "Converts 8+ document formats to clean Markdown from a single Rust core",
+    "Node.js and Python bindings for easy integration into existing stacks",
+    "Built by Firecrawl, the team behind the popular web scraping library",
+    "Explosive adoption with 13k+ stars in under a week",
+    "Tailored for LLM and RAG ingestion where structure matters"
+  ],
+  "techStack": ["Rust", "Node.js", "Python"],
+  "links": {
+    "website": "https://firecrawl.github.io/anydoc/",
+    "docs": "https://github.com/firecrawl/anydoc#readme"
+  },
+  "images": {},
+  "related": ["pdf-inspector"],
+  "curatorNote": "Document-to-Markdown is the unglamorous plumbing behind every good RAG pipeline, and anydoc nails it with a single Rust core and bindings for the two ecosystems that matter most. 13k stars in a week says the pain was real.",
+  "publishedAt": "2026-08-09"
+}

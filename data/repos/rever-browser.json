@@ -1,0 +1,25 @@
+{
+  "slug": "rever-browser",
+  "name": "rever-browser",
+  "fullName": "greekr4/rever-browser",
+  "tagline": "AI agent browser for web reverse engineering",
+  "description": "rever-browser is an Electron-based AI agent browser built for web reverse engineering. It wraps Chrome DevTools Protocol automation, deobfuscation tooling, API security inspection, and MCP support into a single agent-driven browser. Instead of juggling separate scraping, debugging, and proxy tools, security researchers get a browser that is designed to be driven by AI agents while doing the RE work directly.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["reverse-engineering", "browser-automation", "ai-agent", "security", "mcp", "devtools"],
+  "highlights": [
+    "Browser built specifically for web RE, not repurposed for it",
+    "Chrome DevTools Protocol automation under the hood",
+    "Deobfuscation, API security inspection, and MCP support",
+    "Early-stage but focused: 17 stars, 1 fork, Apache-2.0"
+  ],
+  "techStack": ["TypeScript", "Electron", "Chrome DevTools Protocol", "MCP"],
+  "links": {
+    "website": "https://greekr4.github.io/rever-browser/",
+    "docs": "https://github.com/greekr4/rever-browser#readme"
+  },
+  "images": {},
+  "related": ["agenthound", "claude-tap"],
+  "curatorNote": "A niche tool for a real workflow: agents doing web reverse engineering need a browser that exposes protocol-level control, not a general browsing UI. Early, but the design intent is right.",
+  "publishedAt": "2026-08-09"
+}

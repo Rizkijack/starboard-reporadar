@@ -1,0 +1,25 @@
+{
+  "slug": "kaneo",
+  "name": "kaneo",
+  "fullName": "usekaneo/kaneo",
+  "tagline": "Open source project management that works for you, not against you",
+  "description": "kaneo is an open source project management tool that aims to work for you rather than against you. It combines issue tracking, a kanban board, and project planning in a single self-hostable package, positioning itself as a Jira and Linear alternative. Built with TypeScript, Hono, and React, it targets teams that want focused project management without heavyweight enterprise processes.",
+  "category": "productivity",
+  "featured": false,
+  "tags": ["project-management", "kanban", "issue-tracking", "self-hosted", "jira-alternative", "linear-alternative"],
+  "highlights": [
+    "All-in-one issue tracking, kanban, and planning",
+    "Self-hosted Jira/Linear alternative",
+    "Modern TypeScript stack with Hono and React",
+    "8k stars and a strong community"
+  ],
+  "techStack": ["TypeScript", "Hono", "React"],
+  "links": {
+    "website": "https://kaneo.app/",
+    "docs": "https://github.com/usekaneo/kaneo#readme"
+  },
+  "images": {},
+  "related": ["listmonk", "n8n"],
+  "curatorNote": "The self-hosted PM space has been waiting for a genuinely modern, focused option. kaneo's 'works for you, not against you' framing plus a clean stack explains its rapid rise.",
+  "publishedAt": "2026-08-09"
+}

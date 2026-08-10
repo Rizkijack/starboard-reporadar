@@ -1,0 +1,24 @@
+{
+  "slug": "comfyui-minimax-h3-audio-t8",
+  "name": "comfyui-minimax-h3-audio-T8",
+  "fullName": "T8mars/comfyui-minimax-h3-audio-T8",
+  "tagline": "ComfyUI workflow for MiniMax H3 audio generation",
+  "description": "comfyui-minimax-h3-audio-T8 is a ComfyUI workflow that brings MiniMax H3 audio generation into node-based pipelines. It pairs with the broader MiniMax H3 ComfyUI ecosystem to let creators generate and route audio outputs alongside video and image workflows, expanding what can be done with the H3 model family from a single creative tool.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["comfyui", "minimax-h3", "audio-generation", "workflow", "generative-ai"],
+  "highlights": [
+    "MiniMax H3 audio generation inside ComfyUI",
+    "Node-based integration with the broader H3 ecosystem",
+    "580 stars in days reflect rapid adoption",
+    "Python-based workflow for creative pipelines"
+  ],
+  "techStack": ["Python", "ComfyUI", "MiniMax H3"],
+  "links": {
+    "docs": "https://github.com/T8mars/comfyui-minimax-h3-audio-T8#readme"
+  },
+  "images": {},
+  "related": ["comfyui-minimaxh3-director", "minimax-h3"],
+  "curatorNote": "Audio generation is the least-served modality in ComfyUI, and this workflow fills the gap for the H3 family. The speed of adoption shows the ecosystem wanted it yesterday.",
+  "publishedAt": "2026-08-09"
+}

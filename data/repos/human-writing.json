@@ -1,0 +1,24 @@
+{
+  "slug": "human-writing",
+  "name": "human-writing",
+  "fullName": "KKKKhazix/human-writing",
+  "tagline": "Make AI-written Chinese read like a specific person talking — a writing and revision skill for agents",
+  "description": "human-writing is a general-purpose writing and revision skill that makes AI-generated Chinese read like a specific person speaking. It ships as an agent skill that works out of the box, focusing on stripping the telltale flatness of machine prose and injecting a concrete, individual voice. The project targets Chinese-language creative and general writing workflows with Claude-style agents, and is positioned as an open, reusable skill rather than a closed product.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["chinese-writing", "creative-writing", "agent-skills", "writing-skill", "ai-agent"],
+  "highlights": [
+    "Turns generic AI Chinese prose into text that reads like one specific person",
+    "General-purpose creation and revision skill, ready to use out of the box",
+    "2.2k stars in under a week reflects demand for natural-sounding Chinese writing",
+    "Open agent-skill format that works across AI agent workflows"
+  ],
+  "techStack": ["Python", "Agent Skills"],
+  "links": {
+    "docs": "https://github.com/KKKKhazix/human-writing#readme"
+  },
+  "images": {},
+  "related": ["linus-torvalds-skill", "book-to-skill"],
+  "curatorNote": "The Chinese-language AI writing market is huge and underserved; a skill that fixes the 'machine voice' problem in a reusable, agent-native format explains the instant traction.",
+  "publishedAt": "2026-08-09"
+}

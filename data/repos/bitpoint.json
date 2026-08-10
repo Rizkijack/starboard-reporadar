@@ -1,0 +1,24 @@
+{
+  "slug": "bitpoint",
+  "name": "bitpoint",
+  "fullName": "tanrax/bitpoint",
+  "tagline": "File-based HTTP endpoints for Python, where each file carries its own isolated dependencies",
+  "description": "bitpoint is a file-based HTTP endpoint framework for Python. Each file defines an endpoint and carries its own isolated dependencies, so a single project can host many small services without dependency conflicts. It is a fresh take on serverless-style routing for Python that keeps deployment simple and reproducible.",
+  "category": "backend",
+  "featured": false,
+  "tags": ["python", "http", "endpoints", "file-based", "serverless", "backend"],
+  "highlights": [
+    "Each file is an endpoint with isolated dependencies",
+    "No dependency-conflict hell across services",
+    "Simple, reproducible deployment for Python backends",
+    "MIT-licensed with a clean minimal design"
+  ],
+  "techStack": ["Python"],
+  "links": {
+    "docs": "https://github.com/tanrax/bitpoint#readme"
+  },
+  "images": {},
+  "related": ["pocketbase", "tapflow"],
+  "curatorNote": "A tiny, opinionated idea — endpoint-per-file with isolated deps — that removes a whole class of Python deployment pain. Early (6 stars) but the design is worth watching.",
+  "publishedAt": "2026-08-09"
+}

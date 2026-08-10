@@ -1,0 +1,25 @@
+{
+  "slug": "code-graph-rag",
+  "name": "code-graph-rag",
+  "fullName": "vitali87/code-graph-rag",
+  "tagline": "The ultimate RAG for your monorepo — query, understand, and edit multi-language codebases with AI",
+  "description": "code-graph-rag builds a knowledge graph over your codebase so you can query, understand, and edit multi-language monorepos with the power of AI. It combines ASTs (via tree-sitter), graph databases (Memgraph), and semantic search into an MCP server that coding agents can call. The result is a retrieval layer that understands code structure — imports, calls, types — rather than just matching text, which makes it dramatically better for agent workflows on large codebases.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["rag", "knowledge-graph", "code-analysis", "mcp", "monorepo", "semantic-search"],
+  "highlights": [
+    "Knowledge-graph RAG over multi-language monorepos using AST + graph DB",
+    "MCP server integration means Claude Code and other agents can use it natively",
+    "Tree-sitter based parsing for accurate code structure",
+    "3.3k stars with active development"
+  ],
+  "techStack": ["Python", "Memgraph", "tree-sitter", "MCP"],
+  "links": {
+    "website": "https://code-graph-rag.com",
+    "docs": "https://github.com/vitali87/code-graph-rag#readme"
+  },
+  "images": {},
+  "related": ["agenthound", "claude-tap"],
+  "curatorNote": "Text-search RAG fails on codebases because code meaning lives in structure, not tokens. This is one of the few projects that gets that right — AST + graph + MCP — and it shows in the quality of agent answers.",
+  "publishedAt": "2026-08-09"
+}

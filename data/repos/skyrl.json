@@ -1,0 +1,25 @@
+{
+  "slug": "skyrl",
+  "name": "SkyRL",
+  "fullName": "NovaSky-AI/SkyRL",
+  "tagline": "A modular full-stack RL library for LLMs",
+  "description": "SkyRL is a modular, full-stack reinforcement learning library for LLMs from NovaSky (the team behind the Sky-T1 open reasoning model). It covers the whole RL pipeline — from data and reward design to training, evaluation, and deployment — in one coherent framework, with documentation to match. For teams training reasoning and RL-tuned models, it is a credible open alternative to sprawling in-house stacks.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["reinforcement-learning", "llm", "training", "sky-t1", "full-stack", "python"],
+  "highlights": [
+    "End-to-end RL for LLMs: data, rewards, training, eval, deployment",
+    "From NovaSky, the Sky-T1 open reasoning model team",
+    "Modular design with real documentation at docs.skyrl.ai",
+    "2.1k stars and a proven lineage in open RL"
+  ],
+  "techStack": ["Python", "RL"],
+  "links": {
+    "website": "https://docs.skyrl.ai/docs",
+    "docs": "https://github.com/NovaSky-AI/SkyRL#readme"
+  },
+  "images": {},
+  "related": ["minimax-h3", "smevals"],
+  "curatorNote": "Open RL for LLMs is still young, and most of it is fragmented scripts. SkyRL is the rare full-stack, documented take — from the team that already proved itself with Sky-T1.",
+  "publishedAt": "2026-08-09"
+}
