@@ -1,0 +1,25 @@
+{
+  "slug": "agentconnect",
+  "name": "agentconnect",
+  "fullName": "agentconnect-md/agentconnect",
+  "tagline": "Team plus AI agent platform via Slack, Telegram, Discord, GitHub",
+  "description": "agentconnect is a platform that brings AI agents into a team's existing chat surfaces — Slack, Telegram, Discord, and GitHub. It runs on an ACP runtime and gives each agent its own memory, tools, and permissions, so agents can operate as bounded, accountable members of the team. That unified control plane across multiple messengers is a practical way to add automation to your day-to-day collaboration without forcing a new app.",
+  "category": "self-hosting",
+  "featured": false,
+  "tags": ["ai-agents", "acp", "slack", "telegram", "discord", "self-hosted", "automation"],
+  "highlights": [
+    "Connects AI agents to Slack, Telegram, Discord, and GitHub",
+    "Runs on an ACP (Agent Client Protocol) runtime",
+    "Per-agent memory, tools, and permissions",
+    "Agents act as bounded, accountable team members"
+  ],
+  "techStack": [],
+  "links": {
+    "website": "https://github.com/agentconnect-md/agentconnect",
+    "docs": "https://github.com/agentconnect-md/agentconnect#readme"
+  },
+  "images": {},
+  "related": ["curie", "qm", "buzz"],
+  "curatorNote": "Putting agents in the chat tools a team already uses — with per-agent memory, tools, and permissions — is a sensible, low-friction way to make automation feel like a team member rather than a bolt-on.",
+  "publishedAt": "2026-08-09"
+}

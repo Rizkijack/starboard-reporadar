@@ -1,0 +1,25 @@
+{
+  "slug": "hal0",
+  "name": "hal0",
+  "fullName": "Hal0ai/hal0",
+  "tagline": "LLM inference appliance tuned for AMD Strix Halo",
+  "description": "hal0 is a self-hosted AI inference appliance designed around AMD Strix Halo hardware. It leverages the 128GB unified memory of those chips, reaching roughly 258 tokens per second with ROCm FP4, and can route work to the NPU via FLM. Services are isolated per-instance with podman, keeping the whole thing modular and self-contained. For anyone running a Strix Halo machine, it is a tailored way to serve large models locally.",
+  "category": "self-hosting",
+  "featured": false,
+  "tags": ["llm", "inference", "amd", "strix-halo", "rocms", "self-hosted", "python"],
+  "highlights": [
+    "Targeted at AMD Strix Halo's 128GB unified memory",
+    "Roughly 258 tokens/s with ROCm FP4",
+    "NPU offload via FLM",
+    "Per-service podman isolation"
+  ],
+  "techStack": ["Python", "ROCm", "podman"],
+  "links": {
+    "website": "https://github.com/Hal0ai/hal0",
+    "docs": "https://github.com/Hal0ai/hal0#readme"
+  },
+  "images": {},
+  "related": ["mlx-serve", "ds4", "kimi-k3-mlx"],
+  "curatorNote": "AMD's Strix Halo is a compelling platform for local LLMs, and a purpose-built appliance around it is exactly the kind of niche, hardware-tuned tooling that flies under the radar.",
+  "publishedAt": "2026-08-09"
+}

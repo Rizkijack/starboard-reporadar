@@ -1,0 +1,25 @@
+{
+  "slug": "curie",
+  "name": "curie",
+  "fullName": "curie-eng/curie",
+  "tagline": "Deploy Claude Code agent bundles to production",
+  "description": "curie is a tool for taking a Claude Code agent bundle and deploying it to production. It organizes agents into three tiers — skill, local, and cluster — and treats a git push as the deploy action, with a parity ladder evaluation to check that the deployed agent behaves like its local version. That makes it a practical bridge between building an agent in Claude Code and running it as a persistent service on your own infrastructure.",
+  "category": "self-hosting",
+  "featured": false,
+  "tags": ["claude-code", "ai-agents", "deployment", "self-hosted", "devops"],
+  "highlights": [
+    "Deploys Claude Code agent bundles to production",
+    "Three tiers: skill, local, and cluster",
+    "Git push as the deploy trigger",
+    "Parity ladder evaluation checks deployed behavior"
+  ],
+  "techStack": [],
+  "links": {
+    "website": "https://github.com/curie-eng/curie",
+    "docs": "https://github.com/curie-eng/curie#readme"
+  },
+  "images": {},
+  "related": ["agentconnect", "nanocoder", "deja"],
+  "curatorNote": "Most agent tooling stops at the local session. Treating a git push as a deploy and verifying behavior parity is a genuinely useful step toward running agents as durable infrastructure.",
+  "publishedAt": "2026-08-09"
+}

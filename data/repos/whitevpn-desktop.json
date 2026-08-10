@@ -1,0 +1,25 @@
+{
+  "slug": "whitevpn-desktop",
+  "name": "WhiteVPN Desktop",
+  "fullName": "WhiteDNS/WhiteVPN-Desktop",
+  "tagline": "Cross-platform desktop VPN client built on mihomo",
+  "description": "WhiteVPN-Desktop is a cross-platform desktop VPN client built with Wails and powered by the mihomo (Clash) engine. Wrapping the battle-tested mihomo core in a native desktop UI gives you a fast, configurable VPN experience across platforms without relying on a proprietary client. For self-hosters who want a controllable, open desktop VPN surface, it is a solid foundation.",
+  "category": "self-hosting",
+  "featured": false,
+  "tags": ["vpn", "wails", "mihomo", "clash", "desktop", "go", "self-hosted"],
+  "highlights": [
+    "Cross-platform desktop VPN client",
+    "Built with Wails on the mihomo (Clash) engine",
+    "Native desktop UI over a battle-tested core",
+    "Written in Go"
+  ],
+  "techStack": ["Go", "Wails", "mihomo"],
+  "links": {
+    "website": "https://github.com/WhiteDNS/WhiteVPN-Desktop",
+    "docs": "https://github.com/WhiteDNS/WhiteVPN-Desktop#readme"
+  },
+  "images": {},
+  "related": ["pihole-ha-cluster"],
+  "curatorNote": "Wrapping the mature mihomo core in a native Wails desktop app is a pragmatic way to get a controllable, cross-platform VPN client without building a proxy engine from scratch.",
+  "publishedAt": "2026-08-09"
+}
