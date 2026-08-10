@@ -1,0 +1,25 @@
+{
+  "slug": "troth",
+  "name": "troth",
+  "fullName": "xgre1/troth",
+  "tagline": "An AI partner whose memory lives on your machine, not the vendor's",
+  "description": "troth is an AI companion concept where the memory stays on your machine rather than on a vendor's servers. Instead of a cloud-bound assistant that forgets context between sessions and stores your data elsewhere, troth keeps your shared history local and private. It is an early, personal/indie project that speaks to the broader desire for AI relationships that respect data ownership.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["ai", "privacy", "local-first", "memory", "personal"],
+  "highlights": [
+    "AI companion with memory stored on your machine, not the vendor's",
+    "Local-first approach keeps shared history private",
+    "A reaction to cloud-bound assistants that own your data",
+    "Early indie project with a strong data-ownership stance"
+  ],
+  "techStack": ["Python"],
+  "links": {
+    "website": "https://github.com/xgre1/troth",
+    "docs": "https://github.com/xgre1/troth#readme"
+  },
+  "images": {},
+  "related": ["mycontext", "deja-vu"],
+  "curatorNote": "Data ownership is the quiet tension behind every cloud AI assistant. troth's premise — memory stays on your machine — is a meaningful stance worth keeping an eye on.",
+  "publishedAt": "2026-08-09"
+}

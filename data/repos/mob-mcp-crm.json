@@ -1,0 +1,25 @@
+{
+  "slug": "mob-mcp-crm",
+  "name": "mob-mcp-crm",
+  "fullName": "benkaiser/mob-mcp-crm",
+  "tagline": "Personal CRM via MCP — chat naturally with your contact list",
+  "description": "mob-mcp-crm is a personal CRM exposed through the Model Context Protocol, letting you chat naturally with an AI about your contacts, birthdays, and follow-ups. It runs self-hosted as a Node.js app backed by SQLite, so your relationship data stays on your machine. For anyone who wants a lightweight, AI-friendly way to keep track of personal relationships without a heavy SaaS CRM, it is a clever, minimal approach.",
+  "category": "productivity",
+  "featured": false,
+  "tags": ["crm", "mcp", "ai", "self-hosted", "sqlite", "nodejs"],
+  "highlights": [
+    "Personal CRM exposed through the Model Context Protocol",
+    "Chat naturally with an AI about contacts, birthdays, and follow-ups",
+    "Self-hosted Node.js app backed by SQLite",
+    "Keeps your relationship data local and private"
+  ],
+  "techStack": ["Node.js", "SQLite"],
+  "links": {
+    "website": "https://github.com/benkaiser/mob-mcp-crm",
+    "docs": "https://github.com/benkaiser/mob-mcp-crm#readme"
+  },
+  "images": {},
+  "related": ["documenso", "lingxi"],
+  "curatorNote": "A personal CRM you talk to through MCP is a genuinely fresh take on relationship management. Self-hosted and SQLite-backed, it keeps private data where it belongs.",
+  "publishedAt": "2026-08-09"
+}

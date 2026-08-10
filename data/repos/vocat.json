@@ -1,0 +1,25 @@
+{
+  "slug": "vocat",
+  "name": "VoCat",
+  "fullName": "MengMengCode/VoCat",
+  "tagline": "Web control panel for Quectel EC20/EC25 modems",
+  "description": "VoCat is a web-based control panel for managing Quectel EC20 and EC25 cellular modems. It wraps AT commands, USSD, SMS, eSIM, and proxy configuration into a friendly web UI, all delivered as a single Go binary. For self-hosters and IoT builders who rely on cellular connectivity, VoCat removes the need to hand-roll AT command scripts and gives modem management a proper interface.",
+  "category": "other-fun",
+  "featured": false,
+  "tags": ["modem", "quectel", "at-commands", "cellular", "iot", "go", "self-hosted"],
+  "highlights": [
+    "Web UI for managing Quectel EC20/EC25 modems",
+    "AT commands, USSD, SMS, eSIM, and proxy control in one place",
+    "Single Go binary for easy deployment",
+    "A practical interface for self-hosted cellular connectivity"
+  ],
+  "techStack": ["Go"],
+  "links": {
+    "website": "https://github.com/MengMengCode/VoCat",
+    "docs": "https://github.com/MengMengCode/VoCat#readme"
+  },
+  "images": {},
+  "related": ["pihole-ha-cluster"],
+  "curatorNote": "Cellular modem management is usually a pile of AT command scripts. Wrapping it in a clean web UI as a single Go binary is a genuinely useful niche tool for self-hosted connectivity setups.",
+  "publishedAt": "2026-08-09"
+}

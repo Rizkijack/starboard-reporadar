@@ -1,0 +1,25 @@
+{
+  "slug": "onkod",
+  "name": "ONKOD",
+  "fullName": "ismailainte/ONKOD",
+  "tagline": "Android keyboard for the Somali language",
+  "description": "ONKOD is an Android keyboard built for the Somali language, offering QWERTY and ASHERTY layouts built with Jetpack Compose. Latin-script Somali keyboards are rare, which makes ONKOD one of the least-represented language projects on GitHub. It is a focused, accessible tool for Somali speakers and a meaningful example of software serving an underserved language community.",
+  "category": "other-fun",
+  "featured": false,
+  "tags": ["keyboard", "somali", "android", "jetpack-compose", "languages", "kotlin"],
+  "highlights": [
+    "Android keyboard purpose-built for the Somali language",
+    "QWERTY and ASHERTY layouts built with Jetpack Compose",
+    "One of the least-represented language projects on GitHub",
+    "Serves an underserved language community"
+  ],
+  "techStack": ["Kotlin", "Jetpack Compose"],
+  "links": {
+    "website": "https://github.com/ismailainte/ONKOD",
+    "docs": "https://github.com/ismailainte/ONKOD#readme"
+  },
+  "images": {},
+  "related": ["rime-wanxiang"],
+  "curatorNote": "Software for underserved languages is always worth a spotlight. ONKOD fills a real gap for Somali speakers with a clean, modern Android keyboard.",
+  "publishedAt": "2026-08-09"
+}

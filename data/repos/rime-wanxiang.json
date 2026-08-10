@@ -1,0 +1,25 @@
+{
+  "slug": "rime-wanxiang",
+  "name": "rime-wanxiang",
+  "fullName": "amzxyz/rime-wanxiang",
+  "tagline": "AI-optimized 'Wanxiang' Chinese input method built on Rime",
+  "description": "rime-wanxiang (万象拼音) is a Chinese pinyin input method built on the Rime engine, optimized with an AI-tuned word library and grammar model. It ships with eight auxiliary codes and is one of the trending Lua projects on GitHub. For Chinese users who want a modern, highly customizable, open-source input method, it combines the flexibility of Rime with an AI-refined typing experience.",
+  "category": "other-fun",
+  "featured": false,
+  "tags": ["input-method", "chinese", "rime", "pinyin", "lua", "ime"],
+  "highlights": [
+    "AI-optimized word library and grammar model for accurate typing",
+    "Built on the highly customizable Rime engine",
+    "Eight auxiliary codes for power users",
+    "One of the trending Lua projects on GitHub"
+  ],
+  "techStack": ["Lua"],
+  "links": {
+    "website": "https://github.com/amzxyz/rime-wanxiang",
+    "docs": "https://github.com/amzxyz/rime-wanxiang#readme"
+  },
+  "images": {},
+  "related": ["onkod"],
+  "curatorNote": "Rime is already the gold standard for customizable input methods; adding an AI-refined word model makes it even more compelling for daily Chinese typing.",
+  "publishedAt": "2026-08-09"
+}

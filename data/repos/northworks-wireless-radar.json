@@ -1,0 +1,25 @@
+{
+  "slug": "northworks-wireless-radar",
+  "name": "NorthWorks Wireless Radar",
+  "fullName": "NorthWorks-Lab/NorthWorks-Wireless-Radar",
+  "tagline": "LiDAR + mmWave radar on ESP32-S3 with Android display",
+  "description": "NorthWorks Wireless Radar is a hardware project that combines rotating LiDAR and mmWave radar on an ESP32-S3 and streams the result to an Android display. It is a hands-on reverse-engineering and embedded systems exercise, showing how to fuse two sensing modalities and render them in real time on a phone. For makers and security researchers, it is a practical showcase of wireless sensing and embedded-to-mobile data plumbing.",
+  "category": "other-fun",
+  "featured": false,
+  "tags": ["esp32", "lidar", "mmwave", "radar", "embedded", "reverse-engineering", "iot"],
+  "highlights": [
+    "Rotating LiDAR plus mmWave radar fused on an ESP32-S3",
+    "Real-time rendering streamed to an Android display",
+    "Hands-on reverse-engineering of wireless sensing hardware",
+    "A compact embedded-to-mobile data pipeline"
+  ],
+  "techStack": ["C++", "ESP32-S3"],
+  "links": {
+    "website": "https://github.com/NorthWorks-Lab/NorthWorks-Wireless-Radar",
+    "docs": "https://github.com/NorthWorks-Lab/NorthWorks-Wireless-Radar#readme"
+  },
+  "images": {},
+  "related": ["esp32-ai", "awtrix-ng"],
+  "curatorNote": "Fusing two sensing modalities on a single ESP32 and pushing it to a phone is a genuinely interesting embedded exercise. It sits at the intersection of hardware hacking and security research, which is a combination worth watching.",
+  "publishedAt": "2026-08-09"
+}

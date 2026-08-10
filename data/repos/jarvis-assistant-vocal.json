@@ -1,0 +1,25 @@
+{
+  "slug": "jarvis-assistant-vocal",
+  "name": "Jarvis Assistant Vocal",
+  "fullName": "sosoj92/jarvis-assistant-vocal",
+  "tagline": "Local French voice assistant with Claude/Ollama and home integrations",
+  "description": "Jarvis Assistant Vocal is a voice assistant built around Claude and Ollama that runs fully offline. It is a French-language ecosystem project that integrates with Philips Hue lights, OBS, Google Calendar, Gmail, and Twilio, letting you control your smart home and workflow by voice. For privacy-minded users who want an assistant that does not depend on a cloud vendor, it is a practical, self-contained alternative.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["voice-assistant", "llm", "ollama", "claude", "smart-home", "offline", "python"],
+  "highlights": [
+    "Local voice assistant running on Claude and Ollama",
+    "Fully offline, no cloud vendor dependency",
+    "Integrates Philips Hue, OBS, Google Calendar, Gmail, and Twilio",
+    "French-language ecosystem project"
+  ],
+  "techStack": ["Python"],
+  "links": {
+    "website": "https://github.com/sosoj92/jarvis-assistant-vocal",
+    "docs": "https://github.com/sosoj92/jarvis-assistant-vocal#readme"
+  },
+  "images": {},
+  "related": ["free-claude-code", "pihole-ha-cluster"],
+  "curatorNote": "A privacy-preserving, fully offline voice assistant that ties into the smart home is exactly the direction local AI should go. The French-language ecosystem angle only adds to its distinctiveness.",
+  "publishedAt": "2026-08-09"
+}

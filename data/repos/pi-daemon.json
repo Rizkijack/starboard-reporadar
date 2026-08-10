@@ -1,0 +1,25 @@
+{
+  "slug": "pi-daemon",
+  "name": "pi-daemon",
+  "fullName": "SASUKE40/pi-daemon",
+  "tagline": "Persistent coding agent session with a mobile PWA client",
+  "description": "pi-daemon is a persistent coding agent that runs in the background and can be driven from a mobile-friendly PWA. It keeps a long-lived session so context survives across interactions, and its mobile web client makes it easy to kick off or check on agent work from a phone. It targets the growing workflow of delegating long-running coding tasks to an agent you can monitor anywhere.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["coding-agent", "daemon", "persistent", "pwa", "mobile"],
+  "highlights": [
+    "Persistent coding agent session that survives across interactions",
+    "Mobile-friendly PWA client for driving and monitoring agent work",
+    "Runs as a background daemon",
+    "Fits the long-running delegated-coding workflow"
+  ],
+  "techStack": ["Python"],
+  "links": {
+    "website": "https://github.com/SASUKE40/pi-daemon",
+    "docs": "https://github.com/SASUKE40/pi-daemon#readme"
+  },
+  "images": {},
+  "related": ["nanocoder", "diri"],
+  "curatorNote": "The ability to drive a persistent coding agent from a phone is a practical step toward 'check on your agent from anywhere.' Early, but a useful pattern to watch.",
+  "publishedAt": "2026-08-09"
+}

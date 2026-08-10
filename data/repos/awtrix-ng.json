@@ -1,0 +1,25 @@
+{
+  "slug": "awtrix-ng",
+  "name": "AWTRIX NG",
+  "fullName": "Blueforcer/awtrix-ng",
+  "tagline": "Next-gen ESP32 LED matrix clock firmware",
+  "description": "AWTRIX NG is the next-generation firmware for ESP32-based LED matrix clocks, built by the creator of the original AWTRIX project. It turns a matrix of addressable LEDs into a highly capable, customizable smart clock with apps, notifications, and integrations. The project carries the heritage of the popular AWTRIX line (2k+ stars on GitHub) and modernizes it for today's ESP32 hardware, targeting makers who want a polished, self-hosted display for their desk or home.",
+  "category": "other-fun",
+  "featured": false,
+  "tags": ["esp32", "led-matrix", "firmware", "iot", "smart-clock", "self-hosted"],
+  "highlights": [
+    "Next-gen firmware from the original AWTRIX creator",
+    "Turns an ESP32 LED matrix into a customizable smart clock",
+    "Apps, notifications, and integrations for a self-hosted display",
+    "Carries the heritage of the 2k+ star AWTRIX project"
+  ],
+  "techStack": ["C++", "ESP32"],
+  "links": {
+    "website": "https://github.com/Blueforcer/awtrix-ng",
+    "docs": "https://github.com/Blueforcer/awtrix-ng#readme"
+  },
+  "images": {},
+  "related": ["pihole-ha-cluster"],
+  "curatorNote": "The AWTRIX line has been a maker favorite for years; NG brings that momentum to modern ESP32 hardware and keeps the self-hosted ethos intact. A great entry point for anyone who wants a smart display without a cloud dependency.",
+  "publishedAt": "2026-08-09"
+}

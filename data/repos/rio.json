@@ -1,0 +1,25 @@
+{
+  "slug": "rio",
+  "name": "rio",
+  "fullName": "raphamorim/rio",
+  "tagline": "GPU-accelerated terminal emulator for desktop and browser",
+  "description": "rio is a GPU-accelerated terminal emulator that runs both on the desktop and in the browser. It focuses on performance and a modern look, using the GPU for rendering to keep output smooth even with heavy workloads. It is built in Rust and was one of the trending Rust projects of the week, appealing to developers who want a fast, polished terminal with a clean codebase.",
+  "category": "cli-terminal",
+  "featured": false,
+  "tags": ["terminal", "gpu", "rust", "emulator", "tui", "browser"],
+  "highlights": [
+    "GPU-accelerated rendering for smooth terminal output",
+    "Runs on both desktop and in the browser",
+    "Modern, performant design built in Rust",
+    "One of the trending Rust projects of the week"
+  ],
+  "techStack": ["Rust"],
+  "links": {
+    "website": "https://github.com/raphamorim/rio",
+    "docs": "https://github.com/raphamorim/rio#readme"
+  },
+  "images": {},
+  "related": ["warp", "mirador"],
+  "curatorNote": "Terminal emulators are a crowded space, but rio's GPU rendering and browser support set it apart. A genuinely fast, modern option for developers who live in the terminal.",
+  "publishedAt": "2026-08-09"
+}

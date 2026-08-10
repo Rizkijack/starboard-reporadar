@@ -1,0 +1,25 @@
+{
+  "slug": "mise",
+  "name": "mise",
+  "fullName": "jdx/mise",
+  "tagline": "Dev tools, environment variables, and task runner in one CLI",
+  "description": "mise is a unified CLI that combines dev tool version management, environment variables, and a task runner into a single tool. It replaces the need for separate version managers and task runners, keeping your project tooling consistent and reproducible. Built in Rust and a trending project of the week, it enjoys sponsorship from 37signals and is positioned as a modern alternative for developers who want one tool to manage their dev environment.",
+  "category": "cli-terminal",
+  "featured": false,
+  "tags": ["cli", "dev-tools", "env", "task-runner", "version-manager", "rust"],
+  "highlights": [
+    "Combines dev tool versions, env vars, and task running in one CLI",
+    "Reproducible, consistent project tooling",
+    "Built in Rust with sponsorship from 37signals",
+    "One of the trending Rust projects of the week"
+  ],
+  "techStack": ["Rust"],
+  "links": {
+    "website": "https://github.com/jdx/mise",
+    "docs": "https://github.com/jdx/mise#readme"
+  },
+  "images": {},
+  "related": ["juggler", "mirador"],
+  "curatorNote": "Dev setup is usually a pile of separate tools; mise consolidates versions, env, and tasks into one fast CLI. It is a strong candidate for anyone tired of juggling multiple dotfiles and managers.",
+  "publishedAt": "2026-08-09"
+}

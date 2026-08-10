@@ -1,0 +1,25 @@
+{
+  "slug": "tech5",
+  "name": "tech5",
+  "fullName": "jmarshall23/tech5",
+  "tagline": "Recreation of the idTech 5 engine from Xbox 360 builds",
+  "description": "tech5 is a community effort to recreate the idTech 5 game engine — the tech behind RAGE and Wolfenstein: The New Order — by reverse-engineering the original Xbox 360 builds. It is a game engine preservation project that unpacks how a modern (for its era) id engine was structured, decompiled, and reconstructed. For reverse engineers and game preservationists, it is a rare look inside one of the industry's classic engines.",
+  "category": "other-fun",
+  "featured": false,
+  "tags": ["game-engine", "reverse-engineering", "idtech5", "preservation", "c++"],
+  "highlights": [
+    "Recreates the idTech 5 engine used by RAGE and Wolfenstein: TNO",
+    "Reverse-engineered from original Xbox 360 builds",
+    "A serious game engine preservation effort",
+    "Deep-dive into the structure of a classic id engine"
+  ],
+  "techStack": ["C++"],
+  "links": {
+    "website": "https://github.com/jmarshall23/tech5",
+    "docs": "https://github.com/jmarshall23/tech5#readme"
+  },
+  "images": {},
+  "related": ["gen1recomp"],
+  "curatorNote": "idTech 5 was a famously ambitious engine, and reconstructing it from console builds is no small feat. This is the kind of preservation work that keeps classic game tech alive and learnable.",
+  "publishedAt": "2026-08-09"
+}

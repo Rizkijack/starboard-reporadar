@@ -1,0 +1,25 @@
+{
+  "slug": "homebench",
+  "name": "homebench",
+  "fullName": "david-g-3654/homebench",
+  "tagline": "Benchmark local LLMs with a single command",
+  "description": "homebench is a tool for benchmarking local language models, measuring speed, memory, and quality with a single command. It builds on the ideas of the related local_bench project and packages them into a focused, easy-to-use benchmark for anyone running models locally with tools like Ollama or llama.cpp. For self-hosters comparing local models, it provides a quick way to see which model performs best on their hardware.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["llm", "benchmark", "local", "ollama", "python"],
+  "highlights": [
+    "Benchmarks local LLMs for speed, memory, and quality",
+    "Single-command usage for fast comparison",
+    "Targets Ollama, llama.cpp, and similar local runtimes",
+    "A practical tool for self-hosted model selection"
+  ],
+  "techStack": ["Python"],
+  "links": {
+    "website": "https://github.com/david-g-3654/homebench",
+    "docs": "https://github.com/david-g-3654/homebench#readme"
+  },
+  "images": {},
+  "related": ["local-bench", "kimi-k3-mlx"],
+  "curatorNote": "Choosing a local model is often a guessing game about performance. homebench turns that into a single command, which is exactly the kind of tool local-AI users need.",
+  "publishedAt": "2026-08-09"
+}

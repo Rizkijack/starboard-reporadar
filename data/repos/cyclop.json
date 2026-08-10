@@ -1,0 +1,25 @@
+{
+  "slug": "cyclop",
+  "name": "cyclop",
+  "fullName": "akalikbergenov/cyclop",
+  "tagline": "MacBook notch app with player, shelf, clipboard, snippets, and translation",
+  "description": "cyclop is a Mac app that turns the MacBook notch into a functional utility panel. It surfaces a music player, file shelf, clipboard, code snippets, calendar, and translation all from the Dynamic Island area. It is a Russian-language ecosystem project that demonstrates how much useful functionality can be packed into the notch's otherwise dead space, making it a favorite among macOS utility tinkerers.",
+  "category": "other-fun",
+  "featured": false,
+  "tags": ["macos", "notch", "dynamic-island", "utility", "swift", "productivity"],
+  "highlights": [
+    "Turns the MacBook notch into a functional utility panel",
+    "Player, file shelf, clipboard, snippets, calendar, and translation",
+    "Native Swift app for macOS",
+    "A clever use of the notch's dead space"
+  ],
+  "techStack": ["Swift"],
+  "links": {
+    "website": "https://github.com/akalikbergenov/cyclop",
+    "docs": "https://github.com/akalikbergenov/cyclop#readme"
+  },
+  "images": {},
+  "related": ["warp"],
+  "curatorNote": "The MacBook notch is usually just wasted pixels. cyclop turns it into a genuinely useful panel, which is a fun and practical idea executed natively in Swift.",
+  "publishedAt": "2026-08-09"
+}
