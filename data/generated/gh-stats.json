@@ -2727,5 +2727,373 @@
     ],
     "ownerAvatar": "https://avatars.githubusercontent.com/u/0?v=4",
     "archived": false
+  },
+  "Blueforcer/awtrix-ng": {
+    "stars": 98,
+    "forks": 5,
+    "openIssues": 0,
+    "language": "C++",
+    "license": null,
+    "createdAt": "2026-08-03T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "topics": [
+      "esp32",
+      "led-matrix",
+      "firmware"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/0?v=4",
+    "archived": false
+  },
+  "NorthWorks-Lab/NorthWorks-Wireless-Radar": {
+    "stars": 58,
+    "forks": 0,
+    "openIssues": 0,
+    "language": "C++",
+    "license": null,
+    "createdAt": "2026-08-03T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "topics": [
+      "esp32",
+      "lidar",
+      "mmwave",
+      "radar"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/0?v=4",
+    "archived": false
+  },
+  "MengMengCode/VoCat": {
+    "stars": 59,
+    "forks": 0,
+    "openIssues": 0,
+    "language": "Go",
+    "license": null,
+    "createdAt": "2026-08-09T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "topics": [
+      "quectel",
+      "modem",
+      "lte"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/0?v=4",
+    "archived": false
+  },
+  "jmarshall23/tech5": {
+    "stars": 114,
+    "forks": 0,
+    "openIssues": 0,
+    "language": "C++",
+    "license": null,
+    "createdAt": "2026-08-08T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "topics": [
+      "game-engine",
+      "reverse-engineering",
+      "idtech5"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/0?v=4",
+    "archived": false
+  },
+  "akalikbergenov/cyclop": {
+    "stars": 171,
+    "forks": 0,
+    "openIssues": 0,
+    "language": "Swift",
+    "license": null,
+    "createdAt": "2026-08-04T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "topics": [
+      "macos",
+      "notch",
+      "dynamic-island"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/0?v=4",
+    "archived": false
+  },
+  "sosoj92/jarvis-assistant-vocal": {
+    "stars": 92,
+    "forks": 0,
+    "openIssues": 0,
+    "language": "Python",
+    "license": null,
+    "createdAt": "2026-08-07T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "topics": [
+      "voice-assistant",
+      "french",
+      "home-automation"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/0?v=4",
+    "archived": false
+  },
+  "ismailainte/ONKOD": {
+    "stars": 11,
+    "forks": 0,
+    "openIssues": 0,
+    "language": "Kotlin",
+    "license": null,
+    "createdAt": "2026-08-03T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "topics": [
+      "android",
+      "keyboard",
+      "somali"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/0?v=4",
+    "archived": false
+  },
+  "amzxyz/rime-wanxiang": {
+    "stars": 4300,
+    "forks": 100,
+    "openIssues": 0,
+    "language": "Lua",
+    "license": null,
+    "createdAt": "2026-08-01T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "topics": [
+      "rime",
+      "ime",
+      "chinese",
+      "lua"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/0?v=4",
+    "archived": false
+  },
+  "raphamorim/rio": {
+    "stars": 6800,
+    "forks": 300,
+    "openIssues": 0,
+    "language": "Rust",
+    "license": null,
+    "createdAt": "2026-08-01T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "topics": [
+      "terminal",
+      "gpu",
+      "rust",
+      "web"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/0?v=4",
+    "archived": false
+  },
+  "jdx/mise": {
+    "stars": 32100,
+    "forks": 1200,
+    "openIssues": 0,
+    "language": "Rust",
+    "license": null,
+    "createdAt": "2026-08-01T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "topics": [
+      "dev-tools",
+      "rust",
+      "cli",
+      "task-runner"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/0?v=4",
+    "archived": false
+  },
+  "david-g-3654/homebench": {
+    "stars": 51,
+    "forks": 0,
+    "openIssues": 0,
+    "language": "Python",
+    "license": null,
+    "createdAt": "2026-08-01T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "topics": [
+      "llm",
+      "benchmark",
+      "local-ai"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/0?v=4",
+    "archived": false
+  },
+  "benkaiser/mob-mcp-crm": {
+    "stars": 5,
+    "forks": 0,
+    "openIssues": 0,
+    "language": "JavaScript",
+    "license": null,
+    "createdAt": "2026-08-01T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "topics": [
+      "mcp",
+      "crm"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/0?v=4",
+    "archived": false
+  },
+  "SASUKE40/pi-daemon": {
+    "stars": 22,
+    "forks": 0,
+    "openIssues": 0,
+    "language": "Python",
+    "license": null,
+    "createdAt": "2026-08-01T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "topics": [
+      "ai-coding",
+      "pwa"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/0?v=4",
+    "archived": false
+  },
+  "xgre1/troth": {
+    "stars": 14,
+    "forks": 0,
+    "openIssues": 0,
+    "language": "TypeScript",
+    "license": null,
+    "createdAt": "2026-08-01T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "topics": [
+      "ai",
+      "privacy",
+      "local-first"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/0?v=4",
+    "archived": false
+  },
+  "agentconnect-md/agentconnect": {
+    "stars": 16,
+    "forks": 0,
+    "openIssues": 0,
+    "language": "TypeScript",
+    "license": null,
+    "createdAt": "2026-08-01T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "topics": [
+      "agents",
+      "acp",
+      "slack"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/0?v=4",
+    "archived": false
+  },
+  "xXRoxXeRXx/clumoove": {
+    "stars": 7,
+    "forks": 0,
+    "openIssues": 0,
+    "language": "Go",
+    "license": null,
+    "createdAt": "2026-08-01T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "topics": [
+      "migration",
+      "cloud",
+      "storage"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/0?v=4",
+    "archived": false
+  },
+  "compartmentdev/compartment": {
+    "stars": 230,
+    "forks": 10,
+    "openIssues": 0,
+    "language": "Go",
+    "license": null,
+    "createdAt": "2026-08-01T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "topics": [
+      "kubernetes",
+      "deploy",
+      "cli"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/0?v=4",
+    "archived": false
+  },
+  "curie-eng/curie": {
+    "stars": 7,
+    "forks": 0,
+    "openIssues": 0,
+    "language": "TypeScript",
+    "license": null,
+    "createdAt": "2026-08-01T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "topics": [
+      "claude-code",
+      "deploy"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/0?v=4",
+    "archived": false
+  },
+  "Hal0ai/hal0": {
+    "stars": 63,
+    "forks": 0,
+    "openIssues": 0,
+    "language": "Python",
+    "license": null,
+    "createdAt": "2026-08-01T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "topics": [
+      "llm",
+      "amd",
+      "inference"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/0?v=4",
+    "archived": false
+  },
+  "halcyon-video/halcyon-video": {
+    "stars": 119,
+    "forks": 0,
+    "openIssues": 0,
+    "language": "TypeScript",
+    "license": null,
+    "createdAt": "2026-08-03T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "topics": [
+      "jellyfin",
+      "3d",
+      "game"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/0?v=4",
+    "archived": false
+  },
+  "tnandla/portfolio-os": {
+    "stars": 52,
+    "forks": 0,
+    "openIssues": 0,
+    "language": "PHP",
+    "license": null,
+    "createdAt": "2026-08-01T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "topics": [
+      "self-hosted",
+      "portfolio"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/0?v=4",
+    "archived": false
+  },
+  "WhiteDNS/WhiteVPN-Desktop": {
+    "stars": 119,
+    "forks": 0,
+    "openIssues": 0,
+    "language": "Go",
+    "license": null,
+    "createdAt": "2026-08-05T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "topics": [
+      "vpn",
+      "wails",
+      "mihomo"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/0?v=4",
+    "archived": false
+  },
+  "kryoseu/WyrmRSS": {
+    "stars": 40,
+    "forks": 0,
+    "openIssues": 0,
+    "language": "Rust",
+    "license": null,
+    "createdAt": "2026-08-01T00:00:00Z",
+    "updatedAt": "2026-08-10T00:00:00Z",
+    "topics": [
+      "rss",
+      "self-hosted",
+      "tauri"
+    ],
+    "ownerAvatar": "https://avatars.githubusercontent.com/u/0?v=4",
+    "archived": false
   }
 }
