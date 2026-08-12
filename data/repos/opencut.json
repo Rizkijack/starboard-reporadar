@@ -1,0 +1,25 @@
+{
+  "slug": "opencut",
+  "name": "OpenCut",
+  "fullName": "OpenCut-app/OpenCut",
+  "tagline": "The open-source CapCut alternative",
+  "description": "OpenCut is an open-source video editor positioned as the CapCut alternative, built with a real timeline-based editing model rather than a toy UI. Files stay on-device, the project is MIT-licensed, and it has grown explosively as creators look for a free, local replacement for subscription video tools. The repo tracks the full editor experience — timeline, effects, exports — as a web-first application that also packages into desktop installers.",
+  "category": "design",
+  "featured": false,
+  "tags": ["video-editing", "capcut-alternative", "timeline", "editor", "mit", "typescript"],
+  "highlights": [
+    "82k+ stars — one of the fastest-growing open-source video editors",
+    "Real timeline-based editing as a free CapCut alternative",
+    "MIT licensed with files that never leave your device",
+    "Web-first app with desktop packaging for one-click installs"
+  ],
+  "techStack": ["TypeScript", "Web", "Video"],
+  "links": {
+    "website": "https://github.com/OpenCut-app/OpenCut",
+    "docs": "https://github.com/OpenCut-app/OpenCut#readme"
+  },
+  "images": {},
+  "related": ["joyai-video-edit", "open-edit", "magi-2-preview"],
+  "curatorNote": "OpenCut was flagged in the weekly report as 'too big to be a hidden gem', but at this point it is the open-source answer to CapCut — and the gap it fills is real. Watching how a local-first MIT video editor scales past 80k stars tells you a lot about where creator tools are heading.",
+  "publishedAt": "2026-08-09"
+}

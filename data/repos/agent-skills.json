@@ -1,0 +1,25 @@
+{
+  "slug": "agent-skills",
+  "name": "Agent Skills",
+  "fullName": "addyosmani/agent-skills",
+  "tagline": "Production-grade engineering skills for AI coding agents",
+  "description": "Agent Skills is Addy Osmani's curated collection of production-grade engineering skills for AI coding agents, packaged in the emerging SKILL.md standard. Where the ecosystem is flooded with prompt collections, this repo focuses on skills that encode real engineering judgment — architecture, performance, accessibility, testing, and code quality — in a structured, versionable format that agents can load reliably. It has become one of the largest and most referenced skill packs in the agent ecosystem.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["agent-skills", "claude-code", "codex", "skills", "engineering", "ai"],
+  "highlights": [
+    "86k+ stars — the most-starred Agent Skills collection in the ecosystem",
+    "Skills encode production engineering judgment, not just prompt patterns",
+    "Structured SKILL.md format that agents can load and follow reliably",
+    "From Addy Osmani, long-time Chrome engineering leader and author"
+  ],
+  "techStack": ["JavaScript", "Agent Skills"],
+  "links": {
+    "website": "https://github.com/addyosmani/agent-skills",
+    "docs": "https://github.com/addyosmani/agent-skills#readme"
+  },
+  "images": {},
+  "related": ["google-skills", "book-to-skill", "swarm-forge"],
+  "curatorNote": "Normally the '84k-star trending repo' is excluded from a hidden gems list, but this one defines the Agent Skills standard that the entire week's theme is built on. Worth tracking even at its size — it is the reference implementation of skill-ified engineering knowledge.",
+  "publishedAt": "2026-08-09"
+}

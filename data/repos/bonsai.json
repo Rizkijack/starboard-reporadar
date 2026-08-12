@@ -1,0 +1,25 @@
+{
+  "slug": "bonsai",
+  "name": "bonsai",
+  "fullName": "janestreet/bonsai",
+  "tagline": "A library for building dynamic webapps with Js_of_ocaml",
+  "description": "bonsai is Jane Street's OCaml library for building dynamic web applications, compiling to JavaScript via Js_of_ocaml. It brings Jane Street's functional programming discipline to the frontend: incremental computation, a principled component model, and state management that scales to large internal applications. Recently trending on GitHub, it is the strongest argument that OCaml's ecosystem is ready for serious web work.",
+  "category": "frontend",
+  "featured": false,
+  "tags": ["ocaml", "web", "functional", "js-of-ocaml", "incremental", "janestreet"],
+  "highlights": [
+    "Jane Street's production-grade functional web framework for OCaml",
+    "Built on Js_of_ocaml and Incremental for principled state and updates",
+    "Battle-tested inside Jane Street on large internal applications",
+    "Trending again as OCaml web development gets renewed attention"
+  ],
+  "techStack": ["OCaml", "Js_of_ocaml"],
+  "links": {
+    "website": "https://github.com/janestreet/bonsai",
+    "docs": "https://github.com/janestreet/bonsai#readme"
+  },
+  "images": {},
+  "related": ["rescript", "kakehashi", "ui-components"],
+  "curatorNote": "Jane Street rarely open-sources its frontend stack, and bonsai shows why the rest of us should care: incremental computation removes an entire class of state bugs. The OCaml-to-web story is niche but the engineering is world-class.",
+  "publishedAt": "2026-08-09"
+}
