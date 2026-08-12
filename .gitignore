@@ -61,8 +61,9 @@ Github Hidden Gems.md
 # command code worktree & config
 /.commandcode
 /.commandcode worktree
+/.commandcodeworktree
 
 # kilo worktree & config
 /.kilo worktree
-
+/.kiloworktree
 
