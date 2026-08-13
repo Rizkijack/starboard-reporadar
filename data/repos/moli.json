@@ -1,0 +1,26 @@
+{
+  "slug": "moli",
+  "name": "moli",
+  "fullName": "lexmount/moli",
+  "tagline": "A native Rust browser built specifically for AI agents",
+  "description": "moli bills itself as the best browser for AI agents, a native Rust browser designed from the ground up for agent workloads rather than human tab-hoarding. It is an early but promising entrant in the fast-forming agent-browser race, aiming to give autonomous agents a fast, reliable surface to navigate the web. For anyone following where agents browse, this is a name to keep an eye on.",
+  "category": "frontend",
+  "featured": false,
+  "tags": ["browser", "ai-agents", "rust", "agent-browser", "web-automation"],
+  "highlights": [
+    "A native browser purpose-built for AI agents",
+    "Written in Rust for speed and reliability",
+    "An early, promising entry in the agent-browser race",
+    "Focused on agent workloads instead of human browsing habits",
+    "224 stars within days of launch"
+  ],
+  "techStack": ["Rust", "Web APIs"],
+  "links": {
+    "website": "https://github.com/lexmount/moli",
+    "docs": "https://github.com/lexmount/moli#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "The agent-browser race is heating up, and moli is a fresh Rust-native take tailored to agents rather than humans. Young, but the direction feels right.",
+  "publishedAt": "2026-08-10"
+}

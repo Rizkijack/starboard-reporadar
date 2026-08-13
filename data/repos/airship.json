@@ -1,0 +1,26 @@
+{
+  "slug": "airship",
+  "name": "airship",
+  "fullName": "0xnyn/airship",
+  "tagline": "A Figma-like visual editor for Claude Code, Codex, and OpenCode",
+  "description": "airship puts a GUI layer on top of terminal coding agents, giving Claude Code, Codex, and OpenCode a Figma-like visual editor. Instead of juggling raw terminal output, you get a visual canvas for steering and reviewing agent work. It is an early but promising window into what the next generation of coding-agent interfaces might look like.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["visual-editor", "claude-code", "codex", "opencode", "coding-agent", "gui"],
+  "highlights": [
+    "Figma-inspired visual editor for terminal coding agents",
+    "Works across Claude Code, Codex, and OpenCode",
+    "A GUI layer that makes agent sessions easier to steer and review",
+    "Early signal for the future of coding-agent interfaces",
+    "398 stars within days of launch"
+  ],
+  "techStack": ["TypeScript", "React"],
+  "links": {
+    "website": "https://github.com/0xnyn/airship",
+    "docs": "https://github.com/0xnyn/airship#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "Coding agents live in the terminal today, but airship is part of the batch betting they grow a GUI. A clean visual layer over Claude Code, Codex, and OpenCode is a bet worth tracking.",
+  "publishedAt": "2026-08-10"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "youtube-music",
+  "name": "youtube-music",
+  "fullName": "sohaibdevv/youtube-music",
+  "tagline": "A lightweight, ad-free YouTube Music client built on a reverse-engineered API",
+  "description": "youtube-music is a lightweight YouTube Music client that skips ads and any subscription requirement. It offers background playback, search, and custom playlists, all powered by a reverse-engineered API rather than a paid tier. At 850+ stars with zero forks, it is a brand-new, under-the-radar project that has yet to spawn copycats.",
+  "category": "frontend",
+  "featured": false,
+  "tags": ["youtube-music", "music", "typescript", "ad-free", "background-playback", "client"],
+  "highlights": [
+    "Ad-free listening with no subscription required",
+    "Background playback plus search and custom playlists",
+    "Built on a reverse-engineered YouTube Music API",
+    "850+ stars with zero forks — a fresh, uncopied project",
+    "Lightweight client for daily music streaming"
+  ],
+  "techStack": ["TypeScript", "React", "YouTube Music API"],
+  "links": {
+    "website": "https://github.com/sohaibdevv/youtube-music",
+    "docs": "https://github.com/sohaibdevv/youtube-music#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "A brand-new client with 850+ stars and literally zero forks — so new it hasn't been copied yet. The reverse-engineered API approach makes ad-free YouTube Music practical without a subscription, which is exactly why it took off so fast.",
+  "publishedAt": "2026-08-11"
+}

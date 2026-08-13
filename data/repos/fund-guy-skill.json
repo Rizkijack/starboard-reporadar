@@ -1,0 +1,25 @@
+{
+  "slug": "fund-guy-skill",
+  "name": "Fund Guy Skill",
+  "fullName": "wbh604/fund-guy-skill",
+  "tagline": "A humorous 'fund guy' screening skill for agents",
+  "description": "Fund Guy Skill is an agent skill built around the humorous \"fund guy\" (基佬) meme from Chinese internet culture, turning the running joke into a playful screening routine. It is less a serious analytical tool and more a dispatchable personality — an agent skill that responds in the exaggerated, overconfident voice of the meme when asked to screen or evaluate. It is a lighthearted example of how meme culture is now being packaged as reusable agent skills.",
+  "category": "other-fun",
+  "featured": false,
+  "tags": ["agents", "skills", "humor", "meme-culture", "chinese", "fun"],
+  "highlights": [
+    "Turns the 'fund guy' (基佬) meme into a reusable agent skill",
+    "Packages a playful, overconfident screening persona for agents",
+    "A lighthearted sign of meme culture entering the agent-skill ecosystem",
+    "Fun to prompt and a glimpse at how personality is being productized"
+  ],
+  "techStack": ["HTML", "Markdown"],
+  "links": {
+    "website": "https://github.com/wbh604/fund-guy-skill",
+    "docs": "https://github.com/wbh604/fund-guy-skill#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "Most of the agent-skill ecosystem is serious tooling, so it is refreshing to see someone ship a meme as a skill. Fund Guy Skill is pure internet-culture energy — and a reminder that agent skills can be fun too.",
+  "publishedAt": "2026-08-13"
+}

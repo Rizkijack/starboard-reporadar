@@ -1,0 +1,25 @@
+{
+  "slug": "pi-book",
+  "name": "pi-book",
+  "fullName": "antinomie-lab/pi-book",
+  "tagline": "Source-backed architecture notes for building agents",
+  "description": "pi-book is a technical book and set of architecture notes about building agents, grounded directly in source. Rather than hand-waving about agent design, it walks through real implementations and the reasoning behind them, making it a hands-on reference for anyone shipping an agent. It is written for practitioners who want to understand the internals — memory, tools, context wiring, and evaluation — well enough to build their own.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["agents", "book", "architecture", "documentation", "llm", "engineering"],
+  "highlights": [
+    "Source-backed notes tie agent concepts to concrete implementations",
+    "Covers the internals of building agents rather than just using them",
+    "A practical reference for practitioners and a useful onboarding ramp",
+    "Written in Vue, keeping the resource itself approachable to read"
+  ],
+  "techStack": ["Vue", "Markdown"],
+  "links": {
+    "website": "https://github.com/antinomie-lab/pi-book",
+    "docs": "https://github.com/antinomie-lab/pi-book#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "Everyone talks about building agents; few bother to trace the actual source. pi-book is that rare reference that grounds advice in real implementations, and it shows in how quickly it picked up stars.",
+  "publishedAt": "2026-08-08"
+}

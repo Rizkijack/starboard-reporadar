@@ -1,0 +1,26 @@
+{
+  "slug": "hero-anti-overdefense",
+  "name": "HERO Anti-OverDefense",
+  "fullName": "wanshuiyin/HERO-Anti-OverDefense",
+  "tagline": "A paste-in contract that stops coding agents from over-defending",
+  "description": "HERO Anti-OverDefense is a paste-in contract that stops coding agents from over-defending their work. It distills the guardrails into four pillars — Hashing, Edge cases, Rubrics, and Overbuild — giving agents clear boundaries on when to stop and how far to go. It works across Claude Code, Codex, Cursor, and other agents, making it a lightweight but surprisingly effective addition to any agentic workflow.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["agent-prompts", "claude-code", "codex", "cursor", "anti-overdefense", "contract"],
+  "highlights": [
+    "A paste-in contract built on Hashing, Edge cases, Rubrics, and Overbuild",
+    "Stops coding agents from over-defending and over-engineering",
+    "Works with Claude Code, Codex, Cursor, and other agents",
+    "Lightweight guardrail you drop straight into a prompt",
+    "125 stars within days of launch"
+  ],
+  "techStack": ["Markdown", "Prompt engineering"],
+  "links": {
+    "website": "https://github.com/wanshuiyin/HERO-Anti-OverDefense",
+    "docs": "https://github.com/wanshuiyin/HERO-Anti-OverDefense#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "Anyone who has watched an agent gold-plate a simple task will feel this one. HERO distills exactly how to tell agents when enough is enough — a small file with outsized practical value.",
+  "publishedAt": "2026-08-11"
+}

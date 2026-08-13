@@ -1,0 +1,25 @@
+{
+  "slug": "tokentab",
+  "name": "tokentab",
+  "fullName": "wzchav/tokentab",
+  "tagline": "Compute your coding-agent spend per model, project, and day",
+  "description": "tokentab is a command-line tool that reads session logs from Claude Code, Codex, and Gemini CLI and computes how much you actually spent on your coding agents — broken down by model, project, and day. Instead of waiting for a monthly bill to surprise you, it gives a live ledger of token usage and cost straight from the logs your agents already keep. It is a practical budget gauge for anyone whose daily work now runs through AI coding assistants.",
+  "category": "cli-terminal",
+  "featured": false,
+  "tags": ["cli", "token-cost", "claude-code", "codex", "gemini-cli", "observability", "budget"],
+  "highlights": [
+    "Reads Claude Code, Codex, and Gemini CLI session logs natively",
+    "Computes cost per model, per project, and per day from real usage",
+    "Zero wrapper — works directly against existing agent logs",
+    "A simple CLI answer to the growing question of agent ROI"
+  ],
+  "techStack": ["Python"],
+  "links": {
+    "website": "https://github.com/wzchav/tokentab",
+    "docs": "https://github.com/wzchav/tokentab#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "Agents are quietly becoming a line item on every dev's budget, and tokentab turns that opaque spend into a readable ledger. The kind of tiny CLI that earns its place in everyone's dotfiles.",
+  "publishedAt": "2026-08-13"
+}

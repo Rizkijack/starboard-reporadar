@@ -1,0 +1,26 @@
+{
+  "slug": "claudish-to-english",
+  "name": "claudish-to-english",
+  "fullName": "gvzdv/claudish-to-english",
+  "tagline": "Converts jargon-dense 'Claudish' Claude messages into plain English with a side-by-side view",
+  "description": "claudish-to-english translates the jargon-heavy, overly formal 'Claudish' style that Claude models tend to produce into simple, readable English. It renders the original and the cleaned-up version side by side so you can see exactly what changed. With 748 stars in three days, it is a quick, playful fix for anyone tired of decoding overly polished AI output.",
+  "category": "productivity",
+  "featured": false,
+  "tags": ["claude", "translation", "shell", "productivity", "jargon", "simplify"],
+  "highlights": [
+    "Fixes overly formal, jargon-dense AI output",
+    "Side-by-side comparison of original and plain-English versions",
+    "Lightweight shell tool, no heavy setup",
+    "748 stars in three days from the anti-slop crowd",
+    "Makes AI replies genuinely easier to read"
+  ],
+  "techStack": ["Shell"],
+  "links": {
+    "website": "https://github.com/gvzdv/claudish-to-english",
+    "docs": "https://github.com/gvzdv/claudish-to-english#readme"
+  },
+  "images": {},
+  "related": ["simple-english"],
+  "curatorNote": "Everyone recognizes the 'Claudish' voice — dense, formal, over-explained. This tool names it and gives you a plain-English rewrite with a side-by-side diff, and 748 stars in three days proves the pain is universal.",
+  "publishedAt": "2026-08-10"
+}

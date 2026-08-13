@@ -1,0 +1,26 @@
+{
+  "slug": "calldiff",
+  "name": "calldiff",
+  "fullName": "tanishqkancharla/calldiff",
+  "tagline": "AST-based diff of call stacks between git commits, in 22 languages",
+  "description": "calldiff computes an AST-based diff of call stacks between git commits across 22 languages via Tree-sitter. Rather than showing a blob-level diff, it surfaces exactly which functions and call paths changed, giving reviewers a far more precise view of an agent's edits. It was purpose-built for agentic code review, where understanding the ripple effects of a change matters more than ever.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["code-review", "ast", "treesitter", "git", "agentic-review", "diff"],
+  "highlights": [
+    "AST-based call-stack diffing between git commits",
+    "Supports 22 languages via Tree-sitter",
+    "Surfaces changed functions and call paths, not just raw blobs",
+    "Purpose-built for agentic code review",
+    "370 stars within days of launch"
+  ],
+  "techStack": ["TypeScript", "Tree-sitter"],
+  "links": {
+    "website": "https://github.com/tanishqkancharla/calldiff",
+    "docs": "https://github.com/tanishqkancharla/calldiff#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "Reviewing an agent's changes by eyeballing diffs is a losing game. calldiff's call-stack-aware diffing is exactly the kind of tooling agentic review has been missing.",
+  "publishedAt": "2026-08-07"
+}

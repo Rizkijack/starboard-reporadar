@@ -1,0 +1,26 @@
+{
+  "slug": "openmausbot",
+  "name": "OpenMausBot",
+  "fullName": "milind-soni/OpenMausBot",
+  "tagline": "A local-first team of AI bots inside a chat app, with no tokens and no crypto",
+  "description": "OpenMausBot is an open-source alternative to Grok Bot that runs an entire team of AI bots inside a chat app. It is local-first and bring-your-own-model, so both your data and your choice of LLM stay firmly under your control. True to its ethos, it explicitly ships with no tokens and carries an anti-crypto disclaimer — a rare stance in the current AI-agent wave. For anyone wary of cloud lock-in or token economies, it is a refreshingly grounded take on multi-agent chat.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["ai-bots", "chat-app", "local-first", "bring-your-own-model", "multi-agent", "no-token"],
+  "highlights": [
+    "A team of AI bots collaborating inside a single chat app",
+    "Local-first architecture with bring-your-own-model support",
+    "Explicitly no-token and anti-crypto by design",
+    "Positioned as an open-source alternative to Grok Bot",
+    "716 stars within days of its launch"
+  ],
+  "techStack": ["TypeScript", "Node.js"],
+  "links": {
+    "website": "https://github.com/milind-soni/OpenMausBot",
+    "docs": "https://github.com/milind-soni/OpenMausBot#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "In a batch full of token-driven agent products, OpenMausBot stands out by refusing the token economy entirely — local-first, bring-your-own-model, and proudly no-crypto. Worth a look for what honest multi-agent chat can look like.",
+  "publishedAt": "2026-08-11"
+}
