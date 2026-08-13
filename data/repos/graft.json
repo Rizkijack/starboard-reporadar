@@ -1,0 +1,25 @@
+{
+  "slug": "graft",
+  "name": "Graft",
+  "fullName": "NanoNets/Graft",
+  "tagline": "Turbocharge coding agents with codebase context via hooks",
+  "description": "Graft is the project behind the Show HN story \"Claude Code kept ignoring our MCP tools, so we used hooks instead.\" It turbocharges coding agents by feeding them codebase context through hooks rather than MCP tool calls, solving a real integration pain with the agent tooling ecosystem. At 2.3k stars, it is the biggest repo in this batch and its lesson — hooks over tools for context — is one of the more useful agent patterns of the year.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["coding-agent", "hooks", "context", "mcp", "ai"],
+  "highlights": [
+    "Delivers codebase context to agents via hooks instead of MCP",
+    "Built from a real Show HN pain point with Claude Code",
+    "2.3k stars — the biggest repo in this batch",
+    "A reusable pattern: hooks over tools for agent context"
+  ],
+  "techStack": ["Agent Tooling"],
+  "links": {
+    "website": "https://github.com/NanoNets/Graft",
+    "docs": "https://github.com/NanoNets/Graft#readme"
+  },
+  "images": {},
+  "related": ["mycontext", "everything-claude-code"],
+  "curatorNote": "The insight here — agents ignore tools, so inject context via hooks — explains a whole class of MCP integration failures. 2.3k stars in a day says the pattern landed.",
+  "publishedAt": "2026-08-12"
+}

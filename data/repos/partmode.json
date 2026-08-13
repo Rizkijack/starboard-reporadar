@@ -1,0 +1,25 @@
+{
+  "slug": "partmode",
+  "name": "partmode",
+  "fullName": "bomWiki/partmode",
+  "tagline": "Local-first parametric browser CAD for people and typed agents",
+  "description": "partmode is a local-first parametric CAD tool that runs in the browser and is designed for both humans and typed agents. Because the CAD model is parametric and the interface is browser-native, AI agents can operate it the same way a person does. It points at a genuinely new direction for open-source CAD: modeling as a collaborative act between people and software agents.",
+  "category": "design",
+  "featured": false,
+  "tags": ["cad", "parametric", "browser", "local-first", "agents"],
+  "highlights": [
+    "Parametric CAD that runs locally in the browser",
+    "Designed for humans and typed agents alike",
+    "Local-first — models stay on your machine",
+    "A new direction for open-source CAD"
+  ],
+  "techStack": ["CAD", "Web"],
+  "links": {
+    "website": "https://github.com/bomWiki/partmode",
+    "docs": "https://github.com/bomWiki/partmode#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "CAD has stayed stubbornly desktop-bound while everything else moved to the browser. Making it parametric, local-first, and agent-operable all at once is a rare convergence of three trends.",
+  "publishedAt": "2026-08-06"
+}

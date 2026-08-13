@@ -1,0 +1,25 @@
+{
+  "slug": "cc-switch-route",
+  "name": "cc-switch-route",
+  "fullName": "tllovesxs/cc-switch-route",
+  "tagline": "Local smart routing control plane for CC Switch",
+  "description": "cc-switch-route is a non-intrusive local control plane for CC Switch multi-provider setups: it runs health checks, ranks providers by latency, and reorders routes when recovery happens. Instead of hardcoding a primary provider, traffic follows measured health and latency in real time. For multi-provider power users, it turns a static configuration into something that self-heals.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["routing", "control-plane", "cc-switch", "latency", "rust", "health-check"],
+  "highlights": [
+    "Local smart routing control plane for CC Switch",
+    "Health checks, latency ranking, and recovery reordering",
+    "Non-intrusive — no changes to your existing setup",
+    "114 stars in under a week"
+  ],
+  "techStack": ["Rust"],
+  "links": {
+    "website": "https://github.com/tllovesxs/cc-switch-route",
+    "docs": "https://github.com/tllovesxs/cc-switch-route#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "Multi-provider routing is usually a static config you babysit. A local control plane that measures and reorders automatically is the right answer for anyone juggling several providers.",
+  "publishedAt": "2026-08-08"
+}

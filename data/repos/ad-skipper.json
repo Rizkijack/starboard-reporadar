@@ -1,0 +1,25 @@
+{
+  "slug": "ad-skipper",
+  "name": "ad-skipper",
+  "fullName": "madeye/ad-skipper",
+  "tagline": "VLM-based Android splash-ad skipper",
+  "description": "ad-skipper is an Android accessibility service that automatically skips splash-screen ads using a three-tier detection pipeline: node match first, OCR second, and finally llama.cpp GGUF VLM grounding for the hard cases. The combination of accessibility APIs with a local vision-language model is a genuinely novel stack, and it turns a daily annoyance into a solved problem — at least for the technically inclined.",
+  "category": "mobile",
+  "featured": false,
+  "tags": ["android", "accessibility-service", "vlm", "llama-cpp", "ad-blocking", "kotlin"],
+  "highlights": [
+    "Three-tier detection: node match → OCR → VLM grounding",
+    "Runs a local llama.cpp GGUF vision model on-device",
+    "Accessibility-service based, no root required",
+    "107 stars in under a week"
+  ],
+  "techStack": ["Kotlin", "llama.cpp"],
+  "links": {
+    "website": "https://github.com/madeye/ad-skipper",
+    "docs": "https://github.com/madeye/ad-skipper#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "Skipping splash ads is usually a fragile whack-a-mole of node matching. Adding OCR and a local VLM as fallback tiers is the first architecture that could actually keep up with new ad templates.",
+  "publishedAt": "2026-08-07"
+}

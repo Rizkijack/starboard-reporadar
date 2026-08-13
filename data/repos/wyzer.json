@@ -1,0 +1,25 @@
+{
+  "slug": "wyzer",
+  "name": "Wyzer",
+  "fullName": "Wyzer-Lang/wyzer",
+  "tagline": "Wyzer programming language",
+  "description": "Wyzer is a new programming language that hit Show HN on 7 August and earned 226 HN points that week. Beyond the buzz, it is an interesting test case for what a modern language design can look like when it starts from scratch rather than incrementing an existing ecosystem. 220 stars and a strong HN showing in the same week.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["programming-language", "compiler", "show-hn"],
+  "highlights": [
+    "A from-scratch programming language design",
+    "226 HN points from its Show HN",
+    "220 stars on GitHub this week",
+    "Worth watching as a language-design test case"
+  ],
+  "techStack": ["Language Design"],
+  "links": {
+    "website": "https://github.com/Wyzer-Lang/wyzer",
+    "docs": "https://github.com/Wyzer-Lang/wyzer#readme"
+  },
+  "images": {},
+  "related": ["rescript"],
+  "curatorNote": "New languages rarely get traction; Wyzer pulled 226 HN points out of the gate. Whether it keeps momentum or not, the design choices are worth studying.",
+  "publishedAt": "2026-08-07"
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "drift",
+  "name": "drift",
+  "fullName": "aymanbagabas/drift",
+  "tagline": "A git diff pager that is actually pleasant to look at",
+  "description": "drift is a git diff tool and pager designed to make diffs enjoyable to read. It hit the HN front page on 6 August under the pitch \"Drift, your new favorite Git Diff tool.\" In a category where most tools are judged on raw speed, drift is competing on readability — a meaningful bet, since developers read far more diffs than they write.",
+  "category": "cli-terminal",
+  "featured": false,
+  "tags": ["git", "diff", "pager", "cli", "tui"],
+  "highlights": [
+    "A diff pager optimized for readability",
+    "HN front page on 6 August",
+    "117 stars in a category dominated by established tools",
+    "Competes on how diffs feel, not just how fast they run"
+  ],
+  "techStack": ["CLI", "TUI"],
+  "links": {
+    "website": "https://github.com/aymanbagabas/drift",
+    "docs": "https://github.com/aymanbagabas/drift#readme"
+  },
+  "images": {},
+  "related": ["gh-stack", "git-knife"],
+  "curatorNote": "Every dev reads diffs all day; almost nobody loves their diff tool. Drift betting on aesthetics in a category that competes on speed is exactly the kind of contrarian bet worth watching.",
+  "publishedAt": "2026-08-06"
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "hunyuan3d-worldclaw",
+  "name": "Hunyuan3D WorldClaw",
+  "fullName": "tencent-hunyuan/Hunyuan3D-WorldClaw",
+  "tagline": "Tencent's latest 3D generation model",
+  "description": "Hunyuan3D WorldClaw is the official release of Tencent's newest 3D generation model, trending this week after its launch. It continues the Hunyuan3D line of high-quality 3D asset generation, aimed at game, film, and XR pipelines. A major lab shipping open weights in the 3D space is always worth watching.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["3d-generation", "tencent", "hunyuan", "ai", "open-weights"],
+  "highlights": [
+    "Official release of Tencent's latest 3D generation model",
+    "Continues the Hunyuan3D line for asset pipelines",
+    "Trending immediately after launch",
+    "653 stars and climbing"
+  ],
+  "techStack": ["AI", "3D"],
+  "links": {
+    "website": "https://github.com/tencent-hunyuan/Hunyuan3D-WorldClaw",
+    "docs": "https://github.com/tencent-hunyuan/Hunyuan3D-WorldClaw#readme"
+  },
+  "images": {},
+  "related": ["img2threejs"],
+  "curatorNote": "Tencent keeps shipping serious 3D generation models open. WorldClaw arriving hot on the heels of the previous release shows how fast this frontier is moving.",
+  "publishedAt": "2026-08-12"
+}

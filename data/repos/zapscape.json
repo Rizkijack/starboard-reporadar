@@ -1,0 +1,26 @@
+{
+  "slug": "zapscape",
+  "name": "Zapscape",
+  "fullName": "V4bel/Zapscape",
+  "tagline": "The KVM Escape Trilogy — published virtualization security research",
+  "description": "Zapscape is a published research effort covering three KVM escape attacks — \"the KVM Escape Trilogy.\" It documents the technical journey of escaping from a KVM virtual machine to the host, released openly for defenders and researchers. Security research of this specificity is rarely published in the open, and it earned 86 points on Hacker News.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["security", "kvm", "virtualization", "research", "exploit"],
+  "highlights": [
+    "Three documented KVM escape attacks in one trilogy",
+    "Rare open publication of virtualization security research",
+    "86 HN points on release",
+    "Material for defenders validating hypervisor hardening"
+  ],
+  "techStack": ["Security Research"],
+  "links": {
+    "website": "https://github.com/V4bel/Zapscape",
+    "docs": "https://github.com/V4bel/Zapscape#readme",
+    "demo": "https://news.ycombinator.com/item?id=49198843"
+  },
+  "images": {},
+  "related": ["nfc-canary"],
+  "curatorNote": "KVM escape research published openly is vanishingly rare — most of it stays behind closed doors. The trilogy format makes it valuable reading for anyone hardening hypervisor deployments.",
+  "publishedAt": "2026-08-06"
+}

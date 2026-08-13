@@ -1,0 +1,25 @@
+{
+  "slug": "dwell-on-something",
+  "name": "dwell-on-something",
+  "fullName": "xinwithyu/dwell-on-something",
+  "tagline": "Functional documentation written like literature, with a product-grade frontend",
+  "description": "dwell-on-something is a documentation project that pairs functional documentation with a frontend built to the standard of a running product — and it comes out of China. What makes it remarkable is the writing: the documentation is composed like literature rather than a manual. An unusual approach to docs that earned 121 stars in under a week and signals a broader trend of non-English ecosystems producing genuinely original work.",
+  "category": "design",
+  "featured": false,
+  "tags": ["documentation", "frontend", "writing", "design", "html"],
+  "highlights": [
+    "Documentation written like literature, not a manual",
+    "Frontend built to production product standards",
+    "Fresh perspective from the Chinese dev ecosystem",
+    "121 stars in under a week"
+  ],
+  "techStack": ["HTML"],
+  "links": {
+    "website": "https://github.com/xinwithyu/dwell-on-something",
+    "docs": "https://github.com/xinwithyu/dwell-on-something#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "Docs are almost always utilitarian; treating them as a literary form with product-grade presentation is a genuinely rare bet — and it is working.",
+  "publishedAt": "2026-08-07"
+}

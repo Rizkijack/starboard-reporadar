@@ -1,0 +1,25 @@
+{
+  "slug": "pdfcn",
+  "name": "pdfcn",
+  "fullName": "shadcn-labs/pdfcn",
+  "tagline": "Beautiful PDF components from shadcn-labs",
+  "description": "pdfcn brings the shadcn aesthetic to PDFs: a set of components built on top of Takumi and Forme that render documents as clean, composable React elements. It is 100% free, zero-config, and part of the official shadcn-labs ecosystem. For teams already living in the shadcn world, it extends the same component mental model to generated documents.",
+  "category": "frontend",
+  "featured": false,
+  "tags": ["pdf", "shadcn", "react", "components", "document-generation"],
+  "highlights": [
+    "Official shadcn-labs extension from UI to PDF",
+    "Built on Takumi and Forme rendering engines",
+    "100% free with zero configuration",
+    "204 stars in just 2 days"
+  ],
+  "techStack": ["TypeScript", "React"],
+  "links": {
+    "website": "https://github.com/shadcn-labs/pdfcn",
+    "docs": "https://github.com/shadcn-labs/pdfcn#readme"
+  },
+  "images": {},
+  "related": ["ui-components"],
+  "curatorNote": "The shadcn ecosystem conquered UI; PDFs were the last holdout of ugly templates. Extending the same component philosophy to documents is a small idea with a very wide audience.",
+  "publishedAt": "2026-08-11"
+}

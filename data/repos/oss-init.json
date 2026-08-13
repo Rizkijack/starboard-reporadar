@@ -1,0 +1,25 @@
+{
+  "slug": "oss-init",
+  "name": "oss-init",
+  "fullName": "kkx94/oss-init",
+  "tagline": "Zero-dependency CLI to scaffold, audit, and refresh OSS repos",
+  "description": "oss-init is a CLI with zero runtime dependencies that scaffolds, audits, and refreshes open-source repositories, with bilingual support for Node.js and Python projects. It targets the often-ignored maintenance side of open source: standing up a new repo with sane defaults, auditing what is stale, and refreshing structure as conventions evolve. It sits exactly at the 100-star filter threshold, a niche OSS-maintenance tool that few people talk about.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["cli", "scaffolding", "open-source", "maintenance", "javascript"],
+  "highlights": [
+    "Scaffold, audit, and refresh OSS repos from one CLI",
+    "Zero runtime dependencies — installs anywhere",
+    "Bilingual Node.js and Python support",
+    "Targets the neglected maintenance side of open source"
+  ],
+  "techStack": ["JavaScript"],
+  "links": {
+    "website": "https://github.com/kkx94/oss-init",
+    "docs": "https://github.com/kkx94/oss-init#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "Everyone scaffolds, nobody maintains. A zero-dependency CLI that makes the refresh-and-audit loop a one-liner fills a real gap in the OSS lifecycle.",
+  "publishedAt": "2026-08-10"
+}

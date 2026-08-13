@@ -1,0 +1,25 @@
+{
+  "slug": "local-ops",
+  "name": "local-ops",
+  "fullName": "laogou717/local-ops",
+  "tagline": "macOS service dashboard with one-click start and live tracing",
+  "description": "local-ops is a zero-dependency Python dashboard for macOS services and batch tasks: one-click start, real-time monitoring, and log and process tracing from a clean web UI. It positions itself as an open-source alternative to the closed macOS service managers. If you run several local services and are tired of launchctl spelunking, this gives them a single pane of glass.",
+  "category": "productivity",
+  "featured": false,
+  "tags": ["macos", "dashboard", "services", "monitoring", "python"],
+  "highlights": [
+    "One-click start and stop for local macOS services",
+    "Real-time monitoring with log and process tracing",
+    "Zero-dependency Python backend",
+    "Open-source alternative to macOS service managers"
+  ],
+  "techStack": ["Python"],
+  "links": {
+    "website": "https://github.com/laogou717/local-ops",
+    "docs": "https://github.com/laogou717/local-ops#readme"
+  },
+  "images": {},
+  "related": ["desko"],
+  "curatorNote": "Local services always end up as a pile of launchctl commands and tmux windows. A zero-dependency dashboard that centralizes start, monitoring, and tracing is quietly useful for every macOS power user.",
+  "publishedAt": "2026-08-08"
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "vibewatch",
+  "name": "vibewatch",
+  "fullName": "GOROman/vibewatch",
+  "tagline": "Tactile M5Stack stopwatch controller for AI-assisted vibe coding",
+  "description": "vibewatch is a tactile M5Stack-based stopwatch controller built for AI-assisted vibe coding sessions. It puts a physical timer in your hands during agentic coding — start, stop, and pace your sessions with hardware instead of a tab. A unique hardware-software crossover that treats timeboxing as a physical practice.",
+  "category": "other-fun",
+  "featured": false,
+  "tags": ["m5stack", "hardware", "vibe-coding", "timer", "cpp"],
+  "highlights": [
+    "Tactile M5Stack stopwatch for AI-assisted coding sessions",
+    "Physical timeboxing instead of a browser tab",
+    "C++ firmware on accessible M5Stack hardware",
+    "A unique hardware-software crossover"
+  ],
+  "techStack": ["C++", "M5Stack"],
+  "links": {
+    "website": "https://github.com/GOROman/vibewatch",
+    "docs": "https://github.com/GOROman/vibewatch#readme"
+  },
+  "images": {},
+  "related": ["desko"],
+  "curatorNote": "Vibe coding is all about flow, and flow needs timeboxes. A physical stopwatch on your desk is a delightful, low-tech answer to a very 2026 problem.",
+  "publishedAt": "2026-08-08"
+}

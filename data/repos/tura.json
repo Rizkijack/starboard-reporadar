@@ -1,0 +1,25 @@
+{
+  "slug": "tura",
+  "name": "Tura",
+  "fullName": "Tura-AI/tura",
+  "tagline": "Cut LLM turns in MCP interactions by 75%+",
+  "description": "Tura optimizes MCP interactions so agents use up to 80% fewer tokens, cutting LLM turns by more than 75%. It showed on Show HN on 11 August with the claim that agents spend dramatically fewer tokens per interaction. For anyone running agent pipelines on paid LLM APIs, that kind of reduction is the whole cost model.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["mcp", "llm", "optimization", "tokens", "agents"],
+  "highlights": [
+    "Reduces LLM turns in MCP interactions by 75%+",
+    "Agents use up to 80% fewer tokens",
+    "Show HN on 11 August",
+    "582 stars and climbing"
+  ],
+  "techStack": ["MCP", "LLM"],
+  "links": {
+    "website": "https://github.com/Tura-AI/tura",
+    "docs": "https://github.com/Tura-AI/tura#readme"
+  },
+  "images": {},
+  "related": ["graft", "mycontext"],
+  "curatorNote": "Every agent pipeline runs on token economics. A drop of 75% in turns is not a micro-optimization — it changes whether MCP-heavy workflows are affordable at all.",
+  "publishedAt": "2026-08-11"
+}

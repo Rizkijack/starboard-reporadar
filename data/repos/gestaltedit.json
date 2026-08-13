@@ -1,0 +1,25 @@
+{
+  "slug": "gestaltedit",
+  "name": "GestaltEdit",
+  "fullName": "frs0n/GestaltEdit",
+  "tagline": "MobileGestalt editor for iOS 27",
+  "description": "GestaltEdit is a Swift editor for MobileGestalt on iOS 27 — the device configuration database that iOS uses to fingerprint hardware. Editing it is a jailbreak-adjacent technique used to spoof device features and unlock capabilities Apple gates per model. It went viral fast, hitting 261 stars in two days, a sign of how hungry the iOS modding scene is for proper tooling around MobileGestalt.",
+  "category": "mobile",
+  "featured": false,
+  "tags": ["ios", "mobilegestalt", "jailbreak", "swift", "modding"],
+  "highlights": [
+    "Editor for the MobileGestalt database on iOS 27",
+    "Swift tooling for a jailbreak-adjacent technique",
+    "261 stars in two days — fast viral pickup",
+    "Proper UI for a database usually poked at with hex tools"
+  ],
+  "techStack": ["Swift"],
+  "links": {
+    "website": "https://github.com/frs0n/GestaltEdit",
+    "docs": "https://github.com/frs0n/GestaltEdit#readme"
+  },
+  "images": {},
+  "related": ["virtualmac-on-ipad"],
+  "curatorNote": "MobileGestalt editing has always been a hex-editor ritual. A dedicated Swift editor for iOS 27 makes the whole scene more approachable — hence the instant popularity.",
+  "publishedAt": "2026-08-11"
+}

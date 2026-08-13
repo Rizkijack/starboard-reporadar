@@ -1,0 +1,25 @@
+{
+  "slug": "sprite-maker",
+  "name": "sprite-maker",
+  "fullName": "JohnKinyanjui/sprite-maker",
+  "tagline": "Open-source AI sprite maker in Rust",
+  "description": "sprite-maker is an open-source AI sprite generator written in Rust, aimed at game developers who need pixel-art sprites without a proprietary service. An AI sprite maker in Rust is a rare combination — most creative AI tooling lives in Python. For indie devs it offers a self-contained pipeline for a very specific asset type.",
+  "category": "game",
+  "featured": false,
+  "tags": ["sprites", "ai", "game-dev", "rust", "pixel-art"],
+  "highlights": [
+    "Open-source AI sprite generation",
+    "Written in Rust — rare for creative AI tooling",
+    "Targets the indie game dev asset pipeline",
+    "138 stars in under a week"
+  ],
+  "techStack": ["Rust"],
+  "links": {
+    "website": "https://github.com/JohnKinyanjui/sprite-maker",
+    "docs": "https://github.com/JohnKinyanjui/sprite-maker#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "Pixel art generation is dominated by closed web tools. An open-source Rust sprite maker gives indie devs an actual pipeline instead of a subscription.",
+  "publishedAt": "2026-08-09"
+}

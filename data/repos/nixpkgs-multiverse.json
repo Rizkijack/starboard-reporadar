@@ -1,0 +1,26 @@
+{
+  "slug": "nixpkgs-multiverse",
+  "name": "nixpkgs-multiverse",
+  "fullName": "fzakaria/nixpkgs-multiverse",
+  "tagline": "Every version of nixpkgs from a single flake input",
+  "description": "nixpkgs-multiverse lets you access every historical version of any nixpkgs package from one flake input. Instead of juggling multiple flake inputs or vendoring nixpkgs snapshots to pin a version, you get a single input that can reference any package at any point in its history. It solves the classic nixpkgs version-pinning pain point — and at 226 stars with only 3 forks, it is still remarkably under-engaged.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["nix", "nixpkgs", "flake", "version-pinning", "rust"],
+  "highlights": [
+    "All nixpkgs package versions reachable from one flake input",
+    "Ends the multi-input dance for version-pinned packages",
+    "Written in Rust",
+    "226 stars with only 3 forks — deeply under-engaged"
+  ],
+  "techStack": ["Rust", "Nix"],
+  "links": {
+    "website": "https://github.com/fzakaria/nixpkgs-multiverse",
+    "docs": "https://github.com/fzakaria/nixpkgs-multiverse#readme",
+    "demo": "https://news.ycombinator.com/item?id=49237158"
+  },
+  "images": {},
+  "related": ["mise"],
+  "curatorNote": "Anyone who has fought nixpkgs version pinning knows the pain this removes. A single input that exposes the whole history is the kind of idea that looks obvious only after someone ships it.",
+  "publishedAt": "2026-08-08"
+}
