@@ -56,6 +56,18 @@ export const CATEGORIES: Category[] = [
     accent: "#A8D8A8",
   },
   {
+    id: "game",
+    label: "Game",
+    description: "Games, engines, and interactive simulations.",
+    accent: "#9AD8F0",
+  },
+  {
+    id: "mobile",
+    label: "Mobile",
+    description: "iOS, Android, and cross-platform mobile apps.",
+    accent: "#C9A8E0",
+  },
+  {
     id: "other-fun",
     label: "Other / Fun",
     description: "Curiosities, experiments, and delightful side projects.",

@@ -1,0 +1,26 @@
+{
+  "slug": "tower",
+  "name": "Tower",
+  "fullName": "pengchujin/tower",
+  "tagline": "A native SwiftUI iOS app that manages proxy subscriptions and generates client configs",
+  "description": "Tower (塔台) is a native SwiftUI iOS app for managing proxy subscriptions and your own nodes locally on the device. It parses SS, SSR, VMess, VLESS, Trojan, Hysteria, Hysteria 2, TUIC, WireGuard, AnyTLS, Snell, SOCKS5, and HTTP(S) nodes, runs real ICMP latency tests, and generates complete configurations for Surge, Clash, Shadowrocket, Loon, Quantumult X, Hiddify, and Egern. It features a self-drawn flat dot-matrix world map with collision-aware labels, offline country detection by IP, ACL4SSR rule sets, and URL-scheme one-tap import into supported clients.",
+  "category": "mobile",
+  "featured": false,
+  "tags": ["ios", "swiftui", "proxy", "network", "surge", "clash"],
+  "highlights": [
+    "Native SwiftUI iOS app for managing subscriptions and nodes locally",
+    "Parses 12+ node protocols including WireGuard, Hysteria 2, and AnyTLS",
+    "Generates configs for Surge, Clash, Shadowrocket, Loon, Quantumult X, Hiddify, and Egern",
+    "Real ICMP latency testing and offline country detection by IP",
+    "Self-drawn world map with collision-aware labels"
+  ],
+  "techStack": ["Swift", "SwiftUI"],
+  "links": {
+    "website": "https://github.com/pengchujin/tower",
+    "docs": "https://github.com/pengchujin/tower#readme"
+  },
+  "images": {},
+  "related": ["whitevpn-desktop", "vphone-cli", "headroom"],
+  "curatorNote": "Proxy config generation is usually glued together with scripts and web converters; Tower does it properly on-device with a polished native UI and real latency data. A great reference for iOS networking apps.",
+  "publishedAt": "2026-08-05"
+}

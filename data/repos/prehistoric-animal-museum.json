@@ -1,0 +1,26 @@
+{
+  "slug": "prehistoric-animal-museum",
+  "name": "Prehistoric Animal Museum",
+  "fullName": "s010s/prehistoric-animal-museum",
+  "tagline": "A calm 3D museum of prehistoric animals for children and parents — no ads, no analytics",
+  "description": "Prehistoric Animal Museum is a quiet, free 3D world where children and grown-ups can explore 18 prehistoric animals — from Stegosaurus and T-Rex to Mosasaurus and Tupandactylus — in English or Simplified Chinese. Each exhibit offers a rotatable model and short narration, with a parent guide for the questions that follow. There is no account, no ads, and no analytics, and the site is responsive with keyboard navigation and reduced-motion support.",
+  "category": "game",
+  "featured": false,
+  "tags": ["threejs", "education", "kids", "bilingual", "museum", "web"],
+  "highlights": [
+    "18 prehistoric animals with rotatable 3D models and narration in EN and CN",
+    "Parent guide for follow-up questions",
+    "Free, no account, no ads, no analytics scripts",
+    "Responsive with keyboard navigation and reduced-motion support",
+    "A calm alternative to chase-and-fight dinosaur content"
+  ],
+  "techStack": ["TypeScript", "Three.js", "Web"],
+  "links": {
+    "website": "https://leon-made-this.work/museum/",
+    "docs": "https://github.com/s010s/prehistoric-animal-museum#readme"
+  },
+  "images": {},
+  "related": ["my-ai-town", "cssgraphics", "wai-play"],
+  "curatorNote": "\"No winning or losing, just look at the animal.\" That sentence is the whole product. Thoughtful, accessible, and ad-free — a quiet gem built with obvious care.",
+  "publishedAt": "2026-08-04"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "wai-play",
+  "name": "WAI Play",
+  "fullName": "waiterve/wai-play",
+  "tagline": "AI web game testing and quality evaluation — an agent that plays your game and reports",
+  "description": "WAI Play is an automatic playtesting and quality-diagnosis agent for vibe-coded web games. Give it a game URL (and optionally a ZIP of the source), and it operates the game in a real browser — keyboard, mouse, and game interfaces — to understand the goal, find problems, and record state, screenshots, and video evidence. It outputs a structured five-dimension quality score (core flow, core gameplay, UI/visuals, input feedback, technical stability), deduplicated problem cards with evidence, and plain-language fix suggestions. Optionally uploading the source ZIP lets it understand win conditions and route planning more accurately.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["game-testing", "qa", "ai-agent", "browser", "evaluation"],
+  "highlights": [
+    "Plays web games in a real browser and records screenshots and video evidence",
+    "Five-dimension quality scoring: flow, gameplay, UI, feedback, stability",
+    "Deduplicated problem cards bound to the best attempt's evidence",
+    "Reprocesses and re-plans after failures instead of blindly retrying",
+    "Upload a source ZIP for more accurate win-condition understanding"
+  ],
+  "techStack": ["Python", "Browser automation"],
+  "links": {
+    "website": "https://github.com/waiterve/wai-play",
+    "docs": "https://github.com/waiterve/wai-play#readme"
+  },
+  "images": {},
+  "related": ["prehistoric-animal-museum", "homebench", "local-bench"],
+  "curatorNote": "Testing web games by hand is painfully slow, and WAI Play turns it into a repeatable agent flow with evidence you can actually show. The five-dimension scoring and re-planning loop are the right instincts for automated QA.",
+  "publishedAt": "2026-08-04"
+}

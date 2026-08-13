@@ -1,0 +1,26 @@
+{
+  "slug": "comfyui-minimax-h3-turbo",
+  "name": "ComfyUI MiniMax H3 Turbo",
+  "fullName": "Larryvrh/ComfyUI-MiniMax-H3-Turbo",
+  "tagline": "Run MiniMax-H3 video with synchronized audio in as few as 4 sampling steps",
+  "description": "ComfyUI-MiniMax-H3-Turbo brings the MiniMax-H3 Turbo LoRA to ComfyUI, letting you generate joint video plus synchronized audio in as few as 4 sampling steps instead of ~20. Two nodes drop straight into the official H3 workflow — a Turbo LoRA node and a Turbo Sampler node that feeds SamplerCustomAdvanced. The recommended v4 checkpoint (600 steps) fixes the over-sharpening of earlier v1 builds, with a static-frame enhancement; 6-8 steps remove the only remaining trade-off for large fast motion.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["comfyui", "minimax-h3", "video", "turbo", "lora", "custom-nodes"],
+  "highlights": [
+    "Joint video + synchronized audio in as few as 4 sampling steps",
+    "Two nodes that drop straight into the official H3 workflow",
+    "Turbo LoRA applied directly to the model",
+    "v4 checkpoint with static-frame enhancement and fixed over-sharpening",
+    "Apache-2.0, from the MiniMax H3 ecosystem"
+  ],
+  "techStack": ["Python", "ComfyUI", "MiniMax H3", "LoRA"],
+  "links": {
+    "website": "https://github.com/Larryvrh/ComfyUI-MiniMax-H3-Turbo",
+    "docs": "https://github.com/Larryvrh/ComfyUI-MiniMax-H3-Turbo#readme"
+  },
+  "images": {},
+  "related": ["comfyui-h3-motion-context", "minimax-h3", "comfyui-minimaxh3-director"],
+  "curatorNote": "Dropping H3 from ~20 steps to 4 while keeping synchronized audio is a huge practical win for iteration speed. Clean node design that slots straight into the official workflow.",
+  "publishedAt": "2026-08-06"
+}

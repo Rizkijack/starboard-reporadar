@@ -1,0 +1,26 @@
+{
+  "slug": "my-ai-town",
+  "name": "My AI Town",
+  "fullName": "mewamew/my_ai_town",
+  "tagline": "A pixel town simulation where residents live, decide, and remember — driven by LLMs",
+  "description": "My AI Town is a single-player pixel life-simulation game built with Godot 4.7 in GDScript, where the town's residents are driven by LLMs. Each resident combines their personality, job, relationships, memory, location, and what is currently happening to decide where to go, what to do, and who to talk to — no dialog trees, just autonomous decisions. The player can observe from above, incarnate into the world, chat with residents, announce events, and change the weather. The world keeps a persistent log and memory, so player actions have continuous consequences.",
+  "category": "game",
+  "featured": false,
+  "tags": ["godot", "simulation", "llm", "npc", "pixel-art", "gamedev"],
+  "highlights": [
+    "LLM-driven residents make autonomous decisions based on personality, job, relationships, and memory",
+    "Player can observe, incarnate, chat, announce, and change the weather",
+    "Persistent world log and resident memory with continuous consequences",
+    "Built in Godot 4.7 with 100% GDScript",
+    "501 stars in under a week"
+  ],
+  "techStack": ["Godot 4.7", "GDScript", "LLM"],
+  "links": {
+    "website": "https://github.com/mewamew/my_ai_town",
+    "docs": "https://github.com/mewamew/my_ai_town#readme"
+  },
+  "images": {},
+  "related": ["skyrl", "smevals", "local-bench"],
+  "curatorNote": "Most LLM NPC demos are dialog trees wearing a costume; this one builds a town where residents actually move, work, and remember what happened. It is a real game — and a great reference for anyone experimenting with autonomous LLM agents in a sandbox.",
+  "publishedAt": "2026-08-07"
+}

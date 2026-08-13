@@ -8,6 +8,8 @@ export type CategoryId =
   | "design"
   | "backend"
   | "frontend"
+  | "game"
+  | "mobile"
   | "other-fun";
 
 export interface Category {

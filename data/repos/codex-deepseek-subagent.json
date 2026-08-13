@@ -1,0 +1,26 @@
+{
+  "slug": "codex-deepseek-subagent",
+  "name": "codex-deepseek-subagent",
+  "fullName": "oil-oil/codex-deepseek-subagent",
+  "tagline": "Register DeepSeek V4 Flash as a native Codex subagent with automated setup",
+  "description": "codex-deepseek-subagent is a skill that registers DeepSeek V4 Flash as a native Codex subagent with automated setup and verified routing. The API key is read via stdin and stored in the system keychain (Keychain on macOS, Credential Manager on Windows). It includes status checks, tests, repair, disable, and uninstall flows, and verifies model_provider, model, reasoning_effort, agent_role, and a NATIVE_DEEPSEEK_OK token before reporting success.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["codex", "deepseek", "subagent", "skill", "cli", "ai-tooling"],
+  "highlights": [
+    "Registers DeepSeek V4 Flash as a native Codex subagent",
+    "Automated setup with API key stored in the system keychain",
+    "Verified routing checks model_provider, model, reasoning_effort, and agent_role",
+    "Status, test, repair, disable, and uninstall commands",
+    "From the same author as oil-motion"
+  ],
+  "techStack": ["Python", "Codex CLI", "DeepSeek"],
+  "links": {
+    "website": "https://github.com/oil-oil/codex-deepseek-subagent",
+    "docs": "https://github.com/oil-oil/codex-deepseek-subagent#readme"
+  },
+  "images": {},
+  "related": ["codex-bridge", "everything-claude-code", "oil-motion"],
+  "curatorNote": "Cheap DeepSeek as a Codex subagent, with real verification instead of hope. Practical, focused, and useful for anyone who wants an inexpensive second opinion in their coding loop.",
+  "publishedAt": "2026-08-04"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "vphone-cli",
+  "name": "vPhone CLI",
+  "fullName": "Lakr233/vphone-cli",
+  "tagline": "Boot virtual iPhones from the command line via Apple's Virtualization framework",
+  "description": "vphone-cli is a command-line tool that boots virtual iPhones on Apple silicon Macs using Apple's Virtualization.framework and PCC research VMs. A single command creates a VM, downloads the firmware, patches it, restores it over DFU, installs the custom firmware, and boots it for the first time. It ships five variants — Less, Regular, Developer, Jailbreak, and Experimental — and exposes SSH, VNC, and an MCP control socket for automation. It is the companion CLI to the vphone-ws macOS app and a serious piece of iOS research infrastructure.",
+  "category": "mobile",
+  "featured": false,
+  "tags": ["ios", "virtualization", "cli", "macos", "security-research", "vm"],
+  "highlights": [
+    "Boots virtual iPhones on Apple silicon with Virtualization.framework and PCC research VMs",
+    "One command handles create, download, patch, DFU restore, CFW install, and first boot",
+    "Five variants including Jailbreak and Experimental",
+    "SSH, VNC, and an MCP control socket for automation",
+    "Companion CLI to vphone-ws, from the same author"
+  ],
+  "techStack": ["Swift", "Virtualization.framework"],
+  "links": {
+    "website": "https://github.com/Lakr233/vphone-cli",
+    "docs": "https://github.com/Lakr233/vphone-cli#readme"
+  },
+  "images": {},
+  "related": ["vphone-ws", "virtualmac-on-ipad", "phone-harness"],
+  "curatorNote": "Virtualized iPhones used to be the stuff of research labs; vphone-cli turns it into a single shell command. With SSH, VNC, and an MCP socket it is a genuinely useful foundation for iOS automation and security work.",
+  "publishedAt": "2026-08-03"
+}
