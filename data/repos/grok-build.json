@@ -1,0 +1,25 @@
+{
+  "slug": "grok-build",
+  "name": "Grok Build",
+  "fullName": "xai-org/grok-build",
+  "tagline": "xAI's terminal-based AI coding agent for full-size codebases",
+  "description": "Grok Build is a terminal-native AI coding agent from the Grok ecosystem, built in Rust and released under Apache-2.0. It ships a fullscreen, mouse-interactive TUI that lets the agent edit files, run shell commands, search the web, and carry out long-running tasks in one session. A headless mode supports CI and scripting, while an Agent Client Protocol (ACP) interface enables embedding inside editors. It lands as a direct competitor to Claude Code and Codex from within the Grok family.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["ai-agent", "coding-assistant", "tui", "rust", "cli"],
+  "highlights": [
+    "Fullscreen mouse-interactive TUI for driving agentic coding sessions",
+    "Native file editing, shell execution, web search, and long-running task support",
+    "Headless mode for CI pipelines and automation scripts",
+    "ACP (Agent Client Protocol) support for embedding in editors",
+    "Rust implementation with Apache-2.0 licensing"
+  ],
+  "techStack": ["Rust"],
+  "links": {
+    "docs": "https://github.com/xai-org/grok-build"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "Worth watching as the Grok ecosystem's answer to Claude Code and Codex — explosive adoption (~24k stars in four weeks) signals a serious terminal-agent contender.",
+  "publishedAt": "2026-07-14"
+}

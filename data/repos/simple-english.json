@@ -1,0 +1,24 @@
+{
+  "slug": "simple-english",
+  "name": "SimpleEnglish",
+  "fullName": "AminBlg/SimpleEnglish",
+  "tagline": "An agent skill that makes an LLM write documentation in ASD-STE100 Simplified Technical English",
+  "description": "SimpleEnglish is an agent skill that instructs an LLM to write documentation in ASD-STE100 Simplified Technical English, the international standard for safe, clear technical writing. Rather than leaving tone to chance, the skill encodes the STE100 rules — controlled vocabulary, one-meaning-per-word, short declarative sentences — so generated docs come out consistent and unambiguous. It is a focused, drop-in skill for turning any LLM-based documentation workflow into standards-compliant output. Python, with 2.1k stars.",
+  "category": "productivity",
+  "featured": false,
+  "tags": ["technical-writing", "skill", "llm", "documentation", "ste100"],
+  "highlights": [
+    "Encodes ASD-STE100 Simplified Technical English rules as a reusable agent skill",
+    "Controlled vocabulary and constrained sentence structure for standards-compliant output",
+    "Drop-in for any LLM documentation workflow in Python",
+    "2.1k stars in the growing agent-skills ecosystem"
+  ],
+  "techStack": ["Python", "Agent Skills", "ASD-STE100"],
+  "links": {
+    "docs": "https://github.com/AminBlg/SimpleEnglish#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "Most LLM docs fall apart on consistency and precision; encoding an actual international writing standard as a skill is a clever fix. Exactly the kind of niche, standards-driven skill that deserves a wider audience.",
+  "publishedAt": "2026-07-21"
+}

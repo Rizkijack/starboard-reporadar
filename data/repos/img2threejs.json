@@ -1,0 +1,23 @@
+{
+  "slug": "img2threejs",
+  "name": "img2threejs",
+  "fullName": "img2threejs/img2threejs",
+  "tagline": "Turn a reference image into a code-only procedural Three.js model",
+  "description": "Rebuilds a subject from a single reference image as a fully procedural Three.js scene — no photogrammetry, no mesh extraction, just code. The pipeline is staged into blockout, structural, form, material, surface, lighting, interaction, and optimization phases, each quality-gated so output stays animation-ready and token-efficient. Includes CS2 weapon review gates, a character and creature generator, and a roadmap to v2.0 procedural world generation.",
+  "category": "design",
+  "featured": false,
+  "tags": ["threejs", "3d", "procedural", "image-to-3d", "creative-coding", "python"],
+  "highlights": [
+    "9.6k stars and #1 trending Python repo of the week",
+    "Staged sculpting pipeline with per-phase quality gates",
+    "Animation-ready, token-efficient output designed for AI agents",
+    "Character & creature generator plus CS2 weapon review gates",
+    "Live demo gallery and v2.0 procedural world generation roadmap"
+  ],
+  "techStack": ["Python", "Three.js", "Procedural Generation"],
+  "links": { "docs": "https://github.com/img2threejs/img2threejs" },
+  "images": {},
+  "related": [],
+  "curatorNote": "A standout example of code-only 3D reconstruction — worth watching as it pushes toward fully procedural world generation.",
+  "publishedAt": "2026-07-15"
+}

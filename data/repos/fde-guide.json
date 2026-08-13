@@ -1,0 +1,24 @@
+{
+  "slug": "fde-guide",
+  "name": "FDE — Guidance Book of Forward-Deployed Engineer",
+  "fullName": "xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer",
+  "tagline": "A forward-deployed engineer field guide from 范冰, author of 增长黑客 (Growth Hacking)",
+  "description": "FDE — Guidance Book of Forward-Deployed Engineer is a field guide for the Forward-Deployed Engineer role, written by 范冰, the author of 增长黑客 (Growth Hacking). It combines the practical, on-the-ground playbooks of FDE work — scoping, rapid delivery, and client partnership — with the growth-hacking mindset its author is known for. The book-style repo has become a reference for engineers and teams exploring the increasingly popular FDE model. At 3.8k stars it is one of the more substantial takes on the discipline.",
+  "category": "productivity",
+  "featured": false,
+  "tags": ["fde", "guide", "forward-deployed-engineer", "career", "engineering"],
+  "highlights": [
+    "A dedicated field guide to the Forward-Deployed Engineer role",
+    "Written by 范冰, author of 增长黑客 (Growth Hacking)",
+    "Practical playbooks for scoping, rapid delivery, and client partnership",
+    "3.8k stars as a widely-referenced take on the FDE model"
+  ],
+  "techStack": ["Markdown"],
+  "links": {
+    "docs": "https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "The FDE role is everywhere in AI start-ups right now, but few people have written it up as a real discipline. Coming from the author of Growth Hacking, this guide carries real credibility.",
+  "publishedAt": "2026-07-30"
+}

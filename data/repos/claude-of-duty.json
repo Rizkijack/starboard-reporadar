@@ -1,0 +1,23 @@
+{
+  "slug": "claude-of-duty",
+  "name": "Claude of Duty",
+  "fullName": "mshumer/Claude-of-Duty",
+  "tagline": "A Call-of-Duty-quality FPS generated from a single prompt",
+  "description": "A full First-Person-Shooter experience in Three.js generated from a single prompt — roughly 55k lines of code across 11 subsystems, with 100% procedural assets. Demonstrates what a capable coding model can produce end-to-end in one shot, from gameplay mechanics to rendering. Purely JavaScript, with 3k stars.",
+  "category": "other-fun",
+  "featured": false,
+  "tags": ["threejs", "fps", "gaming", "procedural", "ai-generated"],
+  "highlights": [
+    "~55k lines of Three.js generated from a single prompt",
+    "11 subsystems spanning gameplay, rendering, and systems",
+    "100% procedural assets — no external art pipeline",
+    "Call-of-Duty-quality scope as a stress test for AI generation",
+    "3k stars"
+  ],
+  "techStack": ["JavaScript", "Three.js"],
+  "links": { "docs": "https://github.com/mshumer/Claude-of-Duty" },
+  "images": {},
+  "related": [],
+  "curatorNote": "A wild benchmark for one-shot AI game generation — worth watching as a proof of what agents can ship.",
+  "publishedAt": "2026-07-25"
+}

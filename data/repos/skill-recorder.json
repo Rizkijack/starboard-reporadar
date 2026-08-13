@@ -1,0 +1,24 @@
+{
+  "slug": "skill-recorder",
+  "name": "Skill Recorder",
+  "fullName": "microsoft/skill-recorder",
+  "tagline": "Record a screen session, let Copilot turn it into a reusable Skill",
+  "description": "Skill Recorder is a Microsoft project that records a screen session and lets Copilot reconstruct it as intent plus steps, producing a reusable Skill or Automation. Instead of hand-writing workflows, you demonstrate the action once on screen and get a repeatable artifact out. It targets turning manual, recorded procedures into agent-runnable automation.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["automation", "skill", "microsoft", "workflow", "agent"],
+  "highlights": [
+    "Records a screen session as the source ground truth",
+    "Copilot reconstructs the session into intent and step sequences",
+    "Outputs reusable Skill or Automation artifacts",
+    "Turns demonstrated manual procedures into agent-runnable workflows"
+  ],
+  "techStack": [],
+  "links": {
+    "docs": "https://github.com/microsoft/skill-recorder"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "Example-driven automation is a compelling UX — demonstrating a task once and getting a persistent Skill is a natural bridge from demo to durable agent capability.",
+  "publishedAt": "2026-07-29"
+}

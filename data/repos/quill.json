@@ -1,0 +1,25 @@
+{
+  "slug": "quill",
+  "name": "Quill",
+  "fullName": "digimata/quill",
+  "tagline": "Ultra-minimalist macOS meeting recorder — record mic and system audio as two separate tracks, transcribe fully on-device",
+  "description": "Quill is a one-click meeting recorder for macOS that captures the microphone and system audio as two separate tracks, then transcribes everything on-device using Parakeet TDT 0.6B v2 running through Core ML. The transcript is speaker-tagged, and because transcription never leaves the machine, recordings are private by default. It lives in the menu-bar tray, ships as a single Swift binary, and writes crash-safe CAF audio so an interrupted recording is never lost. Swift and MIT-licensed, at 2.1k stars, with roughly 20 seconds of transcription needed per hour of audio.",
+  "category": "productivity",
+  "featured": false,
+  "tags": ["macos", "recording", "transcription", "local-first", "swift"],
+  "highlights": [
+    "One-click record captures mic and system audio as two separate tracks",
+    "Fully on-device transcription via Parakeet TDT 0.6B v2 on Core ML — nothing leaves the machine",
+    "Speaker-tagged transcripts with a menu-bar tray workflow",
+    "Single Swift binary with crash-safe CAF audio recording",
+    "~20s on-device transcription per hour of audio"
+  ],
+  "techStack": ["Swift", "Core ML", "Parakeet TDT 0.6B v2"],
+  "links": {
+    "docs": "https://github.com/digimata/quill#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "A tiny, single-binary recorder that does split-track capture and local transcription quietly in the menu bar. The local-first, nothing-leaves-the-machine stance makes it refreshingly trustworthy for sensitive meetings.",
+  "publishedAt": "2026-07-24"
+}

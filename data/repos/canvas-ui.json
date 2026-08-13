@@ -1,0 +1,23 @@
+{
+  "slug": "canvas-ui",
+  "name": "Canvas UI",
+  "fullName": "DavidHDev/canvas-ui",
+  "tagline": "33 creative canvas WebGL components with a selectable-text API",
+  "description": "A library of 33 creative canvas WebGL UI components — Liquid, Glass, Shatter, Blaze, VHS, Glitch, Decrypt Reveal, and more. Built in TypeScript and licensed MIT + Commons Clause, its HTML-in-canvas API keeps text selectable and links clickable, so effects don't destroy accessibility. Framework-agnostic across React, Vue, Svelte, Solid, Preact, and vanilla, with a shadcn-compatible registry and MCP readiness.",
+  "category": "frontend",
+  "featured": false,
+  "tags": ["webgl", "canvas", "ui-components", "effects", "creative-coding", "typescript"],
+  "highlights": [
+    "33 ready-made WebGL effects from Liquid to Decrypt Reveal",
+    "HTML-in-canvas keeps text selectable and links clickable",
+    "Framework-agnostic: React, Vue, Svelte, Solid, Preact, vanilla",
+    "shadcn-compatible registry and MCP-ready integration",
+    "2.7k stars and climbing"
+  ],
+  "techStack": ["TypeScript", "WebGL", "Canvas"],
+  "links": { "docs": "https://github.com/DavidHDev/canvas-ui" },
+  "images": {},
+  "related": [],
+  "curatorNote": "The rare effects library that treats accessibility as a feature — text stays selectable behind the WebGL.",
+  "publishedAt": "2026-07-16"
+}

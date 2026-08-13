@@ -1,0 +1,24 @@
+{
+  "slug": "kimi-k3",
+  "name": "Kimi K3",
+  "fullName": "MoonshotAI/Kimi-K3",
+  "tagline": "Moonshot AI's open-weights 2.78T-parameter frontier MoE model",
+  "description": "Kimi K3 is the open-weights release of Moonshot AI's Kimi K3, a 2.78-trillion-parameter Mixture-of-Experts model delivering frontier-level intelligence as open source. It positions itself as a direct rival to DeepSeek V4 in the open frontier-model race. The release pairs MoE scale with Moonshot's training and inference work, making state-of-the-art capability available beyond closed APIs.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["llm", "moe", "open-weights", "frontier-ai", "moonshot"],
+  "highlights": [
+    "2.78 trillion parameters using a Mixture-of-Experts architecture",
+    "Frontier intelligence released under open weights",
+    "Positioned as a direct open competitor to DeepSeek V4",
+    "Sustained ~8.3k stars from the open-model community"
+  ],
+  "techStack": ["MoE"],
+  "links": {
+    "docs": "https://github.com/MoonshotAI/Kimi-K3"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "The open-weights frontier is widening — a 2.78T MoE at this accessibility is a milestone worth tracking for anyone comparing against DeepSeek V4.",
+  "publishedAt": "2026-07-27"
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "codex-security",
+  "name": "Codex Security",
+  "fullName": "openai/codex-security",
+  "tagline": "OpenAI's CLI & SDK for statically scanning repos for security flaws",
+  "description": "Codex Security is OpenAI's CLI and SDK for statically scanning repositories to surface security flaws. Written in TypeScript, it plugs into the Codex ecosystem to give developers a fast security review pass over their codebase. It targets catching vulnerabilities early in the development loop rather than after release.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["security", "security-scanner", "code-analysis", "openai", "cli"],
+  "highlights": [
+    "Static scanning of repositories for security flaws",
+    "CLI and SDK written in TypeScript",
+    "Sits inside the Codex ecosystem for in-loop review",
+    "~9.5k stars from the security and agent communities"
+  ],
+  "techStack": ["TypeScript"],
+  "links": {
+    "docs": "https://github.com/openai/codex-security"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "Security scanning inside the Codex loop makes review a first-class step — strong adoption (9.5k stars) shows how much agents amplifying security checks is wanted.",
+  "publishedAt": "2026-07-13"
+}
