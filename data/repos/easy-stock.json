@@ -1,0 +1,25 @@
+{
+  "slug": "easy-stock",
+  "name": "easy-stock",
+  "fullName": "jundizhou/easy-stock",
+  "tagline": "A-share stock analysis with an LLM-powered research agent",
+  "description": "easy-stock is a Go-based tool that pairs A-share (Chinese stock market) analysis with an AI research agent built on top of an LLM. It brings together market data and a conversational research layer, letting you ask questions and get reasoned analysis rather than just raw numbers. For investors working the Chinese market, it is a practical bridge between quantitative data and the kind of narrative research an analyst would do by hand. An early, focused entry into LLM-assisted equity research.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["a-share", "stocks", "llm", "research-agent", "finance", "go"],
+  "highlights": [
+    "Combines A-share market analysis with an LLM-driven research agent",
+    "Go-based backend keeps deployment simple and fast",
+    "Conversational interface for reasoned, not just raw, analysis",
+    "Early but practical entry into LLM-assisted equity research"
+  ],
+  "techStack": ["Go", "LLM"],
+  "links": {
+    "website": "https://github.com/jundizhou/easy-stock",
+    "docs": "https://github.com/jundizhou/easy-stock#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "Quant tools that add an LLM research layer are quietly becoming a thing, and easy-stock is a clean Go take focused on the A-share market. Great signal for where retail investing tooling is heading.",
+  "publishedAt": "2026-08-07"
+}

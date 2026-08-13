@@ -1,0 +1,26 @@
+{
+  "slug": "pi-from-scratch",
+  "name": "pi-from-scratch",
+  "fullName": "SaladDay/pi-from-scratch",
+  "tagline": "600 lines of TypeScript that build a super-mini pi agent from scratch",
+  "description": "pi-from-scratch is an educational project that builds a 'super mini pi' agent from scratch in about 600 lines of TypeScript. It demystifies agent architecture by walking through each moving part — tool use, reasoning loops, and model interaction — without the noise of a full framework. With 834 stars in four days, it has become a favorite starting point for developers who want to truly understand how agents work.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["agent", "educational", "typescript", "build-your-own", "llm"],
+  "highlights": [
+    "Builds a pi agent from scratch in roughly 600 lines of TypeScript",
+    "Demystifies agent architecture piece by piece",
+    "No heavy framework — just the core moving parts made readable",
+    "834 stars in four days from the learn-by-building crowd",
+    "A practical on-ramp to understanding agent internals"
+  ],
+  "techStack": ["TypeScript", "LLM", "Agent Tooling"],
+  "links": {
+    "website": "https://github.com/SaladDay/pi-from-scratch",
+    "docs": "https://github.com/SaladDay/pi-from-scratch#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "Frameworks hide the hard part. This one strips it all away and rebuilds a working agent in 600 lines of TypeScript, which is exactly the kind of transparency that helps people finally 'get' agents. 834 stars in four days says the approach resonates.",
+  "publishedAt": "2026-08-09"
+}

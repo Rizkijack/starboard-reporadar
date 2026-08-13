@@ -1,0 +1,26 @@
+{
+  "slug": "h3c",
+  "name": "h3.c",
+  "fullName": "antirez/h3.c",
+  "tagline": "A from-scratch MiniMax H3 inference engine for Mac in pure C, from the creator of Redis",
+  "description": "h3.c is a from-scratch implementation of a MiniMax H3 inference engine for Apple Silicon Macs, written in pure C. It is a minimalist systems-code masterclass from antirez, the creator of Redis, who distills the whole inference pipeline into clean, dependency-free C. With 1.7k stars in four days and 438 points on Hacker News, it has become the go-to reference for running the H3 model locally on a Mac.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["llm-inference", "minimax-h3", "c", "apple-silicon", "mac"],
+  "highlights": [
+    "From the creator of Redis, Salvatore Sanfilippo (antirez)",
+    "Runs MiniMax H3 inference on Apple Silicon in pure, dependency-free C",
+    "Minimalist systems programming as a teaching artifact",
+    "1.7k stars in four days with 438 Hacker News points",
+    "A rare look at how a legend of systems code approaches LLM inference"
+  ],
+  "techStack": ["C", "MiniMax H3", "Apple Silicon"],
+  "links": {
+    "website": "https://github.com/antirez/h3.c",
+    "docs": "https://github.com/antirez/h3.c#readme"
+  },
+  "images": {},
+  "related": ["kimi-k3-in-c", "minimax-h3"],
+  "curatorNote": "When the Redis creator writes a from-scratch inference engine in clean C, you stop and read it. Both a working H3 runner for Macs and a masterclass in how minimal inference code can really be — 438 HN points says it all.",
+  "publishedAt": "2026-08-09"
+}

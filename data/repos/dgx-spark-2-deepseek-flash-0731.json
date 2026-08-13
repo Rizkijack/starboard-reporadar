@@ -1,0 +1,25 @@
+{
+  "slug": "dgx-spark-2-deepseek-flash-0731",
+  "name": "dgx-spark-2-deepseek-flash-0731",
+  "fullName": "maliubiao/dgx-spark-2-deepseek-flash-0731",
+  "tagline": "Stand up DeepSeek-Flash-0731 on two DGX Spark units, from zero",
+  "description": "dgx-spark-2-deepseek-flash-0731 is a step-by-step setup guide for getting the DeepSeek-Flash-0731 model running on a pair of NVIDIA DGX Spark machines from a completely blank slate. It walks through the full bring-up path — environment, dependencies, model launch, and getting inference to actually answer — so you avoid the trial-and-error that plagues early on-prem LLM deployments. Written as Shell-focused instructions, it is a practical reference for anyone standing up self-hosted inference on DGX hardware. A niche but genuinely useful companion for the local-Mini-LLM wave.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["deepseek", "dgx-spark", "shell", "llm-inference", "self-hosting", "setup-guide"],
+  "highlights": [
+    "From-scratch walkthrough for DeepSeek-Flash-0731 on two DGX Spark nodes",
+    "Shell-driven setup covering environment, dependencies, and model launch",
+    "Part of the same local-inference wave as h3.c and other mini-LLM projects",
+    "High signal for anyone tired of scraping together DGX bring-up docs"
+  ],
+  "techStack": ["Shell", "NVIDIA DGX Spark", "DeepSeek"],
+  "links": {
+    "website": "https://github.com/maliubiao/dgx-spark-2-deepseek-flash-0731",
+    "docs": "https://github.com/maliubiao/dgx-spark-2-deepseek-flash-0731#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "DGX Spark is expensive and the docs are thin, so a pragmatic from-zero guide like this is gold for builders. It captures the rising appetite for running serious models on your own hardware instead of paying per token.",
+  "publishedAt": "2026-08-07"
+}

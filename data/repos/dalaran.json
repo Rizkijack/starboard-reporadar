@@ -1,0 +1,26 @@
+{
+  "slug": "dalaran",
+  "name": "Dalaran",
+  "fullName": "Flaminis/Dalaran",
+  "tagline": "Robotics data infrastructure and visualization for multimodal time-series, native to ROS 2",
+  "description": "Dalaran is robotics data infrastructure and visualization built for multimodal time-series, with native ROS 2 support and the ability to read .rrd files. A hard fork of Rerun, it adapts the proven visualization stack to the specific needs of robotics pipelines. With 925 stars in six days, it claims a rare open-source robotics data-infra niche that had few credible options before.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["robotics", "data-infrastructure", "visualization", "multimodal", "ros2", "time-series"],
+  "highlights": [
+    "Hard fork of Rerun, tuned for robotics data workflows",
+    "Native ROS 2 support out of the box",
+    "Reads .rrd files for multimodal time-series data",
+    "925 stars in six days in a sparse OSS robotics data-infra niche",
+    "Visualization plus data infrastructure in one project"
+  ],
+  "techStack": ["Rust", "ROS 2", "Apache Arrow", "rrd"],
+  "links": {
+    "website": "https://github.com/Flaminis/Dalaran",
+    "docs": "https://github.com/Flaminis/Dalaran#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "Robotics lacks a solid open-source data-infrastructure layer, and Dalaran moves straight into that gap by hard-forking Rerun and making it ROS 2 native. The 925 stars in six days show just how hungry the robotics community was for this.",
+  "publishedAt": "2026-08-07"
+}

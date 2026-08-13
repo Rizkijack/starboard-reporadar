@@ -1,0 +1,25 @@
+{
+  "slug": "financial-intelligence-system",
+  "name": "financial-intelligence-system",
+  "fullName": "zhangzf1119/financial-intelligence-system",
+  "tagline": "A full-stack financial intelligence platform with a Vue web companion",
+  "description": "financial-intelligence-system is a Java-backed financial intelligence platform paired with a Vue.js web companion. The Java backend handles the heavy lifting of data analysis and market intelligence, while the Vue front end presents results in a usable dashboard. It is a complete full-stack package rather than a single library, giving you both the analytical engine and the interface to browse it. A solid reference for anyone building data-heavy finance tooling with a JVM backend.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["finance", "java", "vue", "data-analysis", "intelligence", "full-stack"],
+  "highlights": [
+    "Java backend for financial data analysis and market intelligence",
+    "Vue.js web companion for a clean, browsable interface",
+    "Complete full-stack architecture, not a single-library fragment",
+    "Useful reference for JVM-based finance tooling"
+  ],
+  "techStack": ["Java", "Vue", "Spring"],
+  "links": {
+    "website": "https://github.com/zhangzf1119/financial-intelligence-system",
+    "docs": "https://github.com/zhangzf1119/financial-intelligence-system#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "Finance dashboards are everywhere, but a clean Java + Vue full-stack intelligence system is a refreshingly complete blueprint. Good study material and a potential starting point for your own data-heavy product.",
+  "publishedAt": "2026-08-11"
+}

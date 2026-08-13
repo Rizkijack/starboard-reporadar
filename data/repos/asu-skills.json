@@ -1,0 +1,25 @@
+{
+  "slug": "asu-skills",
+  "name": "ASu-skills",
+  "fullName": "Hisn00w/ASu-skills",
+  "tagline": "A Chinese-language job-hunting workflow for agents",
+  "description": "ASu-skills is a Chinese-language workflow plugin for agents built around the job hunt: managing open-source contributions, polishing your resume, and running autumn recruitment (秋招) cycles. It packages practical, market-aware guidance into skills an agent can walk through step by step, so it functions as a structured assistant for candidates navigating the Chinese tech hiring season. It is part of a fast-growing non-English agent-skill ecosystem that is still largely under-covered in English-language coverage.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["agents", "skills", "career", "resume", "job-hunting", "chinese"],
+  "highlights": [
+    "Covers the full job-hunt loop: contributions, resume, and autumn recruitment",
+    "Chinese-language workflow tuned to the local hiring market",
+    "Packaged as agent skills for step-by-step, structured guidance",
+    "A window into the fast-growing Chinese agent-skill ecosystem"
+  ],
+  "techStack": ["HTML", "Markdown"],
+  "links": {
+    "website": "https://github.com/Hisn00w/ASu-skills",
+    "docs": "https://github.com/Hisn00w/ASu-skills#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "The agent-skill gold rush is happening in languages most Western coverage ignores, and ASu-skills is a great example — a practical career workflow that large US audiences would never see. Worth watching for the broader trend it represents.",
+  "publishedAt": "2026-08-13"
+}

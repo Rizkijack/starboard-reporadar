@@ -1,0 +1,25 @@
+{
+  "slug": "nie-grassroots-logic",
+  "name": "Nie Grassroots Logic",
+  "fullName": "ayi-ai/nie-grassroots-logic",
+  "tagline": "An agent skill for grassroots socio-economic analysis",
+  "description": "nie-grassroots-logic is an agent skill rooted in the \"Grassroots China\" methodology from Nie Huihua's book, turned into a structured socio-economic analysis toolkit. It gives an agent a lens for examining how local institutions, incentives, and social dynamics actually operate at the grassroots level, rather than relying on top-down assumptions. For researchers, analysts, and anyone studying Chinese social and economic behavior, it packages a respected analytical framework into a ready-to-use agent capability.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["agents", "skills", "social-economic", "analysis", "china", "methodology"],
+  "highlights": [
+    "Turns Nie Huihua's 'Grassroots China' methodology into an agent skill",
+    "A structured toolkit for socio-economic analysis at the local level",
+    "Useful for researchers and analysts studying Chinese social dynamics",
+    "Another sign of the maturing non-English agent-skill ecosystem"
+  ],
+  "techStack": ["HTML", "Markdown"],
+  "links": {
+    "website": "https://github.com/ayi-ai/nie-grassroots-logic",
+    "docs": "https://github.com/ayi-ai/nie-grassroots-logic#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "Encoding a serious analytical framework into an agent skill is a clever idea, and Grassroots China is a strong fit for it. Fascinating to see academic methodology become a reusable agent capability this fast.",
+  "publishedAt": "2026-08-11"
+}

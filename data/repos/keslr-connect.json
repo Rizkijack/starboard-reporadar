@@ -1,0 +1,25 @@
+{
+  "slug": "keslr-connect",
+  "name": "Keslr Connect",
+  "fullName": "keslr/keslr_connect",
+  "tagline": "Sign in with Keslr — proving you are a real vouched human",
+  "description": "Keslr Connect is a \"Sign in with Keslr\" primitive that issues verification claims proving a user is a real, vouched human. It is a new building block for anti-bot systems: instead of CAPTCHAs or fragile heuristics, it leans on a social-vouching graph to establish that an account belongs to a genuine person. For platforms fighting automation, spam, and synthetic accounts, it offers a lightweight identity layer that agents and bots should not be able to pass.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["identity", "anti-bot", "verification", "authentication", "privacy", "social-vouching"],
+  "highlights": [
+    "A verification-claim primitive that establishes real, vouched humanity",
+    "Purpose-built to be a building block for anti-bot and anti-spam systems",
+    "Social-vouching model sidesteps CAPTCHAs and fragile heuristics",
+    "A clean, embeddable 'Sign in with Keslr' flow for developers"
+  ],
+  "techStack": ["TypeScript"],
+  "links": {
+    "website": "https://github.com/keslr/keslr_connect",
+    "docs": "https://github.com/keslr/keslr_connect#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "Bot detection keeps chasing the same arms race, and Keslr Connect offers something genuinely different: a vouched-human primitive rather than another heuristic. Early, but it is the kind of identity primitive that could quietly become infrastructure.",
+  "publishedAt": "2026-08-08"
+}

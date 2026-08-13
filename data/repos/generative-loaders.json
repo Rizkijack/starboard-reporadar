@@ -1,0 +1,25 @@
+{
+  "slug": "generative-loaders",
+  "name": "generative-loaders",
+  "fullName": "kasturikhanke/generative-loaders",
+  "tagline": "Accessible loading states for generative, streaming UI",
+  "description": "generative-loaders is a small React focus on one of the trickiest problems in generative UI: what to show while a model is still thinking. It provides accessible loading states purpose-built for streamed text, inline activity, and in-progress image generation, so interfaces feel responsive and honest instead of frozen or janky. Each pattern is designed with accessibility in mind, keeping users oriented as tokens stream in and images resolve. A timely, focused toolkit for anyone shipping AI-native interfaces.",
+  "category": "frontend",
+  "featured": false,
+  "tags": ["react", "generative-ui", "loading-states", "accessibility", "streaming", "ai-ui"],
+  "highlights": [
+    "Accessible loading patterns built for streamed text, not just static spinners",
+    "Inline activity and image-generation states that keep users oriented while models work",
+    "Accessibility-first design for a category that often forgets assistive tech",
+    "A timely drop as generative UI moves from demos to production dashboards"
+  ],
+  "techStack": ["TypeScript", "React"],
+  "links": {
+    "website": "https://github.com/kasturikhanke/generative-loaders",
+    "docs": "https://github.com/kasturikhanke/generative-loaders#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "Loading UI is the unglamorous half of building generative interfaces, and most AI demos get it badly wrong. This tackles it properly, with accessibility at the core — exactly the kind of detail that separates shipped products from slides.",
+  "publishedAt": "2026-08-08"
+}

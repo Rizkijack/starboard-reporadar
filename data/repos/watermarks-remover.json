@@ -1,0 +1,26 @@
+{
+  "slug": "watermarks-remover",
+  "name": "watermarks-remover",
+  "fullName": "guillaumemeyer/watermarks-remover",
+  "tagline": "Strips multi-vendor AI provenance marks from images, documents, and text",
+  "description": "watermarks-remover is a Python tool for stripping AI provenance marks from content across multiple vendors. It combines Unicode text hygiene with statistical rewrite hooks for text, and removes C2PA metadata from PNG, JPEG, SVG, PDF, DOCX, HTML, and Markdown files. In two days it exploded from nothing to 3.7k stars and became the reference tool in the controversial niche of stripping AI provenance, sparking debate about content authenticity.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["ai", "provenance", "c2pa", "watermark", "python", "metadata"],
+  "highlights": [
+    "Removes C2PA provenance metadata across PNG, JPEG, SVG, PDF, DOCX, HTML, and MD",
+    "Unicode text hygiene plus statistical rewrite hooks for prose",
+    "Multi-vendor support — not tied to a single AI provenance scheme",
+    "Exploded to 3.7k stars in two days and hit trending #1 globally",
+    "Sits at the center of the AI content-authenticity debate"
+  ],
+  "techStack": ["Python", "C2PA", "PNG", "JPEG", "SVG", "PDF", "DOCX", "HTML", "Markdown"],
+  "links": {
+    "website": "https://github.com/guillaumemeyer/watermarks-remover",
+    "docs": "https://github.com/guillaumemeyer/watermarks-remover#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "The fastest mover in this batch — 3.7k stars in two days thrust it into trending #1 and made it the reference tool for stripping AI provenance. Controversial, but undeniably the repo defining the conversation this week.",
+  "publishedAt": "2026-08-11"
+}

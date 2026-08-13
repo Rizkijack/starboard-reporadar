@@ -1,0 +1,26 @@
+{
+  "slug": "kadath",
+  "name": "KADATH",
+  "fullName": "i3T4AN/KADATH",
+  "tagline": "An evolutionary runtime that breeds and improves autonomous agents across epochs",
+  "description": "KADATH is an evolutionary multi-agent runtime that breeds, evaluates, and improves autonomous agents across epochs. Borrowing from evolutionary biology, it generates populations of agents, measures their performance, and iteratively selects the fittest to drive improvement. Its 90:1 star-to-fork ratio suggests a project capturing attention while still being relatively unexplored by the wider community.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["evolutionary-algorithms", "multi-agent", "autonomous-agents", "runtime", "python"],
+  "highlights": [
+    "Breed, evaluate, and improve agents across evolutionary epochs",
+    "An evolutionary-biology-inspired take on multi-agent systems",
+    "Iteratively selects and improves the fittest agents",
+    "A striking 90:1 star-to-fork ratio signals an under-explored gem",
+    "367 stars within days of launch"
+  ],
+  "techStack": ["Python"],
+  "links": {
+    "website": "https://github.com/i3T4AN/KADATH",
+    "docs": "https://github.com/i3T4AN/KADATH#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "Most agent frameworks are static; KADATH actually evolves its agents like a population. The 90:1 star ratio tells me a lot of people are watching, and few have dug in yet — early days, big potential.",
+  "publishedAt": "2026-08-08"
+}

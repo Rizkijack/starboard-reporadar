@@ -1,0 +1,26 @@
+{
+  "slug": "chatbot-template",
+  "name": "chatbot-template",
+  "fullName": "shadcn-ui/chatbot-template",
+  "tagline": "The canonical minimal AI chat UI starter from shadcn",
+  "description": "chatbot-template is the official minimal chatbot starter from shadcn, wiring together Next.js, the AI SDK, and shadcn/ui on the Vercel AI Gateway. It is the canonical starting point for anyone who wants a clean, production-shaped AI chat interface without rebuilding the plumbing by hand. Because it comes from the shadcn team, the component quality and attention to detail are exactly what you would expect.",
+  "category": "frontend",
+  "featured": false,
+  "tags": ["shadcn", "nextjs", "ai-sdk", "chatbot", "vercel-ai", "template", "ui"],
+  "highlights": [
+    "Official minimal chatbot template maintained by the shadcn team",
+    "Next.js + AI SDK + shadcn/ui wired on the Vercel AI Gateway",
+    "The canonical starter for polished AI chat UIs",
+    "Production-shaped structure you can extend instead of rebuild",
+    "618 stars within days of release"
+  ],
+  "techStack": ["Next.js", "TypeScript", "AI SDK", "shadcn/ui", "Vercel"],
+  "links": {
+    "website": "https://github.com/shadcn-ui/chatbot-template",
+    "docs": "https://github.com/shadcn-ui/chatbot-template#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "When the shadcn team drops a chatbot template, it tends to become the default for everyone else's AI chat UI. Small but destined to be cloned thousands of times.",
+  "publishedAt": "2026-08-11"
+}

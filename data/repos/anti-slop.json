@@ -1,0 +1,26 @@
+{
+  "slug": "anti-slop",
+  "name": "anti-slop",
+  "fullName": "dmmulroy/anti-slop",
+  "tagline": "Opinionated Oxlint rules that reject low-evidence AI slop",
+  "description": "anti-slop is a set of opinionated Oxlint rules that reject low-evidence TypeScript and JavaScript patterns commonly produced by AI assistants. It is part of the wider anti-AI-slop movement, giving teams a linting layer that catches weak, hand-wavy code before it ships. It comes from dmmulroy, a popular neovim plugin author, so expect a sharp, opinionated take on what counts as solid code.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["linter", "oxlint", "ai-slop", "typescript", "code-quality", "neovim"],
+  "highlights": [
+    "Opinionated Oxlint rules targeting low-evidence TS/JS patterns",
+    "A linting-layer answer to the anti-AI-slop movement",
+    "Catches weak, hand-wavy AI output before it ships",
+    "From dmmulroy, a well-known neovim plugin author",
+    "504 stars within days of launch"
+  ],
+  "techStack": ["TypeScript", "Oxlint"],
+  "links": {
+    "website": "https://github.com/dmmulroy/anti-slop",
+    "docs": "https://github.com/dmmulroy/anti-slop#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "As AI-generated code floods repos, anti-slop gives teams a linting layer to push back. Backed by a respected neovim plugin author, this is one of the more credible entries in the anti-slop space.",
+  "publishedAt": "2026-08-12"
+}

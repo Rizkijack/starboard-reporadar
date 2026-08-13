@@ -1,0 +1,25 @@
+{
+  "slug": "lore",
+  "name": "lore",
+  "fullName": "hsusul/lore",
+  "tagline": "A local desktop app to browse and search your coding-agent history",
+  "description": "lore is a local desktop application that lets you browse and search the history of your coding agents — reading the session files that Claude Code and Codex already write, without wrapping or hijacking the agent itself. Instead of intercepting the tool at runtime, it treats the session logs as a source of truth and gives them a searchable, browsable interface. It is a lightweight observability layer that helps you revisit what an agent did, why, and how, all from data your setup already produces.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["agent-history", "claude-code", "codex", "desktop-app", "observability", "session-logs"],
+  "highlights": [
+    "Browses and searches Claude Code and Codex session files with no agent wrapper",
+    "Reads history the agent already writes, so it stays non-invasive and portable",
+    "Local-first desktop app that keeps your prompts and transcripts on your machine",
+    "Fills the gap of agent observability and cost auditing for everyday workflows"
+  ],
+  "techStack": ["Rust", "Tauri"],
+  "links": {
+    "website": "https://github.com/hsusul/lore",
+    "docs": "https://github.com/hsusul/lore#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "So many agent-history tools force you to wrap your workflow; lore flips that by treating the session logs you already have as the source of truth. A clean, non-invasive take on agent observability.",
+  "publishedAt": "2026-08-11"
+}
