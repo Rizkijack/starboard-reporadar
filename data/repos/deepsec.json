@@ -1,0 +1,26 @@
+{
+  "slug": "deepsec",
+  "name": "deepsec",
+  "fullName": "vercel-labs/deepsec",
+  "tagline": "Agent-powered vulnerability scanner for your own infrastructure",
+  "description": "deepsec is an agent-powered vulnerability scanner from Vercel Labs that runs in your own infrastructure, optimized for on-demand review of all code in existing large-scale repos. It uses regex matchers for a fast, free scan pass to find candidate sites, then fans out AI coding agents to investigate each one and emit findings with recommendations. Work fans out across worker machines for large codebases, and interrupted runs resume where they left off. It supports scanning only changed files in a diff (PR mode), triage, revalidation to cut false positives, git committer enrichment, and reporting — with distributed execution available via Vercel Sandbox microVMs. Model calls route through Vercel AI Gateway by default, or bring your own OpenAI/Anthropic key. Apache 2.0 licensed.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["security", "vulnerability-scanner", "ai-agents", "vercel", "code-review", "cli"],
+  "highlights": [
+    "Two-pass design: free regex scan, then AI agents investigate only real candidates",
+    "Resumable scans that pick up where they left off after interrupts or errors",
+    "PR mode with process --diff for CI gating of changed files only",
+    "Distributed execution across Vercel Sandbox microVMs for large monorepos",
+    "Bring your own key or route via Vercel AI Gateway — the key name is stored, never the key"
+  ],
+  "techStack": ["TypeScript", "Node.js", "CLI"],
+  "links": {
+    "website": "https://deepsec.sh",
+    "docs": "https://github.com/vercel-labs/deepsec#readme"
+  },
+  "images": {},
+  "related": ["codex-security", "ship-safe", "open-code-review"],
+  "curatorNote": "Vercel Labs shipping an agentic security harness is a signal: AI-driven vulnerability review is becoming a product category, not a hobby. The cost model is refreshingly honest — scans can run thousands of dollars on big codebases — and the 'scan cheap, investigate with agents' two-pass design is the right architecture for making that affordable. Worth watching for the security angle on agentic workflows.",
+  "publishedAt": "2026-08-13"
+}
