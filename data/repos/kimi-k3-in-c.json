@@ -1,0 +1,24 @@
+{
+  "slug": "kimi-k3-in-c",
+  "name": "Kimi K3 in C",
+  "fullName": "FareedKhan-dev/kimi-k3-in-c",
+  "tagline": "Kimi K3 2.78T-parameter MoE inference on a single CPU, written in C",
+  "description": "Kimi K3 in C runs inference for the 2.78-trillion-parameter Kimi K3 mixture-of-experts model on a single CPU, written from scratch in C. It leans on activation sparsity to touch only the experts each token needs, keeping an enormous model tractable on ordinary hardware. The result is a minimal, dependency-free reference for just how far CPU-only inference can go. At 4.6k stars it has drawn a strong following among the local-inference crowd.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["llm-inference", "kimi-k3", "cpu", "moe", "c"],
+  "highlights": [
+    "Runs the 2.78T-parameter Kimi K3 MoE model on a single CPU",
+    "Exploits activation sparsity to touch only the experts each token needs",
+    "Written from scratch in dependency-free C",
+    "4.6k stars among the CPU/local-inference community"
+  ],
+  "techStack": ["C", "Kimi K3", "MoE"],
+  "links": {
+    "docs": "https://github.com/FareedKhan-dev/kimi-k3-in-c#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "The community keeps proving that a 2.78T model does not need a datacenter — a single CPU in C is enough when you exploit sparsity. Great companion read to the NVMe-streaming engines in the same space.",
+  "publishedAt": "2026-08-01"
+}

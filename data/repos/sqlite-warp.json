@@ -1,0 +1,25 @@
+{
+  "slug": "sqlite-warp",
+  "name": "SQLite Warp",
+  "fullName": "sqliteai/warp",
+  "tagline": "Run the 2.78T-parameter Kimi K3 model beyond available RAM — streams the model from storage",
+  "description": "SQLite Warp is a companion to sqliteai/waste that runs Kimi K3, a 2.78-trillion-parameter model, beyond what available RAM can hold by streaming the model from storage. Where its sibling streams activated weights from NVMe, Warp focuses on letting the model run even when the working set would never fit in memory. Written in C, it is a direct demonstration that memory, not just compute, can be virtualized for large MoE inference. With 2k stars it is part of the SQLite AI team's push to make enormous models practical on modest hardware.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["llm-inference", "kimi-k3", "memory", "c"],
+  "highlights": [
+    "Runs the 2.78T-parameter Kimi K3 model beyond available RAM",
+    "Companion to sqliteai/waste — streams the model from storage instead of holding it in memory",
+    "Dependency-free C inference engine from the SQLite AI team",
+    "2k stars in the fast-growing local-LLM space"
+  ],
+  "techStack": ["C", "Kimi K3", "MoE"],
+  "links": {
+    "website": "https://sqlite.ai",
+    "docs": "https://github.com/sqliteai/warp#readme"
+  },
+  "images": {},
+  "related": ["waste"],
+  "curatorNote": "Companion to waste, attacking the same 'model bigger than your RAM' problem from the storage-streaming angle. Together they make a strong argument that huge MoE models belong on ordinary hardware.",
+  "publishedAt": "2026-07-28"
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "gc-minimal-zine-poster",
+  "name": "GC Minimal Zine Poster",
+  "fullName": "LiamGvchi/gc-minimal-zine-poster",
+  "tagline": "A Codex skill for generating minimal zine-style editorial poster pages",
+  "description": "GC Minimal Zine Poster is a Codex skill that generates minimal zine-style editorial poster pages. It encodes a tight, constrained visual language — stark typography, generous whitespace, and a zine's hand-made editorial feel — so an agent can produce consistently designed posters on demand. As a skill it slots into the growing workflow of having coding agents generate finished design artifacts rather than just code. With 5.3k stars it has become a popular reference for design-oriented agent skills.",
+  "category": "design",
+  "featured": false,
+  "tags": ["zine", "poster", "design", "codex", "skill"],
+  "highlights": [
+    "Codex skill that produces minimal zine-style editorial poster pages",
+    "Encodes a constrained visual language: stark typography and hand-made editorial feel",
+    "Lets a coding agent generate finished design artifacts, not just code",
+    "5.3k stars as a popular design-oriented agent skill"
+  ],
+  "techStack": ["Agent Skills", "Codex"],
+  "links": {
+    "docs": "https://github.com/LiamGvchi/gc-minimal-zine-poster#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "A great example of turning a strong visual taste into a repeatable agent skill. The constrained zine aesthetic means outputs stay on-brand instead of drifting into generic AI-art territory.",
+  "publishedAt": "2026-07-12"
+}

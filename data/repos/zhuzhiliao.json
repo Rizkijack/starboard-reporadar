@@ -1,0 +1,24 @@
+{
+  "slug": "zhuzhiliao",
+  "name": "竹知了 (Zhizhiliao)",
+  "fullName": "imsai-sh/zhuzhiliao",
+  "tagline": "A traditional bamboo toy that makes sound — recreated as a zero-dependency web simulation",
+  "description": "竹知了 (Zhizhiliao) simulates a traditional bamboo toy that makes sound, rebuilt as a single, zero-dependency HTML file in the browser. The classic toy's clicking and vibration are reproduced through an interactive web simulation that brings the folk object to any device. Because everything lives in one self-contained HTML file, it opens instantly anywhere without build steps or installs. With 2.5k stars, it is a charming example of cultural objects recreated as pure web experiences.",
+  "category": "other-fun",
+  "featured": false,
+  "tags": ["simulation", "web", "traditional-toy", "single-file", "html"],
+  "highlights": [
+    "Interactive browser simulation of the traditional bamboo sound-making toy",
+    "Zero-dependency, single HTML file that runs anywhere with no build or install",
+    "Faithful recreation of the toy's clicking and vibration as a web experience",
+    "2.5k stars for a delightful cultural-object-as-code project"
+  ],
+  "techStack": ["HTML", "JavaScript"],
+  "links": {
+    "docs": "https://github.com/imsai-sh/zhuzhiliao#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "A folk toy recreated as a single self-contained HTML file — the kind of tactile, nostalgic web project that disappears if you blink. Proof that a zero-dependency page can still be genuinely delightful.",
+  "publishedAt": "2026-08-01"
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "genoffice",
+  "name": "GenOffice",
+  "fullName": "genspark-ai/genoffice",
+  "tagline": "Genspark AI's open-source AI office suite (Word, Sheets, Slides)",
+  "description": "GenOffice is an open-source AI office suite from Genspark AI, spanning Word, Sheets, and Slides equivalents in TypeScript. It layers AI assistance onto document creation, spreadsheets, and presentations rather than just file handling. The suite targets AI-native productivity in the office-product space.",
+  "category": "productivity",
+  "featured": false,
+  "tags": ["office-suite", "ai-notes", "documents", "sheets", "slides"],
+  "highlights": [
+    "Open-source AI office suite covering Word, Sheets, and Slides",
+    "TypeScript implementation from Genspark AI",
+    "AI assistance woven into document, spreadsheet, and presentation work",
+    "~2.5k stars on launch"
+  ],
+  "techStack": ["TypeScript"],
+  "links": {
+    "docs": "https://github.com/genspark-ai/genoffice"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "An open alternative to AI office suites is a big deal — Genspark's take on AI-native Word/Sheets/Slides is worth watching for the productivity-software crowd.",
+  "publishedAt": "2026-07-31"
+}

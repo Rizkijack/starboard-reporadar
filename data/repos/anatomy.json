@@ -1,0 +1,23 @@
+{
+  "slug": "anatomy",
+  "name": "Anatomy",
+  "fullName": "thebuggeddev/anatomy",
+  "tagline": "Interactive 3D human anatomy explorer built with Three.js + GPT 5.6",
+  "description": "An interactive 3D human anatomy explorer that combines Three.js rendering with GPT 5.6 for rich, on-demand explanations. You can orbit, zoom, and dissect the human body while the model answers questions about each structure. Written in TypeScript, it hit 2.1k stars in just 8 days.",
+  "category": "design",
+  "featured": false,
+  "tags": ["threejs", "anatomy", "education", "3d", "medical"],
+  "highlights": [
+    "Full 3D human anatomy explorer in Three.js",
+    "GPT 5.6-powered explanations on demand",
+    "Orbit, zoom, and dissect the body interactively",
+    "TypeScript throughout",
+    "2.1k stars in 8 days"
+  ],
+  "techStack": ["TypeScript", "Three.js", "GPT 5.6"],
+  "links": { "docs": "https://github.com/thebuggeddev/anatomy" },
+  "images": {},
+  "related": [],
+  "curatorNote": "A fast-rising fusion of 3D rendering and LLM interactivity — a strong template for interactive educational apps.",
+  "publishedAt": "2026-08-02"
+}

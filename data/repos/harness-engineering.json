@@ -1,0 +1,24 @@
+{
+  "slug": "harness-engineering",
+  "name": "Harness Engineering",
+  "fullName": "lopopolo/harness-engineering",
+  "tagline": "An anthology and field guide to agent harness engineering",
+  "description": "Harness Engineering is an anthology, field guide, and agent context bundle focused on the craft of building agent harnesses. Written in Python, it collects practical knowledge for designing and operating the scaffolding that drives AI agents. The bundle doubles as agent context, letting new agents onboard into harness-engineering conventions directly.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["agent-harness", "engineering", "field-guide", "agents"],
+  "highlights": [
+    "Anthology and field guide for agent harness engineering",
+    "Ships as an agent context bundle for easy onboarding",
+    "Practical, design-oriented reference for harness builders",
+    "~2.5k stars from the agent-engineering community"
+  ],
+  "techStack": ["Python"],
+  "links": {
+    "docs": "https://github.com/lopopolo/harness-engineering"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "Harness design is underserved as a discipline — this field guide plus agent context bundle is a rare, practical resource for builders structuring agent scaffolding.",
+  "publishedAt": "2026-07-18"
+}

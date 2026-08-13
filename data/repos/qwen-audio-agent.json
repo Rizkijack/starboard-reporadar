@@ -1,0 +1,24 @@
+{
+  "slug": "qwen-audio-agent",
+  "name": "Qwen Audio Agent",
+  "fullName": "QwenAudio/qwen-audio-agent",
+  "tagline": "A realtime voice runtime so AI agents can speak, work, and be present",
+  "description": "Qwen Audio Agent is a realtime voice runtime for AI agents, letting an agent speak, work, and remain present in a conversation. It targets fluid, low-latency spoken interaction layered on top of agent backends. The project extends the Qwen audio ecosystem into agentic, always-on voice use cases.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["voice", "agent", "realtime", "ai", "audio"],
+  "highlights": [
+    "Realtime voice runtime for AI agents",
+    "Enables agents to speak and remain present in conversations",
+    "Built within the Qwen audio ecosystem",
+    "~2.1k stars from the voice-agent community"
+  ],
+  "techStack": [],
+  "links": {
+    "docs": "https://github.com/QwenAudio/qwen-audio-agent"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "Voice-first agents are the next frontier — this runtime gives agents a realtime presence, making it a useful reference for anyone building spoken interactions.",
+  "publishedAt": "2026-07-27"
+}

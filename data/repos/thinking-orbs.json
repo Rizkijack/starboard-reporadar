@@ -1,0 +1,24 @@
+{
+  "slug": "thinking-orbs",
+  "name": "Thinking Orbs",
+  "fullName": "Jakubantalik/thinking-orbs",
+  "tagline": "Dotted thought-orb loading indicators for AI and agent UIs — nine animation types",
+  "description": "Thinking Orbs is a small collection of dotted thought-orb loading indicators purpose-built for AI and agent interfaces. It ships nine distinct animation types, each rendering a constellation of dots that reads as a model 'thinking' rather than a generic spinner. The components are framework-light and easy to drop into any frontend, filling the gap for UIs that need a loading state which matches the assistant aesthetic. TypeScript, with 2.2k stars.",
+  "category": "frontend",
+  "featured": false,
+  "tags": ["loading-indicators", "ui", "animation", "ai-interface", "typescript"],
+  "highlights": [
+    "Nine distinct dotted thought-orb loading animation types",
+    "Purpose-built to read as a model 'thinking' rather than a generic spinner",
+    "Framework-light, drop-in components for AI and agent UIs",
+    "TypeScript with 2.2k stars"
+  ],
+  "techStack": ["TypeScript", "CSS Animation"],
+  "links": {
+    "docs": "https://github.com/Jakubantalik/thinking-orbs#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "The small detail that makes a big subjective difference in AI products: a loading state that actually signals 'thinking.' Nine polished variants to pick from makes it a genuinely useful micro-library.",
+  "publishedAt": "2026-07-21"
+}

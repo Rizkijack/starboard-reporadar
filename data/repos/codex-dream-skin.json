@@ -1,0 +1,24 @@
+{
+  "slug": "codex-dream-skin",
+  "name": "Codex Dream Skin",
+  "fullName": "Fei-Away/Codex-Dream-Skin",
+  "tagline": "A custom theme and UI skin for the Codex CLI",
+  "description": "Codex Dream Skin is a custom theme and UI skin for the Codex CLI, written in JavaScript. It restyles the Codex terminal experience so daily agent work feels less generic and more personal. The project is a lightweight customization layer over the Codex interface.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["codex", "theme", "cli", "ui", "customization"],
+  "highlights": [
+    "Custom theme and UI skin for the Codex CLI",
+    "JavaScript implementation for easy installation",
+    "Personalizes the everyday Codex terminal experience",
+    "~13.5k stars from the Codex customization community"
+  ],
+  "techStack": ["JavaScript"],
+  "links": {
+    "docs": "https://github.com/Fei-Away/Codex-Dream-Skin"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "13.5k stars for a CLI skin says a lot about how much people live inside Codex — a small, joyful customization that reflects the health of the ecosystem.",
+  "publishedAt": "2026-07-15"
+}

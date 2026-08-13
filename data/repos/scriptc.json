@@ -1,0 +1,25 @@
+{
+  "slug": "scriptc",
+  "name": "ScriptC",
+  "fullName": "vercel-labs/scriptc",
+  "tagline": "Compile plain TypeScript to native executables with zero runtime",
+  "description": "ScriptC is a TypeScript-to-native compiler from Vercel Labs, licensed Apache-2.0. It compiles plain TypeScript into a native executable with no Node, V8, or JS engine dependency, achieving ~2ms startup and a 170–200KB binary. Its 99% static compilation is validated by differential testing against Node across 800+ byte-for-byte tests. A --dynamic mode pulls in npm dependencies at runtime, and FFI support exposes the C ABI for interop.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["typescript", "compiler", "native", "vercel", "zero-runtime"],
+  "highlights": [
+    "Compiles plain TypeScript to native executables with no JS engine",
+    "~2ms startup and a 170–200KB binary footprint",
+    "99% static compilation verified by 800+ byte-for-byte tests vs Node",
+    "--dynamic mode for runtime npm dependency resolution",
+    "FFI for calling the C ABI"
+  ],
+  "techStack": ["TypeScript"],
+  "links": {
+    "docs": "https://github.com/vercel-labs/scriptc"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "A promising direction for shipping TypeScript as tiny, fast native binaries — the differential-testing discipline against Node is exactly the confidence tooling this needs.",
+  "publishedAt": "2026-07-22"
+}

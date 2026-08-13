@@ -1,0 +1,23 @@
+{
+  "slug": "video-shotcraft",
+  "name": "Video Shotcraft",
+  "fullName": "Vincentwei1021/video-shotcraft",
+  "tagline": "An AI video skill for Claude Code & Codex that cuts cinematic product videos",
+  "description": "An AI video skill that turns product footage into cinematic, polished videos right from the terminal. Designed to work with Claude Code and Codex, it automates shot selection, pacing, and finishing so you get release-ready clips without a manual editing pass. Written in TypeScript with 4.5k stars.",
+  "category": "design",
+  "featured": false,
+  "tags": ["video", "ai-skill", "cinematic", "claude-code", "codex"],
+  "highlights": [
+    "Cinematic product videos generated from the terminal",
+    "Works as a skill inside Claude Code and Codex",
+    "Automates shot selection, pacing, and final output",
+    "TypeScript-based, easy to drop into agent workflows",
+    "4.5k stars"
+  ],
+  "techStack": ["TypeScript", "Claude Code", "Codex"],
+  "links": { "docs": "https://github.com/Vincentwei1021/video-shotcraft" },
+  "images": {},
+  "related": [],
+  "curatorNote": "Editing is the bottleneck for product teams — this skill turns it into a prompt. Worth watching for agent-native media tooling.",
+  "publishedAt": "2026-07-19"
+}

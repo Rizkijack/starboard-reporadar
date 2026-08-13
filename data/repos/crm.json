@@ -1,0 +1,24 @@
+{
+  "slug": "crm",
+  "name": "CompAI CRM",
+  "fullName": "trycompai/crm",
+  "tagline": "An open-source, agent-native CRM designed for AI agents",
+  "description": "CompAI CRM is an open-source CRM built with an agentic-first design, in TypeScript. Rather than treating AI as an add-on, it is architected for AI agents as first-class users that can operate the pipeline directly. It targets teams who want AI agents driving sales workflows instead of humans clicking through traditional CRM forms.",
+  "category": "productivity",
+  "featured": false,
+  "tags": ["crm", "ai-agent", "open-source", "saas"],
+  "highlights": [
+    "Agent-native, agentic-first CRM architecture",
+    "TypeScript codebase under an open source license",
+    "Designed for AI agents as first-class pipeline operators",
+    "8.1k stars in just 10 days on launch"
+  ],
+  "techStack": ["TypeScript"],
+  "links": {
+    "docs": "https://github.com/trycompai/crm"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "A CRM built for agents rather than adapted for them is a meaningful shift — 8.1k stars in ten days shows real demand for agent-operable business software.",
+  "publishedAt": "2026-07-31"
+}

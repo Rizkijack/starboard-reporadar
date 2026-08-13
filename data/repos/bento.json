@@ -1,0 +1,25 @@
+{
+  "slug": "bento",
+  "name": "Bento",
+  "fullName": "nyblnet/bento",
+  "tagline": "A full PowerPoint alternative living in a single HTML file — deck, fonts, images, charts, animations, and editor all in one",
+  "description": "Bento is a presentation tool that ships as one self-contained HTML file: open it in any browser to edit, present, and send an entire deck without installing anything. The whole thing — slides, fonts, images, charts, animations, and the editor itself — is packaged into a single ~560KB shell, so a finished presentation is just a file you can email or host. Under the hood the document is honest plaintext JSON, which means AI agents can edit a deck in place by rewriting the JSON, and the editor is built on its own CRDT for real-time collaboration. Real-time editing is end-to-end encrypted with AES-GCM, and morph transitions give presenting a native slide-software feel. TypeScript and MIT-licensed, with 3.9k stars.",
+  "category": "productivity",
+  "featured": false,
+  "tags": ["office-suite", "single-file", "presentation", "e2ee", "ai-ready"],
+  "highlights": [
+    "Entire app — deck, fonts, images, charts, animations, and editor — in one ~560KB HTML file",
+    "View-source-honest: the document is plaintext JSON, so AI agents can edit decks in place",
+    "End-to-end encrypted collaboration (AES-GCM) over its own CRDT",
+    "Morph-style transitions and built-in charts amount to a credible PowerPoint alternative",
+    "Open in any browser, edit, present, and send — no install, no account"
+  ],
+  "techStack": ["TypeScript", "HTML", "AES-GCM", "CRDT"],
+  "links": {
+    "docs": "https://github.com/nyblnet/bento#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "The single-file + plaintext-JSON combination is the clever bit: a slide deck that is literally editable by an LLM, while still being a real product you can present from. Watching the AI-ready angle mature is the reason to keep an eye on it.",
+  "publishedAt": "2026-07-17"
+}

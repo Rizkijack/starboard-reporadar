@@ -1,0 +1,26 @@
+{
+  "slug": "decimen-optical-transfer",
+  "name": "Decimen Optical Transfer",
+  "fullName": "bashalarmistalt/decimen-optical-transfer",
+  "tagline": "Send a file between two devices using nothing but a screen and a camera — data travels as light",
+  "description": "Decimen Optical Transfer moves files across an air gap using only a screen and a camera: one page renders the file as an endless stream of animated QR codes, and a second device points its camera at it to reconstruct the file. There is no network path, no app, no pairing, and no permissions beyond the camera — the payload literally travels as light, and it works offline after the first visit. Because a screen-to-camera link has no back-channel, the sender streams fountain-coded (Luby transform) frames so the receiver can collect any ~K·1.15 distinct frames in any order and peel the file out — dropped frames cost time, never correctness. Built with node-qrcode and a custom zxing-cpp build, it reaches sustained screen-to-camera throughput of around 418.5 KB/s, and the interface is localized into twelve languages. TypeScript, currently at 5.7k stars.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["optical-transfer", "tooling", "typescript"],
+  "highlights": [
+    "Air-gapped file transfer through pure screen-to-camera optical streaming — no network path between devices",
+    "Fountain-coded (Luby transform) frames let the receiver rebuild the file from any ~K·1.15 distinct frames in any order",
+    "Measured ~418.5 KB/s sustained screen-to-camera throughput with per-transfer diagnostics reports",
+    "Works offline after first visit and installs as an app on iOS and Android",
+    "Twelve-language UI with right-to-left layout, built on node-qrcode and a custom zxing-cpp build"
+  ],
+  "techStack": ["TypeScript", "node-qrcode", "zxing-cpp", "Vite"],
+  "links": {
+    "website": "https://decimen.app",
+    "docs": "https://github.com/bashalarmistalt/decimen-optical-transfer#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "The no-back-channel + fountain-code design is a genuinely elegant answer to the 'no network' constraint. Watching a phone pull a file out of the air at 130 KB/s is the kind of demo that makes this worth starring.",
+  "publishedAt": "2026-07-30"
+}

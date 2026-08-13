@@ -1,0 +1,25 @@
+{
+  "slug": "openworker",
+  "name": "OpenWorker",
+  "fullName": "andrewyng/openworker",
+  "tagline": "Andrew Ng's open-source AI coworker that ships finished work, not chat",
+  "description": "OpenWorker is an open-source AI coworker desktop app from Andrew Ng, built on Python with a Tauri shell and MIT license. It delivers finished deliverables rather than chat replies — documents, Slack messages, calendar entries, and a triaged inbox. Local-first by design, it lets you bring your own model across OpenAI, Anthropic, Google, and Ollama, wired to 25+ connectors including GitHub, Slack, Jira, Notion, and Linear. Actions are approval-gated and schedule automations run on their own; the whole thing sits on top of aisuite.",
+  "category": "productivity",
+  "featured": false,
+  "tags": ["ai-agent", "desktop-app", "local-first", "productivity", "ai-coworker"],
+  "highlights": [
+    "Delivers finished work — docs, replies, calendar, triaged inbox — instead of chat",
+    "Local-first with bring-your-own-model (OpenAI/Anthropic/Google/Ollama)",
+    "25+ connectors across GitHub, Slack, Jira, Notion, and Linear",
+    "Approval-gated actions and scheduled automations",
+    "Built on the aisuite library with a Tauri desktop shell"
+  ],
+  "techStack": ["Python", "Tauri"],
+  "links": {
+    "docs": "https://github.com/andrewyng/openworker"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "Backed by Andrew Ng and laser-focused on completing tasks end-to-end — the approval-gated, local-first model is a strong blueprint for trustworthy AI coworker apps.",
+  "publishedAt": "2026-07-20"
+}

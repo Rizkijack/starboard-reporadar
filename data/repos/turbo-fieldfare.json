@@ -1,0 +1,24 @@
+{
+  "slug": "turbo-fieldfare",
+  "name": "Turbo Fieldfare",
+  "fullName": "drumih/turbo-fieldfare",
+  "tagline": "Gemma 4 26B-A4B streaming MoE inference in ~2GB RAM on an M-series MacBook",
+  "description": "Turbo Fieldfare runs Gemma 4 26B-A4B inference on an M-series MacBook in only ~2GB of RAM by streaming mixture-of-experts weights on demand. Instead of holding the full model in memory, it activates only the experts each token needs, keeping the resident footprint tiny while still benefiting from the 26B-parameter A4B architecture. Written in Swift with MoE weight streaming at its core, it is a striking proof that big-language-model inference can live comfortably on a laptop. With 5.6k stars it has been a regular on the trending Swift weekly lists.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["llm-inference", "gemma", "on-device-ai", "moe", "swift"],
+  "highlights": [
+    "Gemma 4 26B-A4B inference in ~2GB RAM on an M-series MacBook",
+    "Streams MoE weights on demand — only activated experts are resident in memory",
+    "Native Swift implementation built around mixture-of-experts streaming",
+    "5.6k stars and a regular on the trending Swift weekly lists"
+  ],
+  "techStack": ["Swift", "Gemma 4 26B-A4B", "MoE"],
+  "links": {
+    "docs": "https://github.com/drumih/turbo-fieldfare#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "The RAM ceiling for on-device LLMs keeps falling: 26B-class inference in ~2GB is a laptop-friendly number most people would not believe. It pairs conceptually with the wider wave of streaming-MoE engines.",
+  "publishedAt": "2026-07-17"
+}

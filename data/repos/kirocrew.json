@@ -1,0 +1,24 @@
+{
+  "slug": "kirocrew",
+  "name": "Kiro Crew",
+  "fullName": "kirodotdev/KiroCrew",
+  "tagline": "A persistent AI workspace that self-improves and connects agents",
+  "description": "Kiro Crew is a persistent AI workspace written in Python that self-improves over time and connects multiple agents. It gives agents a durable working context rather than stateless sessions, and provides a shared surface for agents to collaborate. The project targets long-horizon work where context continuity and agent interconnection matter.",
+  "category": "productivity",
+  "featured": false,
+  "tags": ["ai-agent", "workspace", "persistence", "collaboration", "python"],
+  "highlights": [
+    "Persistent workspace that retains context across sessions",
+    "Self-improving behavior over time",
+    "Connects multiple agents on a shared surface",
+    "Python implementation with ~2.6k stars"
+  ],
+  "techStack": ["Python"],
+  "links": {
+    "docs": "https://github.com/kirodotdev/KiroCrew"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "Persistence and agent-to-agent connection are the hard parts of long-horizon work — Kiro Crew makes both first-class, which is why it's worth a look.",
+  "publishedAt": "2026-07-16"
+}

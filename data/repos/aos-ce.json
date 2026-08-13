@@ -1,0 +1,25 @@
+{
+  "slug": "aos-ce",
+  "name": "AOS Community Edition",
+  "fullName": "unicity-aos/aos-ce",
+  "tagline": "An open agent operating system for building and running AI agents",
+  "description": "AOS Community Edition is an open agent operating system written in Rust and dual-licensed MIT/Apache-2.0. It provides an aos CLI, an HTTP API, and a capsule model for packaging agent capabilities, with provider/model experience and an Unicity Audit layer. The Forge tooling lets an agent inspect the running system, identify a gap, and build a capsule to fill it. It exposes MCP serving for Codex, Claude, and Grok and publishes Sigstore-signed releases.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["agent-os", "ai-agent", "operating-system", "rust", "mcp"],
+  "highlights": [
+    "Capsule model for packaging and running agent capabilities",
+    "Forge constructs OS tooling by inspecting the live system and building missing capsules",
+    "MCP serve for Codex, Claude, and Grok interoperability",
+    "HTTP API plus aos CLI for programmatic control",
+    "Sigstore-signed releases under MIT/Apache-2.0"
+  ],
+  "techStack": ["Rust"],
+  "links": {
+    "docs": "https://github.com/unicity-aos/aos-ce"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "A genuinely fresh take on treating the agent as an operating system — Forge's self-inspection loop is the standout idea and 8.6k stars in a month back it up.",
+  "publishedAt": "2026-07-12"
+}
