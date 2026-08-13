@@ -26,7 +26,7 @@ export function CategoryIndex({
             return (
               <Link
                 key={cat.id}
-                href="/#gems"
+                href={`/#gems?category=${cat.id}`}
                 className="group flex flex-col justify-between gap-6 rounded-lg border border-line bg-surface p-5 transition-all duration-200 hover:-translate-y-0.5 hover:border-accent/30"
               >
                 <div>

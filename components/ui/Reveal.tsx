@@ -7,7 +7,7 @@ interface RevealProps {
   children: ReactNode;
   delay?: number;
   className?: string;
-  /** Fraction of the element that must be visible to trigger. Lower for tall elements. @default 0.2 */
+  /** Fraction of the element that must be visible to trigger. Lower for tall elements. @default 0.05 */
   amount?: number;
 }
 
@@ -15,7 +15,7 @@ interface RevealProps {
  * Scroll-entry reveal: fade + slight rise. Respects prefers-reduced-motion.
  * Pure transform/opacity animation.
  */
-export function Reveal({ children, delay = 0, className, amount = 0.2 }: RevealProps) {
+export function Reveal({ children, delay = 0, className, amount = 0.05 }: RevealProps) {
   const reduce = useReducedMotion();
 
   return (

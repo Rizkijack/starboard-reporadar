@@ -29,10 +29,21 @@ export function RepoTable({ repos }: { repos: RepoWithStats[] }) {
   // real values appear right after hydration.
   const [now, setNow] = useState<number | null>(null);
   useEffect(() => {
+    const syncCategory = () => {
+      const params = new URLSearchParams(window.location.search);
+      const catParam = params.get("category");
+      if (catParam && CATEGORIES.some((c) => c.id === catParam)) {
+        setCategory(catParam);
+      }
+    };
+    syncCategory();
+    window.addEventListener("popstate", syncCategory);
     const raf = requestAnimationFrame(() => setNow(Date.now()));
-    return () => cancelAnimationFrame(raf);
+    return () => {
+      cancelAnimationFrame(raf);
+      window.removeEventListener("popstate", syncCategory);
+    };
   }, []);
-
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
     let rows = repos.filter((r) => {

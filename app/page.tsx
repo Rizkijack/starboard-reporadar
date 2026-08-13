@@ -28,10 +28,10 @@ export default function Home() {
         totalStars={totalStars}
         categoryCount={Object.keys(counts).length}
       />
-      <Reveal>
+      <Reveal amount={0.05}>
         <FeaturedGrid repos={featured} />
       </Reveal>
-      <Reveal>
+      <Reveal amount={0.05}>
         <CategoryIndex counts={counts} />
       </Reveal>
       <Reveal amount={0.05}>
