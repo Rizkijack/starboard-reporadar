@@ -1,0 +1,26 @@
+{
+  "slug": "wechat-ai",
+  "name": "WeChat-AI",
+  "fullName": "SMNETSTUDIO/WeChat-AI",
+  "tagline": "Self-hosted WeChat roleplay chatbot with a user center, chatflow orchestration, and multi-node support",
+  "description": "WeChat-AI is a self-hosted WeChat roleplay chatbot service. It connects directly to Tencent iLink, stores data in remote Redis, and authenticates with LINUX DO OAuth. A user center lets people scan a QR code to add or remove WeChat bots, approve chat peers, and assign personas, while a visual chatflow builder orchestrates conversations. It supports multi-node deployment behind a Cloudflare Worker load balancer and ships OTA incremental updates. The README is bilingual (Chinese/English).",
+  "category": "communication",
+  "featured": false,
+  "tags": ["wechat", "chatbot", "self-hosting", "redis", "oauth", "roleplay"],
+  "highlights": [
+    "Self-hosted WeChat roleplay chatbot connecting to Tencent iLink",
+    "User center: scan-QR bot management, peer approval, and persona assignment",
+    "Visual chatflow orchestration",
+    "Multi-node deployment with a Cloudflare Worker load balancer",
+    "Bilingual README; 1.6k stars in days"
+  ],
+  "techStack": ["TypeScript", "Redis", "Cloudflare Workers", "Tencent iLink"],
+  "links": {
+    "website": "https://github.com/SMNETSTUDIO/WeChat-AI",
+    "docs": "https://github.com/SMNETSTUDIO/WeChat-AI#readme"
+  },
+  "images": {},
+  "related": ["n8n", "tapflow", "telegram-bot"],
+  "curatorNote": "WeChat automation is an entire ecosystem Western tooling ignores, and this repo attacks it head-on with real architecture: iLink connectivity, Redis-backed state, a user center, and multi-node load balancing. The star growth says the niche was starving for this.",
+  "publishedAt": "2026-08-10"
+}

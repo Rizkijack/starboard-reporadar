@@ -1,0 +1,26 @@
+{
+  "slug": "sv-number-mcp-server",
+  "name": "SV Number MCP Server",
+  "fullName": "sv-number/mcp-server",
+  "tagline": "Phone numbers as MCP tools — order a number, read SMS codes, hand it back",
+  "description": "SV Number MCP Server turns phone numbers into tools for AI agents. An agent can order a private number in the country a service expects (200+ countries, the widest coverage in the category), read the SMS verification code straight from the API, and hand the number back. It exposes nine tools over stdio — order_number, wait_for_code, finish_activation, totp_code, and more — with no SDK to learn. The API key is read from the environment, never leaves the process, and appears in no error message.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["mcp", "sms", "phone", "verification", "totp", "agent-tools"],
+  "highlights": [
+    "Nine MCP tools over stdio: order_number, wait_for_code, finish_activation, totp_code, and more",
+    "200+ countries covered — the widest coverage in the category",
+    "No SDK to learn; install with claude mcp add sv-number",
+    "TOTP codes via RFC 6238",
+    "API key stays in the environment and never leaks through tools or errors"
+  ],
+  "techStack": ["JavaScript", "MCP", "stdlib"],
+  "links": {
+    "website": "https://github.com/sv-number/mcp-server",
+    "docs": "https://github.com/sv-number/mcp-server#readme"
+  },
+  "images": {},
+  "related": ["mob-mcp-crm", "phone-harness", "sv-number-mcp-server"],
+  "curatorNote": "A genuinely novel MCP use case: agents that need to verify an SMS code now have a tool for it. The design is careful too — the key never leaves the environment and TOTP is handled server-side.",
+  "publishedAt": "2026-08-07"
+}

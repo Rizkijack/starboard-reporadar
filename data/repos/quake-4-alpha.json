@@ -1,0 +1,25 @@
+{
+  "slug": "quake-4-alpha",
+  "name": "Quake 4 Alpha",
+  "fullName": "jmarshall23/Quake_4_Alpha",
+  "tagline": "Quake 4 alpha released for preservation, pulled from a vintage hard drive",
+  "description": "Quake 4 Alpha is a preservation release of an early Quake 4 alpha build, recovered from the hard drive of a vintage computer. It includes the playable executable, source files, and a readme, and is closely related to tech5 — the idTech 5 engine recreation from the same author that appeared in an earlier batch. For game historians, reverse engineers, and id Software fans, it is a rare artifact from the development of a classic shooter.",
+  "category": "game",
+  "featured": false,
+  "tags": ["quake", "preservation", "alpha", "id-software", "reverse-engineering", "c++"],
+  "highlights": [
+    "An early Quake 4 alpha preserved from a vintage hard drive",
+    "Includes the playable build, source files, and a readme",
+    "Sibling project to tech5, the idTech 5 engine recreation",
+    "A rare artifact for game historians and reverse engineers"
+  ],
+  "techStack": ["C++", "id Tech"],
+  "links": {
+    "website": "https://github.com/jmarshall23/Quake_4_Alpha",
+    "docs": "https://github.com/jmarshall23/Quake_4_Alpha"
+  },
+  "images": {},
+  "related": ["tech5", "gen1recomp", "harkinianpad"],
+  "curatorNote": "Recovering an alpha build of Quake 4 from an old hard drive is exactly the kind of preservation work that keeps gaming history alive. Pairs beautifully with the author's tech5 engine recreation.",
+  "publishedAt": "2026-08-06"
+}

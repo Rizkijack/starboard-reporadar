@@ -1,0 +1,26 @@
+{
+  "slug": "everything-claude-code",
+  "name": "Everything Claude Code",
+  "fullName": "WorldFlowAI/everything-claude-code",
+  "tagline": "A complete collection of production Claude Code configs from an Anthropic hackathon winner",
+  "description": "Everything Claude Code is the full collection of Claude Code configuration built up over 10+ months of intensive daily use: agents (planner, architect, TDD guide, code reviewer, security reviewer, and more), skills, hooks (including memory persistence and strategic compaction), commands, rules, and MCP configurations. It is cross-platform on Windows, macOS, and Linux with Node.js hooks and package-manager auto-detection, and can be installed as a plugin with /plugin marketplace add.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["claude-code", "agents", "skills", "hooks", "mcp", "ai-tooling"],
+  "highlights": [
+    "Battle-tested over 10+ months of daily production use",
+    "Agents, skills, hooks, commands, rules, and MCP configs in one place",
+    "Cross-platform Windows/macOS/Linux with Node.js hooks",
+    "Package manager auto-detection",
+    "From an Anthropic x Forum Ventures hackathon winner"
+  ],
+  "techStack": ["TypeScript", "JavaScript", "Claude Code", "Node.js"],
+  "links": {
+    "website": "https://github.com/WorldFlowAI/everything-claude-code",
+    "docs": "https://github.com/WorldFlowAI/everything-claude-code#readme"
+  },
+  "images": {},
+  "related": ["free-claude-code", "claude-red", "agent-skills"],
+  "curatorNote": "This is the kind of repo you steal patterns from: memory persistence hooks, strategic compaction, and a working security review agent. If you use Claude Code daily, this is a shortcut to months of accumulated configuration.",
+  "publishedAt": "2026-08-03"
+}

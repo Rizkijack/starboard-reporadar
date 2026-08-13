@@ -1,0 +1,26 @@
+{
+  "slug": "awesome-gpt-image-2",
+  "name": "awesome-gpt-image-2",
+  "fullName": "freestylefly/awesome-gpt-image-2",
+  "tagline": "Prompt as Code — an industrial prompt engine and template library for GPT-Image 2",
+  "description": "awesome-gpt-image-2 is a large, community-driven library of GPT-Image 2 prompts and techniques built on a \"Prompt as Code\" philosophy. It ships 500+ reverse-engineered cases, 20+ industrial-grade templates, and distilled skills, with trilingual docs (English, Chinese, Japanese). It is the rare prompt collection that treats prompts like code: versioned, composable, and reusable.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["gpt-image-2", "prompts", "image-generation", "templates", "ai"],
+  "highlights": [
+    "500+ reverse-engineered GPT-Image 2 prompt cases",
+    "20+ industrial-grade prompt templates",
+    "Skills distilled from the case library",
+    "Trilingual docs: English, Chinese, Japanese",
+    "10k+ stars — one of the biggest image-prompt libraries around"
+  ],
+  "techStack": ["JavaScript", "Markdown", "GPT-Image 2"],
+  "links": {
+    "website": "https://github.com/freestylefly/awesome-gpt-image-2",
+    "docs": "https://github.com/freestylefly/awesome-gpt-image-2#readme"
+  },
+  "images": {},
+  "related": ["image", "openai-image-gen", "morphicons"],
+  "curatorNote": "Most prompt lists are screenshots of chat logs; this one treats prompts as reusable code with templates and skills. With 10k stars it has already proven the demand — worth mining for your own workflows.",
+  "publishedAt": "2026-08-03"
+}

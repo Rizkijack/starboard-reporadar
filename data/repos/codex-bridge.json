@@ -1,0 +1,26 @@
+{
+  "slug": "codex-bridge",
+  "name": "codex-bridge",
+  "fullName": "Sateezg/codex-bridge",
+  "tagline": "Image generation and GPT-5 subagents for Claude Code via Codex CLI — no OpenAI API key",
+  "description": "codex-bridge is a Claude Code plugin that adds image generation (gpt-image-2) and GPT-5 subagents through the Codex CLI login you already have, with no OpenAI API key required. Claude scopes and verifies the work while Codex handles the volume. It ships five subagents — artist, reviewer, debugger, implementer, and second-opinion — plus skills for generate-image, edit-image, codex-review, and codex-delegate.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["claude-code", "codex", "plugin", "image-generation", "gpt-5", "subagents"],
+  "highlights": [
+    "Image generation with gpt-image-2 through the Codex CLI login",
+    "GPT-5 subagents with no OpenAI API key — uses your ChatGPT plan",
+    "Five subagents: artist, reviewer, debugger, implementer, second-opinion",
+    "Skills for generate-image, edit-image, codex-review, and codex-delegate",
+    "Claude orchestrates and verifies; Codex does the volume"
+  ],
+  "techStack": ["Shell", "Claude Code", "Codex CLI"],
+  "links": {
+    "website": "https://github.com/Sateezg/codex-bridge",
+    "docs": "https://github.com/Sateezg/codex-bridge#readme"
+  },
+  "images": {},
+  "related": ["everything-claude-code", "codex-deepseek-subagent", "free-claude-code"],
+  "curatorNote": "Bridging Claude Code to Codex through the ChatGPT plan is a clever way to cut token costs and unlock image generation without a second API key. The division of labor — Claude scopes, Codex executes — is a pattern worth copying.",
+  "publishedAt": "2026-08-09"
+}

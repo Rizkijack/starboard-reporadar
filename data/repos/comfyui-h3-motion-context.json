@@ -1,0 +1,26 @@
+{
+  "slug": "comfyui-h3-motion-context",
+  "name": "ComfyUI H3 Motion Context",
+  "fullName": "NikoDemon80/ComfyUI-H3-Motion-Context",
+  "tagline": "Clip chaining for MiniMax H3 in ComfyUI — motion and audio continue across joins",
+  "description": "ComfyUI-H3-Motion-Context is a custom node that chains MiniMax H3 clips so motion and sound keep going across the cut. Generate clip A, feed its last frames and audio into the node, generate clip B — and B picks up where A left off: same motion, same speed, same direction, and the same audio continued instead of a similar-sounding new take. Nothing on disk is edited; the nodes patch ComfyUI at runtime and verify their assumptions against the live code on every start, refusing to run loudly rather than producing a bad render you do not notice.",
+  "category": "data-ai",
+  "featured": false,
+  "tags": ["comfyui", "minimax-h3", "video", "audio", "custom-nodes"],
+  "highlights": [
+    "Continues motion, speed, direction, and audio across clip joins",
+    "Audio continuation handled as a first-class concern",
+    "Runtime patching of ComfyUI, with self-verification on every start",
+    "Refuses to run loudly if an update breaks its assumptions",
+    "GPL-3.0, from the MiniMax H3 ecosystem"
+  ],
+  "techStack": ["Python", "ComfyUI", "MiniMax H3"],
+  "links": {
+    "website": "https://github.com/NikoDemon80/ComfyUI-H3-Motion-Context",
+    "docs": "https://github.com/NikoDemon80/ComfyUI-H3-Motion-Context#readme"
+  },
+  "images": {},
+  "related": ["comfyui-minimaxh3-director", "comfyui-minimax-h3-audio-t8", "minimax-h3"],
+  "curatorNote": "Seamless clip continuation — especially audio — is a real pain point in video generation, and this node solves it with impressive engineering discipline: runtime patching plus self-checking against the live code. A loud failure beats a silent bad render.",
+  "publishedAt": "2026-08-07"
+}

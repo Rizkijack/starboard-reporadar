@@ -1,0 +1,26 @@
+{
+  "slug": "monster-deleter",
+  "name": "MonsterDeleter",
+  "fullName": "531149627/MonsterDeleter",
+  "tagline": "Summon a desktop pet monster to smash your files into the recycle bin",
+  "description": "MonsterDeleter is a playful Windows desktop app that turns file deletion into a show. Instead of a boring system prompt, you summon a giant monster that walks over to the file and kicks it — together with the trash can — into pieces. It features a sniper-style translucent UI with a red crosshair cursor, hand-crafted frame-by-frame monster animations (with green-screen support), BGM, monster voice lines, and explosion sound effects. After one run it registers a \"Summon the monster to delete\" entry in the Windows right-click menu, and deletion actually uses send2trash so files can be recovered from the recycle bin.",
+  "category": "other-fun",
+  "featured": false,
+  "tags": ["desktop-app", "windows", "python", "fun", "animation", "delete"],
+  "highlights": [
+    "Sniper-style translucent UI with a red crosshair cursor",
+    "Hand-crafted frame-by-frame monster animations with green-screen support",
+    "BGM, monster voice, and explosion sound effects",
+    "Right-click menu integration after a single run",
+    "Uses send2trash, so deleted files stay recoverable"
+  ],
+  "techStack": ["Python", "PyInstaller", "Windows"],
+  "links": {
+    "website": "https://github.com/531149627/MonsterDeleter",
+    "docs": "https://github.com/531149627/MonsterDeleter#readme"
+  },
+  "images": {},
+  "related": ["voice-cli", "joyai-video-edit", "portfolio-os"],
+  "curatorNote": "Deleting files will never be this fun again. The polish — animations, sound design, sniper UI — is way beyond what a joke project needs, and send2trash means it is even safe.",
+  "publishedAt": "2026-08-04"
+}

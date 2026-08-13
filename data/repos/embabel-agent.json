@@ -1,0 +1,26 @@
+{
+  "slug": "embabel-agent",
+  "name": "embabel Agent",
+  "fullName": "embabel/embabel-agent",
+  "tagline": "A JVM agent framework from the creator of Spring with GOAP planning",
+  "description": "embabel-agent is an agent framework for the JVM built around Actions, Goals, Conditions, and a Domain Model, with dynamic planning via GOAP (Goal Oriented Action Planning). Instead of letting an LLM plan every step, it mixes LLM reasoning with plain code and strongly typed domain models so plans stay grounded and verifiable. It integrates naturally with Spring and reads naturally from Java despite being written in Kotlin. Each action is followed by replanning in an OODA loop, which keeps behavior adaptive in changing environments.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["agent-framework", "jvm", "kotlin", "goap", "spring", "llm"],
+  "highlights": [
+    "Agent framework for the JVM from Rod Johnson, creator of the Spring Framework",
+    "GOAP planning with replanning after every action in an OODA loop",
+    "Mixes LLM reasoning with strongly typed code and domain models",
+    "Natural Spring integration; Kotlin that reads like Java",
+    "A rare non-Python take on agent frameworks"
+  ],
+  "techStack": ["Kotlin", "JVM", "Spring", "GOAP"],
+  "links": {
+    "website": "https://github.com/embabel/embabel-agent",
+    "docs": "https://github.com/embabel/embabel-agent#readme"
+  },
+  "images": {},
+  "related": ["swarm-forge", "prime-agent", "labs-oo-agents"],
+  "curatorNote": "An agent framework from the creator of Spring is notable on its own, but the real draw is the architecture: GOAP keeps planning deterministic and testable while the LLM stays in the loop. That is a refreshing counterweight to pure prompt-driven agents.",
+  "publishedAt": "2026-08-03"
+}
