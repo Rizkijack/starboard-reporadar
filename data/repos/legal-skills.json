@@ -1,0 +1,26 @@
+{
+  "slug": "legal-skills",
+  "name": "legal-skills",
+  "fullName": "gfodor/legal-skills",
+  "tagline": "Replacing lawyers with markdown files",
+  "description": "legal-skills is a public, executable playbook for U.S. utility-patent work: agent skills in the SKILL.md format — checklists, examiner and adversary protocols, intake questionnaires, and deterministic Python — that make a language model do the work a patent boutique currently invoices at several hundred dollars an hour. It ships three skills: patent-audit (a 316-item pre-filing checklist grounded in 35 U.S.C., 37 CFR, and the MPEP), patent-examine (a simulated USPTO prosecution loop with two independent simulated examiners), and patent-workaround (adversarial design-around testing). The pitch is explicit: most of what you were paying for was process, and process belongs in files. From gfodor, the engineer behind React VR and an early, vocal Claude Code power user.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["agent-skills", "legal", "patent", "claude-code", "law", "python", "skilled"],
+  "highlights": [
+    "316-item pre-filing audit checklist, 105 items blocking, sourced against statutes, rules, and MPEP",
+    "Deterministic Python handles arithmetic, deadlines, and claim dependency graphs — models do not do math",
+    "Simulated USPTO prosecution loop requiring two fresh examiners to clear the same bytes",
+    "Adversarial design-around testing with fresh competitor subagents and an umbrella-classification gate",
+    "Explicit refusal surface: no filing, signing, or IDS — those stay with registered practitioners"
+  ],
+  "techStack": ["Python", "Agent Skills"],
+  "links": {
+    "website": "https://github.com/gfodor/legal-skills",
+    "docs": "https://github.com/gfodor/legal-skills#readme"
+  },
+  "images": {},
+  "related": ["agent-skills", "book-to-skill", "everything-claude-code"],
+  "curatorNote": "The agent-skills gold rush has been about coding; this is the first serious attempt to displace a licensed profession with SKILL.md files. 184 stars in a day says the 'replace billable hours with markdown' pitch lands — and the disclaimers are refreshingly honest about what the skills refuse to do. Worth watching to see whether legal process becomes the next agent-skill frontier.",
+  "publishedAt": "2026-08-13"
+}
