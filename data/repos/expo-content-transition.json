@@ -1,0 +1,25 @@
+{
+  "slug": "expo-content-transition",
+  "name": "expo-content-transition",
+  "fullName": "rit3zh/expo-content-transition",
+  "tagline": "Native content transitions for React Native + Expo",
+  "description": "expo-content-transition brings native content transitions to React Native and Expo apps. The Swift-based library closes the animation gap that has long existed between the smooth native transitions on iOS and what RN/Expo developers could reach for. 163 stars in four days suggests it fills a real, felt gap in the Expo ecosystem.",
+  "category": "mobile",
+  "featured": false,
+  "tags": ["react-native", "expo", "animations", "transitions", "swift", "ios"],
+  "highlights": [
+    "Native content transitions for React Native and Expo",
+    "Swift-based bridge to iOS-native animation",
+    "Closes a long-standing gap in RN/Expo animation tooling",
+    "163 stars in 4 days"
+  ],
+  "techStack": ["Swift", "React Native", "Expo"],
+  "links": {
+    "website": "https://github.com/rit3zh/expo-content-transition",
+    "docs": "https://github.com/rit3zh/expo-content-transition#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "Expo devs have watched native iOS transitions with envy for years. A library that hands them the same primitives is an instant ecosystem win.",
+  "publishedAt": "2026-08-09"
+}

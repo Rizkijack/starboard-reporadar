@@ -1,0 +1,25 @@
+{
+  "slug": "verity-je-be-mod-minecraft",
+  "name": "Verity JE/BE Mod",
+  "fullName": "verityminecraft/Verity-JE-BE-Mod-Minecraft",
+  "tagline": "Minecraft horror entity mod with AI dialogue and adaptive behavior",
+  "description": "Verity is a Minecraft mod for both Java and Bedrock editions that adds horror entities with AI dialogue and adaptive behavior. Despite its youth — 104 stars and zero forks — the mod has already accumulated 8.6 million downloads across the community. A huge download base paired with a fresh GitHub presence makes it an interesting watch.",
+  "category": "game",
+  "featured": false,
+  "tags": ["minecraft", "mod", "ai", "horror", "java", "bedrock"],
+  "highlights": [
+    "Horror entities with AI dialogue and adaptive behavior",
+    "Supports both Java and Bedrock editions",
+    "8.6M+ downloads across the community",
+    "104 stars with 0 forks — brand new GitHub presence"
+  ],
+  "techStack": ["Java"],
+  "links": {
+    "website": "https://github.com/verityminecraft/Verity-JE-BE-Mod-Minecraft",
+    "docs": "https://github.com/verityminecraft/Verity-JE-BE-Mod-Minecraft#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "An 8.6-million-download mod with a fresh GitHub repo is the definition of a hidden gem — the community knows it, the code trail is just beginning.",
+  "publishedAt": "2026-08-07"
+}

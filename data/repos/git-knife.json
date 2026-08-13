@@ -1,0 +1,26 @@
+{
+  "slug": "git-knife",
+  "name": "git-knife",
+  "fullName": "TheRealYT/git-knife",
+  "tagline": "Stab your git history into shape with a spreadsheet-like UI",
+  "description": "git-knife is an interactive tool that lets you edit commit messages, authors, and dates across your git history as if they were rows in a spreadsheet. Instead of chaining git filter-branch incantations, you manipulate history in a table UI and apply the rewrite. It is the history-rewriting tool that has been missing from the ecosystem, and it hit 163 HN points in a single day.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["git", "history-rewrite", "ui", "developer-tools"],
+  "highlights": [
+    "Spreadsheet-like table UI for editing commit messages, authors, and dates",
+    "Replaces error-prone filter-branch chains with direct manipulation",
+    "163 HN points within one day of launch",
+    "A genuinely missing tool for git history maintenance"
+  ],
+  "techStack": ["Git"],
+  "links": {
+    "website": "https://github.com/TheRealYT/git-knife",
+    "docs": "https://github.com/TheRealYT/git-knife#readme",
+    "demo": "https://news.ycombinator.com/item?id=49259611"
+  },
+  "images": {},
+  "related": ["gh-stack"],
+  "curatorNote": "Rewriting git history has always been a terrifying pipeline of one-liners. A table UI where you just edit the rows makes the whole operation legible and safe — surprising nobody had shipped this properly before.",
+  "publishedAt": "2026-08-10"
+}

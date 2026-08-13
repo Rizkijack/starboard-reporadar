@@ -1,0 +1,25 @@
+{
+  "slug": "cloudfolder",
+  "name": "CloudFolder",
+  "fullName": "EurekaZang/CloudFolder",
+  "tagline": "Rust cloud folder sync for Windows 10/11 x64",
+  "description": "CloudFolder is a Rust-based cloud folder sync tool aimed squarely at Windows 10/11 x64, with a trilingual README. It targets the niche of Windows users who want lightweight folder sync without heavyweight sync clients. An alternative written in Rust for a platform where sync options are usually proprietary.",
+  "category": "self-hosting",
+  "featured": false,
+  "tags": ["file-sync", "windows", "rust", "cloud", "self-hosted"],
+  "highlights": [
+    "Cloud folder sync written in Rust",
+    "Targets Windows 10/11 x64 with a trilingual README",
+    "Lightweight alternative to heavyweight sync clients",
+    "130 stars in under a week"
+  ],
+  "techStack": ["Rust"],
+  "links": {
+    "website": "https://github.com/EurekaZang/CloudFolder",
+    "docs": "https://github.com/EurekaZang/CloudFolder#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "Windows folder sync is dominated by proprietary clients. A Rust alternative that is trilingual out of the box shows an unusual amount of care for a niche tool.",
+  "publishedAt": "2026-08-09"
+}

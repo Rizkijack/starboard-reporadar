@@ -1,0 +1,25 @@
+{
+  "slug": "dramalens",
+  "name": "DramaLens",
+  "fullName": "dengzi008/DramaLens",
+  "tagline": "Local-first timestamped transcription and analysis for short-form drama",
+  "description": "DramaLens is a Chrome extension that transcribes and analyzes short-form drama with timestamps, entirely local-first under an AGPL-3.0 license. It targets the growing genre of short-form drama content, giving viewers timestamped transcripts and analysis without shipping their media to a cloud. Privacy-first media analysis for a content format that has exploded in popularity.",
+  "category": "other-fun",
+  "featured": false,
+  "tags": ["chrome-extension", "transcription", "local-first", "video", "javascript", "privacy"],
+  "highlights": [
+    "Timestamped transcription for short-form drama",
+    "Local-first processing — media stays on your machine",
+    "AGPL-3.0 licensed",
+    "122 stars in two days"
+  ],
+  "techStack": ["JavaScript", "Chrome Extension"],
+  "links": {
+    "website": "https://github.com/dengzi008/DramaLens",
+    "docs": "https://github.com/dengzi008/DramaLens#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "Short-form drama is a massive content category with almost no good tooling. A local-first transcription extension is both timely and privacy-respecting.",
+  "publishedAt": "2026-08-11"
+}

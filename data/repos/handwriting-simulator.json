@@ -1,0 +1,25 @@
+{
+  "slug": "handwriting-simulator",
+  "name": "Handwriting-simulator",
+  "fullName": "bamboostrip/Handwriting-simulator",
+  "tagline": "Turn plain text into convincing handwriting images",
+  "description": "Handwriting-simulator converts plain text into realistic handwritten images: handwritten fonts, paper backgrounds, and random perturbation to avoid the tell-tale uniformity of a font. A solid numpy/scipy rendering engine powers both a PyQt6 GUI and a CLI. It is a functional creative tool — the kind of thing that is genuinely fun and occasionally genuinely useful.",
+  "category": "other-fun",
+  "featured": false,
+  "tags": ["handwriting", "image-generation", "python", "pyqt6", "creative"],
+  "highlights": [
+    "Realistic handwriting rendering with paper backgrounds",
+    "Random perturbation so output avoids font uniformity",
+    "Solid numpy/scipy rendering engine",
+    "Both PyQt6 GUI and CLI included"
+  ],
+  "techStack": ["Python", "numpy", "scipy", "PyQt6"],
+  "links": {
+    "website": "https://github.com/bamboostrip/Handwriting-simulator",
+    "docs": "https://github.com/bamboostrip/Handwriting-simulator#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "Handwriting simulation is usually a half-baked script; this one ships a proper rendering engine with perturbation, a GUI, and a CLI. The attention to realism is what makes it stand out.",
+  "publishedAt": "2026-08-07"
+}

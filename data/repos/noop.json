@@ -1,0 +1,25 @@
+{
+  "slug": "noop",
+  "name": "noop",
+  "fullName": "ryanbr/noop",
+  "tagline": "Offline WHOOP replacement — no cloud, no account",
+  "description": "noop is an open-source companion for WHOOP-style wearable tracking that runs entirely offline: no cloud, no account, no data leaving your device. Version 10.0 released this week and made the HN front page on 13 August with 597 stars. It is the privacy-first answer to a wearable ecosystem that has become increasingly subscription and cloud-bound.",
+  "category": "self-hosting",
+  "featured": false,
+  "tags": ["wearable", "health", "offline", "privacy", "self-hosted"],
+  "highlights": [
+    "Full offline wearable tracking — no cloud or account",
+    "v10.0 released this week, HN front page on 13 August",
+    "597 stars and growing",
+    "Privacy-first answer to subscription wearables"
+  ],
+  "techStack": ["Offline", "Health"],
+  "links": {
+    "website": "https://github.com/ryanbr/noop",
+    "docs": "https://github.com/ryanbr/noop#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "The wearable space is a walled garden of subscriptions; noop proves the whole tracking loop can run offline. The 10.0 release landing on HN suggests it is hitting maturity.",
+  "publishedAt": "2026-08-13"
+}

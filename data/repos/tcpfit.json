@@ -1,0 +1,25 @@
+{
+  "slug": "tcpfit",
+  "name": "tcpfit",
+  "fullName": "Kylin010/tcpfit",
+  "tagline": "Measurement-driven per-machine TCP tuning",
+  "description": "tcpfit replaces copy-pasted sysctl recipes with real measurement: it detects your bandwidth-delay product and rate-limiter inflection point, then tunes TCP parameters per host. No fixed parameter guesses — every value is derived from what the machine actually sees on the wire. For anyone fighting flaky throughput on high-latency or rate-limited links, it turns black-box kernel tuning into an empirical process.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["tcp", "networking", "tuning", "sysctl", "performance", "shell"],
+  "highlights": [
+    "Detects BDP and rate-limiter inflection points per machine",
+    "Derives sysctl values from live measurement, not copy-paste defaults",
+    "Shell-based, no daemon or privileged agent required",
+    "336 stars and 41 forks in under a week"
+  ],
+  "techStack": ["Shell"],
+  "links": {
+    "website": "https://github.com/Kylin010/tcpfit",
+    "docs": "https://github.com/Kylin010/tcpfit#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "TCP tuning is normally folklore passed between sysadmins. Measuring the actual BDP and limiter inflection point per host is the rare empirical take that makes the advice reproducible.",
+  "publishedAt": "2026-08-08"
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "linkedin-feed-blocker",
+  "name": "linkedin-feed-blocker",
+  "fullName": "andrewpollack/linkedin-feed-blocker",
+  "tagline": "Minimal Chrome extension that removes the LinkedIn home feed",
+  "description": "linkedin-feed-blocker is a minimal Chrome extension that removes the LinkedIn home feed while leaving the rest of the site fully functional. No settings, no telemetry, no UI — it simply makes the infinite scroll disappear. A tiny niche productivity tool that an awful lot of people can relate to.",
+  "category": "productivity",
+  "featured": false,
+  "tags": ["chrome-extension", "linkedin", "productivity", "focus", "shell"],
+  "highlights": [
+    "Removes the LinkedIn home feed with a minimal extension",
+    "Everything else on LinkedIn keeps working",
+    "No settings, no telemetry, no bloat",
+    "Anti-scroll productivity for a very relatable niche"
+  ],
+  "techStack": ["Shell", "Chrome Extension"],
+  "links": {
+    "website": "https://github.com/andrewpollack/linkedin-feed-blocker",
+    "docs": "https://github.com/andrewpollack/linkedin-feed-blocker#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "Sometimes the best productivity tool is the one that removes a feature. A one-purpose extension that kills the feed and nothing else is refreshingly disciplined.",
+  "publishedAt": "2026-08-08"
+}

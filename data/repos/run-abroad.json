@@ -1,0 +1,25 @@
+{
+  "slug": "run-abroad",
+  "name": "run-abroad",
+  "fullName": "RadishXN/run-abroad",
+  "tagline": "Fill in 10 fields to filter 71 visa and immigration routes",
+  "description": "run-abroad is a static, zero-dependency web utility that filters 71 visa and immigration pathways based on ten personal fields. No backend, no account, no data leaves the browser — you answer a short form and get the routes that actually fit your profile. A genuinely practical everyday tool that reached 278 stars in a single day.",
+  "category": "productivity",
+  "featured": false,
+  "tags": ["visa", "immigration", "web-app", "static-site", "javascript"],
+  "highlights": [
+    "Filters 71 visa and immigration routes from 10 personal fields",
+    "Static and zero-dependency — no backend, no account",
+    "Your data never leaves the browser",
+    "278 stars in its first day"
+  ],
+  "techStack": ["JavaScript"],
+  "links": {
+    "website": "https://github.com/RadishXN/run-abroad",
+    "docs": "https://github.com/RadishXN/run-abroad#readme"
+  },
+  "images": {},
+  "related": [],
+  "curatorNote": "Immigration research is a maze of eligibility rules scattered across official pages. A static filter that collapses 71 routes into a 10-field form is exactly the kind of practical utility the web is supposed to have.",
+  "publishedAt": "2026-08-12"
+}

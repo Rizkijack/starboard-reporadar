@@ -1,0 +1,25 @@
+{
+  "slug": "ship-safe",
+  "name": "ship-safe",
+  "fullName": "asamassekou10/ship-safe",
+  "tagline": "CLI security scanner for the agentic era",
+  "description": "ship-safe is a CLI security scanner built for agentic development: it detects CI/CD misconfigurations, MCP tool injection, hardcoded secrets, and DMCA-flagged AI dependencies. As AI agents gain more privileges in the build pipeline, the attack surface moves — and this scanner targets exactly those new failure modes. It resurfaced on HN on 6 August with 821 stars.",
+  "category": "developer-tools",
+  "featured": false,
+  "tags": ["security", "cli", "agentic", "ci-cd", "mcp", "scanner"],
+  "highlights": [
+    "Detects CI/CD misconfig and MCP tool injection",
+    "Catches hardcoded secrets and DMCA-flagged AI deps",
+    "Purpose-built for the agentic development era",
+    "821 stars and trending on HN again"
+  ],
+  "techStack": ["CLI", "Security"],
+  "links": {
+    "website": "https://github.com/asamassekou10/ship-safe",
+    "docs": "https://github.com/asamassekou10/ship-safe#readme"
+  },
+  "images": {},
+  "related": ["codex-security", "open-code-review"],
+  "curatorNote": "Traditional scanners check your code; ship-safe checks your agent pipeline. MCP injection and AI dependencies are exactly where the next generation of supply-chain attacks will land.",
+  "publishedAt": "2026-08-06"
+}

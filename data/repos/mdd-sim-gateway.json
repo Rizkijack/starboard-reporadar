@@ -1,0 +1,25 @@
+{
+  "slug": "mdd-sim-gateway",
+  "name": "mdd-sim-gateway",
+  "fullName": "MddIdd/mdd-sim-gateway",
+  "tagline": "Self-hosted SIM/eSIM gateway for VoWiFi, SMS, and cellular data",
+  "description": "mdd-sim-gateway is a self-hosted gateway that puts SIM and eSIM capabilities on your own network: VoWiFi calling, SMS, cellular data, and isolated regional egress all run through a gateway you control. With 151 stars and 96 forks, it has already attracted an active self-hoster telecommunications community. For privacy-focused mobile setups, it turns carrier functions into infrastructure you own.",
+  "category": "self-hosting",
+  "featured": false,
+  "tags": ["sim", "esim", "vowifi", "sms", "self-hosted", "telecom", "python"],
+  "highlights": [
+    "Self-hosted SIM/eSIM gateway for VoWiFi, SMS, and cellular data",
+    "Regional egress can be isolated per gateway",
+    "151 stars with 96 forks — an active self-hoster community",
+    "Carrier functions as infrastructure you own"
+  ],
+  "techStack": ["Python"],
+  "links": {
+    "website": "https://github.com/MddIdd/mdd-sim-gateway",
+    "docs": "https://github.com/MddIdd/mdd-sim-gateway#readme"
+  },
+  "images": {},
+  "related": ["vocat"],
+  "curatorNote": "The fork-to-star ratio is the tell here — 96 forks on 151 stars means people are actually running this. Telecom self-hosting is a deep rabbit hole, and this is one of its few proper gateways.",
+  "publishedAt": "2026-08-10"
+}
